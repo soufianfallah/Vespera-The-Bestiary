@@ -197,10 +197,12 @@ public/audio-local/Kaer Morhen (From The Witcher 3 - Wild Hunt).mp3
 public/audio-local/The Fields of Ard Skellig (Midnight).mp3
 ```
 
-`public/audio-local/` is excluded from both Git and Vercel. When those files are
-not available, the public build automatically uses Vespera's original
-procedural themes. Playback is requested on load and retried on the first
-interaction when a browser's audible-autoplay policy blocks it.
+`public/audio-local/` is excluded from Git, so the recordings are not
+redistributed through the open-source repository or covered by its code
+licensing terms. Authorized Vercel deployments made from a local workspace can
+include those files. Git-based builds without them automatically use Vespera's
+original procedural themes. Playback is requested on load and retried on the
+first interaction when a browser's audible-autoplay policy blocks it.
 
 ## Build and preview the real static release
 

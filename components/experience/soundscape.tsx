@@ -34,7 +34,19 @@ type Scene = {
   timer: number;
 };
 
+type PlayerPosition = {
+  x: number;
+  y: number;
+};
+
+type DragState = {
+  pointerId: number;
+  offsetX: number;
+  offsetY: number;
+};
+
 const SoundscapeContext = createContext<SoundscapeContextValue | null>(null);
+const playerPositionKey = "vespera-player-position";
 
 const sceneNames: Record<SoundscapeMode, string> = {
   threshold: "At the Threshold",
@@ -191,10 +203,40 @@ export function SoundscapeProvider({
   const mode: SoundscapeMode = pathname === "/" ? "threshold" : "journal";
   const [playing, setPlaying] = useState(false);
   const [muted, setMuted] = useState(false);
+  const [playerPosition, setPlayerPosition] =
+    useState<PlayerPosition | null>(null);
+  const [dragging, setDragging] = useState(false);
   const contextRef = useRef<AudioContext | null>(null);
   const masterRef = useRef<GainNode | null>(null);
   const sceneRef = useRef<Scene | null>(null);
   const modeRef = useRef(mode);
+  const playerRef = useRef<HTMLElement | null>(null);
+  const positionRef = useRef<PlayerPosition | null>(null);
+  const dragRef = useRef<DragState | null>(null);
+
+  const clampPosition = useCallback((position: PlayerPosition) => {
+    const player = playerRef.current;
+    if (!player) return position;
+    const margin = 8;
+    const maxX = Math.max(margin, window.innerWidth - player.offsetWidth - margin);
+    const maxY = Math.max(
+      margin,
+      window.innerHeight - player.offsetHeight - margin,
+    );
+    return {
+      x: Math.min(Math.max(position.x, margin), maxX),
+      y: Math.min(Math.max(position.y, margin), maxY),
+    };
+  }, []);
+
+  const updatePlayerPosition = useCallback(
+    (position: PlayerPosition) => {
+      const next = clampPosition(position);
+      positionRef.current = next;
+      setPlayerPosition(next);
+    },
+    [clampPosition],
+  );
 
   const start = useCallback(async () => {
     let context = contextRef.current;
@@ -255,6 +297,72 @@ export function SoundscapeProvider({
     disposeScene(context, currentScene);
   }, [mode]);
 
+  useEffect(() => {
+    const saved = window.localStorage.getItem(playerPositionKey);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved) as Partial<PlayerPosition>;
+        if (Number.isFinite(parsed.x) && Number.isFinite(parsed.y)) {
+          updatePlayerPosition({
+            x: parsed.x as number,
+            y: parsed.y as number,
+          });
+        }
+      } catch {
+        window.localStorage.removeItem(playerPositionKey);
+      }
+    }
+
+    const keepInView = () => {
+      if (positionRef.current) updatePlayerPosition(positionRef.current);
+    };
+    window.addEventListener("resize", keepInView);
+    return () => window.removeEventListener("resize", keepInView);
+  }, [updatePlayerPosition]);
+
+  const beginDrag = useCallback((event: React.PointerEvent<HTMLElement>) => {
+    if ((event.target as Element).closest("button")) return;
+    const player = playerRef.current;
+    if (!player) return;
+    const bounds = player.getBoundingClientRect();
+    dragRef.current = {
+      pointerId: event.pointerId,
+      offsetX: event.clientX - bounds.left,
+      offsetY: event.clientY - bounds.top,
+    };
+    event.currentTarget.setPointerCapture(event.pointerId);
+    setDragging(true);
+  }, []);
+
+  const movePlayer = useCallback(
+    (event: React.PointerEvent<HTMLElement>) => {
+      const drag = dragRef.current;
+      if (!drag || drag.pointerId !== event.pointerId) return;
+      event.preventDefault();
+      updatePlayerPosition({
+        x: event.clientX - drag.offsetX,
+        y: event.clientY - drag.offsetY,
+      });
+    },
+    [updatePlayerPosition],
+  );
+
+  const finishDrag = useCallback((event: React.PointerEvent<HTMLElement>) => {
+    const drag = dragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    dragRef.current = null;
+    setDragging(false);
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
+    if (positionRef.current) {
+      window.localStorage.setItem(
+        playerPositionKey,
+        JSON.stringify(positionRef.current),
+      );
+    }
+  }, []);
+
   useEffect(
     () => () => {
       if (sceneRef.current && contextRef.current) {
@@ -273,7 +381,27 @@ export function SoundscapeProvider({
   return (
     <SoundscapeContext.Provider value={value}>
       {children}
-      <aside className="soundscape-controls" aria-label="Music controls">
+      <aside
+        ref={playerRef}
+        className="soundscape-controls"
+        data-dragging={dragging ? "true" : "false"}
+        aria-label="Draggable music controls"
+        title="Drag to reposition"
+        style={
+          playerPosition
+            ? {
+                left: playerPosition.x,
+                top: playerPosition.y,
+                right: "auto",
+                bottom: "auto",
+              }
+            : undefined
+        }
+        onPointerDown={beginDrag}
+        onPointerMove={movePlayer}
+        onPointerUp={finishDrag}
+        onPointerCancel={finishDrag}
+      >
         <div className="soundscape-title" aria-live="polite">
           <FiMusic aria-hidden="true" />
           <span>

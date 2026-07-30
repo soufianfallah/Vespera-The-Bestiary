@@ -1339,7 +1339,7 @@ input:focus-visible {
 .soundscape-controls {
   position: fixed;
   z-index: 120;
-  right: 22px;
+  left: 22px;
   bottom: 20px;
   display: flex;
   align-items: center;
@@ -1350,8 +1350,16 @@ input:focus-visible {
     0 12px 36px #0009,
     inset 0 0 0 1px #f0c37c0d;
   color: #d2b98d;
+  cursor: grab;
   gap: 6px;
+  touch-action: none;
+  user-select: none;
   backdrop-filter: blur(12px);
+  will-change: left, top;
+}
+
+.soundscape-controls[data-dragging="true"] {
+  cursor: grabbing;
 }
 
 .soundscape-title {
@@ -1742,7 +1750,7 @@ input:focus-visible {
   }
 
   .soundscape-controls {
-    right: 12px;
+    left: 12px;
     bottom: 12px;
   }
 

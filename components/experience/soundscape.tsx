@@ -24,6 +24,7 @@ type SoundscapeContextValue = {
   playing: boolean;
   muted: boolean;
   start: () => Promise<void>;
+  playPageFlip: () => Promise<void>;
   togglePlayback: () => Promise<void>;
   toggleMuted: () => void;
 };
@@ -47,10 +48,23 @@ type DragState = {
 
 const SoundscapeContext = createContext<SoundscapeContextValue | null>(null);
 const playerPositionKey = "vespera-player-position";
+const localTrackVolume = 0.34;
 
 const sceneNames: Record<SoundscapeMode, string> = {
   threshold: "At the Threshold",
   journal: "Along the Path",
+};
+
+const localTrackPaths: Record<SoundscapeMode, string> = {
+  threshold:
+    "/audio-local/Kaer%20Morhen%20(From%20The%20Witcher%203%20-%20Wild%20Hunt).mp3",
+  journal:
+    "/audio-local/The%20Fields%20of%20Ard%20Skellig%20(Midnight).mp3",
+};
+
+const localTrackNames: Record<SoundscapeMode, string> = {
+  threshold: "Kaer Morhen",
+  journal: "Fields of Ard Skellig",
 };
 
 function makeWind(context: AudioContext) {
@@ -101,6 +115,60 @@ function playAccent(
   gain.connect(destination);
   oscillator.start(now);
   oscillator.stop(now + (mode === "threshold" ? 4.8 : 2.6));
+}
+
+function createPageFlip(context: AudioContext, destination: AudioNode) {
+  const now = context.currentTime;
+  const duration = 0.72;
+  const buffer = context.createBuffer(
+    1,
+    Math.ceil(context.sampleRate * duration),
+    context.sampleRate,
+  );
+  const channel = buffer.getChannelData(0);
+
+  for (let index = 0; index < channel.length; index += 1) {
+    const progress = index / channel.length;
+    const rasp = Math.random() * 2 - 1;
+    const fold = Math.sin(progress * Math.PI * 11) * 0.18;
+    channel[index] = (rasp + fold) * Math.sin(progress * Math.PI);
+  }
+
+  const paper = context.createBufferSource();
+  const filter = context.createBiquadFilter();
+  const paperGain = context.createGain();
+  const thump = context.createOscillator();
+  const thumpGain = context.createGain();
+
+  paper.buffer = buffer;
+  paper.playbackRate.setValueAtTime(0.78, now);
+  paper.playbackRate.exponentialRampToValueAtTime(1.42, now + duration);
+  filter.type = "bandpass";
+  filter.Q.value = 0.85;
+  filter.frequency.setValueAtTime(520, now);
+  filter.frequency.exponentialRampToValueAtTime(2800, now + 0.38);
+  filter.frequency.exponentialRampToValueAtTime(740, now + duration);
+  paperGain.gain.setValueAtTime(0.0001, now);
+  paperGain.gain.exponentialRampToValueAtTime(0.12, now + 0.06);
+  paperGain.gain.exponentialRampToValueAtTime(0.035, now + 0.38);
+  paperGain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+
+  thump.type = "sine";
+  thump.frequency.setValueAtTime(118, now + 0.43);
+  thump.frequency.exponentialRampToValueAtTime(68, now + 0.62);
+  thumpGain.gain.setValueAtTime(0.0001, now);
+  thumpGain.gain.setValueAtTime(0.035, now + 0.43);
+  thumpGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.66);
+
+  paper.connect(filter);
+  filter.connect(paperGain);
+  paperGain.connect(destination);
+  thump.connect(thumpGain);
+  thumpGain.connect(destination);
+  paper.start(now);
+  paper.stop(now + duration);
+  thump.start(now);
+  thump.stop(now + 0.7);
 }
 
 function createScene(
@@ -203,6 +271,13 @@ export function SoundscapeProvider({
   const mode: SoundscapeMode = pathname === "/" ? "threshold" : "journal";
   const [playing, setPlaying] = useState(false);
   const [muted, setMuted] = useState(false);
+  const [localTrackActive, setLocalTrackActive] = useState(false);
+  const [localAvailability, setLocalAvailability] = useState<
+    Record<SoundscapeMode, boolean | null>
+  >({
+    threshold: null,
+    journal: null,
+  });
   const [playerPosition, setPlayerPosition] =
     useState<PlayerPosition | null>(null);
   const [dragging, setDragging] = useState(false);
@@ -210,6 +285,14 @@ export function SoundscapeProvider({
   const masterRef = useRef<GainNode | null>(null);
   const sceneRef = useRef<Scene | null>(null);
   const modeRef = useRef(mode);
+  const landingAudioRef = useRef<HTMLAudioElement | null>(null);
+  const journalAudioRef = useRef<HTMLAudioElement | null>(null);
+  const activeAudioRef = useRef<HTMLAudioElement | null>(null);
+  const sourceRef = useRef<"local" | "procedural" | null>(null);
+  const fadeFrameRef = useRef<number | null>(null);
+  const startInFlightRef = useRef<Promise<void> | null>(null);
+  const autoplayAttemptedRef = useRef(false);
+  const userPausedRef = useRef(false);
   const playerRef = useRef<HTMLElement | null>(null);
   const positionRef = useRef<PlayerPosition | null>(null);
   const dragRef = useRef<DragState | null>(null);
@@ -238,7 +321,7 @@ export function SoundscapeProvider({
     [clampPosition],
   );
 
-  const start = useCallback(async () => {
+  const ensureAudioGraph = useCallback(() => {
     let context = contextRef.current;
 
     if (!context) {
@@ -248,36 +331,159 @@ export function SoundscapeProvider({
       master.connect(context.destination);
       contextRef.current = context;
       masterRef.current = master;
+    }
+
+    return {
+      context,
+      master: masterRef.current as GainNode,
+    };
+  }, [muted]);
+
+  const startProcedural = useCallback(async () => {
+    const { context, master } = ensureAudioGraph();
+    const currentAudio = activeAudioRef.current;
+    if (currentAudio) currentAudio.pause();
+
+    if (!sceneRef.current) {
       modeRef.current = mode;
       sceneRef.current = createScene(context, master, mode);
+    } else if (modeRef.current !== mode) {
+      const previous = sceneRef.current;
+      modeRef.current = mode;
+      sceneRef.current = createScene(context, master, mode);
+      disposeScene(context, previous);
     }
 
     await context.resume();
+    sourceRef.current = "procedural";
+    setLocalTrackActive(false);
+    setPlaying(context.state === "running");
+  }, [ensureAudioGraph, mode]);
+
+  const crossfadeTo = useCallback(
+    (nextAudio: HTMLAudioElement, previousAudio: HTMLAudioElement | null) => {
+      if (fadeFrameRef.current !== null) {
+        window.cancelAnimationFrame(fadeFrameRef.current);
+      }
+
+      const startedAt = performance.now();
+      const duration = 1450;
+      const tick = (time: number) => {
+        const progress = Math.min(1, (time - startedAt) / duration);
+        nextAudio.volume = localTrackVolume * progress;
+        if (previousAudio && previousAudio !== nextAudio) {
+          previousAudio.volume = localTrackVolume * (1 - progress);
+        }
+
+        if (progress < 1) {
+          fadeFrameRef.current = window.requestAnimationFrame(tick);
+        } else {
+          fadeFrameRef.current = null;
+          if (previousAudio && previousAudio !== nextAudio) {
+            previousAudio.pause();
+          }
+        }
+      };
+
+      fadeFrameRef.current = window.requestAnimationFrame(tick);
+    },
+    [],
+  );
+
+  const startLocal = useCallback(async () => {
+    if (localAvailability[mode] === false) return false;
+    const nextAudio =
+      mode === "threshold" ? landingAudioRef.current : journalAudioRef.current;
+    if (!nextAudio) return false;
+
+    const previousAudio = activeAudioRef.current;
+    nextAudio.muted = muted;
+    nextAudio.volume = previousAudio === nextAudio ? localTrackVolume : 0;
+
+    try {
+      await nextAudio.play();
+    } catch {
+      return false;
+    }
+
+    if (contextRef.current?.state === "running") {
+      await contextRef.current.suspend();
+    }
+    activeAudioRef.current = nextAudio;
+    sourceRef.current = "local";
+    crossfadeTo(nextAudio, previousAudio);
+    setLocalTrackActive(true);
     setPlaying(true);
-    window.sessionStorage.setItem("vespera-soundscape", "awakened");
-  }, [mode, muted]);
+    return true;
+  }, [crossfadeTo, localAvailability, mode, muted]);
+
+  const start = useCallback(() => {
+    if (userPausedRef.current) return Promise.resolve();
+    if (startInFlightRef.current) return startInFlightRef.current;
+
+    const run = (async () => {
+      const localStarted = await startLocal();
+      if (!localStarted) await startProcedural();
+      window.sessionStorage.setItem("vespera-soundscape", "awakened");
+    })();
+    startInFlightRef.current = run;
+    void run.finally(() => {
+      if (startInFlightRef.current === run) startInFlightRef.current = null;
+    });
+    return run;
+  }, [startLocal, startProcedural]);
+
+  const playPageFlip = useCallback(async () => {
+    const { context, master } = ensureAudioGraph();
+    await context.resume();
+    createPageFlip(context, master);
+  }, [ensureAudioGraph]);
 
   const togglePlayback = useCallback(async () => {
+    const activeAudio = activeAudioRef.current;
+    if (sourceRef.current === "local" && activeAudio) {
+      if (activeAudio.paused) {
+        userPausedRef.current = false;
+        try {
+          await activeAudio.play();
+          crossfadeTo(activeAudio, null);
+          setPlaying(true);
+        } catch {
+          await startProcedural();
+        }
+      } else {
+        userPausedRef.current = true;
+        activeAudio.pause();
+        setPlaying(false);
+      }
+      return;
+    }
+
     const context = contextRef.current;
     if (!context || context.state === "closed") {
+      userPausedRef.current = false;
       await start();
       return;
     }
 
     if (context.state === "running") {
+      userPausedRef.current = true;
       await context.suspend();
       setPlaying(false);
     } else {
+      userPausedRef.current = false;
       await context.resume();
       setPlaying(true);
     }
-  }, [start]);
+  }, [crossfadeTo, start, startProcedural]);
 
   const toggleMuted = useCallback(() => {
     setMuted((current) => !current);
   }, []);
 
   useEffect(() => {
+    if (landingAudioRef.current) landingAudioRef.current.muted = muted;
+    if (journalAudioRef.current) journalAudioRef.current.muted = muted;
     const context = contextRef.current;
     const master = masterRef.current;
     if (!context || !master) return;
@@ -287,15 +493,44 @@ export function SoundscapeProvider({
   }, [muted]);
 
   useEffect(() => {
-    const context = contextRef.current;
-    const master = masterRef.current;
-    const currentScene = sceneRef.current;
-    if (!context || !master || !currentScene || modeRef.current === mode) return;
+    if (!playing) return;
+    void (async () => {
+      const localStarted = await startLocal();
+      if (!localStarted) await startProcedural();
+    })();
+  }, [mode, playing, startLocal, startProcedural]);
 
-    modeRef.current = mode;
-    sceneRef.current = createScene(context, master, mode);
-    disposeScene(context, currentScene);
-  }, [mode]);
+  useEffect(() => {
+    if (!autoplayAttemptedRef.current) {
+      autoplayAttemptedRef.current = true;
+      void start();
+    }
+    if (playing) return;
+
+    const unlock = (event: Event) => {
+      if (
+        event.target instanceof Element &&
+        event.target.closest(".soundscape-controls")
+      ) {
+        return;
+      }
+      void start();
+    };
+
+    window.addEventListener("pointerdown", unlock, { once: true });
+    window.addEventListener("wheel", unlock, { once: true, passive: true });
+    window.addEventListener("keydown", unlock, { once: true });
+    window.addEventListener("touchstart", unlock, {
+      once: true,
+      passive: true,
+    });
+    return () => {
+      window.removeEventListener("pointerdown", unlock);
+      window.removeEventListener("wheel", unlock);
+      window.removeEventListener("keydown", unlock);
+      window.removeEventListener("touchstart", unlock);
+    };
+  }, [playing, start]);
 
   useEffect(() => {
     const saved = window.localStorage.getItem(playerPositionKey);
@@ -365,6 +600,11 @@ export function SoundscapeProvider({
 
   useEffect(
     () => () => {
+      if (fadeFrameRef.current !== null) {
+        window.cancelAnimationFrame(fadeFrameRef.current);
+      }
+      landingAudioRef.current?.pause();
+      journalAudioRef.current?.pause();
       if (sceneRef.current && contextRef.current) {
         disposeScene(contextRef.current, sceneRef.current);
       }
@@ -374,13 +614,58 @@ export function SoundscapeProvider({
   );
 
   const value = useMemo(
-    () => ({ playing, muted, start, togglePlayback, toggleMuted }),
-    [muted, playing, start, toggleMuted, togglePlayback],
+    () => ({
+      playing,
+      muted,
+      start,
+      playPageFlip,
+      togglePlayback,
+      toggleMuted,
+    }),
+    [muted, playPageFlip, playing, start, toggleMuted, togglePlayback],
   );
 
   return (
     <SoundscapeContext.Provider value={value}>
       {children}
+      <audio
+        ref={landingAudioRef}
+        src={localTrackPaths.threshold}
+        loop
+        hidden
+        preload="metadata"
+        onCanPlay={() =>
+          setLocalAvailability((current) => ({
+            ...current,
+            threshold: true,
+          }))
+        }
+        onError={() =>
+          setLocalAvailability((current) => ({
+            ...current,
+            threshold: false,
+          }))
+        }
+      />
+      <audio
+        ref={journalAudioRef}
+        src={localTrackPaths.journal}
+        loop
+        hidden
+        preload="metadata"
+        onCanPlay={() =>
+          setLocalAvailability((current) => ({
+            ...current,
+            journal: true,
+          }))
+        }
+        onError={() =>
+          setLocalAvailability((current) => ({
+            ...current,
+            journal: false,
+          }))
+        }
+      />
       <aside
         ref={playerRef}
         className="soundscape-controls"
@@ -405,8 +690,12 @@ export function SoundscapeProvider({
         <div className="soundscape-title" aria-live="polite">
           <FiMusic aria-hidden="true" />
           <span>
-            <small>Vespera soundscape</small>
-            <strong>{sceneNames[mode]}</strong>
+            <small>
+              {localTrackActive ? "Local soundtrack" : "Vespera soundscape"}
+            </small>
+            <strong>
+              {localTrackActive ? localTrackNames[mode] : sceneNames[mode]}
+            </strong>
           </span>
         </div>
         <button

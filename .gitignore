@@ -17,6 +17,7 @@ tmp/
 
 # Local source material
 the-witcher-3-bestiary.pdf
+public/audio-local/
 
 # Runtime and tooling artifacts
 *.log

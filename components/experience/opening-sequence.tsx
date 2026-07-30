@@ -83,18 +83,25 @@ function BestiaryMedallion({ reduced }: { reduced: boolean | null }) {
 export function OpeningSequence() {
   const router = useRouter();
   const reduced = useReducedMotion();
-  const { playing: soundOn, start: startSound } = useSoundscape();
+  const {
+    playing: soundOn,
+    start: startSound,
+    playPageFlip,
+  } = useSoundscape();
   const [leaving, setLeaving] = useState(false);
+  const enteredRef = useRef(false);
   const wheelDistance = useRef(0);
   const touchStartY = useRef<number | null>(null);
 
   const enter = useCallback(() => {
-    if (leaving) return;
+    if (enteredRef.current) return;
+    enteredRef.current = true;
     setLeaving(true);
     if (!soundOn) void startSound();
+    void playPageFlip();
     window.sessionStorage.setItem("vespera-entered", "true");
     window.setTimeout(() => router.push("/bestiary"), reduced ? 150 : 1150);
-  }, [leaving, reduced, router, soundOn, startSound]);
+  }, [playPageFlip, reduced, router, soundOn, startSound]);
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
@@ -133,7 +140,7 @@ export function OpeningSequence() {
   }, [enter]);
 
   return (
-    <main className="opening-screen">
+    <main className="opening-screen" onClick={enter}>
       <AmbientLayer />
       <motion.div
         className="opening-image"
@@ -178,8 +185,8 @@ export function OpeningSequence() {
               The Bestiary
             </motion.h1>
             <motion.button
+              type="button"
               className="enter-button"
-              onClick={enter}
               initial={false}
               animate={{ opacity: 1 }}
               transition={{ delay: reduced ? 0 : 2.4 }}

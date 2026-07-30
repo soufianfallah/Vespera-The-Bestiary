@@ -18,7 +18,6 @@ type SoundscapeContextValue = {
   playing: boolean;
   start: () => Promise<void>;
   playPageFlip: () => Promise<void>;
-  playMonsterHover: () => Promise<void>;
   playMonsterSelect: () => Promise<void>;
   togglePlayback: () => Promise<void>;
 };
@@ -182,13 +181,9 @@ function createPageFlip(context: AudioContext, destination: AudioNode) {
   thump.stop(now + 0.7);
 }
 
-function createSilverSwordSound(
-  context: AudioContext,
-  destination: AudioNode,
-  gesture: "whisper" | "slice",
-) {
+function createSilverSwordSound(context: AudioContext, destination: AudioNode) {
   const now = context.currentTime;
-  const duration = gesture === "whisper" ? 0.1 : 0.28;
+  const duration = 0.34;
   const buffer = context.createBuffer(
     1,
     Math.ceil(context.sampleRate * duration),
@@ -199,14 +194,12 @@ function createSilverSwordSound(
   for (let index = 0; index < channel.length; index += 1) {
     const progress = index / channel.length;
     const air = Math.random() * 2 - 1;
-    const edge = Math.sin(
-      progress * Math.PI * (gesture === "whisper" ? 32 : 54),
-    );
-    const envelope =
-      gesture === "whisper"
-        ? Math.sin(progress * Math.PI) ** 2.2
-        : Math.sin(progress * Math.PI) ** 1.35;
-    channel[index] = (air * 0.9 + edge * 0.1) * envelope;
+    const bladeEdge = Math.sin(progress * Math.PI * 72);
+    const fastAttack = Math.min(1, progress / 0.12);
+    const release = Math.max(0, 1 - (progress - 0.12) / 0.88);
+    const arc = Math.sin(progress * Math.PI) ** 1.05;
+    channel[index] =
+      (air * 0.95 + bladeEdge * 0.05) * fastAttack * release * arc;
   }
 
   const swordBus = context.createGain();
@@ -214,24 +207,18 @@ function createSilverSwordSound(
   const filter = context.createBiquadFilter();
   const gain = context.createGain();
 
-  // The interaction bus stays deliberately low and never alters the music
-  // element's volume, so repeated card browsing cannot duck the soundtrack.
-  swordBus.gain.value = 0.72;
+  // Card effects have their own bus and never change or duck music volume.
+  swordBus.gain.value = 0.82;
   swordBus.connect(destination);
   blade.buffer = buffer;
-  blade.playbackRate.value = gesture === "whisper" ? 1.35 : 1;
   filter.type = "bandpass";
-  filter.Q.value = gesture === "whisper" ? 0.9 : 0.72;
-  filter.frequency.setValueAtTime(gesture === "whisper" ? 3100 : 4700, now);
-  filter.frequency.exponentialRampToValueAtTime(
-    gesture === "whisper" ? 1850 : 980,
-    now + duration,
-  );
+  filter.Q.value = 0.52;
+  filter.frequency.setValueAtTime(680, now);
+  filter.frequency.exponentialRampToValueAtTime(5600, now + 0.13);
+  filter.frequency.exponentialRampToValueAtTime(1700, now + duration);
   gain.gain.setValueAtTime(0.0001, now);
-  gain.gain.exponentialRampToValueAtTime(
-    gesture === "whisper" ? 0.014 : 0.034,
-    now + (gesture === "whisper" ? 0.014 : 0.035),
-  );
+  gain.gain.exponentialRampToValueAtTime(0.074, now + 0.055);
+  gain.gain.exponentialRampToValueAtTime(0.036, now + 0.17);
   gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
 
   blade.connect(filter);
@@ -240,34 +227,29 @@ function createSilverSwordSound(
   blade.start(now);
   blade.stop(now + duration);
 
-  if (gesture === "whisper") return;
-
-  const shimmerStart = now + 0.055;
+  const edgeStart = now + 0.105;
   [
-    { frequency: 1760, level: 0.0065, decay: 0.24 },
-    { frequency: 2637.02, level: 0.0028, decay: 0.17 },
-  ].forEach(({ frequency, level, decay }, index) => {
+    { from: 3450, to: 1680, level: 0.014, decay: 0.085 },
+    { from: 5100, to: 2750, level: 0.005, decay: 0.052 },
+  ].forEach(({ from, to, level, decay }, index) => {
     const tone = context.createOscillator();
-    const shimmerGain = context.createGain();
-    const shimmerFilter = context.createBiquadFilter();
+    const edgeGain = context.createGain();
+    const edgeFilter = context.createBiquadFilter();
 
     tone.type = index === 0 ? "sine" : "triangle";
-    tone.frequency.setValueAtTime(frequency, shimmerStart);
-    tone.frequency.exponentialRampToValueAtTime(
-      frequency * (index === 0 ? 0.992 : 1.006),
-      shimmerStart + decay,
-    );
-    shimmerFilter.type = "highpass";
-    shimmerFilter.frequency.value = 1350;
-    shimmerGain.gain.setValueAtTime(0.0001, shimmerStart);
-    shimmerGain.gain.exponentialRampToValueAtTime(level, shimmerStart + 0.008);
-    shimmerGain.gain.exponentialRampToValueAtTime(0.0001, shimmerStart + decay);
+    tone.frequency.setValueAtTime(from, edgeStart);
+    tone.frequency.exponentialRampToValueAtTime(to, edgeStart + decay);
+    edgeFilter.type = "highpass";
+    edgeFilter.frequency.value = 1300;
+    edgeGain.gain.setValueAtTime(0.0001, edgeStart);
+    edgeGain.gain.exponentialRampToValueAtTime(level, edgeStart + 0.005);
+    edgeGain.gain.exponentialRampToValueAtTime(0.0001, edgeStart + decay);
 
-    tone.connect(shimmerFilter);
-    shimmerFilter.connect(shimmerGain);
-    shimmerGain.connect(swordBus);
-    tone.start(shimmerStart);
-    tone.stop(shimmerStart + decay + 0.025);
+    tone.connect(edgeFilter);
+    edgeFilter.connect(edgeGain);
+    edgeGain.connect(swordBus);
+    tone.start(edgeStart);
+    tone.stop(edgeStart + decay + 0.018);
   });
 }
 
@@ -383,7 +365,6 @@ export function SoundscapeProvider({
   const autoplayAttemptedRef = useRef(false);
   const userPausedRef = useRef(false);
   const shouldResumeRef = useRef(true);
-  const lastMonsterHoverRef = useRef(0);
   const playerRef = useRef<HTMLElement | null>(null);
   const positionRef = useRef<PlayerPosition | null>(null);
   const dragRef = useRef<DragState | null>(null);
@@ -509,19 +490,10 @@ export function SoundscapeProvider({
     createPageFlip(context, master);
   }, [ensureAudioGraph]);
 
-  const playMonsterHover = useCallback(async () => {
-    const now = performance.now();
-    if (now - lastMonsterHoverRef.current < 110) return;
-    lastMonsterHoverRef.current = now;
-    const { context, master } = ensureAudioGraph();
-    await context.resume();
-    createSilverSwordSound(context, master, "whisper");
-  }, [ensureAudioGraph]);
-
   const playMonsterSelect = useCallback(async () => {
     const { context, master } = ensureAudioGraph();
     await context.resume();
-    createSilverSwordSound(context, master, "slice");
+    createSilverSwordSound(context, master);
   }, [ensureAudioGraph]);
 
   const togglePlayback = useCallback(async () => {
@@ -725,18 +697,10 @@ export function SoundscapeProvider({
       playing,
       start,
       playPageFlip,
-      playMonsterHover,
       playMonsterSelect,
       togglePlayback,
     }),
-    [
-      playMonsterHover,
-      playMonsterSelect,
-      playPageFlip,
-      playing,
-      start,
-      togglePlayback,
-    ],
+    [playMonsterSelect, playPageFlip, playing, start, togglePlayback],
   );
 
   return (

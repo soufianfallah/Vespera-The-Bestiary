@@ -16,6 +16,12 @@
   <a href="https://vespera-the-bestiary.vercel.app/"><strong>Enter the live bestiary →</strong></a>
 </p>
 
+<p align="center">
+  <a href="./docs/VESPERA-PROJECT-GUIDE.md"><strong>Read the engineering field guide</strong></a>
+  ·
+  <a href="./public/docs/Vespera-Project-Field-Guide.pdf"><strong>Download the 31-page PDF</strong></a>
+</p>
+
 ---
 
 ## This is not a wiki
@@ -55,12 +61,13 @@ and transition exists to support that feeling.
   hybrids, insectoids, necrophages, ogroids, relicts, specters, and vampires.
 - A cinematic opening sequence with fog, ambience, medallion reveal, and a
   scroll-to-open journal transition.
-- A route-aware audio system that prefers optional local soundtrack files,
-  crossfades between the threshold and journal, and falls back to two original
-  Web Audio themes. Its draggable player remembers its position and provides
-  persistent play, pause, and mute controls.
+- A shuffled four-track audio system that skips measured leading silence,
+  continues across routes, and falls back to original Web Audio themes. Its
+  draggable player remembers its position and provides Play/Pause and Next.
 - A synthesized parchment page-turn accent shared by click, scroll, keyboard,
   and touch entry, guarded so one journal opening produces exactly one sound.
+- A click-only silver-sword card accent on monster selection, mixed on an
+  independent effect bus so it never ducks or pauses the soundtrack.
 - A searchable parchment catalogue with sticky category navigation.
 - Individual monster studies with lore, danger, habitat, locations, harvest,
   sword choice, oils, bombs, Signs, and known encounters.
@@ -170,6 +177,14 @@ routes, and expensive layout measurement was removed from the complete
 
 More implementation detail is available in
 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+The complete build retrospective—including the PDF/OCR method, data
+normalization, image batches, difficult bugs, code paths, temporary diagnostic
+snippets, performance work, audio iterations, testing, and deployment—is
+available as:
+
+- [the repository field guide](docs/VESPERA-PROJECT-GUIDE.md);
+- [the designed 31-page PDF](public/docs/Vespera-Project-Field-Guide.pdf).
 
 ## Run it locally
 

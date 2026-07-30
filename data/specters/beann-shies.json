@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "beann-shies",
+  "name": "Beann'Shies",
+  "category": "specters",
+  "description": "Beann'shies, also known as banshees, are said to be the spirits of women stuck between life and death due to traumatic experiences. Their wails and howls are considered ill omens of imminent, inevitable death, though they are said not to attack the living themselves.",
+  "story": "Beann'shies howl and shriek, and if you hear their cry, you can know you'll join the ranks of the dead that night.— beggar from Dun Dâre",
+  "lore": "Most often they appear in the form of pale, tear-streaked women with shriveled faces and wrinkled, corpse-like bodies.",
+  "weaknesses": [
+    "Specter Oil"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Infused dust",
+    "Lunar shards",
+    "Specter dust"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/beann-shies.webp",
+  "gallery": [
+    "/monsters/beann-shies.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 126,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9906,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Banshee"
+  }
+}

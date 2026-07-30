@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "alpha-garkain",
+  "name": "Alpha Garkain",
+  "category": "vampires",
+  "description": "When a vampire gives a witcher a contract to kill another vampire, you can be certain neither of the two is entirely normal. The contract seemed simple enough. Yet one must bear in mind vampires are a very diverse group and their various species differ from one another greatly.",
+  "story": "One can be forgiven for thinking garkains harbor some kind of particular hatred for humans. After all, given what humans are like, it would be hard to blame them.— Agnes of Myrkvid, druid flaminica and scholar.",
+  "lore": "The individual had long, hooked claws with which it could tear apart a body with ease, leaving behind venom which hindered the clotting of blood. What's more, it could use these claws to scale even the sheer outer wall of a building, giving others the impression it possessed mind-boggling powers. This was an experienced predator with the ability to set ambushes for its prey and attack it unexpectedly. A powerful type of Garkain, a pack leader or...alpha.\n\nIn addition to its ability to emit waves of mental energy, this alpha Garkain also had powerful venom at its disposal. The monster killed for pleasure, not just to satisfy its hunger.",
+  "weaknesses": [
+    "Moon Dust",
+    "Vampire Oil",
+    "Samum",
+    "Black Blood"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust",
+    "Samum"
+  ],
+  "signs": [
+    "Yrden",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Blood Simple"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/alpha-garkain.webp",
+  "gallery": [
+    "/monsters/alpha-garkain.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 143,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9914,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Blood Simple",
+    "note": "Game reference cross-check; the trail is associated with Blood Simple.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Alpha_Garkain"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "slug": "archespore",
+  "name": "Archespore",
+  "category": "cursed",
+  "description": "Archespores look like gigantic, aesthetically unpleasing flowers with some of the traits of exceptionally cruel and bloodthirsty sundews. Their peculiar appearance makes them practically impossible to discern amidsts other plants. By the time one draws close enough to realize what they are, it is often too late to flee. According to popular belief, Archespores are cursed plants grown in soil fertilized by the blood of the dying. They are most often found in places which in the past saw pogroms, bloody rituals or cruel murders. Regardless of color, all Archespores fight using similar methods: attacking with powerful, jaw-like leaves. If their victim is out of reach, they can also spray caustic acid which if it makes any contact whatsoever with the skin, can provoke a reaction similar to that caused by severe poisoning.",
+  "story": "Looks like a flower to me. A hideous, disgusting flower. — Blasco Tennerbe, last words",
+  "lore": "Like other plants, all Archespores are extremely vulnerable to fire, which is one of the most effective methods of fighting them. Silver also works well, as does any sort of shock wave. Archespores do not like strong vibrations, which cause them to flee underground at once.",
+  "weaknesses": [
+    "Fire",
+    "Poison",
+    "Shock waves",
+    "Yrden",
+    "Cursed Oil",
+    "Aard"
+  ],
+  "oils": [
+    "Cursed Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cursed ruins, abandoned settlements, and secluded wilds"
+  ],
+  "loot": [
+    "Archespore juice",
+    "Archespore tendril",
+    "Infused dust",
+    "Green mutagen",
+    "Monster spore",
+    "Venom extract",
+    "Water essence"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/archespore.webp",
+  "gallery": [
+    "/monsters/archespore.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 18,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9918,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Archespore"
+  }
+}

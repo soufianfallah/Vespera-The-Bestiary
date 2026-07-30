@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "slug": "noonwraith",
+  "name": "Noonwraith",
+  "category": "specters",
+  "description": "On particularly searing summer days, when the sun reaches its zenith, Wraiths will at times appear, resembling sun-scorched women dressed in long, white robes. These are Noonwraiths - the spirits of young women and girls who died violent deaths right before their weddings. Driven mad with pain and anger, they wander the fields searching for their unfaithful lovers or backstabbing rivals, though they will kill anyone who does not get out of their way in time. They are often held in this world by some object of intense emotional significance. That is why, if one ever finds a wedding ring or torn veil in the middle of a field, one should not pick it up, but instead back away as quickly as possible. Noonwraiths are only known to haunt rural places, and usually stay near the place of their deaths. They prey on peasants working in the fields or children playing nearby. Noonwraiths do not bleed and are for the most part immune to the effects of Witcher Signs. They can create mirror images of themselves which circle their victims in a kind of morbid parody of a dance. This ghastly ritual drains their victims' life energy while adding to their own strength. Noonwraiths are also able to manipulate the physical world to a limited degree, kicking up clouds of dust which temporarily blind and disorient their opponents.",
+  "story": "Despite what is commonly thought, peasants do not interrupt their labors at midday to get out of the sun, they do it to avoid noonwraiths.-Vlad Reymond, Peasants and Their Customs",
+  "lore": "",
+  "weaknesses": [
+    "Bleeding",
+    "Aard",
+    "Specter Oil",
+    "Yrden"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Aard",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Velen",
+    "White Orchard",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/noonwraith.webp",
+  "gallery": [
+    "/monsters/noonwraith.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 135,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9936,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, White Orchard, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, White Orchard, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Noonwraith"
+  }
+}

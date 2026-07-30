@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "howler",
+  "name": "Howler",
+  "category": "relicts",
+  "description": "One is hard-pressed to name another area of our world more thoroughly riddled with monsters than Velen. There is on silver lining to this sad fact, however: the beasts living there must compete fercely for hunting territory, meaning monsters often end up killing other monsters. An aggressive Chort known as Howler went on such a fratricidal rampage, tearing a pack of wolves to shreds before attacking and killing a Fiend significantly larger than itself.",
+  "story": "Here about the contract? Any idea what this monster is? Naye, but proper huge it must be. Slaughtered no less than a dozen wolves — Conversation overheard in Lindenvale",
+  "lore": "Howler was a truly fearsome foe. Each one of its blows was enough to kill- only heavy armor or the Quen Sign could protect one from mortal damage. Particularly to be avoided was its charge - and whenever possible, the monster was best attacked from the side. Challenging such a fierce fighter might very well prove impossible, had not its previous conflicts with its monstrous kin weakened it considerably.",
+  "weaknesses": [
+    "Devil's Puffball",
+    "Relict Oil"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "South of Lindenvale"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/howler.webp",
+  "gallery": [
+    "/monsters/howler.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 110,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9927,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "South of Lindenvale",
+    "note": "Game reference cross-check; the trail is associated with South of Lindenvale.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Howler"
+  }
+}

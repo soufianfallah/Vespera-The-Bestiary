@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "slug": "gargoyle",
+  "name": "Gargoyle",
+  "category": "elementa",
+  "description": "Gargoyles are stone statues brought to life by magic in order to guard mages' laboratories and lairs from intruders. Their appearance alone has scared off more than one prospective burglar. Those who do not take fright at the sight of these horned and winged monstrosities usually die shortly thereafter, torn to shreds by stony claws.",
+  "story": "It just me, or is that gargoyle ogling us?— Lara Estevann, burglar from Loc Muinne",
+  "lore": "Gargoyles are extremely dangerous opponents. Etched out of granite or marble, they are able to withstand tremendous amounts of damage and exhibit superhuman strength. One blow dealt from their boulder-like fists will crush even a man clad in heavy armor. Not even those out of reach of a Gargoyle's arms can feel safe, for they are able to throw hunks of stone with deadly precision. As beings made of stone, they fel no pain from fire, meaning the lgni Sign is worthless against them.",
+  "weaknesses": [
+    "Fire",
+    "Dimeritium Bomb",
+    "Elementa Oil",
+    "Quen"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Gargoyle dust",
+    "Gargoyle heart",
+    "Amethyst dust",
+    "Diamond dust",
+    "Elemental stone",
+    "Gargoyle trophy}}In the Witcher 2, they are first encountered briefly in Chapter II (if on Roche's path), and later in Chapter III as part of The Gargoyle Contract.",
+    "They are vulnerable to Silver swords (especially Deithwen, which provides a 25% bonus), and will explode violently after being slain.",
+    "They can be stunned fairly easily using the Aard Sign. Killing a stunned gargoyle will prevent it from exploding.",
+    "=== Journal entry ===",
+    "In times long gone, when youth was more polite, everything was cheaper, and girls were more eager, sorcerers could breathe life into inanimate matter and create stone servants this way. Gargoyles - for I have them in mind - can be found in ancient cities to this day, but their magic has vanished and now they are nothing more than cornice decorations. There are, however, exceptions such as the Loc Muinne gargoyles - still enchanted and still dangerous.",
+    "Theoreticians of magic still argue about classifying gargoyles. I favor the school claiming they are a type of golem. For gargoyles are nothing more than fancy sculptures animated with magic and programmed to do simple tasks. They can complete only the most rudimentary works, so they are most often guarding a territory, even if their creator turned to dust long ago.",
+    "The gargoyle is a magical creature and often has surprising tricks at it's sleeve. Teleportation for example: an opponent makes a blow, and the gargoyle disappears only to emerge elsewhere at the same moment. Like behind it's enemy. It's even worse when the gargoyle appears over his opponent - then it just falls down and crushes it's victim beneath the weight of it's stone body. Thanks to their medallions, witchers can perceive disturbances in magical aura, so they see the point where the gargoyle will appear moments before it materializes, so they have time to react. However ordinary people tend to die crushed.",
+    "Fighting the gargoyle means fighting solid rock, so it should not be surprising that poisons are useless, as are fire and oils causing bleeding. Because of its great mass, the gargoyle's stone body cannot be unbalanced, let alone knocked down. Immobilizing one with a trap will fail, as gargoyles can teleport and will flee snares using this ability. They have no weaknesses at all.",
+    "=== Associated quests ===",
+    "An Encrypted Manuscript",
+    "The Gargoyle Contract",
+    "== ==",
+    "{{Infobox Bestiary"
+  ],
+  "locations": [
+    "Abandoned ruins and caves"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/gargoyle.webp",
+  "gallery": [
+    "/monsters/gargoyle.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 41,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9925,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Abandoned ruins and caves",
+    "note": "Game reference cross-check; the trail is associated with Abandoned ruins and caves.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Gargoyle"
+  }
+}

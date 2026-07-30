@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "slug": "siren",
+  "name": "Siren",
+  "category": "hybrids",
+  "description": "Like skilled hunters setting out wooden ducks to lure in drakes, Sirens lure men using their own bodies as decoys. They can transform to resemble beautiful human maidens, though with tails covered in silver scales instead of legs. Once a naive sailor gets within arm's reach of these beautiful creatures, their fair faces suddenly turn to fang-illed, fish-like maws, and lovely tails promising unknown delights become sharp, death dealing talons. One legend claims Sirens were once friendly towards men and supposedly were even known to accept some sailors' clumsy attempts at courtship. Nowadays, they are decidedly aggressive, perhaps soured by the numerous kidnappings of carried out by frustrated sea salts. Whatever the truth, one thing is certain: these days the monsters display no signs of good will, and so when spotting them one should immediately reach for one's silver sword. Sirens usually hunt in flocks, making use of their numbers as well as their ability to move effortlessly through water and air. On the ground, however, they are virtually defenseless, and so a wise tactic is to damage their fin-like wings to force them to land.",
+  "story": "Out at sea, if you hear a beautiful woman singing, turn the ship around at once. You understand? Even if it means sailing straight back into a storm.— Arike of Hindarsfjall, advice given to his son before his first solo voyage",
+  "lore": "Threatened or injured sirens will lt out a terrifying shriek, leaving their opponents stunned while they escape - and their sisters swoop down for an easy attack.",
+  "weaknesses": [
+    "Hybrid Oil",
+    "Aard",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Coastal Regions throughout Velen and Novigrad, Skellige is also a major breeding ground."
+  ],
+  "loot": [
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster ear",
+    "Monster eye",
+    "Monster hair",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Siren vocal cords",
+    "Water essence",
+    "While the game calls these sirens, they're more accurately nixa: a far more vicious type of siren that, unlike merpeople, have wings, allowing them to fly.",
+    "The bestiary entry can be obtained by reading Journey to the End of the World.",
+    "=== Bestiary entry ===",
+    "Out at sea, if you hear a beautiful woman singing, turn the ship around at once. You understand? Even if it means sailing straight back into a storm.",
+    "– Arike of Hindarsfjall, advice given to his son before his first solo voyage",
+    "Like skilled hunters setting out wooden ducks to lure in drakes, sirens and lamias lure men near - using their own bodies as decoys. They can transform to resemble beautiful human maidens, though with tails covered in silver scales instead of legs. Once a naive sailor gets within arm's reach of these beautiful creatures, their fair faces suddenly turn to fang-filled, fish-like maws, and lovely tails promising unknown delights become sharp, death dealing talons.",
+    "One legend claims sirens and lamias were once friendly towards men – and supposedly were even known (albeit on rare occasions) to accept some sailors' clumsy attempts at courtship. In our day, however, they are decidedly aggressive, perhaps soured by the numerous kidnappings of carried out by frustrated sea salts. Whatever the truth, one thing is certain: these days the monsters display no signs of good will, and so when spotting them one should immediately reach for one's silver sword.",
+    "Sirens and lamias (the sirens' more dangerous cousins) usually hunt in flocks, making use of their numbers as well as their ability to move effortlessly through water and air.",
+    "On the ground, however, they are virtually defenseless, and so a wise tactic is to damage their fin-like wings to force them to land. The Igni Sign also proves effective when fighting against them. Threatened or injured sirens will let out a terrifying shriek, leaving their opponents stunned while they escape – and their sisters swoop down for an easy attack.",
+    "=== Combat tactics ===",
+    "Sirens work in packs, akin to harpies and their ilk. They have been spotted attempting to lure in victims by transforming their appearance to that of an attractive human woman, a deception that quickly ends the moment they become aggressive.",
+    "Sirens can move as quickly in water as they do in the sky. When sailing in siren-infested waters, expect to see the monsters transition from the seas to the air as they surround their prey.",
+    "Aard, Grapeshot, and a witcher's crossbow are enough to ground a flying siren. Sirens of all types are especially vulnerable to Igni, as well as any bombs that can set victims afire. It is possible to counterattack a siren as they dive out of the air at their target. This grounds them and can severely wound them.",
+    "As with the harpy, a grounded siren is a siren that has all but presented themselves for execution. Witchers presented with this opportunity should not hesitate.",
+    "Sirens prefer swooping on their prey, slashing with their claws, or tails as they sweep past their victims. They rarely stay still in the air, but are at their most vulnerable when they do so.",
+    "Wounded sirens can produce an ear-piercing screech that stun their attackers. Other sirens can use this moment to rescue their sister, diving in on the enemy and allowing their injured to escape.",
+    "=== Associated quests ===",
+    "{{Cols|num=3",
+    "Black Pearl",
+    "Possession",
+    "The Cave of Dreams",
+    "The Last Wish",
+    "The Lord of Undvik",
+    "The Path of Warriors",
+    "The Price of Honor",
+    "The Sunstone",
+    "Family Fortune",
+    "Ironsides' Treasure",
+    "Nilfgaardian Treasure",
+    "Not Only Eagles Dare (optional)",
+    "Precious Haul",
+    "Ruins, Hidden Treasure, You Know...",
+    "Siren's Call",
+    "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 4"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/siren.webp",
+  "gallery": [
+    "/monsters/siren.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 58,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9896,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "game-reference",
+    "loot": "game-reference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Siren"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "succubus",
+  "name": "Succubus",
+  "category": "hybrids",
+  "description": "Unlike other monsters, Succubi feel no desire to kill, do not crave human blood and usually do not mean any harm at all. They are motivated by one thing and one thing only: an insatiable lust. They try in vain to slake this by engaging in sexual acts with any other humanoid species they encounter. While it must be admitted that their \"victims\" rarely put up much resistance, this does not mean succubi and menads do not present any danger: their never-ending advances, though pleasurable at first, have pushed more than one man to madness or even death. Succubi and menads usually can be found near human settlement, including small villages and populous cities.",
+  "story": "Again?! Good grief, woman, I'm spent...— Lester of Smallton to a succubus, a few days before taking a vow of celibacy",
+  "lore": "They prowl at night, though when stricken by serious need they will leave their lairs during the day as well They shower their affections on men as well as women, the young as well as the old, the ugly as well as the beautiful. Some of them are particularly fond of pastors and other holy men, whose seduction they treat as a sort of game. Though succubi are peaceful by nature, when forced to fight they will defend themselves fiercely - under the velvety skin of their arms lie muscles of iron, and a blow delivered with their rear, goat-like legs or the thick horns on their head can easily",
+  "weaknesses": [
+    "Quen",
+    "Hybrid Oil"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Coasts, cliffs, mountains, and isolated ruins"
+  ],
+  "loot": [
+    "Crowns",
+    "Silk",
+    "Strawberries",
+    "Succubus mutagen"
+  ],
+  "locations": [
+    "Ard Skellig"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/succubus.webp",
+  "gallery": [
+    "/monsters/succubus.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 59,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9924,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Ard Skellig",
+    "note": "Game reference cross-check; the trail is associated with Ard Skellig.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Succubus"
+  }
+}

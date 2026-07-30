@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "slug": "hagubman",
+  "name": "Hagubman",
+  "category": "ogroids",
+  "description": "Your average Nekker is cowardly and weak and only ever attacks in groups, even then only when the group greatly outnumbers its opponents. Yet at times there will appear among them an individual who towers over the rest in terms of strength, stamina and cunning. Such Nekkers are usually called warriors, though that name is misleading. Warriors fight with honor, face to face. These overgrown Nekkers act more like assassins - they strike by surprise, from hiding, in the back, or when their opponent exposes himself whil attacking.",
+  "story": "Ye or anyone ever heard of a beast settin' a wagon in the read, then waitin' in ambush? They're too ploughin' dumb for that, dammit! — Egil, warrior from Hindarsfjall",
+  "lore": "Luckily, like other Nekkers warriors are vulnerable to all the Signs, and their blows can be easily parried or countered. Such a monster lived near the village of Larvik on Hindarsfall- and not even the strongest of islanders were capable of slaying it. A witcher though...A witcher's another story.",
+  "weaknesses": [
+    "Aard",
+    "Ogroid Oil"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Near the village of Larvik on Hindarsfjall"
+  ],
+  "loot": [
+    "Devine",
+    "Monster bone",
+    "Monster brain",
+    "Monster hair",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Nekker blood",
+    "Nekker claw",
+    "Nekker heart",
+    "Nekker warrior mutagen",
+    "Nekker warrior trophy",
+    "Nekker warrior's liver",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/hagubman.webp",
+  "gallery": [
+    "/monsters/hagubman.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 95,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9852,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "game-reference",
+    "loot": "game-reference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Hagubman"
+  }
+}

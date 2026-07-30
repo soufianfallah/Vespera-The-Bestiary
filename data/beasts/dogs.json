@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "dogs",
+  "name": "Dogs",
+  "category": "beasts",
+  "description": "Some claim dogs are reflections of their masters. A well-treated pet repays his owner with loyalty and trust, whereas an ill-treated one repays this treatment in kind as well, meeting yells with barks and kicks with bites. Since there is an abundance of bad men, so, too, is there an abundance of bad dogs. Most dangerous of all are the vagrant mutts who have lost all respect for men and developed a taste for blood and carrion.",
+  "story": "They say a dog's a man's best friend... But in these foul times one best be wary, even of his friends.— Alfred Pankratz, beggarfrom Novigrad",
+  "lore": "Dogs usually attack in packs, choosing isolated victims, especially ones in whom they sense some kind of weakness. Packs of rabid dogs usually only dare attack children, drunkards, the elderly and cripples. Yet when backed into a corner, they will defend themselves with frothing bites and sharp claws against all and sundry.",
+  "weaknesses": [
+    "Beast Oil"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Igni",
+    "Axii"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests, fields, and the margins of settled land"
+  ],
+  "loot": [
+    "Dog tallow",
+    "Raw meat"
+  ],
+  "locations": [
+    "Velen",
+    "Novigrad",
+    "Skellige"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/dogs.webp",
+  "gallery": [
+    "/monsters/dogs.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 10,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.993,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Novigrad, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Novigrad, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Dog"
+  }
+}

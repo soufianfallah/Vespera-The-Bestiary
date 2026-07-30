@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "cockatrice",
+  "name": "Cockatrice",
+  "category": "draconids",
+  "description": "Foolish superstitions claim Cockatrices, like Basilisks, can kill with their gaze alone. That is utter nonsense, however, a Cockatrice's gaze being no more dangerous than that of an angry Goose. One should instead watch out for it's sharp beak and long tail, which it can whip to murderous effect. Cockatrices thrive in dark caves, abandoned ruins, cobwebbed dungeons and old basements. Though small compared to Griffins and Manticores, they are more than capable of killing anyone who stumbles across them in a dark corridor.",
+  "story": "Had meself eight heifers, five of 'em milchers. Then this cockatrice sprung up nearby, and now all's 1 got left's dried patties in an empty field. —Jethro, peasant from Pindal",
+  "lore": "Cockatrices do not shun direct fights, in which they strike furiously with wing and tail in an attempt to exhaust their foes. Blows from their beaks are especially dangerous, as they aim with deadly precision at exposed flesh and vital organs and leave bleeding, life-threatening wounds.",
+  "weaknesses": [
+    "Bleeding",
+    "Aard",
+    "Draconid Oil",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Draconid hide",
+    "Monster claw",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Redania",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/cockatrice.webp",
+  "gallery": [
+    "/monsters/cockatrice.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 27,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9909,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Redania, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Redania, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Cockatrice"
+  }
+}

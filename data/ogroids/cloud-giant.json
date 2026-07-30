@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "cloud-giant",
+  "name": "Cloud Giant",
+  "category": "ogroids",
+  "description": "The Cloud Giant is most likely a degenerated illusory being. He is an inhabitant of the castle in the sky in the Land of a Thousand Fables. This land was abandoned and left untended for years, during which time it began to rot, fester and degrade. The Cloud Giant was most likely meant to be a pleasant-natured strongman who would carry the duke's young daughters on his shoulders and never grow tired. When he became degenerated and overgrown, however, he turned into a dangerous monster.",
+  "story": "Many things fall from the sky other than rain and snow. Frogs, for example... And the Cloud Giant. — Sibald \"Fang\" Faalde, shepherd from Fox Hollow.",
+  "lore": "AfterJack stole his goose that laid golden eggs, the Cloud Giant decided in the future anyone who climbed onto his cloud would be tossed off, without a word of warning.",
+  "weaknesses": [
+    "Axii",
+    "Ogroid Oil",
+    "Dancing Star"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Axii"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Ogroid hide",
+    "Monster liver",
+    "Monster bone"
+  ],
+  "locations": [
+    "Land of a Thousand Fables",
+    "Cloud Giant's castle"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/cloud-giant.webp",
+  "gallery": [
+    "/monsters/cloud-giant.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 89,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9939,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Land of a Thousand Fables, Cloud Giant's castle",
+    "note": "Game reference cross-check; the trail is associated with Land of a Thousand Fables, Cloud Giant's castle.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Cloud_Giant"
+  }
+}

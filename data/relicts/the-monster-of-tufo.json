@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-monster-of-tufo",
+  "name": "The Monster of Tufo",
+  "category": "relicts",
+  "description": "lmagine a creature that kills men, feeds on Kikimore eggs and digs underground tunnels so wide they'd fit the emperor of Nilfgaard's coronation carriage along with a team of six horses. And now imagine this creature digs with such force, the earth quakes and the houses up above tremble and collapse. Though blind like all members of its species, this creature could easily maneuver by sensing vibrations and noises.",
+  "story": "A knight errant might manage to kill a ghoul and a peasant with a pack of dogs can at times take down a bear. Yet let us make one thing clear: not even the finest steel armor ever forged or the collar bone of Saint Plegmund himself will give a mortal man any chance of surviving a fight against the creatures that dwell deep beneath the earth.— veteran Toussaint Ducal Guardsman, briefing new recruits",
+  "lore": "The monster destroying Tufo turned out to be an old female Shaelmaar matriarch.",
+  "weaknesses": [
+    "Samum",
+    "Relict Oil",
+    "Aard"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Ami",
+    "Greater blue mutagen",
+    "Infused shard",
+    "Monster carapace",
+    "Monster brain",
+    "Monster bone",
+    "Monster hide",
+    "Monster liver",
+    "Monster stomach",
+    "Monster tooth",
+    "Powdered monster tissue",
+    "Shaelmaar dust",
+    "Shaelmaar hair",
+    "Shaelmaar trophy"
+  ],
+  "locations": [
+    "Tufo, Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/the-monster-of-tufo.webp",
+  "gallery": [
+    "/monsters/the-monster-of-tufo.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 121,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9914,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Tufo, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Tufo, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Monster_of_Tufo"
+  }
+}

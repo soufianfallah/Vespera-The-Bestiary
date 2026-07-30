@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "shrieker",
+  "name": "Shrieker",
+  "category": "draconids",
+  "description": "The monster tormenting the residents of Crow's Perch turned out to be a particularly nasty Cockatrice. It was no surprise that the Bloody Baron's men could not possibly withstand the surgical precision of its strikes, which slice open arteries and provoke an outpouring of blood only the Swallow potion could hope to stop. Neither did they know to force it to the ground with a crossbow, a bomb or a Sign, and then evade its charge by rolling under the monster's outstretched wing.",
+  "story": "Heard you have a problem - a monster you call a shrieker? Aye, prowls about, it does. Snatches cows and goats, mostly, but it won't scorn a man if it runs into one. — Conversation overheard at Crow's Perch",
+  "lore": "",
+  "weaknesses": [
+    "Aard",
+    "Draconid Oil",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Draconid hide",
+    "Monster claw",
+    "Venom extract"
+  ],
+  "locations": [
+    "Cave near Crow's Perch"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/shrieker.webp",
+  "gallery": [
+    "/monsters/shrieker.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 30,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9927,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Cave near Crow's Perch",
+    "note": "Game reference cross-check; the trail is associated with Cave near Crow's Perch.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Shrieker"
+  }
+}

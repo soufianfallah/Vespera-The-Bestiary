@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "golem",
+  "name": "Golem",
+  "category": "elementa",
+  "description": "Golems are mindless matter brought to life by a spell. They obey their creator's orders without question. Their boundless strength, ability to withstand pain, endless patience and the fact that they need not one jot of food or drink makes them the best servants or guards anyone could ask for. Once provoked, they will not tire of battle until they have either crushed their opponent or themselves crumbled to dust.",
+  "story": "If wants us to break through this wall, we're gonna need twenty sappers, seven mules and a hundredweight of saltpeter. Or one golem.- Vilmir Brass, foreman at Mount Carbon",
+  "lore": "Defeating a Golem is extraordinarily difficult: for obvious reasons it does not bleed, it feels no fear or mercy and it is invulnerable to fire and poison. The monster's only weakness is acid - a blade covered in acrid oil can thus increase one's chances for victory. Golems use no weapons, for they have no need - their fists, weighing over a hundred pounds each, can crush solid granite with one hit. A blow from a Golem should thus be avoided at all costs - there is no shield that can stop it, nor sword that can parry it. These creatures are able to move with surprising speed. Luckily, their enormous mass means they are not very agile - once a Golem begins a charge, it cannot stop quickly, a fact experienced Witchers use to their advantage.",
+  "weaknesses": [
+    "Fire",
+    "Poison",
+    "Bleeding",
+    "Dimeritium Bomb",
+    "Elementa Oil"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Elemental essence",
+    "Infused dust",
+    "Monster core"
+  ],
+  "locations": [
+    "Elven ruins and caves (throughout the world)"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/golem.webp",
+  "gallery": [
+    "/monsters/golem.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 42,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9904,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Elven ruins and caves (throughout the world)",
+    "note": "Game reference cross-check; the trail is associated with Elven ruins and caves (throughout the world).",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Golem"
+  }
+}

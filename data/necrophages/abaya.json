@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "abaya",
+  "name": "Abaya",
+  "category": "necrophages",
+  "description": "The bay below Kaer Trolde had a pernicious reputation. At times fishermen who chose to cast their nets in its waters would never come home again. Something would drag oarsmen off their longships or knock the ships themselves over. The locals blamed this on sea devils - the Skelligers' name for Drowners. The truth, however, proved far worse.",
+  "story": "Seen a lot o' ugly critters in me life - morays, lampreys, blobfish... But never nothin' like this! - Bjorg, Kaer Trolde shipbuilder",
+  "lore": "A water hag had made her lair in the caves beneath the cliff of Kjerag. An old and experienced water hag. With powerful claws able to demolish any attempt to block or parry. And, the ability to blind opponents from a distance, then strike with a lightning-quick counterattack. Signs would be needed to best her - Yrden, to slow her, and Quen, to protect from her blows. Needed most of all, however, would be a great deal of luck.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Northern Wind",
+    "Igni",
+    "Quen"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Igni",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "Underwater cave off Kaer Trolde Harbor"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/abaya.webp",
+  "gallery": [
+    "/monsters/abaya.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 73,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9904,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Underwater cave off Kaer Trolde Harbor",
+    "note": "Game reference cross-check; the trail is associated with Underwater cave off Kaer Trolde Harbor.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Abaya"
+  }
+}

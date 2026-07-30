@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "panther",
+  "name": "Panther",
+  "category": "beasts",
+  "description": "This belief must be eradicated for it leads to epidemics of cholera and other contagious diseases born of rotting corpses. Besides, it is patently ridiculous, given panthers are not Necrophages and will not consume carrion of any sort. They prefer more spry and lively prey, such as deer or even humans, provided they are not ill and do not stink too badly.",
+  "story": "Panthers are dangerous predators found in forests and other woodlands. They are quick, agile and diabolically cunning. In many less-than-thoroughly-urbanized areas, folk still believe panthers are the stranded souls of those who die in their sleep. Superstition thus holds anyone perishing in this way should be dragged to the nearest woods and left there without a burial. The panther-spirit of the deceased may then devour its own body, thereby passing on to the nether realms.",
+  "lore": "As soon as they enter open terrain, they leap to attack with astonishing speed, mauling their prey with their sharp claws, long teeth and the sheer force of their momentum. Panthers are known to retreat mid-fight, yet do not let yourself be fooled into a false sense of security. This is but a ruse. Never drop your guard until you see the animal drop dead.",
+  "weaknesses": [
+    "Beast Oil"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Igni",
+    "Axii"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests, fields, and the margins of settled land"
+  ],
+  "loot": [
+    "Hide",
+    "Raw meat",
+    "Animal fat"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/panther.webp",
+  "gallery": [
+    "/monsters/panther.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 11,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9937,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Panther"
+  }
+}

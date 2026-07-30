@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "slug": "botchling",
+  "name": "Botchling",
+  "category": "cursed",
+  "description": "Botchlings are perhaps the most repulsive creatures a witcher will ever have the displeasure of meeting. Born of dead, unwanted babies discarded without a proper burial, their appearance is that of a partially-decayed fetus, their unformed flesh twisted with hate, fear and malice. These hideous creatures feed on the blood of pregnant women, driven by a mad hunger that most often leads to their victim's death. A botchling will emerge from its lair at night to lurk by the bedside of an expectant mother, draining her strength and that of her unborn progeny as she sleeps. A woman thus beleaguered first suffers from troubling dreams, then fever, delirium and a general weakening of the flesh. After a few such nights she is enfeebled and unable to defend herself - it is then the botchling attacks directly, sinking its long, sharp fangs into her body and drinking her blood until mother and fetus perish together. When threatened, it can grow into a deformed man, hunched over and striding, ape-like, on its forearms.",
+  "story": "Saying a botchling's ugly is like saying shit's not particularly tasty: can't say it's a lie, but it doesn't exactly convey the whole truth, either.— Lambert, Witcher of the Wolf School",
+  "lore": "A botchling's curse can be lifted by transforming it into a lubberkin - a guardian spirit of the hearth that watches over the family it never knew in the house it never could call home.",
+  "weaknesses": [
+    "Axii",
+    "Cursed Oil"
+  ],
+  "oils": [
+    "Cursed Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Axii"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cursed ruins, abandoned settlements, and secluded wilds"
+  ],
+  "loot": [
+    "Lesser blue mutagen",
+    "Lesser green mutagen",
+    "Lesser red mutagen",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster ear",
+    "Monster eye",
+    "Monster heart",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Necrophage hide",
+    "Rotting flesh"
+  ],
+  "locations": [
+    "Crow's Perch"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/botchling.webp",
+  "gallery": [
+    "/monsters/botchling.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 20,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9924,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Crow's Perch",
+    "note": "Game reference cross-check; the trail is associated with Crow's Perch.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Botchling"
+  }
+}

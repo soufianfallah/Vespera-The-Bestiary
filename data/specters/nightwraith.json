@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "nightwraith",
+  "name": "Nightwraith",
+  "category": "specters",
+  "description": "Compared to other creatures of the night, Nightwraiths might not seem all that dangerous. After all, one might ask, how much harm could a pale, withered woman in a tattered dress do? The answer: quite a bit. Instead of finding this out the hard way, avoid crossing fields and meadows at night at all costs. Nightwraiths are only found in rural areas. Travelers fall victim to them most often, but if legends are to be believed they also sneak into huts at times and murder peasants in their sleep. When they attack, Nightwraiths remain immaterial for most of the time, meaning physical blows pass right through them. They only take on more tangible form for the brief moments in which they strike. When weakened, they will create several projections of themselves which cannot attack directly but act as transmitters of sorts through which the nightwraith can sap her victim's vital energy.",
+  "story": "Nightwraiths exude this immense sadness, this helpless wrath...1 fear them, same as anyone. But most of all 1 feel sorry for them.- Aelline Altsparr, elven trobairitz.",
+  "lore": "Do not believe the old wife tales and think yourself completely safe from nightwraiths during the day. They appear under the light of the sun as well - but are much weaker then than after dusk.",
+  "weaknesses": [
+    "Aard",
+    "Specter Oil",
+    "Yrden"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Aard",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Velen",
+    "Redania",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/nightwraith.webp",
+  "gallery": [
+    "/monsters/nightwraith.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 134,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9919,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Redania, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Redania, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Nightwraith"
+  }
+}

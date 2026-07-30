@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "spotted-wight",
+  "name": "Spotted Wight",
+  "category": "necrophages",
+  "description": "Spotted wights were a subspecies of Wight which the Witchers drove to extinction. They were larger than their unspotted kin and owed their names to their numerous blotches and effusions. Spotted wights would most often dwell in derelict cemeteries and empty wildernesses, yet at times took to living in abandoned human domiciles. There they would indulge in their greatest passion: creating brews from their own emissions. When not disturbed, spotted wights would not act aggressively. If threatened, however, they became very dangerous indeed. In the colder months or when faced with an unseasonable chill, they would slip into a state of lethargy, making them easy targets. Even during their active periods, it is said the witchers found a surefire way of besting them, based around careful casting of the Yrden Sign - or at least, so claims Witcher lore...Whenever Witchers swear they have driven a certain species of monster into extinction, someone claims to have seen a member of that species walking around in apparent health, most likely we are dealing with a curse. It tuned out this creature was in fact a woman transformed into a monster by a curse many years prior, as punishment for refusing food and shelter to a wandering beggar.",
+  "story": "The best defense against spotted wights? Stay calm and leave them alone. - fragment of a treatise on spotted wights by Roderick Giligan.",
+  "lore": "",
+  "weaknesses": [
+    "Igni",
+    "Necrophage Oil"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "White Orchard",
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/spotted-wight.webp",
+  "gallery": [
+    "/monsters/spotted-wight.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 85,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9927,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "White Orchard, Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with White Orchard, Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Spotted_Wight"
+  }
+}

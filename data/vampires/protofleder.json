@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "protofleder",
+  "name": "Protofleder",
+  "category": "vampires",
+  "description": "Protofleders are relatives of Fleders which came from the world of the higher vampires to our own during the Conjunction of the Spheres.",
+  "story": "Never seen a vampire like that in my life.— Geralt of Rivia, Witcher",
+  "lore": "The members of this species are characterized by their considerable strength and agility as well as the strange glow they emit, a trait most likely tied to their otherworldly nature.\n\nProtofleders have never had significant contact with the outside world, having spent their entire time on our planet in the Unseen Elder's cave, whose atmosphere is very similar to that of their home world.",
+  "weaknesses": [
+    "Black Blood",
+    "Vampire Oil"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Hen Gàidh cave in Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/protofleder.webp",
+  "gallery": [
+    "/monsters/protofleder.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 156,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9904,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Hen Gàidh cave in Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Hen Gàidh cave in Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Protofleder"
+  }
+}

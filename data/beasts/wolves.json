@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "wolves",
+  "name": "Wolves",
+  "category": "beasts",
+  "description": "Once upon a time wolves were the absolute rulers of the forest. Men used them to frighten children, while adults, too, trembled at the sound of their howling. Monsters not only pushed wolves into the deepest wilds but also took over their place in human nightmares. Yet this does not mean the old predators ceased to be a danger.",
+  "story": "Friend of mine used to say that with all these griffins and basilisks and whatnot, good old fashioned wolves weren't nothing to worry about... Then the damned beasts devoured half his flock. — Yngvar, shepherd",
+  "lore": "Wolves do not have a drop of magic within them, breathe no fire and spit no acid, but that in no way stops them from killing unwary travelers and hunters. Particularly dangerous are wargs, a nasty and ferocious subspecies of wolf, and the snow-white wolves which today can only be found in the wild highlands of the Skellige archipelago. Wolves usually feed in packs counting from a handful to over a dozen members, though some particularly strong males hunt alone. Though wolves are weaker than many monsters, they make up for any lack of strength with their intelligence. When fighting them one must be especially careful not to become surrounded. The presence of wolves can also signal more serious trouble — these predators often share their hunting grounds with werewolves and leshens.",
+  "weaknesses": [
+    "Fire",
+    "Beast Oil"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Igni",
+    "Axii"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests, fields, and the margins of settled land"
+  ],
+  "loot": [
+    "Hide",
+    "Raw meat",
+    "Animal fat"
+  ],
+  "locations": [
+    "Velen",
+    "White Orchard",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/wolves.webp",
+  "gallery": [
+    "/monsters/wolves.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 17,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9914,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, White Orchard, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, White Orchard, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Wolf_%28creature%29"
+  }
+}

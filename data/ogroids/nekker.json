@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "slug": "nekker",
+  "name": "Nekker",
+  "category": "ogroids",
+  "description": "A lone Nekker is harmless. Five are dangerous. Ten can kill even a veteran monster slayer. Particularly troublesome are the larger, stronger individuals known as warriors, as well as the rare breed of Nekkers known as Phoocas. Nekkers live in the dark woods that grow in damp, mist-filled valleys, in colonies of one to several dozen individuals. They dig deep burrows for lairs and connect them with a network of narrow tunnels. Using these passageways they are able to move at great speed within and around their colonies.",
+  "story": "Take heed, gents, there's nekers under this here bridge. If you all cross at once, without slowing or stopping, there's nothing to fear. But if your cart throws an axle and you get stuck out there... Well, close your eyes and pray to Melitele. - Kurt Hammerbach, city guardsman in Vengerberg",
+  "lore": "Nekkers always attack in groups and by surprise. They try to surround their prey as quickly as possible, cutting offall escape routes. Luckily their attack is for the most part disorganized, for Nekkers are not gifted with great courage and individual Nekkers will often hesitate before overcoming their fear and striking. When fighting them one can use this moment of hesitation to kill the braver individuals before finishing off those who remain in the back.",
+  "weaknesses": [
+    "Aard",
+    "Ogroid Oil"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Lesser blue mutagen",
+    "Lesser green mutagen",
+    "Lesser red mutagen",
+    "Monster bone",
+    "Monster brain",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Nekker blood",
+    "Nekker claw",
+    "Nekker eye",
+    "Nekker heart",
+    "Nekkers rarely attack alone, they tend to be found in groups near a nest. If the nest is not destroyed using either samum or grapeshot, they continue to spawn.",
+    "A bestiary entry can be obtained by reading The World Underground.",
+    "=== Bestiary entry ===",
+    "Take heed, gents, there's nekkers under this here bridge. If you all cross at once, without slowing or stopping, there's nothing to fear. But if your cart throws an axle and you get stuck out there... Well, close your eyes and pray to Melitele.",
+    "– Kurt Hammerbach, city guardsman in Vengerberg",
+    "A lone nekker is harmless. Five are dangerous. Ten can kill even a veteran monster slayer. Particularly troublesome are the larger, stronger individuals known as warriors, as well as the rare breed of nekkers known as phoocas.",
+    "Nekkers and phoocas live in the dark woods that grow in damp, mist-filled valleys, in colonies of one to several dozen individuals. They dig deep burrows for lairs and connect them with a network of narrow tunnels. Using these passageways they are able to move at great speed within and around their colonies.",
+    "Nekkers always attack in groups and by surprise. They try to surround their prey as quickly as possible, cutting off all escape routes. Luckily their attack is for the most part disorganized, for nekkers are not gifted with great courage and individual nekkers will often hesitate before overcoming their fear and striking. When fighting them one can use this moment of hesitation to kill the braver individuals before finishing off those who remain in the back.",
+    "=== Combat tactics ===",
+    "Individual nekkers are weak, easy marks compared to other monsters; nekkers do not tend to fight as individuals. If you see one, expect anywhere from 2-10 more. Nekkers overwhelm their targets through sheer numbers, surrounding them, then pummeling and clawing victims to death. Even veteran witchers can fall prey to this.",
+    "Also, unlike fellow ogroids, nekkers are considerably agile and acrobatic, even more so than the likes of drowners and rotfiends. One could easily leap at Geralt from barrel roll distance and roll back even further to avoid counterattacks. When combined with sheer numbers, nekkers are rather challenging, if not dangerous to engage without sabotaging their mobility.",
+    "When facing large groups of nekkers, take advantage of bombs such as Northern Wind or Dancing Star. Sufficiently powerful explosives can help thin out a nekker swarm with ease.",
+    "Aard can knock a nekker to its back, allowing for swift execution. Aard can also knock over several nekkers at once, a good way to break through large groups of attackers.",
+    "If players are heavily invested in swordplay light attacks, the Whirlwind ability could work nicely as both offensive and defensive means against nekkers, especially when the sword bears the Severance runeword enchantment.",
+    "=== Associated quests ===",
+    "{{Cols|num=2",
+    "Contract: Lord of the Wood (optional)",
+    "Contract: Patrol Gone Missing (optional)",
+    "Contract: Skellige's Most Wanted",
+    "Contract: Strange Beast",
+    "Fools' Gold",
+    "Harassing a Troll",
+    "Hard Times (pre-)",
+    "Hunting a Witch (optional)",
+    "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 4",
+    "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 3",
+    "The Things Men Do For Coin...",
+    "Warehouse of Woe",
+    "A Portrait of the Witcher as an Old Man"
+  ],
+  "locations": [
+    "Velen",
+    "White Orchard",
+    "Skellige",
+    "Toussaint",
+    "Kaer Morhen valley"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/nekker.webp",
+  "gallery": [
+    "/monsters/nekker.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 99,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9914,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, White Orchard, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, White Orchard, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Nekker"
+  }
+}

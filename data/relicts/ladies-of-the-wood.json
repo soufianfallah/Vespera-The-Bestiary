@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "ladies-of-the-wood",
+  "name": "Ladies of the Wood",
+  "category": "relicts",
+  "description": "They wield powerful magic, but one different from that of mages. They draw power from water and earth and are bound to the land in which they live. The Crones can hear everything that happens in their woods, predict the future, twist the threads of human lives and bring blessings as well as curses. The Crones seem for all intents and purposes to be immortal. Magic elixirs keep them from aging and allow them to take the appearance of young women. These elixirs and their mystical ties to the swamps in which they live also give them supernatural strength and vitality.",
+  "story": "Sister crones, hand in hand, terrors of the sea and land, thus do go about, about: thrice to thine and thrice to mine, and thrice again, to make up nine. Macveth, Act 1, Scene 3. The isolated corners of our world harbor creatures older than humans, older than academies and mages, older even than elves and dwarves. The Crones of Crookback Bog are such creatures. No one knows their true names, nor what breed of monstrosity they in fact are. Common folk have given these three sisters the names Weavess, Brewess and Whispess, and call the threesome \"The Ladies of the Wood\" or simply \"The Good Ladies.\" The Crones act as the true sovereigns of Velen, whose inhabitants they help survive through harsh times in returnforunquestioning obedience.",
+  "lore": "",
+  "weaknesses": [
+    "Relict Oil",
+    "Quen"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/ladies-of-the-wood.webp",
+  "gallery": [
+    "/monsters/ladies-of-the-wood.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 103,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.991,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ladies_of_the_Wood"
+  }
+}

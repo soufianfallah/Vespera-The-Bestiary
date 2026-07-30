@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "slug": "three-little-pigs",
+  "name": "Three Little Pigs",
+  "category": "beasts",
+  "description": "The three little pigs are perfect examples of a rather unfortunate phenomenon. Leave even a kind-hearted, warm, naively benign creature to fend for itself, and it won't remain so benign for long.",
+  "story": "Why bother with brick? In this climate, even a straw house's nice and cozy. — a little pig",
+  "lore": "The three little pigs from the Land of a Thousand Fables were left for years without Artorius Vigo's supervision. During this time they went completely feral, transforming into three wild boars which attacked anyone who dared approach their ruined home. In combat, the Pigs behave very similarly to wild boars, trying to knock down their opponents by using harging attacks, which can be avoided by dodging or rolling out of the way. Despite their magical nature, the Pigs are vulnerable to steel coated in beast oil.",
+  "weaknesses": [
+    "Beast Oil"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Igni",
+    "Axii"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests, fields, and the margins of settled land"
+  ],
+  "loot": [
+    "Magic dust"
+  ],
+  "locations": [
+    "Land of a Thousand Fables"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/three-little-pigs.webp",
+  "gallery": [
+    "/monsters/three-little-pigs.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 14,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9923,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Land of a Thousand Fables",
+    "note": "Game reference cross-check; the trail is associated with Land of a Thousand Fables.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Three_Little_Pigs"
+  }
+}

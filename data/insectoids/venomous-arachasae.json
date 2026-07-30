@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "slug": "venomous-arachasae",
+  "name": "Venomous Arachasae",
+  "category": "insectoids",
+  "description": "Though all Arachasae are highly venomous, this breed produces an especially strong toxin. A few drops are enough to kill a grown man - unless that man is a witcher, whose mutations will neutralize small amounts of this venom. Large quantities however, will kill anything they touch, with mutations only prolonging an inevitable and painful death in such instances.",
+  "story": "Barley nicked me, I'll be fine.— Last words of an unknown hunter",
+  "lore": "Venomous Arachasae produce colossal amounts of this toxin and deploy it during combat in many ways. Before striking, a venomous Arachas will cover its pincers and teeth with a thick coating of the deadly liquid. It will then squirt the venom at its opponent to weaken it, and once locked in direct combat, will continue spraying the noxious ooze all around itself, meaning every breath brings its victim closer to death. Like other members of this species, venomous Arachasae use prehensile feelers to grab and immobilize their prey. When attempting to fight such a creature it is highly encouraged to attack from a safe distance with crossbow or bombs before dealing the finishing blows with a silver sword enhanced with a coating of insectoid oil.",
+  "weaknesses": [
+    "Golden Oriole",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, forests, marshes, and underground colonies"
+  ],
+  "loot": [
+    "Arachas eyes",
+    "Arachas mutagen",
+    "Arachas venom",
+    "Chitinous shell",
+    "Lesser blue mutagen",
+    "Lesser green mutagen",
+    "Lesser red mutagen",
+    "Monster heart",
+    "Monster saliva"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/venomous-arachasae.webp",
+  "gallery": [
+    "/monsters/venomous-arachasae.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 72,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9935,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Venomous_arachas"
+  }
+}

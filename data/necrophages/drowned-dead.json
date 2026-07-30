@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "slug": "drowned-dead",
+  "name": "Drowned Dead",
+  "category": "necrophages",
+  "description": "Drowned dead are larger, stronger drowner variants that stalk riverbanks and lakeshores among packs of their lesser kin.",
+  "story": "Simple folk see no difference between a drowner and the drowned dead. At close range, the difference becomes fatal.",
+  "lore": "These post-Conjunction predators are not drowned humans returned from the grave. They are fast, poison-resistant pack hunters adapted to filthy water, and the most robust among them often drives the entire group into an attack.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Igni"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Riverbanks",
+    "Lakeshores",
+    "Marshes"
+  ],
+  "loot": [
+    "Water essence",
+    "Lesser mutagen",
+    "Drowner brain",
+    "Drowner tongue"
+  ],
+  "locations": [
+    "Velen",
+    "Novigrad",
+    "Skellige",
+    "Kaer Morhen valley"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/drowned-dead.webp",
+  "gallery": [
+    "/monsters/drowned-dead.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Wild Hunt bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "journal",
+    "loot": "journal",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Novigrad, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Novigrad, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Drowned_dead"
+  }
+}

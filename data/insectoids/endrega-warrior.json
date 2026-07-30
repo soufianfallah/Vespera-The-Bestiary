@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "endrega-warrior",
+  "name": "Endrega Warrior",
+  "category": "insectoids",
+  "description": "Endless waves of Endrega workers are enough to overcome most attackers, but when confronting more dangerous foes, Endrega colonies unleash their larger, stronger members — the so-called warriors. This caste lives only to fight, and gets ample opportunity to do so while defending the colony's borders or conquering new territory. An Endrega warrior's main weapon is its long tail, which is tipped with a club-like growth and spiked with venomous quils. Powerful abdominal muscles allow it to swing this tail with enough force to kill most lesser opponents in one blow. Endrega warriors also use their mass and strength as a weapon by charging their opponents in an attempted to knock them over.",
+  "story": "Scared of these endregas, are you? Just wait till you see the warriors.— Klaus Altman, forester",
+  "lore": "As invertebrates with sectioned carapaces, Endrega warriors do not bleed profusely, yet recoil in great pain when hit with a blade coated in insectoid oil.",
+  "weaknesses": [
+    "Bleeding",
+    "Golden Oriole",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Forests"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/endrega-warrior.webp",
+  "gallery": [
+    "/monsters/endrega-warrior.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 65,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9909,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "game-reference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Endrega"
+  }
+}

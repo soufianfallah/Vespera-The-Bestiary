@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "slug": "ekhidna",
+  "name": "Ekhidna",
+  "category": "hybrids",
+  "description": "Ekhidnae are larger and stronger cousins of sirens. They haunt open water and rocky shores, attacking from the air or surging from beneath the surface with hooked claws.",
+  "story": "On Skellige, calm water is no promise of safe passage.",
+  "lore": "More human in aspect than common sirens and especially active during rain, ekhidnae turn shorelines into hunting grounds. A crossbow can force one from the sky, but a grounded ekhidna remains fast, strong and vicious.",
+  "weaknesses": [
+    "Grapeshot",
+    "Hybrid Oil",
+    "Igni",
+    "Aard"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Bodies of water",
+    "Rocky shorelines",
+    "Wetlands"
+  ],
+  "loot": [
+    "Ekhidna mutagen",
+    "Lock of lamia hair",
+    "Water essence",
+    "Sea shell"
+  ],
+  "locations": [
+    "Skellige",
+    "The Isle of Mists"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/ekhidna.webp",
+  "gallery": [
+    "/monsters/ekhidna.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Wild Hunt bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "journal",
+    "loot": "journal",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Skellige, The Isle of Mists",
+    "note": "Game reference cross-check; the trail is associated with Skellige, The Isle of Mists.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ekhidna"
+  }
+}

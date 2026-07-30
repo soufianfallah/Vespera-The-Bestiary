@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "slug": "arachasae-armored",
+  "name": "Arachasae Armored",
+  "category": "insectoids",
+  "description": "An Arachas' only weakness is its soft, sensitive abdomen. Some Arachasae hide this under hollow tree stumps, while other, \"armored\" varieties exist which have grown a thick carapace that covers all the more delicate parts of their bodies. An Armored Arachasae is a true behemoth. It uses its enormous mass to knock over and trample its victims then devours their crushed remains. Like all Arachasae, it is highly venomous, and thus Golden Oriole should always be consumed before fighting it.",
+  "story": "That's the kinda john we call an 'armored arachas.' Hard and prickly on the otuside, but get 'im undressed and everything's soft and squishy.— Foxy Lisa, Maribor prostitute",
+  "lore": "It is also worthwhile to stock up on healing potions and crossbow bolts before setting out, for this Arachas'thick plating can withstand a great deal of damage, making battles with it a long and exhausting affair.",
+  "weaknesses": [
+    "Golden Oriole",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, forests, marshes, and underground colonies"
+  ],
+  "loot": [
+    "Arachas eyes",
+    "Chitinous shell",
+    "Lesser blue mutagen",
+    "Lesser green mutagen",
+    "Lesser red mutagen",
+    "Monster heart",
+    "Monster saliva"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/arachasae-armored.webp",
+  "gallery": [
+    "/monsters/arachasae-armored.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 63,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9902,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Armored_arachas"
+  }
+}

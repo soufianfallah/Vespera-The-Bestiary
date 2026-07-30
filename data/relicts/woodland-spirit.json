@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "slug": "woodland-spirit",
+  "name": "Woodland Spirit",
+  "category": "relicts",
+  "description": "Some monsters are so powerful local populaces begin worshiping them as gods. Such was the case with the Leshen dwelling in the woods near the Skellige village of Fayrlund. The elders were absolutely convinced the monster watched over them by defending them from their enemies and training their hunters. This was doubtful, however. Leshens are mean, self-serving creatures - and the ancient one living in the woods near Fayrlund was surely no exception.",
+  "story": "We've offended him, Sven. The Woodland Spirit seeks revenge. This here is him saying we've strayed from the old paths. -Harald of Fayrlund",
+  "lore": "The Leshen known as the Woodland Spirit was so powerful as to have mastered the art of marking. This meant the monster had inserted his essence into one of the residents of Fayrlund. As long as this unfortunate soul remained alive and near the settlement, the Leshen would always be reborn near its lair. Yet even with the marked one eliminated, killing the Leshen would be no easy task. The monster commanded the obedience of the denizens of the woods - it could thus call on wolves, ravens or even the trees themselves for help.",
+  "weaknesses": [
+    "Relict Oil",
+    "Dimeritium Bomb"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Ancient leshen mutagen",
+    "Hardened timber",
+    "Infused shard",
+    "Fiber",
+    "Leshen resin",
+    "Leshen trophy",
+    "Monster bone",
+    "Powdered monster tissue"
+  ],
+  "locations": [
+    "Fayrlund"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/woodland-spirit.webp",
+  "gallery": [
+    "/monsters/woodland-spirit.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 123,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9883,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Fayrlund",
+    "note": "Game reference cross-check; the trail is associated with Fayrlund.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Woodland_Spirit"
+  }
+}

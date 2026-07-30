@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "slug": "alghoul",
+  "name": "Alghoul",
+  "category": "necrophages",
+  "description": "Alghouls differ from normal Ghouls in size, strength, coloring and, most importantly, intelligence. Ghouls are primitive creatures unfit to plan even the simplest ambush, they are however, capable of forethought, and are thus much more dangerous. Ghouls seem to possess wits enough to at least know a brighter mind when they see it, allowing Alghouls to lead their packs. A pack will terrorize all in its path, attacking not only lone travelers but also caravans and even farmsteads. When encountering such a pack the Alghoul should be eliminated as a first priority, leaving the other beasts for once their leader is gone. One must be particularly careful when fighting Alghouls around dusk and at night, as they fight with doubled strength.",
+  "story": "An alghoul's basically a badarse ghoul — Yarpen Zigrin, dwarven warrior",
+  "lore": "During combat, Alghouls try risky maneuvers aimed at knocking their opponents to the ground so the others can finish the job by tearing them to shreds. Like a normal Ghoul, an injured Alghoul can fall into a frenzy and attack with blind fury. An experienced Witcher knows to get out of its way on such occasions and strike from behind, while for an inexperienced Witcher, such a turn of events often marks the end of his Path.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Axii"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Axii"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields and any location where a large number of corpses can be found in shallow graves or left out to rot."
+  ],
+  "loot": [
+    "Alghoul bone marrow",
+    "Alghoul claw",
+    "Lesser blue mutagen",
+    "Lesser green mutagen",
+    "Lesser red mutagen",
+    "Monster blood",
+    "Monster brain",
+    "Monster ear",
+    "Monster eye",
+    "Monster heart",
+    "Monster hide",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Rotting flesh",
+    "A bestiary entry can be obtained by reading Ghouls and Alghouls.",
+    "=== Bestiary entry ===",
+    "An alghoul's basically a badarse ghoul",
+    "– Yarpen Zigrin, dwarven warrior",
+    "Alghouls differ from normal ghouls in size, strength, coloring and, most importantly, intelligence. Whereas ghouls and graveirs are primitive creatures unfit to plan even the simplest ambush, alghouls and their kindred (such as cemetaurs) are capable of forethought, and are thus much more dangerous.",
+    "Ghouls seem to possess wits enough to at least know a brighter mind when they see it, and so let alghouls and cemetaurs lead their packs. A pack so led will terrorize all in its path, attacking not only lone travelers but also caravans and even farmsteads. When encountering such a pack the alghoul should be eliminated as a first priority, leaving the other beasts for once their leader is gone. One be particularly careful when fighting alghouls around dusk and at night, when they fight with doubled strength.",
+    "During combat alghouls and cemetaurs try risky maneuvers aimed at knocking their opponents to the ground so the others can finish the job by tearing them to shreds. Like a normal ghoul, an injured alghoul can fall into a frenzy and attack with blind fury. An experienced witcher knows to get out of its way on such occasions and strike from behind, while for an inexperienced witcher, such a turn of events often marks the end of his Path.",
+    "=== Combat tactics ===",
+    "left|thumb|221x221px",
+    "Alghouls are smarter and more powerful than ghouls, making them the greatest threat in a ghoul pack. An otherwise coordinated pack becomes less so once the alghoul has been dealt with. Axii forces the spines on an alghoul to retract after a few seconds, with the added benefit of temporarily stunning the creature.",
+    "An alghoul can emit a piercing scream to stun nearby victims, as well as send nearby ghouls into a raging frenzy. When enraged, an alghoul grows spines on its back. This makes attacking it a very dangerous proposition, as the spines are harmful if you use melee attacks.",
+    "=== Associated quests ===",
+    "{{Cols|num=2",
+    "Contract: Woodland Beast",
+    "For Fame and Glory",
+    "Looters (2nd group)",
+    "The Tower Outta Nowheres",
+    "Practicum in Advanced Alchemy",
+    "Contract: The Mystery of the Byways Murders",
+    "Contract: The Beast of Honorton",
+    "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 1",
+    "Where the Cat and Wolf Play...",
+    "Contract: Bovine Blues",
+    "Vintner's Contract: Rivecalme Storehouse"
+  ],
+  "locations": [
+    "White Orchard",
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/alghoul.webp",
+  "gallery": [
+    "/monsters/alghoul.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 74,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9938,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "game-reference",
+    "loot": "game-reference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "White Orchard, Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with White Orchard, Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Alghoul"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "dettlaff-van-der-eretein",
+  "name": "Dettlaff van der Eretein",
+  "category": "vampires",
+  "description": "Dettlaff van der Eretein, the Beast of Beauclair, is a true higher vampire whose speed, strength and fury place him among the most dangerous beings Geralt has ever faced.",
+  "story": "If you acknowledge any gods, begin praying before the Beast changes shape.",
+  "lore": "Dettlaff can pass for human, dissolve into fog, turn invisible and assume a winged bestial form. His claws can shear bone, his bat swarms strike like living weapons and his blood magic reshapes the battlefield. Like all true higher vampires, he cannot be permanently killed by ordinary means; only another higher vampire can end him for good.",
+  "weaknesses": [
+    "Vampire Oil",
+    "Black Blood",
+    "Quen"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver, though only a higher vampire can kill him permanently",
+  "habitat": [
+    "Human settlements while disguised",
+    "Remote vampire lairs"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Beauclair",
+    "Tesham Mutna",
+    "Toussaint"
+  ],
+  "dangerLevel": "Cataclysmic",
+  "portrait": "/monsters/dettlaff-van-der-eretein.webp",
+  "gallery": [
+    "/monsters/dettlaff-van-der-eretein.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Blood and Wine bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "journal",
+    "loot": "witcher-inference",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Beauclair, Tesham Mutna, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Beauclair, Tesham Mutna, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Dettlaff_van_der_Eretein"
+  }
+}

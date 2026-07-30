@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "slug": "slyzard-matriarch",
+  "name": "Slyzard Matriarch",
+  "category": "draconids",
+  "description": "Yet the experts (meaning Witchers) know Slyzards constitute an entirely seperate species, much smaller than Dragons and far less dangerous. With one exception...Slyzard females in mating season, or, even worse, just after laying their eggs.",
+  "story": "If you ever find yourself facing a monster that breathes fire, strikes with a tail tipped with venomous spines, bites with sharp teeth and swipes with even sharper claws and tends to knock its prey to the ground with a sonic blast, then you are fighting a Slyzard. With an asernal like that, it comes as no surprise folk often mistake these draconids for Dragons.",
+  "lore": "When fighing such individuals, the recommended method is to get as far as possible from the danger as quickly as possible, preferably by running, at full tlt, without looking back.",
+  "weaknesses": [
+    "Fire",
+    "Quen",
+    "Draconid Oil",
+    "Aard",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Quen",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Dahlia",
+    "Dragon scales",
+    "Greater Glyph of Igni",
+    "Greater red mutagen",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster stomach",
+    "Monster tongue",
+    "Monster tooth",
+    "Monster wing",
+    "Slyzard scale plate",
+    "Slyzard trophy"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/slyzard-matriarch.webp",
+  "gallery": [
+    "/monsters/slyzard-matriarch.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 34,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9895,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Slyzard_Matriarch"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "red-miasmal",
+  "name": "Red Miasmal",
+  "category": "specters",
+  "description": "A red miasmal is an evil force born from the concentrated suffering of plague victims. It possesses living bodies, corrupting each host until it must seek a stronger shell.",
+  "story": "The sealed caverns beneath Devil's Pit held pestilence with a will of its own.",
+  "lore": "Unlike a plague maiden, the miasmal was never human. Its attempt to claim a witcher's resilient body made Reinald an ideal prison and weapon. It can summon plague victims and must first be trapped with Yrden, then driven from its host with Aard before it can be defeated.",
+  "weaknesses": [
+    "Reinald's Philter",
+    "Yrden",
+    "Aard"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden",
+    "Aard"
+  ],
+  "swordType": "Silver after separation from its host",
+  "habitat": [
+    "Sealed plague caverns"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Devil's Pit",
+    "Velen"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/red-miasmal.webp",
+  "gallery": [
+    "/monsters/red-miasmal.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Wild Hunt Patch 4.0 bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "witcher-inference",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "journal",
+    "loot": "witcher-inference",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Devil's Pit, Velen",
+    "note": "Game reference cross-check; the trail is associated with Devil's Pit, Velen.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Red_Miasmal"
+  }
+}

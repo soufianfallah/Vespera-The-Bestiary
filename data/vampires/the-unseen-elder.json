@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-unseen-elder",
+  "name": "The Unseen Elder",
+  "category": "vampires",
+  "description": "An ancient higher vampire of Toussaint, the Unseen Elder is a figure of absolute authority among his kind. He guards a dormant gate between the human world and the realm from which the vampires came during the Conjunction of the Spheres. He values silence and isolation above all things, and even other higher vampires approach his cave only in the gravest circumstances.",
+  "story": "The gate must remain secure. Those who enter the Elder's domain without a compelling purpose are unlikely to leave it alive.",
+  "lore": "The Unseen Elder's true name is unknown. Age has made him vastly more powerful than ordinary higher vampires: he can cross a chamber faster than a witcher's senses can follow, immobilize another higher vampire with a word, and summon the vampires of the region to obey his command. His gaunt appearance disguises immense strength and speed. The bestiary's Protofleder entry notes that protofleders have spent their entire existence in this world inside his cave, whose atmosphere resembles that of the higher vampires' home world.",
+  "weaknesses": [
+    "No conventional weakness"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden",
+    "Igni"
+  ],
+  "swordType": "None — ordinary weapons cannot permanently kill a true higher vampire",
+  "habitat": [
+    "The Unseen Elder's cave beneath Toussaint"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Hen Gàidh",
+    "Gorgon Foothills",
+    "Toussaint"
+  ],
+  "dangerLevel": "Cataclysmic",
+  "portrait": "/monsters/the-unseen-elder.webp",
+  "gallery": [
+    "/monsters/the-unseen-elder.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 156,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9916,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "witcher-inference",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "journal",
+    "loot": "witcher-inference",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Hen Gàidh, Gorgon Foothills, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Hen Gàidh, Gorgon Foothills, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Unseen_Elder"
+  }
+}

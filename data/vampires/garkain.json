@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "slug": "garkain",
+  "name": "Garkain",
+  "category": "vampires",
+  "description": "Garkains belong to the class of particularly dangerous vampires whose strength exceeds even that of Fiends. An encounter with one of their number almost always ends in death, which is why there are not many eye-witness accounts of them. From the city guard reports written up in Lan Exeter describing the attacks committed in that city by three garkains (later killed by a certain Olivier of Gulet, witcher), it seems these horrible monsters do not content themselves with drinking the blood of their victims. The investigators concluded from the blood and guts strewn around the crime scenes that Garkains tear their victims to shreds with great delight and muck about in their bloody entrails.",
+  "story": "Blood on the ceiling, guts on the walls.. Must be a garkain.— Yan of Lan Exeter, investigator and Captain of the City Watch",
+  "lore": "Garkains belong to the group of creatures known as lesser vampires. They often gather around themselves members of other subspecies of lesser vampires, acting in such situations as leaders of the pack. They are by and large unable to run, but can jump a great distance and often attack their prey in that way. During combat, they usually keep their distance from their foes, trying to incapacitate them using a blast of mental energy provoking visions that beguile and disorient.",
+  "weaknesses": [
+    "Moon Dust",
+    "Vampire Oil",
+    "Samum",
+    "Black Blood"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust",
+    "Samum"
+  ],
+  "signs": [
+    "Yrden",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster ear",
+    "Monster eye",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster stomach",
+    "Monster tongue",
+    "Red mutagen",
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire saliva"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/garkain.webp",
+  "gallery": [
+    "/monsters/garkain.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 151,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9915,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Garkain"
+  }
+}

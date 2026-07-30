@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "lubberkin",
+  "name": "Lubberkin",
+  "category": "cursed",
+  "description": "A lubberkin is a peaceful guardian spirit created when a botchling is given a name through the elven Aymm Rhoin ritual and buried beneath its family's threshold.",
+  "story": "A curse answered with dignity can become a guide instead of a monster.",
+  "lore": "It retains the small, unsettling shape of a botchling, but is surrounded by a pale spectral glow and shows no hunger for the living. Bound to the hearth it never knew, a lubberkin watches over its family and can lead those it trusts along hidden trails.",
+  "weaknesses": [],
+  "oils": [
+    "Cursed Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Igni",
+    "Yrden"
+  ],
+  "swordType": "None — a benevolent spirit",
+  "habitat": [
+    "Beneath a family home's threshold",
+    "Near its family"
+  ],
+  "loot": [
+    "Cursed remains",
+    "Monster tissue",
+    "Mutagen"
+  ],
+  "locations": [
+    "Crow's Perch",
+    "Velen"
+  ],
+  "dangerLevel": "Harmless",
+  "portrait": "/monsters/lubberkin.webp",
+  "gallery": [
+    "/monsters/lubberkin.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Wild Hunt bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "witcher-inference",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "journal",
+    "loot": "witcher-inference",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Crow's Perch, Velen",
+    "note": "Game reference cross-check; the trail is associated with Crow's Perch, Velen.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Lubberkin"
+  }
+}

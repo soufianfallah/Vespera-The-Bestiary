@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "foglet",
+  "name": "Foglet",
+  "category": "necrophages",
+  "description": "Fog is the traveler's foe. In the forest, it can make one lose one's way, at sea, it can send one sailing into the rocks. Yet such dangers are nothing compared to the monsters known as foglets which sometimes lurk within it. These creatures have powerful arms and claws like Zerrikanian kinjals, yet what makes them truly dangerous is their mastery of deception, beguilement and disorientation.",
+  "story": "If night ever catches you in the swamps, stay put and wait for dawn, even if it means standing waist-deep in water with leeches crawling down your trousers. Most important of all, if you see a light in the fog, never, and 1 mean never, go towards it. —Johannes Strudd, guide",
+  "lore": "Many times they need not attack at all, instead simply driving their prey to madness or into boggy marshlands, after which they wait patiently for it to drown in the muddy waters. Foglets can also create illusions of themselves that can cause physical harm, while the real Foglet stalks the area. Damaging the illusions disrupts them, and can reveal the foglet's location",
+  "weaknesses": [
+    "Quen",
+    "Necrophage Oil",
+    "Dimeritium Bomb"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "White Orchard",
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/foglet.webp",
+  "gallery": [
+    "/monsters/foglet.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 76,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9924,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "White Orchard, Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with White Orchard, Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Foglet"
+  }
+}

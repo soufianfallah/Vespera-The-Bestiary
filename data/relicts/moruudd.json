@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "moruudd",
+  "name": "Moruudd",
+  "category": "relicts",
+  "description": "They say every journey made in the Skellige lsles ends in adventure. And sometimes, that adventure ends in death. Such was the case for a group of adventure-seeking Skelligers who set out in search of treasure in forgotten ruins - which turned out to lie in the hunting grounds of a powerful Fiend known as Morvudd.",
+  "story": "Ate only the entrails. Fussy.— Geralt of Rivia, witcher",
+  "lore": "A moment of carelessness and the beast could hypnotize him with its third eye, then tear him to shreds while he remained in a trance. Morvudd was a particularly large individual, so one could presume fast attacks would not prove effective against it - and that its blows would kill anyone not protected with heavy armor or the Quen Sign.",
+  "weaknesses": [
+    "Devil's Puffball",
+    "Relict Oil",
+    "Samum"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball",
+    "Samum"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Boxholm"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/moruudd.webp",
+  "gallery": [
+    "/monsters/moruudd.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 115,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.99,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Boxholm",
+    "note": "Game reference cross-check; the trail is associated with Boxholm.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Morvudd"
+  }
+}

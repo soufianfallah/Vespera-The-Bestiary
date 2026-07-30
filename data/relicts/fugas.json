@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "fugas",
+  "name": "Fugas",
+  "category": "relicts",
+  "description": "He in no way resembled Torque, the irritating but harmless \"deovel\" the Witcher, Geralt encountered many, many years prior. Fugas' size resembled that of a somewhat overgrown troll, and he likewise displayed a troll's lack of subtlety. There was not a jot of mischievous puck or cunning verbal trickster about this \"devil.\"",
+  "story": "The devil Fugas held a very prestigious and responsible position during the Crones' sabbath: that of goon restricting access to the peak of Bald Mountain.",
+  "lore": "Instead, he carried out his task with the commitment and professionalism of a Novigrad bouncer.",
+  "weaknesses": [
+    "Relict Oil"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/fugas.webp",
+  "gallery": [
+    "/monsters/fugas.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 107,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9913,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Fugas"
+  }
+}

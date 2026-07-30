@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "penitent",
+  "name": "Penitent",
+  "category": "specters",
+  "description": "It turned out the monster haunting the isle of Eldberg and its lighthouse was a rare type of specter known as a penitent. Wherever this Wraith haunts immediately becomes enveloped in thick fog and darkness - and those that wander into it usually never return. In order to defeat a penitent, one must remain in constant motion in order to avoid being struck by this agile creature, which can disappear and reappear in the blink of an eye to attack from behind.",
+  "story": "1 run back inside, hasp the doors, and then 1 hear it — someone whispering my name. Mikkjaaal, Mikkjaaal! - Mikkjal, Eldberg lighthouse keeper",
+  "lore": "Most importantly of all, however, one must discover what keeps they monster bound to its haunting grounds - and break that bond as soon as possible.",
+  "weaknesses": [
+    "Aard",
+    "Specter Oil",
+    "Quen",
+    "Yrden"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Aard",
+    "Quen",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Eldberg Lighthouse"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/penitent.webp",
+  "gallery": [
+    "/monsters/penitent.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 136,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.99,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Eldberg Lighthouse",
+    "note": "Game reference cross-check; the trail is associated with Eldberg Lighthouse.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Penitent"
+  }
+}

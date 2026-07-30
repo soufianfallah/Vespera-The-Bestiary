@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "slug": "fire-elemental",
+  "name": "Fire Elemental",
+  "category": "elementa",
+  "description": "Fire is the most destructive of the elements, thus the aggressive lethality of the creature that embodies its essence should come as no surprise. Fire Elementals are forged in complicated magic rituals for one purpose...destruction. And they pursue this with murderous determination.",
+  "story": "The first fire elemental was created by Ransant Alvaro. Sadly, flames engulfed his entire laboratory, burning it - along with every other building on his block - to ash. — Tarvix Sandoval, \"Origins of Magic Arcana\"",
+  "lore": "This Elemental attacks using fireballs and streams of flame which reduce anything in their path to ashes in the blink of an eye. Like Golems and other Elementals, poison does not touch it nor does it bleed. Fire-based spells not only do no harm but in fact strengthen it - therefore one should by no means think of striking it with lgni. Though vulnerable to silver blades, getting within sword's reach of one is dangerous due to the furnace-like heart they emanate. When fighting a fire elemental one should thus strike from a distance, using frost-spewing and dimeritium bombs, for they will do it the most damage.",
+  "weaknesses": [
+    "Fire",
+    "Poison",
+    "Bleeding",
+    "Dimeritium Bomb",
+    "Elementa Oil",
+    "Aard",
+    "Northern Wind"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb",
+    "Northern Wind"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Found in magical ruins"
+  ],
+  "loot": [
+    "Elemental stone",
+    "Amethyst dust",
+    "Diamond dust",
+    "Red meteorite ore",
+    "Yellow meteorite ore",
+    "Blue meteorite ore",
+    "Elemental trophy"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Kaer Morhen"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/fire-elemental.webp",
+  "gallery": [
+    "/monsters/fire-elemental.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 40,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9921,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "game-reference",
+    "loot": "game-reference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Kaer Morhen",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Kaer Morhen.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Fire_Elemental"
+  }
+}

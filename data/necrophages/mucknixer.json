@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "slug": "mucknixer",
+  "name": "Mucknixer",
+  "category": "necrophages",
+  "description": "They are different from their brothers in look. It is commonly thought that these creatures arise from the bodies of those who drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore.",
+  "story": "Mucknixer is the name given by humans to a dangerous species of drowner and drowned dead.",
+  "lore": "This opinion is as widespread as it is false, for the beasts are in fact another post-Conjunction relic.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Igni"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Drowner brain",
+    "Drowner tongue",
+    "Monster blood",
+    "Monster bone",
+    "Monster heart",
+    "Monster claw",
+    "Monster ear",
+    "Monster eye",
+    "Monster hair",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tooth"
+  ],
+  "locations": [
+    "Velen",
+    "Novigrad",
+    "Skellige"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/mucknixer.webp",
+  "gallery": [
+    "/monsters/mucknixer.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 82,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9948,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Novigrad, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Novigrad, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Mucknixer"
+  }
+}

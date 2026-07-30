@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "melusine",
+  "name": "Melusine",
+  "category": "hybrids",
+  "description": "In the mountains near the village of Svorlag in Skellige lies an enormous complex of caves. For many centuries they were given wide berth on account of the bloodthirsty Ekhidna known as Melusine who had made them into her lair. Melusine was a beast so powerful some islanders worshiped her as a semi-divine being. It is presumed that a cult once worshipped Melusine as evidenced by the large winged statue located in the caves beneath the mountains which she inhabits.",
+  "story": "1... saw a shadow.. Great wings, like a cloud passin' o'er the sky. Then 1 heard him scream. — Britt f Svorlag",
+  "lore": "According to folklore, Melusine is a feminine spirit of fresh water. Often depicted as half-woman and half-serpent or -fish, similar to a mermaid.",
+  "weaknesses": [
+    "Aard",
+    "Grapeshot",
+    "Igni",
+    "Hybrid Oil"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Coasts, cliffs, mountains, and isolated ruins"
+  ],
+  "loot": [
+    "Monster feathers",
+    "Monster egg",
+    "Hybrid tissue"
+  ],
+  "locations": [
+    "Spikeroog"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/melusine.webp",
+  "gallery": [
+    "/monsters/melusine.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 55,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9913,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Spikeroog",
+    "note": "Game reference cross-check; the trail is associated with Spikeroog.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Melusine"
+  }
+}

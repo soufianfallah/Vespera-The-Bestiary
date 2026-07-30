@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-caretaker",
+  "name": "The Caretaker",
+  "category": "relicts",
+  "description": "The Caretaker served with the indifference of a golem, and proved as fierce in battle as it was diligent in its labors. It felt no pain - in fact, each blow it received seemed to give it strength. What is more, the Caretaker was able to summon powerful spirits from the graves it had dug and could heal itself by absorbing them. The being known as the Caretaker had been summoned to the von Everec estate from another realm, making \"demon\" its most accurate designation. The Caretaker had been forced into servitude by magic.",
+  "story": "There are more things in heaven and earth than are dreamt of in philosophy. - Bartolomeo Darez, after trying to contact creatures from another plane and landing in an insane asylum.",
+  "lore": "Its tasks - to care for the house and protect it from intruders. It performed these pedantically, tending the flowers, repairing the fences, tidying the yard... and murdering all iantruders who set foot on the grounds, then burying their corpses in neat rows on untended land just beyond the manor garden's bounds.",
+  "weaknesses": [
+    "Quen",
+    "Relict Oil"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "The Caretaker's spade"
+  ],
+  "locations": [
+    "von Everec Estate"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/the-caretaker.webp",
+  "gallery": [
+    "/monsters/the-caretaker.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 120,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9924,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "von Everec Estate",
+    "note": "Game reference cross-check; the trail is associated with von Everec Estate.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Caretaker"
+  }
+}

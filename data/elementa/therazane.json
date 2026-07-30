@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "slug": "therazane",
+  "name": "Therazane",
+  "category": "elementa",
+  "description": "There's no such thing as a risk-free real estate investment. It might turn out your new home has a leaky roof, structural rot in the attic, a scratched floor in the living room...or elven ruins beneath its foundations, and within them an enormous Earth Elemental just waiting for a chance to break free of its chains. Fighting such a monster is no easy task. Its tough outer husk deflects all but the strongest blows. It can liquefy a man's bones with one crushing blow from its fists - thus, one should never near it without first casting the Quen Sign.",
+  "story": "1 do not believe in ghosts - it is that simple. But my men say the house shakes at night, walls crumble, why, even the floors move about...— Kurt Dysart, Count of Anchor",
+  "lore": "One should have the Yrden Sign at the ready as well, whereas the other signs - lgni, Aard and Axii - are completely ineffective against it.",
+  "weaknesses": [
+    "Dimeritium Bomb",
+    "Elementa Oil"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Aard",
+    "Axii",
+    "Quen",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Cleaver hood",
+    "Earth elemental mutagen",
+    "Earth elemental trophy",
+    "Elemental essence",
+    "Fifth essence",
+    "Infused shard",
+    "Lesser Glyph of Quen",
+    "Monster claw",
+    "Monster eye",
+    "Powdered monster tissue"
+  ],
+  "locations": [
+    "Moldavie Residence"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/therazane.webp",
+  "gallery": [
+    "/monsters/therazane.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 49,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9902,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Moldavie Residence",
+    "note": "Game reference cross-check; the trail is associated with Moldavie Residence.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Therazane"
+  }
+}

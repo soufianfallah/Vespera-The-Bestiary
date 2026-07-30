@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "harrisi",
+  "name": "Harrisi",
+  "category": "insectoids",
+  "description": "Velen's woods and bogs brim with monsters. This fact is well known, and thus when the war drove refugees into this hostile land, certain of their number thought to avoid the dangers of the lowlands by hiding in an abandoned mine. They were in for an unfortunate surprise.",
+  "story": "It attacked us... Gods, 1 dunno what it were, but 'twere at least four spans high! -- Velen peasant woman",
+  "lore": "The shaft they chose for their sanctuary was inhabited by a poisonous arachas - a merciless and bloodthirsty monster. The Arachas had dwelled in the mine for years and had grown large and particularly strong and resilient in that time. Like other members of its vile species, it would be dangerous both at close quarters and at a distance.",
+  "weaknesses": [
+    "Golden Oriole",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, forests, marshes, and underground colonies"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/harrisi.webp",
+  "gallery": [
+    "/monsters/harrisi.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 69,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9898,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Harrisi"
+  }
+}

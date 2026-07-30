@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "hym",
+  "name": "Hym",
+  "category": "specters",
+  "description": "Monsters most commonly claim innocents as theirvictims: tardy merchants, reckless children and travelers who wander into dark woodlands out of misplaced curiosity. None of the above need fear hyms, however. These wraiths only latch onto particularly despicable individuals who have committed some unspeakable crime. To all others, they remain completely invisible.",
+  "story": "Some men have got good reason to fear their own shadows. — Svargmitt, An Skellig druid",
+  "lore": "When they do show themselves to the one they torment, they appear as a tall, shadow-clad, humanoid silhouette with long, sharp claws. Yet hyms do not sink these claws into their victims. Instead, they sap their strength directly, through inflicting suffering. Speaking in a voice only the victim hears, they drive him to commit acts of violence, aggression and self-harm. A hym will seize on a guilty person's worst fears and weave out of them hideous visions, slowing driving the poor soul into madness. Those tormented by a hym are incapable of restful sleep, for they are tormented by ever-more-frequent, incredibly-realistic nightmares. At times the victim will become extremely on edge, yelling pleas or threats at invisible phantoms or confessing his guilt out loud in the hope this will end his torment. This act does not, however, bring any relief, for the hym will not leave until it has addled its victim's wits completely or driven him to suicide.",
+  "weaknesses": [
+    "Moon Dust",
+    "Specter Oil",
+    "Igni"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Spikeroog",
+    "Gaunter's world"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/hym.webp",
+  "gallery": [
+    "/monsters/hym.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 130,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9917,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Spikeroog, Gaunter's world",
+    "note": "Game reference cross-check; the trail is associated with Spikeroog, Gaunter's world.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Hym"
+  }
+}

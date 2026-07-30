@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "slug": "shaelmaar",
+  "name": "Shaelmaar",
+  "category": "relicts",
+  "description": "Shaelmaars spend most of their lives deep underground, having no contact with the world up above. At times, however, a Shaelmaar will dig its way to the surface and devour any men within its reach. Some Shaelmaars also burrow tunnels close to the surface, collapsing buildings and causing tremors in the process. Since Shaelmaars are blind, they find their way by sensing vibrations and listening for sounds. Thus the best tactic when fighting such a monster is to hurl something heavy or noisy against a nearby boulder or wall. Then pray silently that the beast will roll towards the sound and knock itself out upon striking into the obstacle. Clumsy Shaelmaars might seem easy targets to hit, but when even your strongest blows bounce off the thick armor plating their backs, you realize they've little need to dodge. When threatened, a Shaelmaar will curl up in a ball and roll forward with tremendous impetus, becoming an unstoppable force crushing everything in its path. A witcher's best bet is to stay out of a charging Shaelmaar's way and strike after its charge fails, revealing its vulnerable underbelly.",
+  "story": "The earth's innards are home to mighty strange and fearsome beasts. Were they ever to decide to ramble up to the surface, we'd all be gutted the very first day o' the invasion.— Ramus Vendenratz, Mahakam foreman.",
+  "lore": "",
+  "weaknesses": [
+    "Aard",
+    "Relict Oil",
+    "Samum"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Greater blue mutagen",
+    "Infused shard",
+    "Monster carapace",
+    "Monster brain",
+    "Monster bone",
+    "Monster hide",
+    "Monster liver",
+    "Monster stomach",
+    "Monster tooth",
+    "Powdered monster tissue",
+    "Shaelmaar dust",
+    "Shaelmaar hair"
+  ],
+  "locations": [
+    "Toussaint",
+    "Mahakam"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/shaelmaar.webp",
+  "gallery": [
+    "/monsters/shaelmaar.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 116,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9954,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint, Mahakam",
+    "note": "Game reference cross-check; the trail is associated with Toussaint, Mahakam.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Shaelmaar"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "slug": "grave-hag",
+  "name": "Grave Hag",
+  "category": "necrophages",
+  "description": "Few monsters' names fit as well as the Grave Hags'. As one might guess, these creatures resemble aged, deformed women and loiter near graveyards and battlefields. Grave hags feed on human corpses and in particular on the rotten marrow which they slurp from human bones using their long, prehensile tongues.",
+  "story": "Cremation, now that's one thing men could learn from gnomes. Burying bodies out in the fields, why, it's like laying out a welcome mat for monsters! Best case scenario, some ghouls will sniff them out, eat their fll and be on their ghoulish way. But if, gods forbid, a grave hag takes to feeding at your cemetery, you'll have no end of trouble. —Jacques de Villepin, Oxenfurt Academy",
+  "lore": "Once a hag has devoured all corpses within reach, she turns to killing men and burying them in the cemetery as she waits for them to decompose. They are territorial creatures. Their lairs resemble caricatures of human homes and are commonly built near burial sites.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Black Blood",
+    "Yrden",
+    "Quen"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Yrden",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "White Orchard",
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/grave-hag.webp",
+  "gallery": [
+    "/monsters/grave-hag.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 79,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9912,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "White Orchard, Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with White Orchard, Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Grave_Hag"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "mourntart",
+  "name": "Mourntart",
+  "category": "necrophages",
+  "description": "Most Grave Hags rarely attack humans, preferring instead to feed on the rotten remains they dig out of graves. Yet some individuals grow bold over the years and begin sneaking into huts to steal children and kill the elderly. Just such a monster was tormenting the inhabitants of Lindenvale. Be wary and watch out for her powerful claws, capable of smashing through any block or parry, and her long, venomous tongue.",
+  "story": "Somebody's doing some cookin.. Thi... t's a human femu...a child's. - Geralt of Rivia",
+  "lore": "Her attacks are so swift not even a Witcher's mutated reflexes would be able to keep pace - meaning only judicious use of the Yrden Sign would allow the foe to survive and conquer.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Yrden",
+    "Quen"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Yrden",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "Lindenvale"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/mourntart.webp",
+  "gallery": [
+    "/monsters/mourntart.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 81,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.982,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Lindenvale",
+    "note": "Game reference cross-check; the trail is associated with Lindenvale.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Mourntart"
+  }
+}

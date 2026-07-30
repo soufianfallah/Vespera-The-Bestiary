@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "slug": "wraith",
+  "name": "Wraith",
+  "category": "specters",
+  "description": "Clerics and scholars are forever debating whether spirits do in fact journey to another world after death, one where eternal joy or suffering awaits. Both groups agree, however, on what happens to spirits who, for one reason or another, remain in our world after their body breathes its last: they transform into Wraiths. To hear their mournful howls, one can surmise this is not a fate to be envied. Wraiths are usually encountered at night, near cemeteries, catacombs and other such burial places, or near the places that were important to them in life: abandoned homes, crumbling castles or forgotten bridges.",
+  "story": "Finish all your business before you die. Bid your loved ones farewell. Write your will. Apologize to those you've wronged. Otherwise, you'll never truly leave this world.— Paule Vikar, peasant healer, advice to a dying man",
+  "lore": "Wraiths sulffer endless, indescribable pain. Filled with anger and a sense of having been wronged, they both envy the living and brim with overwhelming hatred for them. Like other specters, they are immaterial, meaning they are not harmed by fire, poison or weapons designed to provoke bleeding. Wraiths are at times very difficult to wound. One can, however, force them to reassume a physical presence by trapping them with the Yrden Sign or by hitting them with slivers from a Moon Dust bomb. Note: Wraiths are particularly dangerous on moonless nights.",
+  "weaknesses": [
+    "Fire",
+    "Poison",
+    "Bleeding",
+    "Aard",
+    "Specter Oil",
+    "Quen",
+    "Yrden"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Aard",
+    "Quen",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of death",
+    "Amethyst dust",
+    "Diamond dust",
+    "Wraith trophy",
+    "Wraiths abound in the second installment of the game. They are first encountered in the burned down hospital in the forest outside of Flotsam. Many more can be found in and around Vergen. Specifically, in the dwarven catacombs and on the battlefield.",
+    "In addition to the standard wraith featured in the journal entry, other wraith variants include the Aedirnian/Kaedweni soldier wraiths found exclusively in Chapter 2 and the Nilfgaardian soldier wraith featured in the Chapter 1 quest In the Claws of Madness. Unlike traditional wraiths, the variants will flail around when set on fire affording Geralt temporary respite while they are out of action.",
+    "The Aedirnian/Kaedweni soldier wraith gives XP when killed up to level 23.",
+    "=== Journal entry ===",
+    "The wraiths are not, as some claim, a projection of an inner fear. They are visible, tangible and dangerous on top of that. The priests teach that people who die suddenly, leaving this vale of tears with important tasks left unfinished, become such ghosts. So wraiths have their own aims. Sometimes they are unaware of them, but more often they aim to achieve them, not caring for the living.",
+    "The wraiths are always connected to the sites of their demise. They may protect their former homes, or they may seek vengeance. One may even find small groups of the wandering damned in crypts and catacombs or on battlefields. It is not true that they only appear at night. I can confirm, however, that one cannot communication with them, and that they have no fear of man or monster.",
+    "Wraiths hover just above the ground, so they move very swiftly. One should strike at them strongly and make ample use of Signs. As immaterial beings, they can appear and disappear at will. If the witcher swings his sword too slowly, giving the ghosts time to react, he might find himself striking nothing but air and then sense a quick riposte on his back.",
+    "Wraiths do not bleed, and common poisons cannot harm them. They are, however, susceptible to fire and of course to silver. The best means of fighting a wraith is the so called Specter Oil, which should be used to coat a silver blade.",
+    "== ==",
+    "{{Infobox Bestiary"
+  ],
+  "locations": [
+    "Everywhere"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/wraith.webp",
+  "gallery": [
+    "/monsters/wraith.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 142,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9909,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Everywhere",
+    "note": "Game reference cross-check; the trail is associated with Everywhere.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Wraith"
+  }
+}

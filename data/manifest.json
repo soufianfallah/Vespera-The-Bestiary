@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-28T13:06:28.783353+00:00",
+  "count": 136,
+  "categories": {
+    "beasts": 8,
+    "cursed": 7,
+    "draconids": 10,
+    "elementa": 11,
+    "hybrids": 9,
+    "insectoids": 13,
+    "necrophages": 16,
+    "ogroids": 9,
+    "relicts": 20,
+    "specters": 18,
+    "vampires": 15
+  },
+  "monsters": [
+    {
+      "name": "Bear",
+      "slug": "bear",
+      "category": "beasts",
+      "page": 7
+    },
+    {
+      "name": "Big Bad Wolf",
+      "slug": "big-bad-wolf",
+      "category": "beasts",
+      "page": 9
+    },
+    {
+      "name": "Dogs",
+      "slug": "dogs",
+      "category": "beasts",
+      "page": 10
+    },
+    {
+      "name": "Panther",
+      "slug": "panther",
+      "category": "beasts",
+      "page": 11
+    },
+    {
+      "name": "Three Little Pigs",
+      "slug": "three-little-pigs",
+      "category": "beasts",
+      "page": 14
+    },
+    {
+      "name": "Wild Boar",
+      "slug": "wild-boar",
+      "category": "beasts",
+      "page": 15
+    },
+    {
+      "name": "Wolves",
+      "slug": "wolves",
+      "category": "beasts",
+      "page": 17
+    },
+    {
+      "name": "Archespore",
+      "slug": "archespore",
+      "category": "cursed",
+      "page": 18
+    },
+    {
+      "name": "Berserkers",
+      "slug": "berserkers",
+      "category": "cursed",
+      "page": 19
+    },
+    {
+      "name": "Botchling",
+      "slug": "botchling",
+      "category": "cursed",
+      "page": 20
+    },
+    {
+      "name": "The Toad Prince",
+      "slug": "the-toad-prince",
+      "category": "cursed",
+      "page": 23
+    },
+    {
+      "name": "Ulfhedinn",
+      "slug": "ulfhedinn",
+      "category": "cursed",
+      "page": 24
+    },
+    {
+      "name": "Werewolf",
+      "slug": "werewolf",
+      "category": "cursed",
+      "page": 25
+    },
+    {
+      "name": "Basilisk",
+      "slug": "basilisk",
+      "category": "draconids",
+      "page": 26
+    },
+    {
+      "name": "Cockatrice",
+      "slug": "cockatrice",
+      "category": "draconids",
+      "page": 27
+    },
+    {
+      "name": "Forktail",
+      "slug": "forktail",
+      "category": "draconids",
+      "page": 28
+    },
+    {
+      "name": "Royal Wyvern",
+      "slug": "royal-wyvern",
+      "category": "draconids",
+      "page": 29
+    },
+    {
+      "name": "Shrieker",
+      "slug": "shrieker",
+      "category": "draconids",
+      "page": 30
+    },
+    {
+      "name": "Silver Basilisk",
+      "slug": "silver-basilisk",
+      "category": "draconids",
+      "page": 31
+    },
+    {
+      "name": "Slyzard",
+      "slug": "slyzard",
+      "category": "draconids",
+      "page": 32
+    },
+    {
+      "name": "Slyzard Matriarch",
+      "slug": "slyzard-matriarch",
+      "category": "draconids",
+      "page": 34
+    },
+    {
+      "name": "The Dragon of Fyresdal",
+      "slug": "the-dragon-of-fyresdal",
+      "category": "draconids",
+      "page": 35
+    },
+    {
+      "name": "Wyvern",
+      "slug": "wyvern",
+      "category": "draconids",
+      "page": 36
+    },
+    {
+      "name": "Djinn",
+      "slug": "djinn",
+      "category": "elementa",
+      "page": 38
+    },
+    {
+      "name": "Earth Elemental",
+      "slug": "earth-elemental",
+      "category": "elementa",
+      "page": 39
+    },
+    {
+      "name": "Fire Elemental",
+      "slug": "fire-elemental",
+      "category": "elementa",
+      "page": 40
+    },
+    {
+      "name": "Gargoyle",
+      "slug": "gargoyle",
+      "category": "elementa",
+      "page": 41
+    },
+    {
+      "name": "Golem",
+      "slug": "golem",
+      "category": "elementa",
+      "page": 42
+    },
+    {
+      "name": "Hound Of The Wild Hunt",
+      "slug": "hound-of-the-wild-hunt",
+      "category": "elementa",
+      "page": 44
+    },
+    {
+      "name": "Ice Elemental",
+      "slug": "ice-elemental",
+      "category": "elementa",
+      "page": 45
+    },
+    {
+      "name": "Moreau's Golem",
+      "slug": "moreau-s-golem",
+      "category": "elementa",
+      "page": 46
+    },
+    {
+      "name": "Pixies",
+      "slug": "pixies",
+      "category": "elementa",
+      "page": 47
+    },
+    {
+      "name": "The Apiarian Phantom",
+      "slug": "the-apiarian-phantom",
+      "category": "elementa",
+      "page": 48
+    },
+    {
+      "name": "Therazane",
+      "slug": "therazane",
+      "category": "elementa",
+      "page": 49
+    },
+    {
+      "name": "Erynia",
+      "slug": "erynia",
+      "category": "hybrids",
+      "page": 50
+    },
+    {
+      "name": "Griffin",
+      "slug": "griffin",
+      "category": "hybrids",
+      "page": 51
+    },
+    {
+      "name": "Harpy",
+      "slug": "harpy",
+      "category": "hybrids",
+      "page": 53
+    },
+    {
+      "name": "Melusine",
+      "slug": "melusine",
+      "category": "hybrids",
+      "page": 55
+    },
+    {
+      "name": "Opinicus",
+      "slug": "opinicus",
+      "category": "hybrids",
+      "page": 56
+    },
+    {
+      "name": "Salma",
+      "slug": "salma",
+      "category": "hybrids",
+      "page": 57
+    },
+    {
+      "name": "Siren",
+      "slug": "siren",
+      "category": "hybrids",
+      "page": 58
+    },
+    {
+      "name": "Succubus",
+      "slug": "succubus",
+      "category": "hybrids",
+      "page": 59
+    },
+    {
+      "name": "Arachasae",
+      "slug": "arachasae",
+      "category": "insectoids",
+      "page": 61
+    },
+    {
+      "name": "Arachnomorph",
+      "slug": "arachnomorph",
+      "category": "insectoids",
+      "page": 62
+    },
+    {
+      "name": "Arachasae Armored",
+      "slug": "arachasae-armored",
+      "category": "insectoids",
+      "page": 63
+    },
+    {
+      "name": "Endrega Drone",
+      "slug": "endrega-drone",
+      "category": "insectoids",
+      "page": 64
+    },
+    {
+      "name": "Endrega Warrior",
+      "slug": "endrega-warrior",
+      "category": "insectoids",
+      "page": 65
+    },
+    {
+      "name": "Endrega Worker",
+      "slug": "endrega-worker",
+      "category": "insectoids",
+      "page": 66
+    },
+    {
+      "name": "Giant Centipede",
+      "slug": "giant-centipede",
+      "category": "insectoids",
+      "page": 68
+    },
+    {
+      "name": "Harrisi",
+      "slug": "harrisi",
+      "category": "insectoids",
+      "page": 69
+    },
+    {
+      "name": "Kikimore Worker",
+      "slug": "kikimore-worker",
+      "category": "insectoids",
+      "page": 70
+    },
+    {
+      "name": "Pale Widow",
+      "slug": "pale-widow",
+      "category": "insectoids",
+      "page": 71
+    },
+    {
+      "name": "Venomous Arachasae",
+      "slug": "venomous-arachasae",
+      "category": "insectoids",
+      "page": 72
+    },
+    {
+      "name": "Abaya",
+      "slug": "abaya",
+      "category": "necrophages",
+      "page": 73
+    },
+    {
+      "name": "Alghoul",
+      "slug": "alghoul",
+      "category": "necrophages",
+      "page": 74
+    },
+    {
+      "name": "Drowner",
+      "slug": "drowner",
+      "category": "necrophages",
+      "page": 75
+    },
+    {
+      "name": "Foglet",
+      "slug": "foglet",
+      "category": "necrophages",
+      "page": 76
+    },
+    {
+      "name": "Ghoul",
+      "slug": "ghoul",
+      "category": "necrophages",
+      "page": 78
+    },
+    {
+      "name": "Grave Hag",
+      "slug": "grave-hag",
+      "category": "necrophages",
+      "page": 79
+    },
+    {
+      "name": "Ignis Fatuus",
+      "slug": "ignis-fatuus",
+      "category": "necrophages",
+      "page": 80
+    },
+    {
+      "name": "Mourntart",
+      "slug": "mourntart",
+      "category": "necrophages",
+      "page": 81
+    },
+    {
+      "name": "Mucknixer",
+      "slug": "mucknixer",
+      "category": "necrophages",
+      "page": 82
+    },
+    {
+      "name": "Rotfiend",
+      "slug": "rotfiend",
+      "category": "necrophages",
+      "page": 83
+    },
+    {
+      "name": "Scurver",
+      "slug": "scurver",
+      "category": "necrophages",
+      "page": 84
+    },
+    {
+      "name": "Spotted Wight",
+      "slug": "spotted-wight",
+      "category": "necrophages",
+      "page": 85
+    },
+    {
+      "name": "Water Hag",
+      "slug": "water-hag",
+      "category": "necrophages",
+      "page": 86
+    },
+    {
+      "name": "Wight",
+      "slug": "wight",
+      "category": "necrophages",
+      "page": 88
+    },
+    {
+      "name": "Cloud Giant",
+      "slug": "cloud-giant",
+      "category": "ogroids",
+      "page": 89
+    },
+    {
+      "name": "Cyclops",
+      "slug": "cyclops",
+      "category": "ogroids",
+      "page": 90
+    },
+    {
+      "name": "Golyat",
+      "slug": "golyat",
+      "category": "ogroids",
+      "page": 92
+    },
+    {
+      "name": "Hagubman",
+      "slug": "hagubman",
+      "category": "ogroids",
+      "page": 95
+    },
+    {
+      "name": "Ice Giant",
+      "slug": "ice-giant",
+      "category": "ogroids",
+      "page": 96
+    },
+    {
+      "name": "Ice Troll",
+      "slug": "ice-troll",
+      "category": "ogroids",
+      "page": 98
+    },
+    {
+      "name": "Nekker",
+      "slug": "nekker",
+      "category": "ogroids",
+      "page": 99
+    },
+    {
+      "name": "Rock Troll",
+      "slug": "rock-troll",
+      "category": "ogroids",
+      "page": 100
+    },
+    {
+      "name": "Wham-A-Wham",
+      "slug": "wham-a-wham",
+      "category": "ogroids",
+      "page": 101
+    },
+    {
+      "name": "Chort",
+      "slug": "chort",
+      "category": "relicts",
+      "page": 102
+    },
+    {
+      "name": "Ladies of the Wood",
+      "slug": "ladies-of-the-wood",
+      "category": "relicts",
+      "page": 103
+    },
+    {
+      "name": "Doppler",
+      "slug": "doppler",
+      "category": "relicts",
+      "page": 105
+    },
+    {
+      "name": "Fiend",
+      "slug": "fiend",
+      "category": "relicts",
+      "page": 106
+    },
+    {
+      "name": "Fugas",
+      "slug": "fugas",
+      "category": "relicts",
+      "page": 107
+    },
+    {
+      "name": "Godling",
+      "slug": "godling",
+      "category": "relicts",
+      "page": 108
+    },
+    {
+      "name": "Grottore",
+      "slug": "grottore",
+      "category": "relicts",
+      "page": 109
+    },
+    {
+      "name": "Howler",
+      "slug": "howler",
+      "category": "relicts",
+      "page": 110
+    },
+    {
+      "name": "Imp",
+      "slug": "imp",
+      "category": "relicts",
+      "page": 111
+    },
+    {
+      "name": "Kernun",
+      "slug": "kernun",
+      "category": "relicts",
+      "page": 112
+    },
+    {
+      "name": "Leshen",
+      "slug": "leshen",
+      "category": "relicts",
+      "page": 113
+    },
+    {
+      "name": "Moruudd",
+      "slug": "moruudd",
+      "category": "relicts",
+      "page": 115
+    },
+    {
+      "name": "Shaelmaar",
+      "slug": "shaelmaar",
+      "category": "relicts",
+      "page": 116
+    },
+    {
+      "name": "Shaelmaar from the Emperor of Nilfgaard",
+      "slug": "shaelmaar-from-the-emperor-of-nilfgaard",
+      "category": "relicts",
+      "page": 117
+    },
+    {
+      "name": "Spriggan",
+      "slug": "spriggan",
+      "category": "relicts",
+      "page": 118
+    },
+    {
+      "name": "Sylvan",
+      "slug": "sylvan",
+      "category": "relicts",
+      "page": 119
+    },
+    {
+      "name": "The Caretaker",
+      "slug": "the-caretaker",
+      "category": "relicts",
+      "page": 120
+    },
+    {
+      "name": "The Monster of Tufo",
+      "slug": "the-monster-of-tufo",
+      "category": "relicts",
+      "page": 121
+    },
+    {
+      "name": "Wicked Witch",
+      "slug": "wicked-witch",
+      "category": "relicts",
+      "page": 122
+    },
+    {
+      "name": "Woodland Spirit",
+      "slug": "woodland-spirit",
+      "category": "relicts",
+      "page": 123
+    },
+    {
+      "name": "Barghest",
+      "slug": "barghest",
+      "category": "specters",
+      "page": 124
+    },
+    {
+      "name": "Beann'Shies",
+      "slug": "beann-shies",
+      "category": "specters",
+      "page": 126
+    },
+    {
+      "name": "Daphne's Wraith",
+      "slug": "daphne-s-wraith",
+      "category": "specters",
+      "page": 127
+    },
+    {
+      "name": "Deuilbyt Thewell",
+      "slug": "deuilbyt-thewell",
+      "category": "specters",
+      "page": 128
+    },
+    {
+      "name": "Ethereal",
+      "slug": "ethereal",
+      "category": "specters",
+      "page": 129
+    },
+    {
+      "name": "Hym",
+      "slug": "hym",
+      "category": "specters",
+      "page": 130
+    },
+    {
+      "name": "Jenny O' the Woods",
+      "slug": "jenny-o-the-woods",
+      "category": "specters",
+      "page": 132
+    },
+    {
+      "name": "Longlocks",
+      "slug": "longlocks",
+      "category": "specters",
+      "page": 133
+    },
+    {
+      "name": "Nightwraith",
+      "slug": "nightwraith",
+      "category": "specters",
+      "page": 134
+    },
+    {
+      "name": "Noonwraith",
+      "slug": "noonwraith",
+      "category": "specters",
+      "page": 135
+    },
+    {
+      "name": "Penitent",
+      "slug": "penitent",
+      "category": "specters",
+      "page": 136
+    },
+    {
+      "name": "Plague Maiden",
+      "slug": "plague-maiden",
+      "category": "specters",
+      "page": 137
+    },
+    {
+      "name": "Umbra",
+      "slug": "umbra",
+      "category": "specters",
+      "page": 139
+    },
+    {
+      "name": "The White Lady",
+      "slug": "the-white-lady",
+      "category": "specters",
+      "page": 140
+    },
+    {
+      "name": "The Wraith from the Painting",
+      "slug": "the-wraith-from-the-painting",
+      "category": "specters",
+      "page": 141
+    },
+    {
+      "name": "Wraith",
+      "slug": "wraith",
+      "category": "specters",
+      "page": 142
+    },
+    {
+      "name": "Alpha Garkain",
+      "slug": "alpha-garkain",
+      "category": "vampires",
+      "page": 143
+    },
+    {
+      "name": "Alp",
+      "slug": "alp",
+      "category": "vampires",
+      "page": 144
+    },
+    {
+      "name": "Bruxa",
+      "slug": "bruxa",
+      "category": "vampires",
+      "page": 145
+    },
+    {
+      "name": "The Beast of Beauclair",
+      "slug": "the-beast-of-beauclair",
+      "category": "vampires",
+      "page": 146
+    },
+    {
+      "name": "Ekimmara",
+      "slug": "ekimmara",
+      "category": "vampires",
+      "page": 148
+    },
+    {
+      "name": "Fleder",
+      "slug": "fleder",
+      "category": "vampires",
+      "page": 149
+    },
+    {
+      "name": "Gael",
+      "slug": "gael",
+      "category": "vampires",
+      "page": 150
+    },
+    {
+      "name": "Garkain",
+      "slug": "garkain",
+      "category": "vampires",
+      "page": 151
+    },
+    {
+      "name": "Higher Vampire",
+      "slug": "higher-vampire",
+      "category": "vampires",
+      "page": 152
+    },
+    {
+      "name": "Katakan",
+      "slug": "katakan",
+      "category": "vampires",
+      "page": 153
+    },
+    {
+      "name": "Protofleder",
+      "slug": "protofleder",
+      "category": "vampires",
+      "page": 156
+    },
+    {
+      "name": "Sarasti",
+      "slug": "sarasti",
+      "category": "vampires",
+      "page": 157
+    },
+    {
+      "name": "The Bruxa of Corvo Bianco",
+      "slug": "the-bruxa-of-corvo-bianco",
+      "category": "vampires",
+      "page": 158
+    },
+    {
+      "name": "The Unseen Elder",
+      "slug": "the-unseen-elder",
+      "category": "vampires",
+      "page": 156
+    },
+    {
+      "name": "Warg",
+      "slug": "warg",
+      "category": "beasts",
+      "page": 0
+    },
+    {
+      "name": "Lubberkin",
+      "slug": "lubberkin",
+      "category": "cursed",
+      "page": 0
+    },
+    {
+      "name": "Ekhidna",
+      "slug": "ekhidna",
+      "category": "hybrids",
+      "page": 0
+    },
+    {
+      "name": "Kikimore Warrior",
+      "slug": "kikimore-warrior",
+      "category": "insectoids",
+      "page": 0
+    },
+    {
+      "name": "Sandcrab",
+      "slug": "sandcrab",
+      "category": "insectoids",
+      "page": 0
+    },
+    {
+      "name": "Devourer",
+      "slug": "devourer",
+      "category": "necrophages",
+      "page": 0
+    },
+    {
+      "name": "Drowned Dead",
+      "slug": "drowned-dead",
+      "category": "necrophages",
+      "page": 0
+    },
+    {
+      "name": "Red Miasmal",
+      "slug": "red-miasmal",
+      "category": "specters",
+      "page": 0
+    },
+    {
+      "name": "Phantom of the Amphitheater",
+      "slug": "phantom-of-the-amphitheater",
+      "category": "specters",
+      "page": 0
+    },
+    {
+      "name": "Dettlaff van der Eretein",
+      "slug": "dettlaff-van-der-eretein",
+      "category": "vampires",
+      "page": 0
+    }
+  ]
+}

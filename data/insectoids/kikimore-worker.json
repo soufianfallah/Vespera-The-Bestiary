@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "kikimore-worker",
+  "name": "Kikimore Worker",
+  "category": "insectoids",
+  "description": "Kikimores form colonies, making them similar to communal insects such as ants. A Kikimore colony is ruled by a queen and organized into something of a social hierarchy. Kikimore workers take care of hunting food and bringing it back to the nest, while Kikimore warriors defend the nest against attackers. A worker on its own can be easily killed by even a weak person or a child. It is rare indeed, however, to come across an isolated individual, for Kikimore workers usual move in groups of a few to a dozen or so members. The only defense against a swarm of Kikimores available to a normal person is to flee. And not even that is guaranteed to work. Kikimore workers listen to orders given by Kikimore warriors. On command, a swarm of workers might begin burrowing tunnels near potential prey to allow for a surprise mass attack. Eliminate the warrior guiding a swarm, however, and the workers will disperse and cease digging. Kikimore workers are nimbler and quicker than warrriors.",
+  "story": "The old fool came home all black and blue, claiming kikimores had attacked him in the woods. Who does he take me for?! His mates worked him over because he'd cheated at gwent. If it'd been kikimores, he'd be dead. And I'd have peace at last.- Lavinia, wife of a Beauclair innkeeper",
+  "lore": "",
+  "weaknesses": [
+    "Igni",
+    "Insectoid Oil",
+    "White Honey"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, forests, marshes, and underground colonies"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/kikimore-worker.webp",
+  "gallery": [
+    "/monsters/kikimore-worker.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 70,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9908,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Kikimore_Worker"
+  }
+}

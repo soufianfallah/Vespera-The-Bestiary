@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "devourer",
+  "name": "Devourer",
+  "category": "necrophages",
+  "description": "Devourers are hulking cousins of rotfiends that gather near corpses and battlefields. They crush prey with brute force, gorge on the fallen and become explosive hazards when mortally wounded.",
+  "story": "The feast ends only when the devourer's swollen corpse bursts.",
+  "lore": "They often mingle with rotfiends and can overwhelm a lone fighter through sheer mass. When a devourer begins to choke and its head swells, distance is wiser than one final sword stroke—the ensuing blast can tear through monster and witcher alike.",
+  "weaknesses": [
+    "Necrophage Oil"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields",
+    "Ruins",
+    "Sites rich in corpses"
+  ],
+  "loot": [
+    "Devourer's blood",
+    "Necrophage hide",
+    "Monster liver",
+    "Monster tooth"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/devourer.webp",
+  "gallery": [
+    "/monsters/devourer.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Wild Hunt bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "journal",
+    "loot": "journal",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Devourer"
+  }
+}

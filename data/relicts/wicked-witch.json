@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "slug": "wicked-witch",
+  "name": "Wicked Witch",
+  "category": "relicts",
+  "description": "Though evil witches are often considered creatures born of the overactive imaginations of fabulists and mythologists, cartoonish characters only a child would ever be frightened of, there are accounts of men who claim to have happened across one of these improbable beings. All these accounts agree that the witch not only did in fact eat men, but had mastered the cooking of humans to a fine art.",
+  "story": "Once upon a time, there was a wicked witch. Every day after supper she'd drink a glass of freshly-squeezed corpse juice... - Karl Hrimm, writer of children's fables",
+  "lore": "They are said to be particularly fond of children's liver fried in butter and served in a saffron sauce, balsamic vinegar-marinated fingers roasted to a golden crisp and, yes, even freshly-squeezed corpse juice.\n\nIt should be noted here that all the above-mentioned witnesses who swore they saw such a witch were patients of the Ellander Institute for the Mentaly ll, thus the veracity of their testimony is highly debatable.",
+  "weaknesses": [
+    "Relict Oil"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Black magic doll",
+    "Bone ashes",
+    "Calcium equum",
+    "Cookies",
+    "Gingerbread",
+    "Gingerbread man",
+    "Grave hag's ear",
+    "Infused dust",
+    "Lesser Dazhbog runestone",
+    "Lesser Glyph of Axii",
+    "Lesser Glyph of Yrden",
+    "Lesser Stribog runestone",
+    "Magic dust",
+    "Poisoned apple"
+  ],
+  "locations": [
+    "Land of a Thousand Fables"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/wicked-witch.webp",
+  "gallery": [
+    "/monsters/wicked-witch.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 122,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9884,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Land of a Thousand Fables",
+    "note": "Game reference cross-check; the trail is associated with Land of a Thousand Fables.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Wicked_Witch"
+  }
+}

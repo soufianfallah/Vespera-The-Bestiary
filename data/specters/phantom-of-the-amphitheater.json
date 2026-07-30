@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "phantom-of-the-amphitheater",
+  "name": "Phantom of the Amphitheater",
+  "category": "specters",
+  "description": "The Phantom of the Amphitheater is the beann'shie of Elsa de Longpré, a celebrated actress murdered during a performance at the restored Seidhe Llygad Amphitheater.",
+  "story": "Her final audience never left; it merely learned to applaud from beyond the grave.",
+  "lore": "Elsa's violent death bound her to the stage she once commanded. Her haunting silenced the amphitheater for generations, and only a carefully reconstructed performance could draw the phantom into the open.",
+  "weaknesses": [
+    "Specter Oil"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ruined theaters",
+    "Places bound to a violent death"
+  ],
+  "loot": [
+    "Ornate necklace",
+    "Infused dust",
+    "Specter dust",
+    "Essence of wraith",
+    "Lunar shards"
+  ],
+  "locations": [
+    "Seidhe Llygad Amphitheater",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/phantom-of-the-amphitheater.webp",
+  "gallery": [
+    "/monsters/phantom-of-the-amphitheater.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Blood and Wine bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "journal",
+    "loot": "journal",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Seidhe Llygad Amphitheater, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Seidhe Llygad Amphitheater, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Phantom_of_the_Amphitheater"
+  }
+}

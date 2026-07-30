@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "slug": "forktail",
+  "name": "Forktail",
+  "category": "draconids",
+  "description": "Forktails owe their quaint name to the long sharp growths at the tip of their tails. A blow from this weapon can slice an oaken shield in two — along with the arm that was carrying it. Thus, though its name conjures images of cutlery, fighting a forktail is nothing like a dinner party and ends in death rather than dessert.",
+  "story": "Forktails... Bah! Fuckers' tails're more like cleavers. — Yavinn Buck, veteran of the Mahakaman Volunteer Regiment",
+  "lore": "",
+  "weaknesses": [
+    "Golden Oriole",
+    "Draconid Oil",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Dragon scales",
+    "Forktail mutagen",
+    "Forktail hide",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster eye",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Raw meat"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "White Orchard",
+    "Kaer Morhen valley"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/forktail.webp",
+  "gallery": [
+    "/monsters/forktail.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 28,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9865,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, White Orchard",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, White Orchard.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Forktail"
+  }
+}

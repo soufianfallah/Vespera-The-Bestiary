@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "kikimore-warrior",
+  "name": "Kikimore Warrior",
+  "category": "insectoids",
+  "description": "Kikimore warriors are the armored defenders of their colonies: massive, horned insectoids protected by thick chitin and surrounded by swarms of obedient workers.",
+  "story": "Where workers gather, a warrior is rarely far behind.",
+  "lore": "Warriors communicate with their colony through airborne scents, leap with startling force and spit caustic venom that raises a witcher's toxicity. Their armor can turn an uncertain sword stroke, and they are wholly resistant to Axii.",
+  "weaknesses": [
+    "Insectoid Oil",
+    "White Honey",
+    "Igni"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Kikimore nests",
+    "Caves",
+    "Toussaint wilderness"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Kikimore discharge",
+    "Monster carapace",
+    "Monster pincer"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/kikimore-warrior.webp",
+  "gallery": [
+    "/monsters/kikimore-warrior.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Blood and Wine bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "journal",
+    "loot": "journal",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Kikimore"
+  }
+}

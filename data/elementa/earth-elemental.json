@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "slug": "earth-elemental",
+  "name": "Earth Elemental",
+  "category": "elementa",
+  "description": "Earth Elementals are made of mud, clay, sand and rock dust clumped together with water and brought alive with magic. While seemingly slow and ponderous, these creatures are nevertheless dangerous and should be avoided at all costs. Earth Elementals can withstand a tremendous amount of punishment.",
+  "story": "How to survive an encounter with an earth element? Simple. Run. Fast as you can. - Nino Murk, bounty hunter",
+  "lore": "Due to their enormous mass they are virtually impossible to knock off balance. They do not bleed, nor fel any pain from poison or even fire. They kill men with astonishing ease - whether by smashing them with their fists or hurling enormous stones at them. Their only weakness is their vulnerability to dimeritium dust — thus before combat one should prepare a full arsenal of bombs containing this ingredient.",
+  "weaknesses": [
+    "Fire",
+    "Poison",
+    "Bleeding",
+    "Dimeritium Bomb",
+    "Elementa Oil"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Elemental stone",
+    "Amethyst dust",
+    "Diamond dust",
+    "Red meteorite ore",
+    "Yellow meteorite ore",
+    "Blue meteorite ore",
+    "Elemental trophy}}There is an Earth elemental labeled as \"golem\" in the cave under the Kaedweni camp near the shore by the Nilfgaardian camp, in Chapter II. You can find it by exploring the caves while searching for Triss. Another one can be found in Kingslayers' hideout.",
+    "When it dies, it drops an Elemental stone and you can loot all the trunks and containers it guarded. In one of them, you can find the Armor of Ban Ard.",
+    "=== Journal entry ===",
+    "The earth elemental is the younger brother of the legendary d'ao, the genie capable of creating earthquakes and flattening mountains. Younger, and less powerful, but also more mischievous. Felling trees, crushing walls and smashing people to pulp can be counted among this creature's pranks. But only if their master allows it, of course.",
+    "The earth elemental always serves its summoner faithfully. It is most often employed as a guard, as it is tireless and always vigilant. It does have senses as living beings do, but it always recognizes the presence of intruders. It has no fear of monsters, let alone humans.",
+    "This monster's most dangerous weapons are its mighty arms. A blow from the earth elemental is akin to a battering ram hitting a city gate, and turns a normal human into a bloody stain. Its ripostes are especially dangerous, for this apparently sluggish creature can strike swiftly as well as strongly. Thus one has to defend oneself against its blows with all available means, including potions and Signs. According to the \"fight fire with fire\" rule – or rather the \"fight strength with strength\" – one should also use strong blows against the elemental, since only such attacks can grind its stone body down.",
+    "The earth elemental's body is solid rock, so the creature cannot be poisoned or blooded. It is best to summon a team of dwarven miners to use pickaxes on it until its done for. However if the witcher has no such team at hand, he should use regular means. The earth elemental, though it has no weaknesses, can be beaten.",
+    "== ==",
+    "{{Infobox Bestiary"
+  ],
+  "locations": [
+    "Elven ruins",
+    "Ermion's laboratory in Kaer Trolde citadel"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/earth-elemental.webp",
+  "gallery": [
+    "/monsters/earth-elemental.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 39,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9879,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Elven ruins, Ermion's laboratory in Kaer Trolde citadel",
+    "note": "Game reference cross-check; the trail is associated with Elven ruins, Ermion's laboratory in Kaer Trolde citadel.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Earth_Elemental"
+  }
+}

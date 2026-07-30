@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "ice-troll",
+  "name": "Ice Troll",
+  "category": "ogroids",
+  "description": "Climbing to the top of snow-covered peaks is never a safe endeavor. One can slip and fall into a ravine, be buried in an avalanche or stumble across lce Trolls. These permafrost-dwelling monsters treat every man they encounter as a possible ingredient for a tasty meal. Luckily lce Trolls live atop high mountain ridges so inaccessible they rarely encounter humans, and some suppose this is why they have not mastered the basics of Common Speech. Others claim their harsh mountain home has stripped them of an ability they once possessed, for in a land of never-ending cold there is no room for mercy or understanding. lce Trolls are crueler than their rocky kin. Though they use similar tactics in battle - tossing stones and swinging with their mighty fists - they are heartier and stronger than rock trolls and thus more dangerous. Like rock trolls, their backs are covered in thick protective armor, meaning one should never strike them from the rear. Meanwhile their mass means that the Aard Sign cannot move them.",
+  "story": "Our winter's cold and deep, frostbite eats your feet, snow falls down and hides the ground and ice trolls wake from sleep!- folk song heard in northern Kaedwen",
+  "lore": "Lastly, never think of attacking them during a blizzard. At such times they draw power from the surrounding cold and fight with increased strength.",
+  "weaknesses": [
+    "Quen",
+    "Ogroid Oil"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Ogroid hide",
+    "Monster liver",
+    "Monster bone"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/ice-troll.webp",
+  "gallery": [
+    "/monsters/ice-troll.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 98,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9913,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ice_Troll"
+  }
+}

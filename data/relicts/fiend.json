@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "slug": "fiend",
+  "name": "Fiend",
+  "category": "relicts",
+  "description": "Fiends are walking mountains of muscle capped with horned, tooth-filled heads. They live in thick forests, swamps and bogs. When possible they avoid humans, but when not possible, they kill them, and without much difficulty. Their size alone makes them extremely dangerous - one blow from their powerful paws can kill a knight along with it's fully armored mount. Their enormous heft also makes them invulnerable to Aard: even witchers specializing in the power of Signs could not move one even an inch. Furthermore, any wounds they receive heal at lightning speed. f that weren't trouble enough, Fiends need not rely on their strength and stamina alone with fighting. They can also call on a more refined weapon: the third eye located in the center of their forehead, which they use to draw their prey into a state of hypnosis. During these times their victim does not see anything beyond this single burning eye - the last thing they see before their death.",
+  "story": "1 regret to inform Your Grace that Your Grace's son fell while hunting a fiend. He died on the spot, along with his squire, his guide, the beaters, his peasant entourage and his hounds.— Kavin Jell, manager of the Villepin Estate near Vizima",
+  "lore": "A Fiend's only weakness is its fear of loud noises. Furthermore, a blade covered in relict oil can increase a witcher's chances of victory - or at least of walking away from the fight.",
+  "weaknesses": [
+    "Devil's Puffball",
+    "Relict Oil",
+    "Samum"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball",
+    "Samum"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Fiend dung",
+    "Fiend mutagen",
+    "Fiend's eye",
+    "Fifth essence",
+    "Lesser blue mutagen",
+    "Lesser green mutagen",
+    "Lesser red mutagen",
+    "Monster bone",
+    "Monster blood",
+    "Monster brain",
+    "Monster claw",
+    "Monster hair",
+    "Monster heart",
+    "Monster hide",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Raw meat"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/fiend.webp",
+  "gallery": [
+    "/monsters/fiend.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 106,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9891,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Fiend"
+  }
+}

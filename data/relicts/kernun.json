@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "kernun",
+  "name": "Kernun",
+  "category": "relicts",
+  "description": "Novigrad - the greatest metropolis in the world, the acme of civilization, material proof - or so one is tempted to think - of mankind's ability to tame and control nature. Yet right outside the city walls lies the Novigrad Wilderness - and whoever sets foot in it soon finds out that man's primacy does not extend past the city walls. One of the monsters who made its lair in that thick tangle was an old, powerful leshen. It killed any who strayed into its territory with its species' characteristic cruelty: lacerating them with razor-sharp claws, sending strangling plants shooting out of the ground or feeding them to packs of hungry wolves. f not for its vulnerability to fire, the lgni Sign included, and the protection of the Quen Sign, one could wager not even the toughest witcher would be able to slay the beast.",
+  "story": "We told the prick something lurked in them woods, but he refused to believe it...— Louis Clsster, woodcutter",
+  "lore": "A long and exhausting battle is to be expected when Kernun is challenged by a Witcher.",
+  "weaknesses": [
+    "Fire",
+    "Igni",
+    "Relict Oil",
+    "Dimeritium Bomb"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "near Loggers' Hut"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/kernun.webp",
+  "gallery": [
+    "/monsters/kernun.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 112,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9916,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "game-reference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Kernun"
+  }
+}

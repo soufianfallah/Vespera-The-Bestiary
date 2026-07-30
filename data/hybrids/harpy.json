@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "slug": "harpy",
+  "name": "Harpy",
+  "category": "hybrids",
+  "description": "It is hard to say what is most repulsive about Harpies: their hideous appearance, the overwhelming stench of rot and bird excrement that clings to them or their bloodcurdling screech. Suffice it to say that even rats, who dwell happily among the rankest fecal matter and rotten waste, give their nests wide berth.",
+  "story": "Most monsters don't actually keep any treasure in their lairs. Harpies, though - they like shiny things. - Letho, Viper School witcher",
+  "lore": "Harpy nests are most often found atop high cliffs or rocky ravines. Sure signs of having strayed near one are crumbling human and animals remains, guano-streaked rocks and feathers littering the ground. Harpies hunt in flocks consisting of a handful to up to twenty individuals. Though rather cowardly and cautious, Harpies fiercely defend their nests and will not hesitate to attack when outnumbering their foes. During combat they use their ability to fly to dive swiftly to strike their victims one by one before soaring back up out of reach. They can kill with their wings or their sharp beak and talons. Once on the ground they move slowly and clumsily, and thus no longer present much of a threat.",
+  "weaknesses": [
+    "Aard",
+    "Grapeshot",
+    "Hybrid Oil"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Coasts, cliffs, mountains, and isolated ruins"
+  ],
+  "loot": [
+    "Harpy egg",
+    "Harpy feathers",
+    "Harpy talons",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster liver",
+    "Monster saliva",
+    "Raw meat",
+    "Lesser blue mutagen",
+    "Lesser green mutagen",
+    "Lesser red mutagen",
+    "A bestiary entry can be obtained by reading Journey to the End of the World.",
+    "=== Bestiary entry ===",
+    "Most monsters don't actually keep any treasure in their lairs. Harpies, though - they like shiny things.",
+    "– Letho, Viper School witcher",
+    "It is hard to say what is most repulsive about harpies and their cousins, the shishigas: their hideous appearance, the overwhelming stench of rot and bird excrement that clings to them or their bloodcurdling screech. Suffice it to say that even rats, who dwell happily among the rankest fecal matter and rotten waste, give their nests wide berth.",
+    "Harpy nests are most often found atop high cliffs or rocky ravines. Sure signs of having strayed near one are crumbling human and animals remains, guano-streaked rocks and feathers littering the ground.",
+    "Harpies and shishigas hunt in flocks consisting of a handful to up to twenty individuals. Though rather cowardly and cautious, harpies fiercely defend their nests and will not hesitate to attack when outnumbering their foes.",
+    "During combat they use their ability to fly to dive swiftly to strike their victims one by one before soaring back up out of reach. They can kill with their wings or their sharp beak and talons. Once on the ground they move slowly and clumsily, and thus no longer present much of a threat.",
+    "=== Combat tactics ===",
+    "Like many other swarming enemies such as wolves or Drowners, individual Harpies are quite weak, fragile and easy to deal with. Problem is, you almost never deal with an \"individual\" Harpy. In some ways they're even more annoying than land-based swarming monsters because as you're focusing your attention on one or two in front of you, several others are flying around where you can't see them and can suddenly swoop in out of nowhere from quite a distance away from you and hit you from behind. If you have built it up, Aard in the omnidirectional Aard-Sweep form combined with the Far-Reaching Aard upgrade will be a godsend against them.",
+    "=== Associated quests ===",
+    "{{Cols|num=3",
+    "Crime and Punishment",
+    "Ladies of the Wood",
+    "The Final Trial",
+    "The Isle of Mists (optional)",
+    "The Lord of Undvik (optional)",
+    "The Path of Warriors",
+    "The Whispering Hillock (optional)",
+    "Scavenger Hunt: Griffin School Gear",
+    "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 1",
+    "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 4",
+    "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 3",
+    "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 4",
+    "The Royal Air Force"
+  ],
+  "locations": [
+    "Highlands"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/harpy.webp",
+  "gallery": [
+    "/monsters/harpy.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 53,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9918,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Highlands",
+    "note": "Game reference cross-check; the trail is associated with Highlands.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Harpy"
+  }
+}

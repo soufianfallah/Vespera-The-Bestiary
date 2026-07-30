@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "fleder",
+  "name": "Fleder",
+  "category": "vampires",
+  "description": "Fleders are classified as lesser vampires. Though weaker than the rest of their ilk in every aspect from the physiomagic to they physiognomic, they should not be underestimated — for they are very, very dangerous. Fleders cannot be mistaken for any other creature, with their wide, toothy jaws, flat, unpleasant faces and completely hairless, often warty bodies. These vampires mainly fight with their teeth and claws, flailing them blindly and not stopping even when their victim is already dead. Even a solitary Fleder is strong enough to take down a trained soldier. Compared to other vampires, Fleders display meager intelligence, seen most clearly in the mindless rage which causes them to try with all their might to attack and tear to shreds any weaker being. When fighting Fleders, it is best to take advantage of their particular method of movement. These creatures do not run, but they do try to catch their prey and knock it over by leaping.",
+  "story": "The deceased's corpse was completely mutilated. All that remained of the nose was a hole clotted with blood. One eye socket had been torn off. Seeing this, Sergeant Dovate vomited profusely and the administration of smelling salts was required. The investigation has been discontinued and the deed attributed to a supernatural being.- fragment of a Toussaint Ducal Guard report",
+  "lore": "Knowing this behavior, one can plan the fight appropriately and not let oneself be caught by surprise.",
+  "weaknesses": [
+    "Black Blood",
+    "Vampire Oil"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/fleder.webp",
+  "gallery": [
+    "/monsters/fleder.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 149,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9926,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Fleder"
+  }
+}

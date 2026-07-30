@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "basilisk",
+  "name": "Basilisk",
+  "category": "draconids",
+  "description": "Contrary to popular belief, Basilisks cannot turn anything to stone with their gaze. That is small comfort, however, given that their acid, venom, claws and teeth provide them many other ways to kill. Basilisks love dark, damp places such as cellars, caves and city sewers. They hunt by day, waiting patiently in hiding for their prey to come, then jump out in a flash to unleash a deadly attack.",
+  "story": "In memory of the noble knight Roderick, slain during a valiant struggle against a basilisk. Let's hope the beast choked on his bones. — Gravestone inscription, Vizima cemetery.",
+  "lore": "Basilisk leather is a highly-valued material used to make fashionable shoes and women's handbags. For this reason many men, their courage girded by goldlust, take to hunting them. Most of these hunts end in disaster, but some do manage to bag their prey, which has led to a drastic decline in this creature's numbers in recent years. Some Mages and Druids are of the opinion that Basilisks should be included in programs meant to safeguard dying species. Everyone else thinks those Mages and Druids have gone completely mad.",
+  "weaknesses": [
+    "Golden Oriole",
+    "Draconid Oil",
+    "Aard",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Draconid hide",
+    "Monster claw",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Novigrad",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/basilisk.webp",
+  "gallery": [
+    "/monsters/basilisk.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 26,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9951,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Novigrad, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, Novigrad, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Basilisk"
+  }
+}

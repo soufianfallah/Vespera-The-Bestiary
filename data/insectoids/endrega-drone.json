@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "slug": "endrega-drone",
+  "name": "Endrega Drone",
+  "category": "insectoids",
+  "description": "Endrega males - called 'Drones' — are gluttonous creatures whose only aim in life is to eat, fight and reproduce. Yet when venturing outside their nests, these aggressive hunters attack any and every creature they come across. Endrega drones live but brief lives, the culmination of which comes in the autumn when they fertilize the queen.",
+  "story": "Lazy, good-for-nothing men are sometimes called drones. That's an insult to endrega drones, who at least get offtheir arses to fight.- Evelynn Harker, herbalist",
+  "lore": "They pass the time leading to that moment protecting the colony's territory. Weaker Drones die in these battles, while the largest and strongest survive. These elect individuals' genes are passed down to the next generation of Endregas, while they themselves are killed after fertilization takes place and their bodies used to feed the hive during the long winter months. Drones are easy to identify thanks to their distinctive, cone-shaped abdomens. Unlike other Endregas they can attack from a distance, sending out volleys of poisoned quills. As with all of their kind, bleeding has no effect on them and insectoid oil does them great harm.",
+  "weaknesses": [
+    "Poison",
+    "Bleeding",
+    "Golden Oriole",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Forests"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/endrega-drone.webp",
+  "gallery": [
+    "/monsters/endrega-drone.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 64,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9908,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "game-reference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Endrega"
+  }
+}

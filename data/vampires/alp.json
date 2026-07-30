@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "slug": "alp",
+  "name": "Alp",
+  "category": "vampires",
+  "description": "Alps are vampires that resemble Bruxa in appearance. They are called phantoms by some, a name which fits well enough, for like phantoms they haunt and torment men. They usually take on the form of a woman, though they can also appear as animals. They are most often found prowling near villages. They attack at night and are most active when the moon is full. Alp saliva can make one fall asleep, and when applied to a sleeping man, can invoke horeible nightmares. Some suggest they are the cause of legends about men who go to sleep healthy and are found in the morning white as snow, not a drop of blood in their veins.",
+  "story": "Looked like a bruxa, but that was no bruxa..— fragment of a conversation between the ealdorman of Falkoane and a witcher.",
+  "lore": "In combat Alps display supernatural speed and incredible stamina. One must aim one's sword with great precision, for Alps are unequaled in the art of evading blows. Alps suck the blood of their victims to deprive them of strength and regenerate their own powers. Unlike Bruxa, Alps cannot turn invisible, they can emit a shrieking noise whose shock wave can incapacitate. Their greatest asset is their agility and they can leap with uncanny lightness that appears to border on the power of flight. When in human form, they easily blend in with the surrounding community, which makes them very dangerous indeed.",
+  "weaknesses": [
+    "Shock waves",
+    "Moon Dust",
+    "Vampire Oil",
+    "Yrden",
+    "Black Blood"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Blue mutagen",
+    "Monster brain",
+    "Monster bone",
+    "Monster claw",
+    "Monster eye",
+    "Monster ear",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster stomach",
+    "Monster tongue",
+    "Vampire blood",
+    "Vampire saliva",
+    "Vampire fang"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/alp.webp",
+  "gallery": [
+    "/monsters/alp.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 144,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9946,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Alp"
+  }
+}

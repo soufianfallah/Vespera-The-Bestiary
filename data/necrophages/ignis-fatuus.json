@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "ignis-fatuus",
+  "name": "Ignis Fatuus",
+  "category": "necrophages",
+  "description": "The monster haunting the peat bogs of Velen turned out to be an ancient Foglet. These are exceptionally long-lived creatures - some have even dwelt on this earth for over two hundred years, growing stronger and stronger all the while. Blows dealt by Foglets of such an age carry so much power blocking them is out of the question.",
+  "story": "Careful, sir, a monster prowls the bog. Enter the mist and ye'll never see home again!— Leslav, peat digger",
+  "lore": "These Foglets possess the ability to move extremely quickly, and not even Yrden can slow them down. Furthermore, they can meld completely into the mist, then suddenly rematerialize to strike from behind. Wearing heavy armor or making good use of the Quen Sign is highly recommended. This ancient Foglet proved particularly adept in the art of forming illusions. Only a professional monster slayer skilled with Signs and swords could best such a foe.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Quen"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "Cave in Crookback Bog"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/ignis-fatuus.webp",
+  "gallery": [
+    "/monsters/ignis-fatuus.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 80,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9959,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Cave in Crookback Bog",
+    "note": "Game reference cross-check; the trail is associated with Cave in Crookback Bog.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ignis_Fatuus"
+  }
+}

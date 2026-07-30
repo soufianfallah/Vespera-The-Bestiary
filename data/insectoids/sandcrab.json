@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "sandcrab",
+  "name": "Sandcrab",
+  "category": "insectoids",
+  "description": "Sandcrabs are desert insectoids able to survive for extraordinary periods without water. They burrow beneath the dunes, erupt beneath prey and attack in sudden, coordinated swarms.",
+  "story": "In the Ddiddiwedht Desert, the ground itself has claws.",
+  "lore": "A sandcrab's plated body is carried on powerful legs and crowned by a long horn. One is manageable; a colony rising from beneath a traveler's feet can strip the flesh from the unprepared before the dust settles.",
+  "weaknesses": [
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Arid deserts",
+    "Burrows beneath sand"
+  ],
+  "loot": [
+    "Sulfur",
+    "Rotting flesh"
+  ],
+  "locations": [
+    "Ddiddiwedht Desert"
+  ],
+  "dangerLevel": "Moderate in isolation; high in swarms",
+  "portrait": "/monsters/sandcrab.webp",
+  "gallery": [
+    "/monsters/sandcrab.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Wild Hunt bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "journal",
+    "loot": "journal",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Ddiddiwedht Desert",
+    "note": "Game reference cross-check; the trail is associated with Ddiddiwedht Desert.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Sandcrab"
+  }
+}

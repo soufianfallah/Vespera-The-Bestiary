@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "deuilbyt-thewell",
+  "name": "Deuilbyt Thewell",
+  "category": "specters",
+  "description": "The residents of White Orchard have suffered more than their fair share of misfortunes. Passing armies had trampled their spring planting, a Griffin had begun abducting their livestock, and, the rotten icing on this painful cake, a Noonwraith haunted a nearby well. No wonder the locals called this final evil a 'devil'. An eerie sense bounded her to this place, and that in order to send her off into ethereal realms, the secret must be discovered.",
+  "story": "Wears a dirty dress, all rags, its skin flakin' off of its bones. And it howl.. like it's sufferin'. -Odolan of White Orchard",
+  "lore": "A Noonwraith is a demanding opponent, she can disorient her victim by blinding him and creating mirror images of herself. These copies slowly suck their victim's life energy - while their mistress remains untouchable. Witchers don't normally feel a limited range of emotions regarding the monsters they slay. They despise the particularly cruel ones and are repulsed by the disgusting ones, but rare indeed is the monster for which they feel sympathy.",
+  "weaknesses": [
+    "Moon Dust",
+    "Specter Oil",
+    "Yrden"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "White Orchard",
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/deuilbyt-thewell.webp",
+  "gallery": [
+    "/monsters/deuilbyt-thewell.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 128,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9892,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "White Orchard, Velen, Skellige",
+    "note": "Witcher field inference from creature class; the trail is associated with White Orchard, Velen, Skellige.",
+    "referenceUrl": null
+  }
+}

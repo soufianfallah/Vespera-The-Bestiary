@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "rock-troll",
+  "name": "Rock Troll",
+  "category": "ogroids",
+  "description": "If while hiking high in the mountains you come across a walking stone, do not think your eyes deceive you. lnstead, draw your sword for before you stands a Rock Troll. True, not every encounter with these creatures ends in a fight - while not particularly intelligent, trolls are capable of reason - but it is better to prepare for the worst. Otherwise, your hike might end not on the summit, but in their stew. Trolls are able to use fire and simple tools, and some of them have even mastered the basics of Common Speech. Though linguistic nuances such as conjugations and declinations escape them, they are extremely fond of riddles, rhymes and all sorts of wordplay, a fact a Witcher in possession of a bit of wit can use to his advantage. If a fight proves inevitable, one must watch out for the stones these trolls throw with great strength and shocking precision. Their powerful, heavy fists also present a danger, for they can buckle even the sturdiest breastplate or cuirass. Since their backs are covered in a layer of rocky growth, blows delivered from behind will not do them much damage.",
+  "story": "Man must riddly talk. But no tricksy. Or troll boom man head.— rock troll dwelling in a cave on Undvik",
+  "lore": "They must thus be fought directly, standing face to face - and preferably armed with a sword covered in a fresh coating of ogroid oil.",
+  "weaknesses": [
+    "Fire",
+    "Quen",
+    "Ogroid Oil"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Ogroid hide",
+    "Monster liver",
+    "Monster bone"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/rock-troll.webp",
+  "gallery": [
+    "/monsters/rock-troll.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 100,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9887,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Rock_Troll"
+  }
+}

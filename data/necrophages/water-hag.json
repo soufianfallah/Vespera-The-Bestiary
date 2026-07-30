@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "water-hag",
+  "name": "Water Hag",
+  "category": "necrophages",
+  "description": "Some tales mention Water Hags and Swamp Bints masquerading as lost old women to lure travelers back to the rickety shacks they build in the wetlands. In truth, only a blind man, or a sighted man blinded with drink, could mistake the rank sludge and rotting carrion of a water hag's den for a cozy cottage, and the hideous hag herself for an innocent grandmother.",
+  "story": "Folk say water hags are drowner's wives. If that be true, 'tain't no wonder why they're such ornery bitches.— Shemhel of Dregsdon",
+  "lore": "Their wrinkled, wart-covered bodies stand nearly two yards tall, with skin the color of a long-dead cadaver and stinking of muck and fish. Bony growths two spans long stick out from their backs, with hair like a tangle of seaweed and claws that would make a werewolf proud completing the picture.",
+  "weaknesses": [
+    "Necrophage Oil",
+    "Northern Wind",
+    "Igni",
+    "Quen"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Igni",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "Marshy terrains the North"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/water-hag.webp",
+  "gallery": [
+    "/monsters/water-hag.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 86,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9914,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Marshy terrains the North",
+    "note": "Game reference cross-check; the trail is associated with Marshy terrains the North.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Water_hag"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "slug": "rotfiend",
+  "name": "Rotfiend",
+  "category": "necrophages",
+  "description": "Rotfiends resemble decomposing human bodies that have been stripped of their skin. Their presence is given away by the overwhelming stench of the rot which gives them their name. Rotfiends and Devourers were once rarities, but in the present age of constant warfare and violence they have become a veritable plague, particularly around battlefields and in disease-stricken areas. Though they feed mainly on carrion, they will at time attack the living.",
+  "story": "Course it reeks. Think they're called rotfiends because they smell like roses? - Vesemir, witcher of the Wolf School",
+  "lore": "They usually feed in large groups and thus present a danger to lone travelers - especially considering their speed, which is more than a match for a horse at full gallop. The Rotfiend's decomposing body is filled with gasses which are poisonous even to those who, like witchers, are immune to most other toxins. These emissions are also highly flammable, meaning any spark, not to mention a carelessly-cast Igni sign, can lead to an explosion. This is particularly likely after a Rotfiend dies, when its body thrashes around in uncontrollable tremors. Rotfiends feed in the twilight hours and at night, when they become much more dangerous than during the day.",
+  "weaknesses": [
+    "Necrophage Oil"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Monster bone",
+    "Monster brain",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Necrophage hide",
+    "Rotfiend blood",
+    "A bestiary entry can be obtained by reading Ghouls and Alghouls.",
+    "=== Bestiary entry ===",
+    "Course it reeks. Think they're called rotfiends because they smell like roses?",
+    "– Vesemir, witcher of the Wolf School",
+    "Rotfiends resemble decomposing human bodies that have been stripped of their skin. Their presence is given away by the overwhelming stench of the rot which gives them their name. Devourers are a particularly dangerous kind of rotfiend marked by an insatiable appetite for human flesh.",
+    "Rotfiends and devourers were once rarities, but in the present age of constant warfare and violence they have become a veritable plague, particularly around battlefields and in disease-stricken areas. Though they feed mainly on carrion, they will at times attack the living. They usually feed in large groups and thus present a danger to lone travelers – especially considering their speed, which is more than a match for a horse at full gallop.",
+    "The rotfiend's decomposing body is filled with gasses which are poisonous even to those who, like witchers, are immune to most other toxins. These emissions are also highly flammable, meaning any spark, not to mention a carelessly-cast Igni sign, can lead to an explosion. This is particularly likely after a rotfiend dies, when its body thrashes around in uncontrollable tremors.",
+    "Rotfiends and devourers feed in the twilight hours and at night, when they become much more dangerous than during the day.",
+    "=== Combat tactics ===",
+    "Similar to ghouls and alghouls, rotfiends roam in packs. They can be found in typical necrophage prowling grounds such as the deep wilds and sites littered with decomposing bodies.",
+    "Rotfiends are fast and adopt similar basic tactics and moveset with drowners, although they have a self-destructive body mechanism that pose a unique hazard for would-be opponents. When a rotfiend's health is cut to a certain point by anything that is not a result of Burn, their body will undergo an uncontrollable spasm that ends in an explosion, damaging anything caught within the radius. When the animation leading to the explosion play, Rotfiends become immune to any kind of damage, leaving no means to prematurely kill them.",
+    "This explosion could do considerable damage to other nearby foes; that includes fellow Rotfiends that might immediately undergo similar process, thus creating a deadly chain reaction. This can be a great advantage for players, but extremely dangerous in tight spaces.",
+    "If the self-destruction of are found undesirable for combat advantage, one could try setting the Rotfiends on fire; Rotfiends killed this way would disintegrate less violently. If the fire alone couldn't kill them, the burning animation could prevent the creatures from undergoing the \"spasm\", giving enough time for Geralt to mutilate them with the Silver sword.",
+    "Another tactic is to use the downed finisher. Rotfiend that are knocked off their feet are vulnerable for the context-sensitive instant kill move. Rotfiends disposed this way will spew out toxic gas as they die, damaging anything else nearby except for Geralt, who gives them the killing blow. One should take note, however, that knocking down a Rotfiends will require considerably powered-up Aard sign.",
+    "=== Associated quests ===",
+    "{{Cols|num=2",
+    "A Favor for a Friend (optional)",
+    "A Towerful of Mice (optional)",
+    "Bitter Harvest",
+    "Family Matters",
+    "Forefathers' Eve (dependent)",
+    "Return to Crookback Bog",
+    "La Cage au Fou",
+    "Contract: Bovine Blues",
+    "Wine Wars: Vermentino",
+    "Don't Take Candy from a Stranger"
+  ],
+  "locations": [
+    "Velen",
+    "White Orchard",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/rotfiend.webp",
+  "gallery": [
+    "/monsters/rotfiend.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 83,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9871,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, White Orchard, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Velen, White Orchard, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Rotfiend"
+  }
+}

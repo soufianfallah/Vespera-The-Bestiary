@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "slug": "slyzard",
+  "name": "Slyzard",
+  "category": "draconids",
+  "description": "Slyzards are often mistaken for Wyverns or Forktails. Yet make no mistake, Slyzards are nasty, terribly dangerous beasts, and confusing them for Wyverns will end very badly for the confuser. While a Wyvern can tear apart and devour an untrained man in seconds, only a Slyzard can first bake him to a crisp with a waft of fiery breath. Slyzards are keenly aggressive and attack from both ground and air. Their goal during a fight is to get close enough to their foe to injure it with a breath of fire or knock it down with a sonic blast. Like Wyverns, Slyzards also attack with venom-spiked tails. Slyzards like to disengage mid-fight to fly into the air and plummet down at high speed while spewing out balls of fire. Right before these igneous missiles emerge, you can observe a fiery ball forming in the monster's maw. While airborne, a Slyzard can also attack with its claws and teeth.",
+  "story": "Some peasants once offered me a king's ransom to slay a slyzard. A damned hefty purse, chock full o' gold.. But 1 turned 'em down. Coin's no good if you're dead. And a slyzard, that's no fuckin' forktail. - Zator, one of the Crinfrid Reavers",
+  "lore": "",
+  "weaknesses": [
+    "Fire",
+    "Golden Oriole",
+    "Draconid Oil",
+    "Aard",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Draconid hide",
+    "Monster claw",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/slyzard.webp",
+  "gallery": [
+    "/monsters/slyzard.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 32,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.987,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Slyzard"
+  }
+}

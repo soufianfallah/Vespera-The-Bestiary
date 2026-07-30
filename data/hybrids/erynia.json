@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "slug": "erynia",
+  "name": "Erynia",
+  "category": "hybrids",
+  "description": "Hard as it is to imagine, the Erynias found in Skellige are even more repulsive - and dangerous - than Harpies, they're close relatives. Though well-rotten carrion is their food of choice, they will not turn up their noses at fresh meat, man flesh included. When they spy a potential victim, Erynias, like Harpies or Shishigas, will try to make full use of the strength of their numbers and their ability to control the skies. They will circle above their prey then attack from several directions at once, striking with razor-shark talons and tearing their targets to shreds. While attacking they aim for the neck, eyes and other vital organs, often causing their prey to bleed to death as a result.",
+  "story": "A merchant once told me 1 reminded him of an erynia. Naturally, 1 immediately teleported him to one of their nests, so he could see for himself how ill-tting a comparison it was.— Lytta Neyd, the sorceress also known as Coral",
+  "lore": "A small flock of Erynias is able to make quick work of larger and better-armed victims, who often are not able to defend themselves effectively from several opponents attacking at once.",
+  "weaknesses": [
+    "Bleeding",
+    "Aard",
+    "Grapeshot",
+    "Hybrid Oil"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Coasts, cliffs, mountains, and isolated ruins"
+  ],
+  "loot": [
+    "Harpy egg",
+    "Harpy eyes",
+    "Harpy feathers",
+    "Harpy saliva",
+    "Harpy claws",
+    "Cloth",
+    "Robust cloth",
+    "Twine",
+    "Leather",
+    "Hardened leather",
+    "Orens"
+  ],
+  "locations": [
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/erynia.webp",
+  "gallery": [
+    "/monsters/erynia.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 50,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9925,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Skellige",
+    "note": "Game reference cross-check; the trail is associated with Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Erynia"
+  }
+}

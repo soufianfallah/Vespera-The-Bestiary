@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "arachnomorph",
+  "name": "Arachnomorph",
+  "category": "insectoids",
+  "description": "A similar saying could gain ground in our land concerning Arachnomorphs and everything unable to flee them - meaning mostly every creature in the world. True, the tillers of the earth and fellers of trees need not fear them in their daily labors, for Arachnomorphs, as distant, post-Conjunction cousins of common spiders, strongly prefer deep, dark caves and unfrequented sodden swamps.",
+  "story": "The spider shall never lie down with the fly. - Ofieri proverb",
+  "lore": "Anyone who does come across them, however, had best hope his conscience is clear and his worldly affairs are in order, for his life shall soon end, as not even the fastest man in the world can outrun them and only a few witchers can hope to slay them.\n\nEven worse are the more aggressive and dangerous kind known as Arachnomorph Colossi, which are capable of devouring an entire ox in seconds.",
+  "weaknesses": [
+    "Axii",
+    "Insectoid Oil",
+    "Aard"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Axii",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, forests, marshes, and underground colonies"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Redania",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/arachnomorph.webp",
+  "gallery": [
+    "/monsters/arachnomorph.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 62,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9888,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Redania, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Redania, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Arachnomorph"
+  }
+}

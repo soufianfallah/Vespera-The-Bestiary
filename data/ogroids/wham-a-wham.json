@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "wham-a-wham",
+  "name": "Wham-A-Wham",
+  "category": "ogroids",
+  "description": "Rock trolls come across as dim-witted, ponderous, slow - stupid, to be frank. It's easy to dismiss them - and even easier to enrage them. When this happens, one's best bet is to run as fast as possible, for an angered rock troll is as deadly as a thundering landslide. The truth held in the case of the massive rock troll known as Wham-a-Wham. His every blow struck like a battering ram - meaning one needed either avoid them entirely or protect oneself with the Quen Sign.",
+  "story": "Thems in-walk troll house. Troll say, \"Out mans!\" But they wham-a-wham troll rocks. So troll wham, too! - Rock troll known as Wham-a-Wham",
+  "lore": "Its hard skin meant it was near invulnerable to sword strikes - especially those dealt from behind, where its rock armor is the thickest. The only hope for defeating it lay in taking advantage of its typical troll slowness - especially if further exploited using the Yrden Sign. A certain set of Skellige miners learned first-hand just how dangerous Rock trolls can be. lgnoring all warnings, they started to mine a rich silver vein in the cave which Wham-a-Wham called home. They died soon thereafter, crushed or torn to rough bits. This time, a troll's killings were a justified act of self-defense.",
+  "weaknesses": [
+    "Quen",
+    "Ogroid Oil"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Ogroid hide",
+    "Monster liver",
+    "Monster bone"
+  ],
+  "locations": [
+    "Cave near Blandare"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/wham-a-wham.webp",
+  "gallery": [
+    "/monsters/wham-a-wham.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 101,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9908,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Cave near Blandare",
+    "note": "Game reference cross-check; the trail is associated with Cave near Blandare.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Wham-a-Wham"
+  }
+}

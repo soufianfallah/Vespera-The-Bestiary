@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-beast-of-beauclair",
+  "name": "The Beast of Beauclair",
+  "category": "vampires",
+  "description": "Such was the case with the Beast tormenting Beauclair. There was understanding that it was deadly, elusive and fiendishly clever. Everything else was clearly the product of imaginations fed by fear of a dangerous predator.",
+  "story": "Eyewitnesses to gruesome monster attacks always have a hard time describing the creature in question. The beasts move quickly and often attack at night, while the witnesses are terrified and primarily concerned with fleeing for their lives. As a result, witchers quite often have no inkling what creature they face until they find tracks or otherwise establish something for themselves.",
+  "lore": "The beast was discovered to be a higher vampire, meaning one of the most diffiult foes a witcher can come to face. Higher vampires are superhumanly strong and fast. They can turn completely invisible, and each comes with its own personalized set of talents and abilities perfected through centuries of existence.",
+  "weaknesses": [
+    "Quen",
+    "Vampire Oil",
+    "Black Blood"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/the-beast-of-beauclair.webp",
+  "gallery": [
+    "/monsters/the-beast-of-beauclair.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 146,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9925,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Beast_of_Beauclair"
+  }
+}

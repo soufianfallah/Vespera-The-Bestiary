@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "slug": "bear",
+  "name": "Bear",
+  "category": "beasts",
+  "description": "Bears are omnivores, meaning men find a place in their diet beside berries, roots and salmon. When they snack on humans, they most frequently partake of the meat of travelers unwittingly trespassing on their territory, or else that of hunters for whom besting such a creature is a lifelong ambition.",
+  "story": "Know that ditty about the bear \"climbing the mountain, to see what he could see?\". Biggest load of rubbish l've ever heard. When a bear climbs a mountain, it's not to see. It's to hunt. To kill.—Jahne Oldak, Royal Huntsman",
+  "lore": "There are several subspecies of bears — black bears, polar bears and cave bears - which differ from one another in coloring as well as in size and strength.\n\nAll share one trait in common, however: a near-unmatched ability to kill.",
+  "weaknesses": [
+    "Quen",
+    "Beast Oil"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests, fields, and the margins of settled land"
+  ],
+  "loot": [
+    "Bear fat",
+    "Raw meat",
+    "Non-polar only",
+    "Bear hide",
+    "Polar bears only",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster ear",
+    "Monster eye",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "White bear hide"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "White Orchard",
+    "Kaer Morhen valley",
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/bear.webp",
+  "gallery": [
+    "/monsters/bear.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 7,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9892,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, White Orchard",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, White Orchard.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Bear"
+  }
+}

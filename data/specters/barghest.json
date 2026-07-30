@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "barghest",
+  "name": "Barghest",
+  "category": "specters",
+  "description": "Folk of simple or superstitious minds claim committing particularly rotten acts will bring down the wrath of the gods in the form of \"Barghests,\" phantom dogs which stalk the roads at night. Even if this were their origin, Barghests saints and sinners alike would need fear Barghests, for they attack both with equal ferocity.",
+  "story": "Shun sin! Renounce foul deeds! And if evil threatens to overwhelm your will, ponder the fate of the Outskirts of Vizima! Remember the hideous barghests which scourged them and repent! - \"Sermons for Feasts and Funerals,\" by the Reverend Yomen of Tretogor",
+  "lore": "Witchers rarely believe in the gods, but they do accept that Barghests exist and are always connected with some sequence of tragic events that happened in the past. Their explanation, however, holds that Barghests result from a curse or a concentration of ill will. Barghests, like wolves, are stronger in packs. Together they surround their prey, leaping at it and tear e Since they are fast and agile, they can easily evade attacks directed at them. They cannot be burned, but fire hurts them as if they were of flesh and blood.",
+  "weaknesses": [
+    "Fire",
+    "Axii",
+    "Specter Oil",
+    "Moon Dust"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Axii"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/barghest.webp",
+  "gallery": [
+    "/monsters/barghest.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 124,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9554,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Barghest"
+  }
+}

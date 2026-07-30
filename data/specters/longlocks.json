@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "slug": "longlocks",
+  "name": "Longlocks",
+  "category": "specters",
+  "description": "Everyone knows love stories can have tragic endings, but few would think this also applies to princesses from fairy tales created to relieve a set happy ending over and over again.",
+  "story": "Well, since it seems this hair won't be pulling up any knights in shining armor, might as well put it to some use.— the last words of Longlocks.",
+  "lore": "Longlocks had the misfortune of becoming just such an unlikely tragic heroine. After the duke's daughters grew up and the Land of a Thousand Fables went feral, Longlocks, whose prince never came and who suffered greatly from her loneliness, decided to hang herself by her own braid.\n\nAfter she died, her ghost stayed to haunt the castle in which she had awaited her suitor.",
+  "weaknesses": [
+    "Specter Oil"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Land of a Thousand Fables"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/longlocks.webp",
+  "gallery": [
+    "/monsters/longlocks.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 133,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9917,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Land of a Thousand Fables",
+    "note": "Game reference cross-check; the trail is associated with Land of a Thousand Fables.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Longlocks"
+  }
+}

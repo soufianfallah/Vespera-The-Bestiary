@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "slug": "wight",
+  "name": "Wight",
+  "category": "necrophages",
+  "description": "Wights are ghastly and threatening in appearance, one should not approach them with sword drawn or attack them unprovoked. Left alone, they present no serious danger to anyone and are far more interested in mixing noxious brews in cauldrons than in fighting. This species mainly lives around ancient burial sites, though they have also been spotted near more recently-founded cemeteries and wherever mass graves can be found. Wights spend the winter months in a state of lethargy very similar to human sleep. They live strictly solitary lives -- in fact, it is practically unheard of for these creatures to appear in groups. Yet when they fear their territory is threatened, Wights transform into dangerous foes and even abandon their solitary ways to summon other monsters to their aid. It is a certainty that if a Wight finds itself in danger, it will immediately spew out an ectoplasmic solution which near instantaneously transforms into barghests. These beasts obey the Wight and attack anyone it deems a foe. If one of them is killed, the Wight tries to replace it at once.",
+  "story": "They say the dead like quiet. 1 don't know about the dead, but wights certainly do.— Heinrich Von Grott",
+  "lore": "The best strategy when fighting such a Wight is to take out the monsters guarding it with the Axii sign before attacking the wight itself. Wights are resistant to poison, but vulnerable to silver.",
+  "weaknesses": [
+    "Poison",
+    "Axii",
+    "Necrophage Oil",
+    "Aard"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Axii",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Greater Triglav runestone",
+    "Green mutagen",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster essence",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster stomach",
+    "Monster tongue",
+    "Wight ear",
+    "Wight hair"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/wight.webp",
+  "gallery": [
+    "/monsters/wight.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 88,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9917,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Wight_%28creature%29"
+  }
+}

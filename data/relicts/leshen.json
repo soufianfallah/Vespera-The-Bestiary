@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "leshen",
+  "name": "Leshen",
+  "category": "relicts",
+  "description": "Leshens dwell in dense, primeval woods. Fiercely territorial creatures, they hunt with stealth and cunning as their only companions.",
+  "story": "We never hunt in these woods. Never. Even if it means the whole village starves. — Mulliver, ealdorman of Hoshberg in lower Aedirn",
+  "lore": "They use their inborn magic to control the plants and animals within their territory - and so, when stalking them, half the battle is merely getting near enough to strike. Leshens old enough to earn the appellation \"ancient\" wield advanced skills and tactics that make them particularly dangerous.",
+  "weaknesses": [
+    "Igni",
+    "Relict Oil",
+    "Dimeritium Bomb"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/leshen.webp",
+  "gallery": [
+    "/monsters/leshen.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 113,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9923,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Leshen"
+  }
+}

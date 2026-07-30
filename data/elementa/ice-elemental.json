@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "ice-elemental",
+  "name": "Ice Elemental",
+  "category": "elementa",
+  "description": "An ice elemental is a mass of frozen water animated by magic. Deprived of consciousness or independent will,this elemental is boundlessly obedient to the orders of the mage who created it. Those orders usually contain but one syllable: kill.Ice elementals have no qualms about carrying out this order nor any particular diffiulty in doing so. Gifted with incredible strength, they are completely invulnerable to poison and fire, deprived of sensitive organs, hard as permafrost and all in all incredibly difficult opponents. A witcher's only chance at tipping the scales towards victory is to toss a dimeritium bomb — shrapnel made of this metal interferes with the workings of the spell that gives this creature life.",
+  "story": "1 thought to myself - what's a hunk of ice doing in the middle of some lab? And then that hunk of ice got up and broke my legs. — Yannick Lovt, burglar",
+  "lore": "Beyond that remains only prayer.",
+  "weaknesses": [
+    "Fire",
+    "Poison",
+    "Dimeritium Bomb",
+    "Elementa Oil"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Elemental essence",
+    "Infused dust",
+    "Monster core"
+  ],
+  "locations": [
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/ice-elemental.webp",
+  "gallery": [
+    "/monsters/ice-elemental.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 45,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9907,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Skellige",
+    "note": "Game reference cross-check; the trail is associated with Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ice_Elemental"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "higher-vampire",
+  "name": "Higher Vampire",
+  "category": "vampires",
+  "description": "Only a mutual thirst for blood links higher vampires to their distant and much more primitive cousins. Higher vampires are, in fact, much more similar to humans than to those bat-like blood slurpers. They not only resemble us in appearance, but also share our intelligence and behavioral patterns. This means they do not squat in distant forest or hide in the shadows. On the contrary, they are particularly fond of cities, where they live out deceivingly normal lives. Even witchers are not capable of recognizing them at once, for their medallions remain perfectly motionless in the presence of higher vampires. Yet all these similarities should not blind us to an essential difference: unlike men, higher vampires are immortal. Those who have faced them in combat and survived can be counted on one hand. It is a witcher's good fortune that higher vampires are extremely rare — and not all are dangerous to humans. Though they do have a taste for blood, they do not need to drink it to survive. Some higher vampires have renounced feeding on humans altogether and do no harm to anyone, but others give in to their desires. A witcher who braves fighting a higher vampire must bear in mind that he faces a monster endowed with incredible strength, one able to manipulate men and animals, turn invisible and transform into a giant bat - and furthermore one which it is nearly impossible to kill. In other words, even an experienced monster slayer should think twice before accepting a contract on one of these creatures, even if half a kingdom and a princess' hand is in the offing.",
+  "story": "Men, the polite ones, at least, would call me a monster. A blood-drinking freak.— Emiel Regis, higher vampire",
+  "lore": "",
+  "weaknesses": [
+    "Vampire Oil"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Novigrad",
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/higher-vampire.webp",
+  "gallery": [
+    "/monsters/higher-vampire.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 152,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9929,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Novigrad, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Novigrad, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Higher_Vampire"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "godling",
+  "name": "Godling",
+  "category": "relicts",
+  "description": "Godlings are woodland creatures dwelling in burrows and moss-covered hollow stumps on the outskirts of human settlements. They are similar to children in behavior and appearance, and, like children, delight in mischief. Godlings are deeply rooted in their home territory and perform acts of care and guardianship to those dwelling near their burrows. They watch over people as well as animals, but, shy creatures by nature, they try to do so while remaining unseen. Godlings are drawn to joy and innocence, and so delight in the company of children and usually only show themselves to the young. These hard-working and clever creatures gladly perform small services for those in their care, asking only for respect and payment in the form of food or cast-off tools in return. They are easily offended by churlish, ungrateful or simply rude behavior.",
+  "story": "Not too long ago the areas around peasant hamlets were chock full of guardian spirits. Today it's nigh unto impossible to spot a brownie, bucca or lutin. And godlings, they are always the first to go. Such is the price we pay for civilization's forward march. — From the preface to \"The World We Have Lost,\" by Professor Dorregaray",
+  "lore": "Godlings also treasure their peace and quiet. When the village a godling watches over becomes too populous or its inhabitants forget the old ways, it will abandon its burrow for good and walk off to destinations unknown.",
+  "weaknesses": [],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/godling.webp",
+  "gallery": [
+    "/monsters/godling.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 108,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9941,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "witcher-inference",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Godling"
+  }
+}

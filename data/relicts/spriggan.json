@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "slug": "spriggan",
+  "name": "Spriggan",
+  "category": "relicts",
+  "description": "Spriggans are a subspecies of the monsters known as Leshens. One is liable to come across them in inaccessible, unfrequented woodlands. They do not usually attack humans if unprovoked, but when irritated they can be quite fearsome, and, as they possess considerable strength, they are capable of doing great damage.",
+  "story": "1 was gathering berries, as one does this time of year, when suddenly the trees shook and 1 saw this... this thing... — fragment of a story told by a woman returning from the woods.",
+  "lore": "Their appetite is such that they can devour more flesh than an army at a wedding. Each spriggan has mastery over plants and is inextricably tied to them. Thus if someone destroys greenery in its domain, it immediately comes to punish the disturber.",
+  "weaknesses": [
+    "Igni",
+    "Relict Oil",
+    "Dimeritium Bomb"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Fiber",
+    "Greater blue mutagen",
+    "Hardened timber",
+    "Infused shard",
+    "Leshen resin",
+    "Monster bone",
+    "Powdered monster tissue"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/spriggan.webp",
+  "gallery": [
+    "/monsters/spriggan.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 118,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9906,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Spriggan"
+  }
+}

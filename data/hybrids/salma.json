@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "salma",
+  "name": "Salma",
+  "category": "hybrids",
+  "description": "The witcher's investigation uncovered that a succubus named Salma was responsible for the string of killings afflicting the Novigrad city guard. This came as a surprise, for Succubi do not usually commit premeditated, cold-blooded murder. This is not to say they are not dangerous: they will at times kill on accident, when carried away on a particularly gushing stream of ecstasy. At other times, they kill in self-defense: though they have the look of slender maids from the waist up, their supple limbs hide incredible strength. They are also invulnerable to fire, the 1gni Sign included.",
+  "story": "I'm not one to lie. Nor do 1 kill without reason. — Salma, succubus",
+  "lore": "They present witchers with an intractable dilemma: does this monster, who wishes me no ill yet all the same often causes harm, deserve death, or mercy?",
+  "weaknesses": [
+    "Fire",
+    "Quen",
+    "Hybrid Oil"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Coasts, cliffs, mountains, and isolated ruins"
+  ],
+  "loot": [
+    "Monster feathers",
+    "Monster egg",
+    "Hybrid tissue"
+  ],
+  "locations": [
+    "Novigrad"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/salma.webp",
+  "gallery": [
+    "/monsters/salma.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 57,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9888,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Novigrad",
+    "note": "Game reference cross-check; the trail is associated with Novigrad.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Salma"
+  }
+}

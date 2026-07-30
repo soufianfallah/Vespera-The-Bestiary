@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "wild-boar",
+  "name": "Wild Boar",
+  "category": "beasts",
+  "description": "These woodland beasts are as \"wild\" — untamed, nasty and aggressive — as their name indicates. To this day, many peasants in outlying Kaedweni villages believe wild boars persist on a diet of young maids, though in truth they most often slate their hunger with roots and acorns. Do not think this vegetarian diet makes them harmless, however. In fact, these animals' stout build and sharp teeth render them veritable fur-covered combat machines. Mother Nature has additionally equipped them with dual pairs of tusks and this weaponry's sum effect is to make the beasts the terrors of the woods, a threat to all who venture or dwell there, human, humanoid and otherwise.",
+  "story": "How doth the little wild boar improve his shining tusks, And rut them 'gainst the forest floor, And on the trees' rough husks! How cheerfully he seems to grin. How neatly spreads his claws, And welcomes little lasses in, With gently smiling jaws! - Louis of Charolle, mathematician, author and poet",
+  "lore": "Boars also have hard, club-like snouts, which some peasants call their \"whistles,\" though no boar has ever been heard to make such a noise. Instead, they emit a characteristic grunt, which sounds to some like the snoring of an extremely overweight man. Another peasant belief claims boars have extremely prickly natures, and, if offended, will vent their anger",
+  "weaknesses": [
+    "Igni",
+    "Beast Oil",
+    "Yrden",
+    "Samum"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Igni",
+    "Yrden"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests, fields, and the margins of settled land"
+  ],
+  "loot": [
+    "Boar tusk",
+    "Boar pelt",
+    "Raw meat"
+  ],
+  "locations": [
+    "Gustfields",
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/wild-boar.webp",
+  "gallery": [
+    "/monsters/wild-boar.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 15,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9912,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Gustfields, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Gustfields, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Wild_boar"
+  }
+}

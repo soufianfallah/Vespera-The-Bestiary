@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "endrega-worker",
+  "name": "Endrega Worker",
+  "category": "insectoids",
+  "description": "Endrega Workers are the most numerous, and thus the most frequently encountered, caste of Endrega. Within the colony their duty lies in building nests and cocoons, acquiring food and caring for eggs and larvae. When threatened they will summon warriors to aid them, yet if forced to defend themselves they will — and do so surprisingly well.",
+  "story": "1 thought the workers were harmless. 1 thought wrong.-Janne the Gimp, trapper.",
+  "lore": "Endrega workers are most often found traveling in groups of half-dozen or more members. They move slowly yet when attacking, they are capable of covering the distance to their victim in the blink of an eye. Like all of their kind, Endrega workers are highly venomous. Their bite is toxic, as are any wounds dealt by the bony growths on the ends of their limbs. They can also spew acid to great effect from a distance of several paces. Their usual tactic is to surround their enemy and attack from several sides at once. Like all insectoids they do not suffer particularly from bleeding...",
+  "weaknesses": [
+    "Bleeding",
+    "Golden Oriole",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Igni",
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Forests"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/endrega-worker.webp",
+  "gallery": [
+    "/monsters/endrega-worker.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 66,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9909,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "game-reference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Endrega"
+  }
+}

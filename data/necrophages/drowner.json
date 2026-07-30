@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "slug": "drowner",
+  "name": "Drowner",
+  "category": "necrophages",
+  "description": "A Drowner resembles a corpse dredged from the bottom of a pond. It is a sickly blue/green color, with slime and sludge oozing out of every pore and the acrid stench of rot wafting off of it. That is why it is often thought Drowners arise from the bodies of those who drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore or inebriated peasants who stumble off narrow swamp trails. Like so many other beliefs about monsters, this one is false. While Drowners do look like humans from a distance, Witchers have reported the numerous ways in which their anatomy differs from our own. Their scaly skin, gills and dorsal fins suggest Drowners are an entirely foreign species. The adaptations mentioned make drowners excellent swimmers, well-suited to the muddy waters of the ponds and lakes in which they dwell. They often cluster near human settlements, which are for them an excellent source of food. Cowardly creatures by nature, they usually stick to eating scraps they dig out of rubbish piles and animal carcasses. Yet if a lone traveler or careless fisherman strays into their territory, they turn from scavengers to fearsome predators. They can attack with lightning speed, taking their victim by surprise and pulling him into the water to drown. If not particularly hungry at the moment, they will keep their prey under the water for a few days, aging it until it grows deliciously tender and rotten.",
+  "story": "When at the water's edge, you gotta be quiet. First of all, so as not to scare the fish. Second — so you don't attract drowners. — Yanneck ofBlaviken,fisherman",
+  "lore": "",
+  "weaknesses": [
+    "Igni",
+    "Necrophage Oil"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Near waters"
+  ],
+  "loot": [
+    "Drowner brain",
+    "Essence of water",
+    "Drowner trophy",
+    "Drowners are among the first monsters to appear in . Geralt encounters some in the underground passages of the La Valette Castle on his way to the courtyard.",
+    "Drowners cease giving XP when killed from Level 13 onwards.",
+    "=== Journal entry ===",
+    "Sometimes a drowned man returns as a monster, to haunt the living. Tormented with his death, he murders his victims. He prefers to draw them beneath the water's surface, tearing the drowning victim to shreds with sharp claws, and eat them like a wet biscuit. Such creature is called a drowner. They are quite often found at the banks of the Pontar, since the huge river with regular shipping and riverside villages provides them with ample sustenance.",
+    "\"When monsters are really crappy, ganging up makes them happy\". Drowners are not the mightiest beasts in the world, so they hunt in groups, in accordance with the above saying. They are surprisingly fast on land, but are a threat only to fishermen and washerwomen. They can best a witcher only if he is drunk or in love. Sometimes, however, a more robust specimen is found among the drowners. It is called a drowned dead and can command the entire band. Thus it's best to eliminate it first.",
+    "One could say that if drowners chatted among themselves, Geralt would be highly esteemed among them after his exploits in Vizima. Yet drowners do not chat - they are dumb like a left shoe. And good. Fast style should be used when fighting them, and one must spin swiftly before they flee from a witcher's blade. Enough said.",
+    "As they are already dead, drowners do not fear poisons, and even a large loss of blood makes no impression on them. This ends the list of the monsters' strong points, however, as the rest of the witchers' arsenal is extremely effective against them. Thus the drowners can be killed with fire, immobilized by traps, knocked down and, above all else, sliced and diced until slime spills from their ears.",
+    "== Monsterbook ==",
+    "Developer CD PROJEKT RED's characterization of the drowner taken from the monsterbook, which was enclosed with the Collectors Edition of the computer game ​​​ for Poland, Hungary and the Czech Republic",
+    "One of the most popular creatures in the game, the drowner is initially a worthy opponent, but become cannon fodder as the game progresses, an excuse for increasingly spectacular displays of Geralt's mastery of the sword. Frequently appearing creatures need to be created with particular attention to detail, so unsurprisingly we spent a lot of time refining the drowner's final appearance. This was probably the most often modified model in the game.",
+    "Skinny and humped, with its huge head, slightly protruding belly and concave chest, the drowner became a creature that is half-scary, half grotesque. Its eyes are round and fishlike, granting it a rather dumb expression. It also has wide palms and membranes between its fingers as well as a fin. Like its color, these elements reveal much about its natural environment. This creature clearly lives underwater and is awkward when on dry land... unless it happens to be hungry and there is an unsuspecting traveller nearby.",
+    "== ==",
+    "{{Infobox Bestiary"
+  ],
+  "locations": [
+    "White Orchard",
+    "Velen",
+    "Skellige"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/drowner.webp",
+  "gallery": [
+    "/monsters/drowner.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 75,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9904,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "game-reference",
+    "loot": "game-reference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "White Orchard, Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with White Orchard, Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Drowner"
+  }
+}

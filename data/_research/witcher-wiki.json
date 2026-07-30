@@ -1,0 +1,2061 @@
+{
+  "bear": {
+    "status": "found",
+    "pageTitle": "Bear",
+    "url": "https://witcher.fandom.com/wiki/Bear",
+    "occurrence": [
+      "Velen",
+      "Skellige",
+      "White Orchard",
+      "Kaer Morhen valley",
+      "Toussaint"
+    ],
+    "loot": [
+      "Bear fat",
+      "Raw meat",
+      "Non-polar only",
+      "Bear hide",
+      "Polar bears only",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "White bear hide"
+    ]
+  },
+  "big-bad-wolf": {
+    "status": "found",
+    "pageTitle": "Big Bad Wolf",
+    "url": "https://witcher.fandom.com/wiki/Big_Bad_Wolf",
+    "occurrence": [
+      "Land of a Thousand Fables"
+    ],
+    "loot": []
+  },
+  "dogs": {
+    "status": "found",
+    "pageTitle": "Dog",
+    "url": "https://witcher.fandom.com/wiki/Dog",
+    "occurrence": [
+      "Velen",
+      "Novigrad",
+      "Skellige"
+    ],
+    "loot": [
+      "Dog tallow",
+      "Raw meat"
+    ]
+  },
+  "panther": {
+    "status": "found",
+    "pageTitle": "Panther",
+    "url": "https://witcher.fandom.com/wiki/Panther",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "three-little-pigs": {
+    "status": "found",
+    "pageTitle": "Three Little Pigs",
+    "url": "https://witcher.fandom.com/wiki/Three_Little_Pigs",
+    "occurrence": [
+      "Land of a Thousand Fables"
+    ],
+    "loot": [
+      "Magic dust"
+    ]
+  },
+  "warg": {
+    "status": "found",
+    "pageTitle": "Warg",
+    "url": "https://witcher.fandom.com/wiki/Warg",
+    "occurrence": [
+      "Velen",
+      "White Orchard",
+      "Skellige",
+      "Toussaint"
+    ],
+    "loot": [
+      "Dog tallow",
+      "Raw meat",
+      "Wolf's liver",
+      "Wolf hide"
+    ]
+  },
+  "wild-boar": {
+    "status": "found",
+    "pageTitle": "Wild boar",
+    "url": "https://witcher.fandom.com/wiki/Wild_boar",
+    "occurrence": [
+      "Gustfields",
+      "Toussaint"
+    ],
+    "loot": [
+      "Boar tusk",
+      "Boar pelt",
+      "Raw meat"
+    ]
+  },
+  "wolves": {
+    "status": "found",
+    "pageTitle": "Wolf (creature)",
+    "url": "https://witcher.fandom.com/wiki/Wolf_%28creature%29",
+    "occurrence": [
+      "Velen",
+      "White Orchard",
+      "Skellige",
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "archespore": {
+    "status": "found",
+    "pageTitle": "Archespore",
+    "url": "https://witcher.fandom.com/wiki/Archespore",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Archespore juice",
+      "Archespore tendril",
+      "Infused dust",
+      "Green mutagen",
+      "Monster spore",
+      "Venom extract",
+      "Water essence"
+    ]
+  },
+  "berserkers": {
+    "status": "found",
+    "pageTitle": "Werebear",
+    "url": "https://witcher.fandom.com/wiki/Werebear",
+    "occurrence": [
+      "Ard Skellig",
+      "Vildkaarls' village"
+    ],
+    "loot": []
+  },
+  "botchling": {
+    "status": "found",
+    "pageTitle": "Botchling",
+    "url": "https://witcher.fandom.com/wiki/Botchling",
+    "occurrence": [
+      "Crow's Perch"
+    ],
+    "loot": [
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster ear",
+      "Monster eye",
+      "Monster heart",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Necrophage hide",
+      "Rotting flesh"
+    ]
+  },
+  "lubberkin": {
+    "status": "found",
+    "pageTitle": "Lubberkin",
+    "url": "https://witcher.fandom.com/wiki/Lubberkin",
+    "occurrence": [],
+    "loot": []
+  },
+  "the-toad-prince": {
+    "status": "found",
+    "pageTitle": "The Toad Prince",
+    "url": "https://witcher.fandom.com/wiki/The_Toad_Prince",
+    "occurrence": [
+      "Oxenfurt sewers"
+    ],
+    "loot": []
+  },
+  "ulfhedinn": {
+    "status": "found",
+    "pageTitle": "Ulfhedinn",
+    "url": "https://witcher.fandom.com/wiki/Ulfhedinn",
+    "occurrence": [
+      "Skellige"
+    ],
+    "loot": [
+      "Diamond dust",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster essence",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster tongue",
+      "Monster tooth",
+      "Powdered monster tissue",
+      "Werewolf hide",
+      "Werewolf mutagen",
+      "Werewolf saliva"
+    ]
+  },
+  "werewolf": {
+    "status": "found",
+    "pageTitle": "Werewolf",
+    "url": "https://witcher.fandom.com/wiki/Werewolf",
+    "occurrence": [
+      "Velen",
+      "Skellige",
+      "Toussaint"
+    ],
+    "loot": [
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster essence",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster tongue",
+      "Monster tooth",
+      "Powdered monster tissue",
+      "Werewolf hide",
+      "Werewolf mutagen",
+      "Werewolf saliva",
+      "A bestiary entry can be obtained by reading In Beast's Clothing.",
+      "Monster introduction by CDPR",
+      "Neither animal, nor man, the Werewolf takes the worst from both species: the bloodlust and primal nature of a wolf, and the ruthlessness and cruelty of a human. One becomes a Werewolf as a result of a curse thrown by a witch -- the change itself is uncontrollable and unwilling. A man who transforms back to his human form can't usually remember the atrocious acts committed as a werewolf.",
+      "Werewolves are creatures of the night and they are especially active during the full moon. They usually go hunting alone, as there rarely is an opponent that can match their strength, agility and fast health regeneration. If a Werewolf actually encounters an enemy that has equivalent strength and can fight a fair fight, the creature can call for wolven reinforcements that will come to its aid. A good way of dealing with werewolves is a sword covered with oil to combat cursed creatures, or a Silver Bomb that will temporarily block the creature's regenerative power.",
+      "=== Bestiary entry ===",
+      "Wolves aren't as bad as they're made out to be. Werewolves, though – they're every bit as bad and worse.",
+      "– Elsa Vilge, archer",
+      "Werewolves are creatures with both men and wolves inside them. When in beastly form, they take the worst traits of each: the wolf's drive to kill and hunger for raw flesh and the man's cruel and calculating intelligence. A werewolf's condition comes about through a curse, and the transformations happen outside his conscious control. When he reverts to human form, he has no memory of his deeds – otherwise he would surely go mad and take his own life.",
+      "Werewolves are active at night, particularly when the moon is full. Though they hunt alone, when threatened they will summon wolves to aid them. Werewolves rarely feel the need to flee, for few adversaries put up much of a fight against them. They strike as swiftly as lightning with claws sharp as razors and regenerate any damage received in mere moments. When fighting werewolves a witcher should wield a blade covered in oil harmful to the cursed and have a large supply of Devil's Puffballs handy.",
+      "A werewolf's curse can at times be lifted, yet there is no universal, surefire method for doing this. A witcher seeking to undertake such a task must there equip himself with a great deal of patience – and sturdy armor.",
+      "=== Combat tactics ===",
+      "These breeds of cursed creatures are quite fast and very lethal. They can jump great distances and at such high speeds that defending yourself against one can be challenging at best. Utilising the sign Yrden can be a useful way to slow them down, making close quarter combat safer. Igni and Axii can also be used to stop the werewolf on its tracks momentarily, leaving enough windows for one or two heavy attacks.",
+      "Werewolves have an intriguingly powerful health regeneration ability, even more potent than ghouls'. Players who are unable to give enough damage output within short time will have to be prepared for an exhausting fight, if not at all impossible; as long as the werewolf can regenerate health faster than he takes damage, it can outlast Geralt no matter how good he is in defense and evasive tactic.",
+      "Fire, bleeding and poison effects can be used to slow their regeneration down, although inflicting these statuses upon the werewolf are quite a challenge in itself, considering their speed.",
+      "=== Associated quests ===",
+      "{{Cols|num=3",
+      "Ciri's Story: The King of the Wolves",
+      "Contract: Skellige's Most Wanted",
+      "Knight for Hire",
+      "In Wolf's Clothing",
+      "Little Red",
+      "Wild at Heart",
+      "The Whispering Hillock"
+    ]
+  },
+  "basilisk": {
+    "status": "found",
+    "pageTitle": "Basilisk",
+    "url": "https://witcher.fandom.com/wiki/Basilisk",
+    "occurrence": [
+      "Velen",
+      "Novigrad",
+      "Skellige"
+    ],
+    "loot": []
+  },
+  "cockatrice": {
+    "status": "found",
+    "pageTitle": "Cockatrice",
+    "url": "https://witcher.fandom.com/wiki/Cockatrice",
+    "occurrence": [
+      "Velen",
+      "Redania",
+      "Skellige"
+    ],
+    "loot": []
+  },
+  "forktail": {
+    "status": "found",
+    "pageTitle": "Forktail",
+    "url": "https://witcher.fandom.com/wiki/Forktail",
+    "occurrence": [
+      "Velen",
+      "Skellige",
+      "White Orchard",
+      "Kaer Morhen valley"
+    ],
+    "loot": [
+      "Dragon scales",
+      "Forktail mutagen",
+      "Forktail hide",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster eye",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Raw meat"
+    ]
+  },
+  "royal-wyvern": {
+    "status": "found",
+    "pageTitle": "Royal wyvern",
+    "url": "https://witcher.fandom.com/wiki/Royal_wyvern",
+    "occurrence": [
+      "Royal wyverns are larger and more aggressive than their common cousins; they live in the wilderness, often in the mountains, as they like to build their nests on precipices; they attack any creature entering their territory"
+    ],
+    "loot": []
+  },
+  "shrieker": {
+    "status": "found",
+    "pageTitle": "Shrieker",
+    "url": "https://witcher.fandom.com/wiki/Shrieker",
+    "occurrence": [
+      "Cave near Crow's Perch"
+    ],
+    "loot": []
+  },
+  "silver-basilisk": {
+    "status": "found",
+    "pageTitle": "Silver Basilisk",
+    "url": "https://witcher.fandom.com/wiki/Silver_Basilisk",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "slyzard-matriarch": {
+    "status": "found",
+    "pageTitle": "Slyzard Matriarch",
+    "url": "https://witcher.fandom.com/wiki/Slyzard_Matriarch",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Dahlia",
+      "Dragon scales",
+      "Greater Glyph of Igni",
+      "Greater red mutagen",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster stomach",
+      "Monster tongue",
+      "Monster tooth",
+      "Monster wing",
+      "Slyzard scale plate",
+      "Slyzard trophy"
+    ]
+  },
+  "slyzard": {
+    "status": "found",
+    "pageTitle": "Slyzard",
+    "url": "https://witcher.fandom.com/wiki/Slyzard",
+    "occurrence": [],
+    "loot": []
+  },
+  "the-dragon-of-fyresdal": {
+    "status": "found",
+    "pageTitle": "The Dragon of Fyresdal",
+    "url": "https://witcher.fandom.com/wiki/The_Dragon_of_Fyresdal",
+    "occurrence": [
+      "Abandoned siege tower outside Fyresdal"
+    ],
+    "loot": []
+  },
+  "wyvern": {
+    "status": "found",
+    "pageTitle": "Wyvern",
+    "url": "https://witcher.fandom.com/wiki/Wyvern",
+    "occurrence": [
+      "Wyverns have been spotted nesting in northeastern Velen, though it must be stressed that these beasts are highly-adaptable, and have been sighted across the entire Continent and the Skellige isles."
+    ],
+    "loot": []
+  },
+  "djinn": {
+    "status": "found",
+    "pageTitle": "Djinn",
+    "url": "https://witcher.fandom.com/wiki/Djinn",
+    "occurrence": [],
+    "loot": []
+  },
+  "earth-elemental": {
+    "status": "found",
+    "pageTitle": "Earth Elemental",
+    "url": "https://witcher.fandom.com/wiki/Earth_Elemental",
+    "occurrence": [
+      "Elven ruins",
+      "Ermion's laboratory in Kaer Trolde citadel"
+    ],
+    "loot": [
+      "Elemental stone",
+      "Amethyst dust",
+      "Diamond dust",
+      "Red meteorite ore",
+      "Yellow meteorite ore",
+      "Blue meteorite ore",
+      "Elemental trophy}}There is an Earth elemental labeled as \"golem\" in the cave under the Kaedweni camp near the shore by the Nilfgaardian camp, in Chapter II. You can find it by exploring the caves while searching for Triss. Another one can be found in Kingslayers' hideout.",
+      "When it dies, it drops an Elemental stone and you can loot all the trunks and containers it guarded. In one of them, you can find the Armor of Ban Ard.",
+      "=== Journal entry ===",
+      "The earth elemental is the younger brother of the legendary d'ao, the genie capable of creating earthquakes and flattening mountains. Younger, and less powerful, but also more mischievous. Felling trees, crushing walls and smashing people to pulp can be counted among this creature's pranks. But only if their master allows it, of course.",
+      "The earth elemental always serves its summoner faithfully. It is most often employed as a guard, as it is tireless and always vigilant. It does have senses as living beings do, but it always recognizes the presence of intruders. It has no fear of monsters, let alone humans.",
+      "This monster's most dangerous weapons are its mighty arms. A blow from the earth elemental is akin to a battering ram hitting a city gate, and turns a normal human into a bloody stain. Its ripostes are especially dangerous, for this apparently sluggish creature can strike swiftly as well as strongly. Thus one has to defend oneself against its blows with all available means, including potions and Signs. According to the \"fight fire with fire\" rule – or rather the \"fight strength with strength\" – one should also use strong blows against the elemental, since only such attacks can grind its stone body down.",
+      "The earth elemental's body is solid rock, so the creature cannot be poisoned or blooded. It is best to summon a team of dwarven miners to use pickaxes on it until its done for. However if the witcher has no such team at hand, he should use regular means. The earth elemental, though it has no weaknesses, can be beaten.",
+      "== ==",
+      "{{Infobox Bestiary"
+    ]
+  },
+  "fire-elemental": {
+    "status": "found",
+    "pageTitle": "Fire Elemental",
+    "url": "https://witcher.fandom.com/wiki/Fire_Elemental",
+    "occurrence": [
+      "Found in magical ruins"
+    ],
+    "loot": [
+      "Elemental stone",
+      "Amethyst dust",
+      "Diamond dust",
+      "Red meteorite ore",
+      "Yellow meteorite ore",
+      "Blue meteorite ore",
+      "Elemental trophy"
+    ]
+  },
+  "gargoyle": {
+    "status": "found",
+    "pageTitle": "Gargoyle",
+    "url": "https://witcher.fandom.com/wiki/Gargoyle",
+    "occurrence": [
+      "Abandoned ruins and caves"
+    ],
+    "loot": [
+      "Gargoyle dust",
+      "Gargoyle heart",
+      "Amethyst dust",
+      "Diamond dust",
+      "Elemental stone",
+      "Gargoyle trophy}}In the Witcher 2, they are first encountered briefly in Chapter II (if on Roche's path), and later in Chapter III as part of The Gargoyle Contract.",
+      "They are vulnerable to Silver swords (especially Deithwen, which provides a 25% bonus), and will explode violently after being slain.",
+      "They can be stunned fairly easily using the Aard Sign. Killing a stunned gargoyle will prevent it from exploding.",
+      "=== Journal entry ===",
+      "In times long gone, when youth was more polite, everything was cheaper, and girls were more eager, sorcerers could breathe life into inanimate matter and create stone servants this way. Gargoyles - for I have them in mind - can be found in ancient cities to this day, but their magic has vanished and now they are nothing more than cornice decorations. There are, however, exceptions such as the Loc Muinne gargoyles - still enchanted and still dangerous.",
+      "Theoreticians of magic still argue about classifying gargoyles. I favor the school claiming they are a type of golem. For gargoyles are nothing more than fancy sculptures animated with magic and programmed to do simple tasks. They can complete only the most rudimentary works, so they are most often guarding a territory, even if their creator turned to dust long ago.",
+      "The gargoyle is a magical creature and often has surprising tricks at it's sleeve. Teleportation for example: an opponent makes a blow, and the gargoyle disappears only to emerge elsewhere at the same moment. Like behind it's enemy. It's even worse when the gargoyle appears over his opponent - then it just falls down and crushes it's victim beneath the weight of it's stone body. Thanks to their medallions, witchers can perceive disturbances in magical aura, so they see the point where the gargoyle will appear moments before it materializes, so they have time to react. However ordinary people tend to die crushed.",
+      "Fighting the gargoyle means fighting solid rock, so it should not be surprising that poisons are useless, as are fire and oils causing bleeding. Because of its great mass, the gargoyle's stone body cannot be unbalanced, let alone knocked down. Immobilizing one with a trap will fail, as gargoyles can teleport and will flee snares using this ability. They have no weaknesses at all.",
+      "=== Associated quests ===",
+      "An Encrypted Manuscript",
+      "The Gargoyle Contract",
+      "== ==",
+      "{{Infobox Bestiary"
+    ]
+  },
+  "golem": {
+    "status": "found",
+    "pageTitle": "Golem",
+    "url": "https://witcher.fandom.com/wiki/Golem",
+    "occurrence": [
+      "Elven ruins and caves (throughout the world)"
+    ],
+    "loot": []
+  },
+  "hound-of-the-wild-hunt": {
+    "status": "found",
+    "pageTitle": "Hound of the Wild Hunt",
+    "url": "https://witcher.fandom.com/wiki/Hound_of_the_Wild_Hunt",
+    "occurrence": [
+      "Always together with Wild Hunt"
+    ],
+    "loot": []
+  },
+  "ice-elemental": {
+    "status": "found",
+    "pageTitle": "Ice Elemental",
+    "url": "https://witcher.fandom.com/wiki/Ice_Elemental",
+    "occurrence": [
+      "Skellige"
+    ],
+    "loot": []
+  },
+  "moreau-s-golem": {
+    "status": "found",
+    "pageTitle": "Moreau's Golem",
+    "url": "https://witcher.fandom.com/wiki/Moreau%27s_Golem",
+    "occurrence": [
+      "Mont Crane Castle"
+    ],
+    "loot": []
+  },
+  "pixies": {
+    "status": "found",
+    "pageTitle": "Pixies",
+    "url": "https://witcher.fandom.com/wiki/Pixies",
+    "occurrence": [
+      "Land of a Thousand Fables"
+    ],
+    "loot": []
+  },
+  "the-apiarian-phantom": {
+    "status": "found",
+    "pageTitle": "The Apiarian Phantom",
+    "url": "https://witcher.fandom.com/wiki/The_Apiarian_Phantom",
+    "occurrence": [
+      "In hut near Honeyfill Meadworks"
+    ],
+    "loot": []
+  },
+  "therazane": {
+    "status": "found",
+    "pageTitle": "Therazane",
+    "url": "https://witcher.fandom.com/wiki/Therazane",
+    "occurrence": [
+      "Moldavie Residence"
+    ],
+    "loot": [
+      "Cleaver hood",
+      "Earth elemental mutagen",
+      "Earth elemental trophy",
+      "Elemental essence",
+      "Fifth essence",
+      "Infused shard",
+      "Lesser Glyph of Quen",
+      "Monster claw",
+      "Monster eye",
+      "Powdered monster tissue"
+    ]
+  },
+  "ekhidna": {
+    "status": "found",
+    "pageTitle": "Ekhidna",
+    "url": "https://witcher.fandom.com/wiki/Ekhidna",
+    "occurrence": [
+      "Bodies of water and shorelines"
+    ],
+    "loot": []
+  },
+  "erynia": {
+    "status": "found",
+    "pageTitle": "Erynia",
+    "url": "https://witcher.fandom.com/wiki/Erynia",
+    "occurrence": [
+      "Skellige"
+    ],
+    "loot": [
+      "Harpy egg",
+      "Harpy eyes",
+      "Harpy feathers",
+      "Harpy saliva",
+      "Harpy claws",
+      "Cloth",
+      "Robust cloth",
+      "Twine",
+      "Leather",
+      "Hardened leather",
+      "Orens"
+    ]
+  },
+  "griffin": {
+    "status": "found",
+    "pageTitle": "Griffin (creature)",
+    "url": "https://witcher.fandom.com/wiki/Griffin_%28creature%29",
+    "occurrence": [
+      "Oxenfurt",
+      "Skellige",
+      "Toussaint",
+      "Velen",
+      "White Orchard"
+    ],
+    "loot": [
+      "Griffin's egg",
+      "Griffin feathers",
+      "Griffin mutagen",
+      "Griffin trophy",
+      "Infused dust",
+      "Monster brain",
+      "Monster claw",
+      "Monster eye",
+      "Monster heart",
+      "Monster tongue",
+      "Raw meat"
+    ]
+  },
+  "harpy": {
+    "status": "found",
+    "pageTitle": "Harpy",
+    "url": "https://witcher.fandom.com/wiki/Harpy",
+    "occurrence": [
+      "Highlands"
+    ],
+    "loot": [
+      "Harpy egg",
+      "Harpy feathers",
+      "Harpy talons",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster liver",
+      "Monster saliva",
+      "Raw meat",
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "A bestiary entry can be obtained by reading Journey to the End of the World.",
+      "=== Bestiary entry ===",
+      "Most monsters don't actually keep any treasure in their lairs. Harpies, though - they like shiny things.",
+      "– Letho, Viper School witcher",
+      "It is hard to say what is most repulsive about harpies and their cousins, the shishigas: their hideous appearance, the overwhelming stench of rot and bird excrement that clings to them or their bloodcurdling screech. Suffice it to say that even rats, who dwell happily among the rankest fecal matter and rotten waste, give their nests wide berth.",
+      "Harpy nests are most often found atop high cliffs or rocky ravines. Sure signs of having strayed near one are crumbling human and animals remains, guano-streaked rocks and feathers littering the ground.",
+      "Harpies and shishigas hunt in flocks consisting of a handful to up to twenty individuals. Though rather cowardly and cautious, harpies fiercely defend their nests and will not hesitate to attack when outnumbering their foes.",
+      "During combat they use their ability to fly to dive swiftly to strike their victims one by one before soaring back up out of reach. They can kill with their wings or their sharp beak and talons. Once on the ground they move slowly and clumsily, and thus no longer present much of a threat.",
+      "=== Combat tactics ===",
+      "Like many other swarming enemies such as wolves or Drowners, individual Harpies are quite weak, fragile and easy to deal with. Problem is, you almost never deal with an \"individual\" Harpy. In some ways they're even more annoying than land-based swarming monsters because as you're focusing your attention on one or two in front of you, several others are flying around where you can't see them and can suddenly swoop in out of nowhere from quite a distance away from you and hit you from behind. If you have built it up, Aard in the omnidirectional Aard-Sweep form combined with the Far-Reaching Aard upgrade will be a godsend against them.",
+      "=== Associated quests ===",
+      "{{Cols|num=3",
+      "Crime and Punishment",
+      "Ladies of the Wood",
+      "The Final Trial",
+      "The Isle of Mists (optional)",
+      "The Lord of Undvik (optional)",
+      "The Path of Warriors",
+      "The Whispering Hillock (optional)",
+      "Scavenger Hunt: Griffin School Gear",
+      "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 1",
+      "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 4",
+      "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 3",
+      "Scavenger Hunt: Wolf School Gear Upgrade Diagrams - Part 4",
+      "The Royal Air Force"
+    ]
+  },
+  "melusine": {
+    "status": "found",
+    "pageTitle": "Melusine",
+    "url": "https://witcher.fandom.com/wiki/Melusine",
+    "occurrence": [
+      "Spikeroog"
+    ],
+    "loot": []
+  },
+  "opinicus": {
+    "status": "found",
+    "pageTitle": "Opinicus",
+    "url": "https://witcher.fandom.com/wiki/Opinicus",
+    "occurrence": [
+      "Forest outside Oxenfurt"
+    ],
+    "loot": [
+      "Amber dust",
+      "Archgriffin mutagen",
+      "Griffin's egg",
+      "Griffin feathers",
+      "Griffin trophy",
+      "Infused shard",
+      "Monster brain",
+      "Monster claw",
+      "Monster eye",
+      "Monster heart",
+      "Monster tongue",
+      "Zireael armor"
+    ]
+  },
+  "salma": {
+    "status": "found",
+    "pageTitle": "Salma",
+    "url": "https://witcher.fandom.com/wiki/Salma",
+    "occurrence": [
+      "Novigrad"
+    ],
+    "loot": []
+  },
+  "siren": {
+    "status": "found",
+    "pageTitle": "Siren",
+    "url": "https://witcher.fandom.com/wiki/Siren",
+    "occurrence": [
+      "Coastal Regions throughout Velen and Novigrad, Skellige is also a major breeding ground."
+    ],
+    "loot": [
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Siren vocal cords",
+      "Water essence",
+      "While the game calls these sirens, they're more accurately nixa: a far more vicious type of siren that, unlike merpeople, have wings, allowing them to fly.",
+      "The bestiary entry can be obtained by reading Journey to the End of the World.",
+      "=== Bestiary entry ===",
+      "Out at sea, if you hear a beautiful woman singing, turn the ship around at once. You understand? Even if it means sailing straight back into a storm.",
+      "– Arike of Hindarsfjall, advice given to his son before his first solo voyage",
+      "Like skilled hunters setting out wooden ducks to lure in drakes, sirens and lamias lure men near - using their own bodies as decoys. They can transform to resemble beautiful human maidens, though with tails covered in silver scales instead of legs. Once a naive sailor gets within arm's reach of these beautiful creatures, their fair faces suddenly turn to fang-filled, fish-like maws, and lovely tails promising unknown delights become sharp, death dealing talons.",
+      "One legend claims sirens and lamias were once friendly towards men – and supposedly were even known (albeit on rare occasions) to accept some sailors' clumsy attempts at courtship. In our day, however, they are decidedly aggressive, perhaps soured by the numerous kidnappings of carried out by frustrated sea salts. Whatever the truth, one thing is certain: these days the monsters display no signs of good will, and so when spotting them one should immediately reach for one's silver sword.",
+      "Sirens and lamias (the sirens' more dangerous cousins) usually hunt in flocks, making use of their numbers as well as their ability to move effortlessly through water and air.",
+      "On the ground, however, they are virtually defenseless, and so a wise tactic is to damage their fin-like wings to force them to land. The Igni Sign also proves effective when fighting against them. Threatened or injured sirens will let out a terrifying shriek, leaving their opponents stunned while they escape – and their sisters swoop down for an easy attack.",
+      "=== Combat tactics ===",
+      "Sirens work in packs, akin to harpies and their ilk. They have been spotted attempting to lure in victims by transforming their appearance to that of an attractive human woman, a deception that quickly ends the moment they become aggressive.",
+      "Sirens can move as quickly in water as they do in the sky. When sailing in siren-infested waters, expect to see the monsters transition from the seas to the air as they surround their prey.",
+      "Aard, Grapeshot, and a witcher's crossbow are enough to ground a flying siren. Sirens of all types are especially vulnerable to Igni, as well as any bombs that can set victims afire. It is possible to counterattack a siren as they dive out of the air at their target. This grounds them and can severely wound them.",
+      "As with the harpy, a grounded siren is a siren that has all but presented themselves for execution. Witchers presented with this opportunity should not hesitate.",
+      "Sirens prefer swooping on their prey, slashing with their claws, or tails as they sweep past their victims. They rarely stay still in the air, but are at their most vulnerable when they do so.",
+      "Wounded sirens can produce an ear-piercing screech that stun their attackers. Other sirens can use this moment to rescue their sister, diving in on the enemy and allowing their injured to escape.",
+      "=== Associated quests ===",
+      "{{Cols|num=3",
+      "Black Pearl",
+      "Possession",
+      "The Cave of Dreams",
+      "The Last Wish",
+      "The Lord of Undvik",
+      "The Path of Warriors",
+      "The Price of Honor",
+      "The Sunstone",
+      "Family Fortune",
+      "Ironsides' Treasure",
+      "Nilfgaardian Treasure",
+      "Not Only Eagles Dare (optional)",
+      "Precious Haul",
+      "Ruins, Hidden Treasure, You Know...",
+      "Siren's Call",
+      "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 4"
+    ]
+  },
+  "succubus": {
+    "status": "found",
+    "pageTitle": "Succubus",
+    "url": "https://witcher.fandom.com/wiki/Succubus",
+    "occurrence": [
+      "Ard Skellig"
+    ],
+    "loot": [
+      "Crowns",
+      "Silk",
+      "Strawberries",
+      "Succubus mutagen"
+    ]
+  },
+  "arachasae-armored": {
+    "status": "found",
+    "pageTitle": "Armored arachas",
+    "url": "https://witcher.fandom.com/wiki/Armored_arachas",
+    "occurrence": [],
+    "loot": [
+      "Arachas eyes",
+      "Chitinous shell",
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "Monster heart",
+      "Monster saliva"
+    ]
+  },
+  "arachasae": {
+    "status": "found",
+    "pageTitle": "Arachas",
+    "url": "https://witcher.fandom.com/wiki/Arachas",
+    "occurrence": [
+      "Forested areas"
+    ],
+    "loot": [
+      "Arachas armor",
+      "Arachas eyes",
+      "Amethyst dust",
+      "Diamond dust",
+      "Arachas trophy",
+      "Geralt encounters the Arachas in a forest clearing after meeting Iorveth. This takes place close to the end of Chapter I during the quest The Assassins of Kings.",
+      "The arachas is easily dispatched using a silver sword. It drops some reagents including the arachas eyes and armor. The eyes are used for restoring the power to the amulet in the quest Melitele's Heart.",
+      "On Roche's path, a second arachas is encountered at the end of a ravine northeast of the Kaedweni camp, near a lone dead conifer. There is a third arachas in a ravine guarding the Mage's gloves, this is accessible to both paths.",
+      "On Iorveth's path, an arachas is encountered in the cave on the way into Loc Muinne.",
+      "By Chapter 2, Geralt's level should be high enough for the Arachas to not give XP when killed.",
+      "=== Associated quests ===",
+      "Melitele's Heart",
+      "The Assassins of Kings",
+      "The Path to Vision (optional)",
+      "For a Higher Cause! (optional)",
+      "=== Journal entry ===",
+      "Arachnids are lone hunters - they patiently wait for their prey to kill it with one swift strike when it appears. The same is true for the arachas, a huge creature that took a liking of the riverside forest, becoming it's undisputed king. A ruler who does not tolerate other hunters on it's territory. Including witchers.",
+      "Arachasae are large, slow and protected by a durable armor. The carapace, as the witchers call this armor, is especially tough from the front, so it is much easier to wound the creature from the side or the back. The arachas' charges make an excellent for that - one has to evade the charge at all costs by stepping out the beast's way, and then make one's blow. Without doubt it's the best to use the strong style then.",
+      "The arachas has no fear of poison, and not much fear of fire. It's primitive nervous system barely reacts to wounds, and it's incredible vitality allows it to take even great wounds. The beast will heal them after the fight anyway, all the while digesting its prey.",
+      "All said and done, the arachas is a bug, so one's blade should be coated with the Insectoid Oil before fighting it. The monster's susceptibility to this blade coating is probably its sole weakness. The beast can easily all shrug off other witcher tricks, so common poisons and Signs are of no use, not to mention attempts to knock the colossus down.",
+      "====",
+      "{{Infobox Bestiary"
+    ]
+  },
+  "arachnomorph": {
+    "status": "found",
+    "pageTitle": "Arachnomorph",
+    "url": "https://witcher.fandom.com/wiki/Arachnomorph",
+    "occurrence": [
+      "Redania",
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "endrega-drone": {
+    "status": "found",
+    "pageTitle": "Endrega",
+    "url": "https://witcher.fandom.com/wiki/Endrega",
+    "occurrence": [
+      "Forests"
+    ],
+    "loot": []
+  },
+  "endrega-warrior": {
+    "status": "found",
+    "pageTitle": "Endrega",
+    "url": "https://witcher.fandom.com/wiki/Endrega",
+    "occurrence": [
+      "Forests"
+    ],
+    "loot": []
+  },
+  "endrega-worker": {
+    "status": "found",
+    "pageTitle": "Endrega",
+    "url": "https://witcher.fandom.com/wiki/Endrega",
+    "occurrence": [
+      "Forests"
+    ],
+    "loot": []
+  },
+  "giant-centipede": {
+    "status": "found",
+    "pageTitle": "Giant Centipede",
+    "url": "https://witcher.fandom.com/wiki/Giant_Centipede",
+    "occurrence": [],
+    "loot": []
+  },
+  "harrisi": {
+    "status": "found",
+    "pageTitle": "Harrisi",
+    "url": "https://witcher.fandom.com/wiki/Harrisi",
+    "occurrence": [],
+    "loot": []
+  },
+  "kikimore-warrior": {
+    "status": "found",
+    "pageTitle": "Kikimore",
+    "url": "https://witcher.fandom.com/wiki/Kikimore",
+    "occurrence": [],
+    "loot": []
+  },
+  "kikimore-worker": {
+    "status": "found",
+    "pageTitle": "Kikimore Worker",
+    "url": "https://witcher.fandom.com/wiki/Kikimore_Worker",
+    "occurrence": [],
+    "loot": []
+  },
+  "pale-widow": {
+    "status": "found",
+    "pageTitle": "Pale Widow",
+    "url": "https://witcher.fandom.com/wiki/Pale_Widow",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "sandcrab": {
+    "status": "found",
+    "pageTitle": "Sandcrab",
+    "url": "https://witcher.fandom.com/wiki/Sandcrab",
+    "occurrence": [
+      "Ddiddiwedht Desert"
+    ],
+    "loot": []
+  },
+  "venomous-arachasae": {
+    "status": "found",
+    "pageTitle": "Venomous arachas",
+    "url": "https://witcher.fandom.com/wiki/Venomous_arachas",
+    "occurrence": [],
+    "loot": [
+      "Arachas eyes",
+      "Arachas mutagen",
+      "Arachas venom",
+      "Chitinous shell",
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "Monster heart",
+      "Monster saliva"
+    ]
+  },
+  "abaya": {
+    "status": "found",
+    "pageTitle": "Abaya",
+    "url": "https://witcher.fandom.com/wiki/Abaya",
+    "occurrence": [
+      "Underwater cave off Kaer Trolde Harbor"
+    ],
+    "loot": []
+  },
+  "alghoul": {
+    "status": "found",
+    "pageTitle": "Alghoul",
+    "url": "https://witcher.fandom.com/wiki/Alghoul",
+    "occurrence": [
+      "Battlefields and any location where a large number of corpses can be found in shallow graves or left out to rot."
+    ],
+    "loot": [
+      "Alghoul bone marrow",
+      "Alghoul claw",
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "Monster blood",
+      "Monster brain",
+      "Monster ear",
+      "Monster eye",
+      "Monster heart",
+      "Monster hide",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Rotting flesh",
+      "A bestiary entry can be obtained by reading Ghouls and Alghouls.",
+      "=== Bestiary entry ===",
+      "An alghoul's basically a badarse ghoul",
+      "– Yarpen Zigrin, dwarven warrior",
+      "Alghouls differ from normal ghouls in size, strength, coloring and, most importantly, intelligence. Whereas ghouls and graveirs are primitive creatures unfit to plan even the simplest ambush, alghouls and their kindred (such as cemetaurs) are capable of forethought, and are thus much more dangerous.",
+      "Ghouls seem to possess wits enough to at least know a brighter mind when they see it, and so let alghouls and cemetaurs lead their packs. A pack so led will terrorize all in its path, attacking not only lone travelers but also caravans and even farmsteads. When encountering such a pack the alghoul should be eliminated as a first priority, leaving the other beasts for once their leader is gone. One be particularly careful when fighting alghouls around dusk and at night, when they fight with doubled strength.",
+      "During combat alghouls and cemetaurs try risky maneuvers aimed at knocking their opponents to the ground so the others can finish the job by tearing them to shreds. Like a normal ghoul, an injured alghoul can fall into a frenzy and attack with blind fury. An experienced witcher knows to get out of its way on such occasions and strike from behind, while for an inexperienced witcher, such a turn of events often marks the end of his Path.",
+      "=== Combat tactics ===",
+      "left|thumb|221x221px",
+      "Alghouls are smarter and more powerful than ghouls, making them the greatest threat in a ghoul pack. An otherwise coordinated pack becomes less so once the alghoul has been dealt with. Axii forces the spines on an alghoul to retract after a few seconds, with the added benefit of temporarily stunning the creature.",
+      "An alghoul can emit a piercing scream to stun nearby victims, as well as send nearby ghouls into a raging frenzy. When enraged, an alghoul grows spines on its back. This makes attacking it a very dangerous proposition, as the spines are harmful if you use melee attacks.",
+      "=== Associated quests ===",
+      "{{Cols|num=2",
+      "Contract: Woodland Beast",
+      "For Fame and Glory",
+      "Looters (2nd group)",
+      "The Tower Outta Nowheres",
+      "Practicum in Advanced Alchemy",
+      "Contract: The Mystery of the Byways Murders",
+      "Contract: The Beast of Honorton",
+      "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 1",
+      "Where the Cat and Wolf Play...",
+      "Contract: Bovine Blues",
+      "Vintner's Contract: Rivecalme Storehouse"
+    ]
+  },
+  "devourer": {
+    "status": "found",
+    "pageTitle": "Devourer",
+    "url": "https://witcher.fandom.com/wiki/Devourer",
+    "occurrence": [
+      "With rotfiends, near corpses"
+    ],
+    "loot": []
+  },
+  "drowned-dead": {
+    "status": "found",
+    "pageTitle": "Drowned dead",
+    "url": "https://witcher.fandom.com/wiki/Drowned_dead",
+    "occurrence": [
+      "The drowned dead are creatures of the night; they appear on the banks of ponds, lakes and rivers"
+    ],
+    "loot": []
+  },
+  "drowner": {
+    "status": "found",
+    "pageTitle": "Drowner",
+    "url": "https://witcher.fandom.com/wiki/Drowner",
+    "occurrence": [
+      "Near waters"
+    ],
+    "loot": [
+      "Drowner brain",
+      "Essence of water",
+      "Drowner trophy",
+      "Drowners are among the first monsters to appear in . Geralt encounters some in the underground passages of the La Valette Castle on his way to the courtyard.",
+      "Drowners cease giving XP when killed from Level 13 onwards.",
+      "=== Journal entry ===",
+      "Sometimes a drowned man returns as a monster, to haunt the living. Tormented with his death, he murders his victims. He prefers to draw them beneath the water's surface, tearing the drowning victim to shreds with sharp claws, and eat them like a wet biscuit. Such creature is called a drowner. They are quite often found at the banks of the Pontar, since the huge river with regular shipping and riverside villages provides them with ample sustenance.",
+      "\"When monsters are really crappy, ganging up makes them happy\". Drowners are not the mightiest beasts in the world, so they hunt in groups, in accordance with the above saying. They are surprisingly fast on land, but are a threat only to fishermen and washerwomen. They can best a witcher only if he is drunk or in love. Sometimes, however, a more robust specimen is found among the drowners. It is called a drowned dead and can command the entire band. Thus it's best to eliminate it first.",
+      "One could say that if drowners chatted among themselves, Geralt would be highly esteemed among them after his exploits in Vizima. Yet drowners do not chat - they are dumb like a left shoe. And good. Fast style should be used when fighting them, and one must spin swiftly before they flee from a witcher's blade. Enough said.",
+      "As they are already dead, drowners do not fear poisons, and even a large loss of blood makes no impression on them. This ends the list of the monsters' strong points, however, as the rest of the witchers' arsenal is extremely effective against them. Thus the drowners can be killed with fire, immobilized by traps, knocked down and, above all else, sliced and diced until slime spills from their ears.",
+      "== Monsterbook ==",
+      "Developer CD PROJEKT RED's characterization of the drowner taken from the monsterbook, which was enclosed with the Collectors Edition of the computer game ​​​ for Poland, Hungary and the Czech Republic",
+      "One of the most popular creatures in the game, the drowner is initially a worthy opponent, but become cannon fodder as the game progresses, an excuse for increasingly spectacular displays of Geralt's mastery of the sword. Frequently appearing creatures need to be created with particular attention to detail, so unsurprisingly we spent a lot of time refining the drowner's final appearance. This was probably the most often modified model in the game.",
+      "Skinny and humped, with its huge head, slightly protruding belly and concave chest, the drowner became a creature that is half-scary, half grotesque. Its eyes are round and fishlike, granting it a rather dumb expression. It also has wide palms and membranes between its fingers as well as a fin. Like its color, these elements reveal much about its natural environment. This creature clearly lives underwater and is awkward when on dry land... unless it happens to be hungry and there is an unsuspecting traveller nearby.",
+      "== ==",
+      "{{Infobox Bestiary"
+    ]
+  },
+  "foglet": {
+    "status": "found",
+    "pageTitle": "Foglet",
+    "url": "https://witcher.fandom.com/wiki/Foglet",
+    "occurrence": [],
+    "loot": []
+  },
+  "ghoul": {
+    "status": "found",
+    "pageTitle": "Ghoul",
+    "url": "https://witcher.fandom.com/wiki/Ghoul",
+    "occurrence": [
+      "Anywhere near corpses"
+    ],
+    "loot": [
+      "Ghoul's blood",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster heart",
+      "Monster hide",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Venom extract",
+      "Selected quests only",
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen"
+    ]
+  },
+  "grave-hag": {
+    "status": "found",
+    "pageTitle": "Grave Hag",
+    "url": "https://witcher.fandom.com/wiki/Grave_Hag",
+    "occurrence": [],
+    "loot": []
+  },
+  "ignis-fatuus": {
+    "status": "found",
+    "pageTitle": "Ignis Fatuus",
+    "url": "https://witcher.fandom.com/wiki/Ignis_Fatuus",
+    "occurrence": [
+      "Cave in Crookback Bog"
+    ],
+    "loot": []
+  },
+  "mourntart": {
+    "status": "found",
+    "pageTitle": "Mourntart",
+    "url": "https://witcher.fandom.com/wiki/Mourntart",
+    "occurrence": [
+      "Lindenvale"
+    ],
+    "loot": []
+  },
+  "mucknixer": {
+    "status": "found",
+    "pageTitle": "Mucknixer",
+    "url": "https://witcher.fandom.com/wiki/Mucknixer",
+    "occurrence": [
+      "Velen",
+      "Novigrad",
+      "Skellige"
+    ],
+    "loot": [
+      "Drowner brain",
+      "Drowner tongue",
+      "Monster blood",
+      "Monster bone",
+      "Monster heart",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tooth"
+    ]
+  },
+  "rotfiend": {
+    "status": "found",
+    "pageTitle": "Rotfiend",
+    "url": "https://witcher.fandom.com/wiki/Rotfiend",
+    "occurrence": [
+      "Velen",
+      "White Orchard",
+      "Skellige",
+      "Toussaint"
+    ],
+    "loot": [
+      "Monster bone",
+      "Monster brain",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Necrophage hide",
+      "Rotfiend blood",
+      "A bestiary entry can be obtained by reading Ghouls and Alghouls.",
+      "=== Bestiary entry ===",
+      "Course it reeks. Think they're called rotfiends because they smell like roses?",
+      "– Vesemir, witcher of the Wolf School",
+      "Rotfiends resemble decomposing human bodies that have been stripped of their skin. Their presence is given away by the overwhelming stench of the rot which gives them their name. Devourers are a particularly dangerous kind of rotfiend marked by an insatiable appetite for human flesh.",
+      "Rotfiends and devourers were once rarities, but in the present age of constant warfare and violence they have become a veritable plague, particularly around battlefields and in disease-stricken areas. Though they feed mainly on carrion, they will at times attack the living. They usually feed in large groups and thus present a danger to lone travelers – especially considering their speed, which is more than a match for a horse at full gallop.",
+      "The rotfiend's decomposing body is filled with gasses which are poisonous even to those who, like witchers, are immune to most other toxins. These emissions are also highly flammable, meaning any spark, not to mention a carelessly-cast Igni sign, can lead to an explosion. This is particularly likely after a rotfiend dies, when its body thrashes around in uncontrollable tremors.",
+      "Rotfiends and devourers feed in the twilight hours and at night, when they become much more dangerous than during the day.",
+      "=== Combat tactics ===",
+      "Similar to ghouls and alghouls, rotfiends roam in packs. They can be found in typical necrophage prowling grounds such as the deep wilds and sites littered with decomposing bodies.",
+      "Rotfiends are fast and adopt similar basic tactics and moveset with drowners, although they have a self-destructive body mechanism that pose a unique hazard for would-be opponents. When a rotfiend's health is cut to a certain point by anything that is not a result of Burn, their body will undergo an uncontrollable spasm that ends in an explosion, damaging anything caught within the radius. When the animation leading to the explosion play, Rotfiends become immune to any kind of damage, leaving no means to prematurely kill them.",
+      "This explosion could do considerable damage to other nearby foes; that includes fellow Rotfiends that might immediately undergo similar process, thus creating a deadly chain reaction. This can be a great advantage for players, but extremely dangerous in tight spaces.",
+      "If the self-destruction of are found undesirable for combat advantage, one could try setting the Rotfiends on fire; Rotfiends killed this way would disintegrate less violently. If the fire alone couldn't kill them, the burning animation could prevent the creatures from undergoing the \"spasm\", giving enough time for Geralt to mutilate them with the Silver sword.",
+      "Another tactic is to use the downed finisher. Rotfiend that are knocked off their feet are vulnerable for the context-sensitive instant kill move. Rotfiends disposed this way will spew out toxic gas as they die, damaging anything else nearby except for Geralt, who gives them the killing blow. One should take note, however, that knocking down a Rotfiends will require considerably powered-up Aard sign.",
+      "=== Associated quests ===",
+      "{{Cols|num=2",
+      "A Favor for a Friend (optional)",
+      "A Towerful of Mice (optional)",
+      "Bitter Harvest",
+      "Family Matters",
+      "Forefathers' Eve (dependent)",
+      "Return to Crookback Bog",
+      "La Cage au Fou",
+      "Contract: Bovine Blues",
+      "Wine Wars: Vermentino",
+      "Don't Take Candy from a Stranger"
+    ]
+  },
+  "scurver": {
+    "status": "found",
+    "pageTitle": "Scurver",
+    "url": "https://witcher.fandom.com/wiki/Scurver",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "spotted-wight": {
+    "status": "found",
+    "pageTitle": "Spotted Wight",
+    "url": "https://witcher.fandom.com/wiki/Spotted_Wight",
+    "occurrence": [],
+    "loot": []
+  },
+  "water-hag": {
+    "status": "found",
+    "pageTitle": "Water hag",
+    "url": "https://witcher.fandom.com/wiki/Water_hag",
+    "occurrence": [
+      "Marshy terrains the North"
+    ],
+    "loot": []
+  },
+  "wight": {
+    "status": "found",
+    "pageTitle": "Wight (creature)",
+    "url": "https://witcher.fandom.com/wiki/Wight_%28creature%29",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Greater Triglav runestone",
+      "Green mutagen",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster essence",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster stomach",
+      "Monster tongue",
+      "Wight ear",
+      "Wight hair"
+    ]
+  },
+  "cloud-giant": {
+    "status": "found",
+    "pageTitle": "Cloud Giant",
+    "url": "https://witcher.fandom.com/wiki/Cloud_Giant",
+    "occurrence": [
+      "Land of a Thousand Fables",
+      "Cloud Giant's castle"
+    ],
+    "loot": []
+  },
+  "cyclops": {
+    "status": "found",
+    "pageTitle": "Cyclops",
+    "url": "https://witcher.fandom.com/wiki/Cyclops",
+    "occurrence": [
+      "Kaer Morhen",
+      "Skellige",
+      "Velen",
+      "Toussaint"
+    ],
+    "loot": [
+      "Cyclops' eye",
+      "Infused shard",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster ear",
+      "Monster hair",
+      "Monster hide",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Old bear hide",
+      "Orens"
+    ]
+  },
+  "golyat": {
+    "status": "found",
+    "pageTitle": "Golyat",
+    "url": "https://witcher.fandom.com/wiki/Golyat",
+    "occurrence": [
+      "Dulcinea Windmill in Toussaint"
+    ],
+    "loot": [
+      "Dahlia",
+      "Florens",
+      "Infused shard",
+      "Golyat trophy",
+      "Greater red mutagen",
+      "Lesser Glyph of Aard",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster essence",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Old bear skin",
+      "Old goat skin",
+      "Old sheep skin"
+    ]
+  },
+  "hagubman": {
+    "status": "found",
+    "pageTitle": "Hagubman",
+    "url": "https://witcher.fandom.com/wiki/Hagubman",
+    "occurrence": [
+      "Near the village of Larvik on Hindarsfjall"
+    ],
+    "loot": [
+      "Devine",
+      "Monster bone",
+      "Monster brain",
+      "Monster hair",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Nekker blood",
+      "Nekker claw",
+      "Nekker heart",
+      "Nekker warrior mutagen",
+      "Nekker warrior trophy",
+      "Nekker warrior's liver",
+      "Venom extract"
+    ]
+  },
+  "ice-giant": {
+    "status": "found",
+    "pageTitle": "Ice Giant",
+    "url": "https://witcher.fandom.com/wiki/Ice_Giant",
+    "occurrence": [],
+    "loot": []
+  },
+  "ice-troll": {
+    "status": "found",
+    "pageTitle": "Ice Troll",
+    "url": "https://witcher.fandom.com/wiki/Ice_Troll",
+    "occurrence": [],
+    "loot": []
+  },
+  "nekker": {
+    "status": "found",
+    "pageTitle": "Nekker",
+    "url": "https://witcher.fandom.com/wiki/Nekker",
+    "occurrence": [
+      "Velen",
+      "White Orchard",
+      "Skellige",
+      "Toussaint",
+      "Kaer Morhen valley"
+    ],
+    "loot": [
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "Monster bone",
+      "Monster brain",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Nekker blood",
+      "Nekker claw",
+      "Nekker eye",
+      "Nekker heart",
+      "Nekkers rarely attack alone, they tend to be found in groups near a nest. If the nest is not destroyed using either samum or grapeshot, they continue to spawn.",
+      "A bestiary entry can be obtained by reading The World Underground.",
+      "=== Bestiary entry ===",
+      "Take heed, gents, there's nekkers under this here bridge. If you all cross at once, without slowing or stopping, there's nothing to fear. But if your cart throws an axle and you get stuck out there... Well, close your eyes and pray to Melitele.",
+      "– Kurt Hammerbach, city guardsman in Vengerberg",
+      "A lone nekker is harmless. Five are dangerous. Ten can kill even a veteran monster slayer. Particularly troublesome are the larger, stronger individuals known as warriors, as well as the rare breed of nekkers known as phoocas.",
+      "Nekkers and phoocas live in the dark woods that grow in damp, mist-filled valleys, in colonies of one to several dozen individuals. They dig deep burrows for lairs and connect them with a network of narrow tunnels. Using these passageways they are able to move at great speed within and around their colonies.",
+      "Nekkers always attack in groups and by surprise. They try to surround their prey as quickly as possible, cutting off all escape routes. Luckily their attack is for the most part disorganized, for nekkers are not gifted with great courage and individual nekkers will often hesitate before overcoming their fear and striking. When fighting them one can use this moment of hesitation to kill the braver individuals before finishing off those who remain in the back.",
+      "=== Combat tactics ===",
+      "Individual nekkers are weak, easy marks compared to other monsters; nekkers do not tend to fight as individuals. If you see one, expect anywhere from 2-10 more. Nekkers overwhelm their targets through sheer numbers, surrounding them, then pummeling and clawing victims to death. Even veteran witchers can fall prey to this.",
+      "Also, unlike fellow ogroids, nekkers are considerably agile and acrobatic, even more so than the likes of drowners and rotfiends. One could easily leap at Geralt from barrel roll distance and roll back even further to avoid counterattacks. When combined with sheer numbers, nekkers are rather challenging, if not dangerous to engage without sabotaging their mobility.",
+      "When facing large groups of nekkers, take advantage of bombs such as Northern Wind or Dancing Star. Sufficiently powerful explosives can help thin out a nekker swarm with ease.",
+      "Aard can knock a nekker to its back, allowing for swift execution. Aard can also knock over several nekkers at once, a good way to break through large groups of attackers.",
+      "If players are heavily invested in swordplay light attacks, the Whirlwind ability could work nicely as both offensive and defensive means against nekkers, especially when the sword bears the Severance runeword enchantment.",
+      "=== Associated quests ===",
+      "{{Cols|num=2",
+      "Contract: Lord of the Wood (optional)",
+      "Contract: Patrol Gone Missing (optional)",
+      "Contract: Skellige's Most Wanted",
+      "Contract: Strange Beast",
+      "Fools' Gold",
+      "Harassing a Troll",
+      "Hard Times (pre-)",
+      "Hunting a Witch (optional)",
+      "Scavenger Hunt: Bear School Gear Upgrade Diagrams - Part 4",
+      "Scavenger Hunt: Cat School Gear Upgrade Diagrams - Part 3",
+      "The Things Men Do For Coin...",
+      "Warehouse of Woe",
+      "A Portrait of the Witcher as an Old Man"
+    ]
+  },
+  "rock-troll": {
+    "status": "found",
+    "pageTitle": "Rock Troll",
+    "url": "https://witcher.fandom.com/wiki/Rock_Troll",
+    "occurrence": [],
+    "loot": []
+  },
+  "wham-a-wham": {
+    "status": "found",
+    "pageTitle": "Wham-a-Wham",
+    "url": "https://witcher.fandom.com/wiki/Wham-a-Wham",
+    "occurrence": [
+      "Cave near Blandare"
+    ],
+    "loot": []
+  },
+  "chort": {
+    "status": "found",
+    "pageTitle": "Chort",
+    "url": "https://witcher.fandom.com/wiki/Chort",
+    "occurrence": [
+      "Velen",
+      "Skellige",
+      "Kaer Morhen"
+    ],
+    "loot": [
+      "Chort hide",
+      "Chort mutagen",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Raw meat"
+    ]
+  },
+  "doppler": {
+    "status": "found",
+    "pageTitle": "Doppler",
+    "url": "https://witcher.fandom.com/wiki/Doppler",
+    "occurrence": [
+      "Novigrad",
+      "Skellige"
+    ],
+    "loot": []
+  },
+  "fiend": {
+    "status": "found",
+    "pageTitle": "Fiend",
+    "url": "https://witcher.fandom.com/wiki/Fiend",
+    "occurrence": [
+      "Velen",
+      "Skellige"
+    ],
+    "loot": [
+      "Fiend dung",
+      "Fiend mutagen",
+      "Fiend's eye",
+      "Fifth essence",
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "Monster bone",
+      "Monster blood",
+      "Monster brain",
+      "Monster claw",
+      "Monster hair",
+      "Monster heart",
+      "Monster hide",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Raw meat"
+    ]
+  },
+  "fugas": {
+    "status": "found",
+    "pageTitle": "Fugas",
+    "url": "https://witcher.fandom.com/wiki/Fugas",
+    "occurrence": [],
+    "loot": []
+  },
+  "godling": {
+    "status": "found",
+    "pageTitle": "Godling",
+    "url": "https://witcher.fandom.com/wiki/Godling",
+    "occurrence": [],
+    "loot": []
+  },
+  "grottore": {
+    "status": "found",
+    "pageTitle": "Grottore",
+    "url": "https://witcher.fandom.com/wiki/Grottore",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Fen'aeth",
+      "Fiber",
+      "Greater blue mutagen",
+      "Grottore trophy",
+      "Hardened timber",
+      "Infused shard",
+      "Leshen resin",
+      "Monster bone",
+      "Powdered monster tissue"
+    ]
+  },
+  "howler": {
+    "status": "found",
+    "pageTitle": "Howler",
+    "url": "https://witcher.fandom.com/wiki/Howler",
+    "occurrence": [
+      "South of Lindenvale"
+    ],
+    "loot": []
+  },
+  "imp": {
+    "status": "found",
+    "pageTitle": "Imp",
+    "url": "https://witcher.fandom.com/wiki/Imp",
+    "occurrence": [],
+    "loot": []
+  },
+  "kernun": {
+    "status": "found",
+    "pageTitle": "Kernun",
+    "url": "https://witcher.fandom.com/wiki/Kernun",
+    "occurrence": [
+      "near Loggers' Hut"
+    ],
+    "loot": []
+  },
+  "ladies-of-the-wood": {
+    "status": "found",
+    "pageTitle": "Ladies of the Wood",
+    "url": "https://witcher.fandom.com/wiki/Ladies_of_the_Wood",
+    "occurrence": [],
+    "loot": []
+  },
+  "leshen": {
+    "status": "found",
+    "pageTitle": "Leshen",
+    "url": "https://witcher.fandom.com/wiki/Leshen",
+    "occurrence": [],
+    "loot": []
+  },
+  "moruudd": {
+    "status": "found",
+    "pageTitle": "Morvudd",
+    "url": "https://witcher.fandom.com/wiki/Morvudd",
+    "occurrence": [
+      "Boxholm"
+    ],
+    "loot": []
+  },
+  "shaelmaar-from-the-emperor-of-nilfgaard": {
+    "status": "found",
+    "pageTitle": "Shaelmaar from the Emperor of Nilfgaard",
+    "url": "https://witcher.fandom.com/wiki/Shaelmaar_from_the_Emperor_of_Nilfgaard",
+    "occurrence": [
+      "Tourney Grounds"
+    ],
+    "loot": []
+  },
+  "shaelmaar": {
+    "status": "found",
+    "pageTitle": "Shaelmaar",
+    "url": "https://witcher.fandom.com/wiki/Shaelmaar",
+    "occurrence": [
+      "Toussaint",
+      "Mahakam"
+    ],
+    "loot": [
+      "Greater blue mutagen",
+      "Infused shard",
+      "Monster carapace",
+      "Monster brain",
+      "Monster bone",
+      "Monster hide",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tooth",
+      "Powdered monster tissue",
+      "Shaelmaar dust",
+      "Shaelmaar hair"
+    ]
+  },
+  "spriggan": {
+    "status": "found",
+    "pageTitle": "Spriggan",
+    "url": "https://witcher.fandom.com/wiki/Spriggan",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Fiber",
+      "Greater blue mutagen",
+      "Hardened timber",
+      "Infused shard",
+      "Leshen resin",
+      "Monster bone",
+      "Powdered monster tissue"
+    ]
+  },
+  "sylvan": {
+    "status": "found",
+    "pageTitle": "Sylvan",
+    "url": "https://witcher.fandom.com/wiki/Sylvan",
+    "occurrence": [
+      "Velen"
+    ],
+    "loot": []
+  },
+  "the-caretaker": {
+    "status": "found",
+    "pageTitle": "The Caretaker",
+    "url": "https://witcher.fandom.com/wiki/The_Caretaker",
+    "occurrence": [
+      "von Everec Estate"
+    ],
+    "loot": [
+      "The Caretaker's spade"
+    ]
+  },
+  "the-monster-of-tufo": {
+    "status": "found",
+    "pageTitle": "The Monster of Tufo",
+    "url": "https://witcher.fandom.com/wiki/The_Monster_of_Tufo",
+    "occurrence": [
+      "Tufo, Toussaint"
+    ],
+    "loot": [
+      "Ami",
+      "Greater blue mutagen",
+      "Infused shard",
+      "Monster carapace",
+      "Monster brain",
+      "Monster bone",
+      "Monster hide",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tooth",
+      "Powdered monster tissue",
+      "Shaelmaar dust",
+      "Shaelmaar hair",
+      "Shaelmaar trophy"
+    ]
+  },
+  "wicked-witch": {
+    "status": "found",
+    "pageTitle": "Wicked Witch",
+    "url": "https://witcher.fandom.com/wiki/Wicked_Witch",
+    "occurrence": [
+      "Land of a Thousand Fables"
+    ],
+    "loot": [
+      "Black magic doll",
+      "Bone ashes",
+      "Calcium equum",
+      "Cookies",
+      "Gingerbread",
+      "Gingerbread man",
+      "Grave hag's ear",
+      "Infused dust",
+      "Lesser Dazhbog runestone",
+      "Lesser Glyph of Axii",
+      "Lesser Glyph of Yrden",
+      "Lesser Stribog runestone",
+      "Magic dust",
+      "Poisoned apple"
+    ]
+  },
+  "woodland-spirit": {
+    "status": "found",
+    "pageTitle": "Woodland Spirit",
+    "url": "https://witcher.fandom.com/wiki/Woodland_Spirit",
+    "occurrence": [
+      "Fayrlund"
+    ],
+    "loot": [
+      "Ancient leshen mutagen",
+      "Hardened timber",
+      "Infused shard",
+      "Fiber",
+      "Leshen resin",
+      "Leshen trophy",
+      "Monster bone",
+      "Powdered monster tissue"
+    ]
+  },
+  "barghest": {
+    "status": "found",
+    "pageTitle": "Barghest",
+    "url": "https://witcher.fandom.com/wiki/Barghest",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "beann-shies": {
+    "status": "found",
+    "pageTitle": "Banshee",
+    "url": "https://witcher.fandom.com/wiki/Banshee",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Essence of wraith",
+      "Infused dust",
+      "Lunar shards",
+      "Specter dust"
+    ]
+  },
+  "daphne-s-wraith": {
+    "status": "found",
+    "pageTitle": "Daphne's Wraith",
+    "url": "https://witcher.fandom.com/wiki/Daphne%27s_Wraith",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Essence of wraith",
+      "Infused dust",
+      "Lunar shards",
+      "Specter dust"
+    ]
+  },
+  "deuilbyt-thewell": {
+    "status": "missing"
+  },
+  "ethereal": {
+    "status": "found",
+    "pageTitle": "Ethereal",
+    "url": "https://witcher.fandom.com/wiki/Ethereal",
+    "occurrence": [
+      "The Painted World"
+    ],
+    "loot": []
+  },
+  "hym": {
+    "status": "found",
+    "pageTitle": "Hym",
+    "url": "https://witcher.fandom.com/wiki/Hym",
+    "occurrence": [
+      "Spikeroog",
+      "Gaunter's world"
+    ],
+    "loot": []
+  },
+  "jenny-o-the-woods": {
+    "status": "found",
+    "pageTitle": "Jenny o' the Woods",
+    "url": "https://witcher.fandom.com/wiki/Jenny_o%27_the_Woods",
+    "occurrence": [],
+    "loot": [
+      "Dark essence",
+      "Essence of wraith",
+      "Forgotten vran sword",
+      "Infused dust",
+      "Lunar shards",
+      "Nightwraith hair",
+      "Nightwraith mutagen",
+      "Nightwraith trophy",
+      "Specter dust"
+    ]
+  },
+  "longlocks": {
+    "status": "found",
+    "pageTitle": "Longlocks",
+    "url": "https://witcher.fandom.com/wiki/Longlocks",
+    "occurrence": [
+      "Land of a Thousand Fables"
+    ],
+    "loot": []
+  },
+  "nightwraith": {
+    "status": "found",
+    "pageTitle": "Nightwraith",
+    "url": "https://witcher.fandom.com/wiki/Nightwraith",
+    "occurrence": [
+      "Velen",
+      "Redania",
+      "Skellige"
+    ],
+    "loot": []
+  },
+  "noonwraith": {
+    "status": "found",
+    "pageTitle": "Noonwraith",
+    "url": "https://witcher.fandom.com/wiki/Noonwraith",
+    "occurrence": [
+      "Velen",
+      "White Orchard",
+      "Skellige"
+    ],
+    "loot": []
+  },
+  "penitent": {
+    "status": "found",
+    "pageTitle": "Penitent",
+    "url": "https://witcher.fandom.com/wiki/Penitent",
+    "occurrence": [
+      "Eldberg Lighthouse"
+    ],
+    "loot": []
+  },
+  "phantom-of-the-amphitheater": {
+    "status": "found",
+    "pageTitle": "Phantom of the Amphitheater",
+    "url": "https://witcher.fandom.com/wiki/Phantom_of_the_Amphitheater",
+    "occurrence": [
+      "Seidhe Llygad Amphitheater"
+    ],
+    "loot": [
+      "Ornate necklace with a key-shaped pendant",
+      "Infused dust",
+      "Specter dust",
+      "Essence of wraith",
+      "Lunar shards"
+    ]
+  },
+  "plague-maiden": {
+    "status": "found",
+    "pageTitle": "Plague maiden",
+    "url": "https://witcher.fandom.com/wiki/Plague_maiden",
+    "occurrence": [
+      "Fyke Isle"
+    ],
+    "loot": []
+  },
+  "red-miasmal": {
+    "status": "found",
+    "pageTitle": "Red Miasmal",
+    "url": "https://witcher.fandom.com/wiki/Red_Miasmal",
+    "occurrence": [
+      "Devil's Pit"
+    ],
+    "loot": []
+  },
+  "the-white-lady": {
+    "status": "found",
+    "pageTitle": "The White Lady",
+    "url": "https://witcher.fandom.com/wiki/The_White_Lady",
+    "occurrence": [
+      "Fields south of Farcorners"
+    ],
+    "loot": []
+  },
+  "the-wraith-from-the-painting": {
+    "status": "found",
+    "pageTitle": "The Wraith from the Painting",
+    "url": "https://witcher.fandom.com/wiki/The_Wraith_from_the_Painting",
+    "occurrence": [
+      "Von Everec Estate"
+    ],
+    "loot": []
+  },
+  "umbra": {
+    "status": "found",
+    "pageTitle": "Umbra",
+    "url": "https://witcher.fandom.com/wiki/Umbra",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Umbra trophy"
+    ]
+  },
+  "wraith": {
+    "status": "found",
+    "pageTitle": "Wraith",
+    "url": "https://witcher.fandom.com/wiki/Wraith",
+    "occurrence": [
+      "Everywhere"
+    ],
+    "loot": [
+      "Essence of death",
+      "Amethyst dust",
+      "Diamond dust",
+      "Wraith trophy",
+      "Wraiths abound in the second installment of the game. They are first encountered in the burned down hospital in the forest outside of Flotsam. Many more can be found in and around Vergen. Specifically, in the dwarven catacombs and on the battlefield.",
+      "In addition to the standard wraith featured in the journal entry, other wraith variants include the Aedirnian/Kaedweni soldier wraiths found exclusively in Chapter 2 and the Nilfgaardian soldier wraith featured in the Chapter 1 quest In the Claws of Madness. Unlike traditional wraiths, the variants will flail around when set on fire affording Geralt temporary respite while they are out of action.",
+      "The Aedirnian/Kaedweni soldier wraith gives XP when killed up to level 23.",
+      "=== Journal entry ===",
+      "The wraiths are not, as some claim, a projection of an inner fear. They are visible, tangible and dangerous on top of that. The priests teach that people who die suddenly, leaving this vale of tears with important tasks left unfinished, become such ghosts. So wraiths have their own aims. Sometimes they are unaware of them, but more often they aim to achieve them, not caring for the living.",
+      "The wraiths are always connected to the sites of their demise. They may protect their former homes, or they may seek vengeance. One may even find small groups of the wandering damned in crypts and catacombs or on battlefields. It is not true that they only appear at night. I can confirm, however, that one cannot communication with them, and that they have no fear of man or monster.",
+      "Wraiths hover just above the ground, so they move very swiftly. One should strike at them strongly and make ample use of Signs. As immaterial beings, they can appear and disappear at will. If the witcher swings his sword too slowly, giving the ghosts time to react, he might find himself striking nothing but air and then sense a quick riposte on his back.",
+      "Wraiths do not bleed, and common poisons cannot harm them. They are, however, susceptible to fire and of course to silver. The best means of fighting a wraith is the so called Specter Oil, which should be used to coat a silver blade.",
+      "== ==",
+      "{{Infobox Bestiary"
+    ]
+  },
+  "alp": {
+    "status": "found",
+    "pageTitle": "Alp",
+    "url": "https://witcher.fandom.com/wiki/Alp",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Blue mutagen",
+      "Monster brain",
+      "Monster bone",
+      "Monster claw",
+      "Monster eye",
+      "Monster ear",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tongue",
+      "Vampire blood",
+      "Vampire saliva",
+      "Vampire fang"
+    ]
+  },
+  "alpha-garkain": {
+    "status": "found",
+    "pageTitle": "Alpha Garkain",
+    "url": "https://witcher.fandom.com/wiki/Alpha_Garkain",
+    "occurrence": [
+      "Blood Simple"
+    ],
+    "loot": []
+  },
+  "bruxa": {
+    "status": "found",
+    "pageTitle": "Bruxa",
+    "url": "https://witcher.fandom.com/wiki/Bruxa",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Bruxae teeth",
+      "Essence of death",
+      "Diamond dust",
+      "Amethyst dust",
+      "=== Journal entry ===",
+      "The bruxa is a higher vampire, that is a post-Conjunction creature, an intruder in our world. She appears as a beautiful woman, but when she is hungry or attacking, she is terrifying. As a vampire, the bruxa drinks blood. She often finds a victim to become her lover and a constant supply of sustenance at the same time.",
+      "The bruxa finds the smell of garlic to be socially inconvenient at most. And she considers holy symbols to be interesting examples of handicraft. She endures the light of the sun well, but she prefers the darkness of the night. As you see, you can stuff most stereotypical preconceptions about vampires up your arse when it comes to a bruxa. So what works? The blade of the silver sword, as usual. Apart from silver, she can be wounded with fire and a stake, provided that the latter is as long as a wagon's drawbar. A Bruxa is a womanoid, just like an Alp.",
+      "Less powerful bruxae often hunt in packs, making it easier to corner prey. If threatened, they attack with their talons and rip the victim apart, pausing only to savor the blood of their dying foe. The greatest threat to a witcher is the bruxa's voice. The creature can screech with such force that the shockwave will knock even a huge man down, making him easy prey for the vampiress. Blindness is as great a threat as this ghastly scream. Bruxae deprive their enemies of sight in order to play cat and mouse with them. Until sight returns, one should defend against their attacks in any way possible, for example by using the Quen Sign.",
+      "The bruxae have masterful control over their blood circulation, rendering poisons and oils that increase bleeding ineffective against them. They are good at defending themselves against witchers' tricks, but they are vulnerable to fire and can be knocked down and finished off as they try to get up.",
+      "=== Location ===",
+      "Chapter I - Near the Bandit hideout, beneath the tree with hanging elven corpses. It only spawns at night, and will have a randomized female name. It will only spawn once per playthrough. Similarly, a wraith will also spawn once per playthrough, also with a unique name. Both have unique drops, namely a junk silver ring. This Bruxa does not drop Bruxae teeth.",
+      "The Bruxa and the Wraith might be the spirits of the elven couple hanging from the tree from a sidequest that got axed from production.",
+      "Chapter II - Roche path only. The Little Sisters quest. However, while the creatures you fight are clearly bruxae, they are tagged as wraiths in-game, and their drops are strictly wraith drops.",
+      "Chapter III - Iorveth path only. The Secrets of Loc Muinne quest will take you to the Crypt of Mages dungeon, where there are Bruxae.",
+      "== Monsterbook ==",
+      "Developer CD PROJEKT RED's characterization of the bruxa taken from the Monsterbook, which was enclosed with the Collectors Edition of ​ for Poland, Hungary and the Czech Republic",
+      "In Sapkowski's stories this silent and seductively beautiful creature closely resembles a rusalka. In fact, she is a vampire, and one of the deadliest beings Geralt ever faces. The concept art, and later the model, had to capture all traits of this alluring yet frightful fiend.",
+      "The bruxa is built on contradictions. Her white pupils and blank face contrast sharply with her feminine silhouette. The long scarlet claws could be an elegant body adornment or simply marked with the fluids of a recent victim. Dried blood covers her breasts and mouth, leaving no doubt that the bruxa is a vampire, a monster in a beautiful woman's body.",
+      "The enlarged image of her torso reveals the texture details. The bruxa's skin is ghastly pale, wrinkled, and somewhat transparent, rendering visible the blood vessels underneath.",
+      "In the game, these female vampires inhabit dark crypts and ancient ruins. They approach gracefully and are easy to overlook. The abrupt attacks of bruxae stun Geralt; while he is helpless, they suck his blood to regain strength. The wound they inflict hemorrhage intensely. An eerie cry echoing through corridors indicates an approaching bruxa – at once both beauty and the beast.",
+      "{{Block Quote|text = She was clinging to the back of the dolphin in the dried-up fountain, embracing the moss-overgrown stone with her tiny hands, so pale they seemed transparent. Beneath her storm of tangled black hair shone huge, wide-open eyes the color of anthracite.",
+      "( ... ) The creature glued to the dolphin's back followed him with her eyes, turning her petite face with an expression of longing, and full of charm. He could still hear her song.|citation = pg. 62 and 82, (UK and U.S. edition)",
+      "== ==",
+      "thumb|250x250px|Bruxa from A Night to Remember in natural form",
+      "Bruxae were supposed to appear in the base game during its development in 2013 - 2014 but they were removed according to leaked materials.",
+      "In the final game there is a gwent card with a picture of a Bruxa as a part of the Monsters deck.",
+      "Vampire: Bruxa (gwent card)",
+      "Also the female vampire from A Night to Remember is, according to the developers, none other than a bruxa.",
+      "{{Infobox Bestiary"
+    ]
+  },
+  "dettlaff-van-der-eretein": {
+    "status": "found",
+    "pageTitle": "Dettlaff van der Eretein",
+    "url": "https://witcher.fandom.com/wiki/Dettlaff_van_der_Eretein",
+    "occurrence": [],
+    "loot": []
+  },
+  "ekimmara": {
+    "status": "found",
+    "pageTitle": "Ekimmara",
+    "url": "https://witcher.fandom.com/wiki/Ekimmara",
+    "occurrence": [],
+    "loot": []
+  },
+  "fleder": {
+    "status": "found",
+    "pageTitle": "Fleder",
+    "url": "https://witcher.fandom.com/wiki/Fleder",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "gael": {
+    "status": "found",
+    "pageTitle": "Gael",
+    "url": "https://witcher.fandom.com/wiki/Gael",
+    "occurrence": [
+      "Oxenfurt"
+    ],
+    "loot": []
+  },
+  "garkain": {
+    "status": "found",
+    "pageTitle": "Garkain",
+    "url": "https://witcher.fandom.com/wiki/Garkain",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": [
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tongue",
+      "Red mutagen",
+      "Vampire blood",
+      "Vampire fang",
+      "Vampire saliva"
+    ]
+  },
+  "higher-vampire": {
+    "status": "found",
+    "pageTitle": "Higher Vampire",
+    "url": "https://witcher.fandom.com/wiki/Higher_Vampire",
+    "occurrence": [
+      "Novigrad",
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "katakan": {
+    "status": "found",
+    "pageTitle": "Katakan",
+    "url": "https://witcher.fandom.com/wiki/Katakan",
+    "occurrence": [
+      "Novigrad",
+      "Oxenfurt",
+      "Skellige",
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "protofleder": {
+    "status": "found",
+    "pageTitle": "Protofleder",
+    "url": "https://witcher.fandom.com/wiki/Protofleder",
+    "occurrence": [
+      "Hen Gàidh cave in Toussaint"
+    ],
+    "loot": []
+  },
+  "sarasti": {
+    "status": "found",
+    "pageTitle": "Sarasti",
+    "url": "https://witcher.fandom.com/wiki/Sarasti",
+    "occurrence": [
+      "Elven ruins beneath Byways"
+    ],
+    "loot": []
+  },
+  "the-beast-of-beauclair": {
+    "status": "found",
+    "pageTitle": "The Beast of Beauclair",
+    "url": "https://witcher.fandom.com/wiki/The_Beast_of_Beauclair",
+    "occurrence": [
+      "Toussaint"
+    ],
+    "loot": []
+  },
+  "the-bruxa-of-corvo-bianco": {
+    "status": "found",
+    "pageTitle": "The Bruxa of Corvo Bianco",
+    "url": "https://witcher.fandom.com/wiki/The_Bruxa_of_Corvo_Bianco",
+    "occurrence": [
+      "Corvo Bianco"
+    ],
+    "loot": [
+      "Greater blue mutagen",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tongue",
+      "Vampire blood",
+      "Vampire fang",
+      "Vampire saliva"
+    ]
+  },
+  "the-unseen-elder": {
+    "status": "found",
+    "pageTitle": "The Unseen Elder",
+    "url": "https://witcher.fandom.com/wiki/The_Unseen_Elder",
+    "occurrence": [],
+    "loot": []
+  }
+}

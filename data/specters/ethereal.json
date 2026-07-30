@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "ethereal",
+  "name": "Ethereal",
+  "category": "specters",
+  "description": "The painted world created in the mind of lris von Everec was mainly populated by figures from her memories, but was also home to dangerous, predatory creatures: the embodiments of her fears. The most dangerous of these, the Ethereal, invoked her greatest fear — and wore the face of her husband. The Ethereal resembled Olgierd in appearance and also fought using a technique similar to his.",
+  "story": "The human mind is as wild and unexplored a place as any land far beyond the seas. It is inhabited by manifold dangers — fears, painful memories, traumas. These lurk on the edge of our consciousness, like predators waiting for a moment of weakness in which to reveal themselves... and destroy us. — Arturius Vigo, \"The Essence of Spells and Illusions.\"",
+  "lore": "In the end, the best tactic against these nightmarish beings proved to be a well-timed counterattack.",
+  "weaknesses": [
+    "Blizzard",
+    "Specter Oil"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "The Painted World"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/ethereal.webp",
+  "gallery": [
+    "/monsters/ethereal.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 129,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9906,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "The Painted World",
+    "note": "Game reference cross-check; the trail is associated with The Painted World.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ethereal"
+  }
+}

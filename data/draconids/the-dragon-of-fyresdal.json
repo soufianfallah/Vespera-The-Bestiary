@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-dragon-of-fyresdal",
+  "name": "The Dragon of Fyresdal",
+  "category": "draconids",
+  "description": "Few truly know what a Dragon looks like, for those who have seen one up-close rarely have a chance to share their impressions. That is why people are forever mistaking other monsters for Dragons. This was the case in Fyresdal, where the so-called Dragon wreaking havoc turned out to be a Forktail. Yet this mistaken attribution did not mean there was no reason to worry. The Forktail harassing Fyresdal was a particularly vile representative of its kind, one equipped with an endless store of deadly venom. Fighting it without first drinking a regenerative potion or a poison antidote would be tantamount to suicide.",
+  "story": "It's got scales, wings, claws... A dragon's a dragon! No point gabbin', just go kill it! — Vagn, village elder of Fyresdal",
+  "lore": "",
+  "weaknesses": [
+    "Poison",
+    "Golden Oriole",
+    "Draconid Oil",
+    "Aard",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Draconid hide",
+    "Monster claw",
+    "Venom extract"
+  ],
+  "locations": [
+    "Abandoned siege tower outside Fyresdal"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/the-dragon-of-fyresdal.webp",
+  "gallery": [
+    "/monsters/the-dragon-of-fyresdal.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 35,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.987,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Abandoned siege tower outside Fyresdal",
+    "note": "Game reference cross-check; the trail is associated with Abandoned siege tower outside Fyresdal.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Dragon_of_Fyresdal"
+  }
+}

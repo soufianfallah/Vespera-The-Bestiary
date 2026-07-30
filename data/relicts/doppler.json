@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "doppler",
+  "name": "Doppler",
+  "category": "relicts",
+  "description": "Dopplers, also known as vexlings or changelings, are beings able to take on the form of any humanoid or animal they please. This transformation is no mere illusion able to be shattered with a simple spell, but an authentic and complete metamorphosis. This means no protective amulets or witcher medallions will signal a Doppler's presence - they emanate the same aura as the being whose form they have assumed.",
+  "story": "Your package? Your brother picked it up. You know, you two're damn near identical... Hey! Where you running off to?!—Hanne Kluger, postmaster",
+  "lore": "This, combined with their incredible intellect and cunning, would make Dopplers supreme assassins or thieves - had not nature endowed them with generous and timid spirits which make them avoid the shedding of blood at all costs.",
+  "weaknesses": [
+    "Relict Oil"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Novigrad",
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/doppler.webp",
+  "gallery": [
+    "/monsters/doppler.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 105,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.992,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Novigrad, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Novigrad, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Doppler"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-toad-prince",
+  "name": "The Toad Prince",
+  "category": "cursed",
+  "description": "Timeless tales always carry within them a grain of truth. The legend of the frog prince is no exception, or at least that's what the folk of Oxenfurt wished to believe when they found out a monstrous toad lurked in their city sewers. The women who hunted it in search of romance and a better life, however, found their tales had a most unhappy ending.",
+  "story": "The girl walked up to the edge of the pond. There, squatting amidst the fragrant lilies and broad lily-pads, she saw a most unusual sight: a small green frog with a golden crown perched on its warty head. Charmed by this curious little creature, the girl picked it up and gave it a kiss. lmmediately the little frog transformed into a handsome prince. Overcome with gratitude, he asked the girl to be his wife.—folk tale, author unknown",
+  "lore": "The creature they encountered was no small, sweet frog but a bloodthirsty beast who not only did not let them in for a kiss but instead greedily devoured them and anything else that strayed into its slime-covered lair.",
+  "weaknesses": [
+    "Golden Oriole",
+    "Cursed Oil",
+    "Northern Wind"
+  ],
+  "oils": [
+    "Cursed Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Igni",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cursed ruins, abandoned settlements, and secluded wilds"
+  ],
+  "loot": [
+    "Cursed remains",
+    "Monster tissue",
+    "Mutagen"
+  ],
+  "locations": [
+    "Oxenfurt sewers"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/the-toad-prince.webp",
+  "gallery": [
+    "/monsters/the-toad-prince.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 23,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9917,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Oxenfurt sewers",
+    "note": "Game reference cross-check; the trail is associated with Oxenfurt sewers.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Toad_Prince"
+  }
+}

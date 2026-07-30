@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "pale-widow",
+  "name": "Pale Widow",
+  "category": "insectoids",
+  "description": "This rare variety of giant centipede dwells in underground lairs and owes its name to its unusual, pale white coloring. Like the more common giant centipede, its body is covered in hard chitinous armor, with numerous hooked limbs sticking out from underneath.",
+  "story": "Never have 1 seen such a creature! It was like a giant centipede, but white, utterly white! — Account of Doctor Vittorius de la Vega after the first encounter with the Pale Widow",
+  "lore": "Some scholars raise these creatures in laboratory conditions for the properties of their albumen, which makes an excellent base for the brewing of mutagenic potions.",
+  "weaknesses": [
+    "Yrden",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, forests, marshes, and underground colonies"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/pale-widow.webp",
+  "gallery": [
+    "/monsters/pale-widow.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 71,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9902,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Pale_Widow"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "slug": "golyat",
+  "name": "Golyat",
+  "category": "ogroids",
+  "description": "According to legend, Golyat had once been a knight who violated his vows, for which he was punished by the Lady of the Lake. Transformed into a giant, he fled into the mountains and would only descend into the inhabited lowlands when hunger forced him to it.",
+  "story": "Golyat is a name for the giant that the Witcher Geralt of Rivia, along with Milton de Peyrac-Peyran, Palmerin de Launfal, and Guillaume de Launfal met as they were entering Toussaint. He had the strength to pick up and throw a horse with only a single hand. He used the millstone of a destroyed windmill as a huge club.",
+  "lore": "There's no knowing how much truth lies in that legend, yet it is incontrovertible fact that this dangerous giant gobbled up shepherds and sheep alike, and was so widely feared, governesses used him to scare children into eating their vegetables. Though he came across as a wild, unthinking beast, Golyat used simple tools and any item could turn into a deadly weapon in his powerful hands.",
+  "weaknesses": [
+    "Quen",
+    "Ogroid Oil"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Dahlia",
+    "Florens",
+    "Infused shard",
+    "Golyat trophy",
+    "Greater red mutagen",
+    "Lesser Glyph of Aard",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster essence",
+    "Monster ear",
+    "Monster eye",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Old bear skin",
+    "Old goat skin",
+    "Old sheep skin"
+  ],
+  "locations": [
+    "Dulcinea Windmill in Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/golyat.webp",
+  "gallery": [
+    "/monsters/golyat.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 92,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9958,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Dulcinea Windmill in Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Dulcinea Windmill in Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Golyat"
+  }
+}

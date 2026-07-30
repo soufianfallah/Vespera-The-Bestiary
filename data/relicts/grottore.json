@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "slug": "grottore",
+  "name": "Grottore",
+  "category": "relicts",
+  "description": "No one knows exactly when the Spriggan called \"Grottore\" first made its home in the caves at the foot of Mount Gorgon. Spriggans usually prefer isolated backwoods and rarely make dens in caverns. Yet Grottore seemed to have taken a liking to \"grottos,\" giving rise to its nickname. The monster was quite well-known among Beauclair knights, who often talked of it as a potential source of great glory. None were particularly eager to actually engage the monster in combat, however - none, that is, except for the young Knight François Grottore proved to be a demanding foe. Grottore possesses the ability to teleport, meaning it will, most likely, appear directly in front of it's challenger and mount a surprise attack, dealing strong blows that are impossible to parry.",
+  "story": "Happened like this... A nasty rain caught me while I was out in the woods, so 1 thought to myself, \"I'll hide in some hollow, for gods' forbid 1 get soaked through and catch a cold at my age. So l crawled into a cave. And there inside, something roars at me! Tore out of there so fast, wind had dried my coat by the time 1 got home. - Velis Stail, herbalist",
+  "lore": "It used primeval magic to control tree roots, which would shoot from the ground on its command, dealing significant damage to any in their way.",
+  "weaknesses": [
+    "Igni",
+    "Relict Oil",
+    "Dimeritium Bomb"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Fen'aeth",
+    "Fiber",
+    "Greater blue mutagen",
+    "Grottore trophy",
+    "Hardened timber",
+    "Infused shard",
+    "Leshen resin",
+    "Monster bone",
+    "Powdered monster tissue"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/grottore.webp",
+  "gallery": [
+    "/monsters/grottore.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 109,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9883,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Grottore"
+  }
+}

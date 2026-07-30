@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "slug": "umbra",
+  "name": "Umbra",
+  "category": "specters",
+  "description": "According to some philosophers, everything we do in life leaves a permanent trace in the delicate matter which makes up our souls. Evil deeds, especially harm done to innocent creatures, can torment the soul of a sinner and cause it to remain restless, even after death. There might a be grain of truth in these theories and folk beliefs. There was a hermit in Toussaint whose sleep was troubled by some invisible phantom. This phantom was an umbra, the ghost of a recently-deceased knight who had committed a terrible deed while alive and now visited the hermit to demand forgiveness.",
+  "story": "An umbra is merely an unclean conscience, one tormented by guilt and unforgiven wrongs. A man wallows in sin with loose women and can't sleep at night, then invents hokey about some umbra or phantom and blabbers about it at the tavern. - Sabine of Dal, mystic and priestess of the Prophet Lebioda.",
+  "lore": "In his wraithly form he drank her blood and systematically deprived her of life energy. The umbra appeared to the hermit as a horse, for the evil deed the knight had committed was to flog his own mount to death. The knight's spirit was unaware of the demonic role he had assumed in the afterlife.",
+  "weaknesses": [
+    "Specter Oil"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Umbra trophy"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/umbra.webp",
+  "gallery": [
+    "/monsters/umbra.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 139,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9911,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Umbra"
+  }
+}

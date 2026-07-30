@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "shaelmaar-from-the-emperor-of-nilfgaard",
+  "name": "Shaelmaar from the Emperor of Nilfgaard",
+  "category": "relicts",
+  "description": "That does not mean it was tame, however — in fact, its wildness and inborn ferocity had not been dulled one whit. Like all creatures of its species, it was blind but could unerringly pinpoint its opponents' location using echolocation. The Shaelmaar had thick armor and near impenetrable skin. It could also roll into a ball and charge its opponents.",
+  "story": "Gladiator fights in massive arenas are a popular form of entertainment in Nilfgaard. Usually the fighters are slaves specially trained for this purpose, yet at times the arena masters pit humans against monsters. The Shaelmaar in the tourney grounds was a present from the emperor, Emhyr var Emreis to his relative, Duchess Anna Henrietta. It had been caught while young and prepared for its ultimate purpose by Nilfgaardian trainers.",
+  "lore": "Its underbelly, however, was relatively vulnerable and can be exposed when its charge failed.",
+  "weaknesses": [
+    "Aard",
+    "Relict Oil",
+    "Samum"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Tourney Grounds"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/shaelmaar-from-the-emperor-of-nilfgaard.webp",
+  "gallery": [
+    "/monsters/shaelmaar-from-the-emperor-of-nilfgaard.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 117,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9937,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Tourney Grounds",
+    "note": "Game reference cross-check; the trail is associated with Tourney Grounds.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Shaelmaar_from_the_Emperor_of_Nilfgaard"
+  }
+}

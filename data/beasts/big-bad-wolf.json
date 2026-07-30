@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "big-bad-wolf",
+  "name": "Big Bad Wolf",
+  "category": "beasts",
+  "description": "The Big Bad Wolf who lived in the Land of a Thousand Fables was, like the other denizens of that strange sphere, created by Artorius Vigo based on a figure from folk tales. Once he served as a playmate to the duke's daughters, acting out scenes with a certain red-hooded girl and her grandmother, but as the fable land slowly degenerated, so did he.",
+  "story": "You ask why 1 have these big hands, my friend? Well, 'll tell you my secret...exercise.— Big Bad Wolf",
+  "lore": "He acts and fights exactly like a common werewolf and should be dealt with as such. The only difference being susceptibility to beast oil instead of cursed oil. This is, of course, because he is an actual wolf, albeit smart and cunning, and not a transformed human.",
+  "weaknesses": [
+    "Devil's Puffball",
+    "Beast Oil"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni",
+    "Axii"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests, fields, and the margins of settled land"
+  ],
+  "loot": [
+    "Hide",
+    "Raw meat",
+    "Animal fat"
+  ],
+  "locations": [
+    "Land of a Thousand Fables"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/big-bad-wolf.webp",
+  "gallery": [
+    "/monsters/big-bad-wolf.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 9,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9913,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Land of a Thousand Fables",
+    "note": "Game reference cross-check; the trail is associated with Land of a Thousand Fables.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Big_Bad_Wolf"
+  }
+}

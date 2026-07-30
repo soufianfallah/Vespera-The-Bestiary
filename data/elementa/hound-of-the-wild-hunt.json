@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "hound-of-the-wild-hunt",
+  "name": "Hound Of The Wild Hunt",
+  "category": "elementa",
+  "description": "Born, or so some experts believe, of magic ice crystal, the Hounds of the Wild Hunt race alongside their spectral masters. Like ravenous feral dogs they are capable only of mindlessly attacking whatever crosses their path. The Hounds' chief weapons are their claws and teeth. Their battle tactics rely on knocking their opponents to the ground before tearing them to shreds. Badly wounded Hounds fall into a kind of frenzy that adds to their deadly might. These beasts also use their powers over the cold to freeze the ground around them and create sharp spikes of ice. The Hounds' icy nature also means they can draw strength from extreme cold. Thus one should be particularly on guard when fighting them during blizzards or in glacial regions.",
+  "story": "Baying at the heels of the Wild hunt are its Hounds, fierce beasts which follow it like dust clouds trailing after a comet. Hushed legends speak of them losing their way at times and descending from the night sky to earth, cold and death following in their wake. — Essi \"Blackjack\" Daven, trobairitz",
+  "lore": "Elven legends likewise claim they gain strength when a red moon - a known herald of the Hunt's arrival - hangs in the sky.",
+  "weaknesses": [
+    "Dimeritium Bomb",
+    "Elementa Oil",
+    "Axii",
+    "Igni"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Axii",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Elemental essence",
+    "Infused dust",
+    "Monster core"
+  ],
+  "locations": [
+    "Always together with Wild Hunt"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/hound-of-the-wild-hunt.webp",
+  "gallery": [
+    "/monsters/hound-of-the-wild-hunt.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 44,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9906,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Always together with Wild Hunt",
+    "note": "Game reference cross-check; the trail is associated with Always together with Wild Hunt.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Hound_of_the_Wild_Hunt"
+  }
+}

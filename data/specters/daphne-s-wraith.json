@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "daphne-s-wraith",
+  "name": "Daphne's Wraith",
+  "category": "specters",
+  "description": "The love of Daphne's life, a knight errant, had gone to the witch of Lynx Crag and never returned, leaving her to wait for him forever, filled with sadness and longing.",
+  "story": "This is a curiuos case of gynodendromorphy - that is to say, a woman who had been turned into a tree. When one cut into this tre's bark, it bled, and when the wind blew through its leaves, one could hear muffled sobs. Magic (or possibly a curse) was responsible for the transformation, and it surely had something to do with a certain sad episode form the woman's past.",
+  "lore": "",
+  "weaknesses": [
+    "Specter Oil"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Infused dust",
+    "Lunar shards",
+    "Specter dust"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/daphne-s-wraith.webp",
+  "gallery": [
+    "/monsters/daphne-s-wraith.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 127,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9928,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Daphne%27s_Wraith"
+  }
+}

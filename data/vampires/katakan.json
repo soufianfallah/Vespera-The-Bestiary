@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "slug": "katakan",
+  "name": "Katakan",
+  "category": "vampires",
+  "description": "Katakans are the embodiments of human fear. They hide in the shadows. They feed on blood. They resemble enormous bats — though with long fangs and even longer talons. And, as if that weren't terror enough, they can turn invisible, waiting unseen while dread of their unpreventable attack overwhelms their victim. When fighting a Katakan one must pay particular attention to its shadow — often the only way to know its location. Katakans are invulnerable to steel, regenerate quickly, hear acutely and move at incredible speed.",
+  "story": "Melitele, Great Mother, protect us from evil, from unclean devils and foul demons, and most of all from the clutches of katakans and nekurats...- fragment of a prayer",
+  "lore": "To even the odds one can temporarily immobilize Katakans using the Yrden sign, then seize that moment to attack with all one's might - for there might not be another chance. Unfortunately, the legends are wrong and the sun's rays do not turn Katakans to ash. They are vulnerable to sunlight, however, and when the sun stands at its zenith their regeneration is considerablyslowed.",
+  "weaknesses": [
+    "Moon Dust",
+    "Vampire Oil",
+    "Igni",
+    "Yrden",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust",
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Novigrad",
+    "Oxenfurt",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/katakan.webp",
+  "gallery": [
+    "/monsters/katakan.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 153,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9932,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Novigrad, Oxenfurt, Skellige",
+    "note": "Game reference cross-check; the trail is associated with Novigrad, Oxenfurt, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Katakan"
+  }
+}

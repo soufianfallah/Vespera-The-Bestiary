@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "giant-centipede",
+  "name": "Giant Centipede",
+  "category": "insectoids",
+  "description": "Giant centipedes are enormous, insect-like monsters which can be found in many places in the world, but are particularly common in the lands of Toussaint. There they often dwell in close comity with Shaelmaars, for a sort of monstrous symbiosis has developed between them: giant centipedes feed on the small creatures which eat Shaelmaar dung. Hard chitinous armor covers nearly the entire body of a giant centipede. Sticking out from under this carapace are rows of hooked limbs.",
+  "story": "Among the fascinating flora and fauna of the duchy of Toussaint, one also encounters creatures of the decidedly unpleasant sort, such as giant centipedes. Not only do these beasts look hideous to the eye, they can do colossal damage to the flesh as well.1 decidedly advise against them. — \"A Visit to Toussaint,\" one of the many guides authored by Peterin Safles",
+  "lore": "They are able to burrow into the ground with shocking speed, only to then appear back on the surface in another place. Once they select a target, they will circle it determinedly, trying to get close enough to deliver a blow. They attack primarily with the s s e nt centipedes is their thick armor, which deflects most blows not only from weapons, but also from magical means. When attacked with a weapon, they will often parry the strike, then quickly reply with their own forceful counter.",
+  "weaknesses": [
+    "Yrden",
+    "Insectoid Oil"
+  ],
+  "oils": [
+    "Insectoid Oil"
+  ],
+  "bombs": [
+    "Dancing Star"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, forests, marshes, and underground colonies"
+  ],
+  "loot": [
+    "Chitinous shell",
+    "Insectoid mandible",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/giant-centipede.webp",
+  "gallery": [
+    "/monsters/giant-centipede.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 68,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9683,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Giant_Centipede"
+  }
+}

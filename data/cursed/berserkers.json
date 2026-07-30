@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "berserkers",
+  "name": "Berserkers",
+  "category": "cursed",
+  "description": "Skellige legends speak of men known as berserkers who transform into bears when overwhelmed by battle rage. In doing so, they lose all self-awareness and are driven by a bloodlust which they must satiate in order to return to human form. Few believe these blood-curdling tales, however, not even in Skellige, where the inhabitants usually treat even the least probable legends with the utmost gravity. This indicates either that berserkers are in fact mere figments of mead-sodden imaginations, or else that they have earned to hide their abilities from the rest of the islanders. The skalds' ballads indicate a berserker transformed in the heat of battle cannot be distinguised from a true-born bear. Only minute anatomical details such as the shape of their tongues and teeth - reveal their secret. Descriptions of their fighting prowess paint them as invulnerable to pain and able to heal any wound received almost at once.",
+  "story": "Now finish your soup, or a berserker'll come and swallow ye whole. — Skellige mother scolding a child.",
+  "lore": "If these men-turned-bears truly do exist, one can suppose that, like werewolves and lycanthropes, they are particularly vulnerable to oils that harm cursed creatured. But if we are to give credence to ancient songs about these creatures' deeds, about the mass murders and massacres they have committed, we can only hope that no witcher will have to test this hypothesis.",
+  "weaknesses": [
+    "Quen",
+    "Cursed Oil",
+    "Igni",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Cursed Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Quen",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cursed ruins, abandoned settlements, and secluded wilds"
+  ],
+  "loot": [
+    "Cursed remains",
+    "Monster tissue",
+    "Mutagen"
+  ],
+  "locations": [
+    "Ard Skellig",
+    "Vildkaarls' village"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/berserkers.webp",
+  "gallery": [
+    "/monsters/berserkers.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 19,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9907,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Ard Skellig, Vildkaarls' village",
+    "note": "Game reference cross-check; the trail is associated with Ard Skellig, Vildkaarls' village.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Werebear"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "ekimmara",
+  "name": "Ekimmara",
+  "category": "vampires",
+  "description": "Like other vampires, Ekimmaras are not, despite what village gosslips might say, undead humans. They are instead post-Conjunction monsters who have no particular feelings about garlic, holy water or religious symbols. Unlike their portrayals in ballads and legends, they look nothing like handsome, pale aristocrats with charming eastern accents, though, like Katakans, they do bear a strong resemblance to overgrown bats. They also do not suck blood from the necks of virgins with a delicate, kiss-like bite - they tear them to shreds using long, sharp claws and then slurp the splattered blood off the ground. Ekimmaras are unusually cruel and exceptionally swift. They are able to quickly land blow after blow capable of smashing even the best Mahakaman-made armor into tiny shards.",
+  "story": "Bah, ain't nothing to fear. Ekimmaras, why, they ain't nothing more than overgrown bats. - Anonymous city guardsman's last words",
+  "lore": "They should be fought with a silver sword, remembering that they can regenerate back health over time. One should thus never attempt to tire them out or, gods forbid, wait for it to bleed to death. Instead, cut them down as quickly as possible and, if possible, burn the body to ash and scatter it to the four winds.",
+  "weaknesses": [
+    "Bleeding",
+    "Igni",
+    "Vampire Oil",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Novigrad",
+    "Velen",
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/ekimmara.webp",
+  "gallery": [
+    "/monsters/ekimmara.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 148,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.992,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Novigrad, Velen, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Novigrad, Velen, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ekimmara"
+  }
+}

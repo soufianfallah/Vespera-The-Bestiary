@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "slug": "gael",
+  "name": "Gael",
+  "category": "vampires",
+  "description": "Contrary to popular belief, monsters are not all alike. Like people, individual members of the same species can each have their own unique traits, preferences and weaknesses. A good example of this is the Katakan which once fed on the inhabitants of Oxenfurt. Perhaps influenced by its close proximity to the hard-drinking student youth of the city, this vampire had developed a keen appetite for blood spiked with a hefty dose of hard alcohol - and also baubles and gaudy jewelry of all kinds.",
+  "story": "Vampire bites... and the strong stench of alcohol.— Geralt of Rivia.",
+  "lore": "The vampire had clearly thrived on its high-octane diet. It had grown exceptionally strong and gained the ability to regenerate lost life quickly, cause heavy bleeding with its claws and, if all that were not enough, meld into the air and appear again behind its opponent's back.",
+  "weaknesses": [
+    "Bleeding",
+    "Moon Dust",
+    "Vampire Oil",
+    "Igni",
+    "Yrden",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust",
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni",
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Oxenfurt"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/gael.webp",
+  "gallery": [
+    "/monsters/gael.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 150,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.991,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Oxenfurt",
+    "note": "Game reference cross-check; the trail is associated with Oxenfurt.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Gael"
+  }
+}

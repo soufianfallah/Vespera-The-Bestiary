@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "slug": "cyclops",
+  "name": "Cyclops",
+  "category": "ogroids",
+  "description": "Cyclopses can easily be recognized by the single eye located in the center of their foreheads.",
+  "story": "How about this.. we take a big stake, sharpen its tip, jam it in the cyclops' eye — then sneak out of the cave disguised as sheep. How's that not a good idea? — Odess Thaka, traveler. Died tragically on Spikeroog",
+  "lore": "Iffor some reason that is not visible, other tell-tale signs are their enormous size, incredible strength and a seething hatred for all humans.",
+  "weaknesses": [
+    "Axii",
+    "Ogroid Oil",
+    "Quen"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Axii",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Cyclops' eye",
+    "Infused shard",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster ear",
+    "Monster hair",
+    "Monster hide",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Old bear hide",
+    "Orens"
+  ],
+  "locations": [
+    "Kaer Morhen",
+    "Skellige",
+    "Velen",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/cyclops.webp",
+  "gallery": [
+    "/monsters/cyclops.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 90,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9916,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Kaer Morhen, Skellige, Velen",
+    "note": "Game reference cross-check; the trail is associated with Kaer Morhen, Skellige, Velen.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Cyclops"
+  }
+}

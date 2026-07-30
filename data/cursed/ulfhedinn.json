@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "slug": "ulfhedinn",
+  "name": "Ulfhedinn",
+  "category": "cursed",
+  "description": "Ulfhedinn are a breed of werewolf found mainly in Skellige. The harsh and barren conditions of the isles might explain why they primarily hunt men and are stronger than their continental brethren. Older and particularly dangerous ulfhedinn are called vorefs. Only a few daring warriors in Skellige history have managed to defeat an Ulfhedinn, and each of them is commemorated in ballads as a hero to this day.",
+  "story": "Ulfhedinn? What's that, some kind of fish? — Professor Artibus Joannes Rack, geographer, disappeared during a surveying expedition in Skellige",
+  "lore": "Like werewolves, Ulfhedinn and vorefs are active at night, particularly when the moon is at its fullest. Fast, strong, and amazingly resilient, these creatures kill with disturbing ease. Silver blades should be brought against them, as should Devil's Puffball. Take note that when near death the Ulfhedinn becomes particularly dangerous and will attack with doubled fury, while calling on wolves to come to its rescue.",
+  "weaknesses": [
+    "Dimeritium Bomb",
+    "Cursed Oil",
+    "Igni",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Cursed Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb",
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cursed ruins, abandoned settlements, and secluded wilds"
+  ],
+  "loot": [
+    "Diamond dust",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster ear",
+    "Monster essence",
+    "Monster eye",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster tongue",
+    "Monster tooth",
+    "Powdered monster tissue",
+    "Werewolf hide",
+    "Werewolf mutagen",
+    "Werewolf saliva"
+  ],
+  "locations": [
+    "Skellige"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/ulfhedinn.webp",
+  "gallery": [
+    "/monsters/ulfhedinn.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 24,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9906,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Skellige",
+    "note": "Game reference cross-check; the trail is associated with Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ulfhedinn"
+  }
+}

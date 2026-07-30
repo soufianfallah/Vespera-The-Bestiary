@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "sarasti",
+  "name": "Sarasti",
+  "category": "vampires",
+  "description": "Raiders of elven tombs either get rich quickly, or die trying. The Aen Seidhe's disintegrating temples and palaces hold priceless treasures, true, but within them many a foul monster waits in deep slumber. Such was the case in Byways, where a few peasants, unaware of the dangers they faced, awoke an unusually dangerous Ekimmara. This would be no easy kill.",
+  "story": "We dug out a chamber. There was a beast sleeping inside. We fell over the props to collapse the ceiling, but it must not have buried the monster..- Bytomir of Velen",
+  "lore": "The vampire would quickly regenerate, its blows would cause heavy bleeding, it was able to disappear into thin air. The only recommendation given was: use Yrden and Quen Signs and strike heavy blows. Oh, and avoid getting killed.\n\nThe vampire had already managed to kill several peasants and a patrol of heavily-armed Nilfgaardians. The list of victims would surely have grown even longer, had not Geralt of Rivia, the White Wolf, happened to waltz into town.",
+  "weaknesses": [
+    "Bleeding",
+    "Igni",
+    "Vampire Oil",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire tissue"
+  ],
+  "locations": [
+    "Elven ruins beneath Byways"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/sarasti.webp",
+  "gallery": [
+    "/monsters/sarasti.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 157,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9888,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Elven ruins beneath Byways",
+    "note": "Game reference cross-check; the trail is associated with Elven ruins beneath Byways.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Sarasti"
+  }
+}

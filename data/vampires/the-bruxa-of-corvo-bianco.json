@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-bruxa-of-corvo-bianco",
+  "name": "The Bruxa of Corvo Bianco",
+  "category": "vampires",
+  "description": "Like other Bruxa, this one possessed strength and speed far above that of any human, could turn invisible and could attack using a sonic wave. As is typical for all vampires, it sought to suck its victim's blood.",
+  "story": "This Bruxa differed from other creatures of this sort. Firstly, it was more intelligent, capable even of articulating words in human language without much difficulty. What's more, this Bruxa was tied to the Beast, the mysterious murderer prowling Beauclair at the time.",
+  "lore": "This meant the usual defense against those creatures, the Black Blood potion, was an effective weapon against it, as were the Moon Dust bomb and, naturally, the witcher's trusty silver blade.",
+  "weaknesses": [
+    "Moon Dust",
+    "Vampire Oil",
+    "Yrden",
+    "Black Blood"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Greater blue mutagen",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster eye",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster stomach",
+    "Monster tongue",
+    "Vampire blood",
+    "Vampire fang",
+    "Vampire saliva"
+  ],
+  "locations": [
+    "Corvo Bianco"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/the-bruxa-of-corvo-bianco.webp",
+  "gallery": [
+    "/monsters/the-bruxa-of-corvo-bianco.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 158,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9934,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Corvo Bianco",
+    "note": "Game reference cross-check; the trail is associated with Corvo Bianco.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Bruxa_of_Corvo_Bianco"
+  }
+}

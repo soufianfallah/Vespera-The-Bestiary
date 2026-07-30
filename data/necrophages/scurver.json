@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "slug": "scurver",
+  "name": "Scurver",
+  "category": "necrophages",
+  "description": "Scurvers are Rotfiends' larger cousins. The bodies of these hideous, vaguely humanoid creatures are covered with rotten scraps offlesh, under which lurk even more rotten muscles stretched around a strong, flexible skeleton. Scurvers, which feed on old, rotting corpses, prefer to make their hunting grounds in abandoned torture sites, forgotten graveyards and old battlefields. They are very aggressive and, though they feed on corpses, if they come across a living person they are likely to attack. Thus when wandering near any of the above-mentioned places, one must be especially cautious. Scurvers usually feed underground, but sometimes, when they catch the scent of a human, they crawl to the surface in a matter of seconds and attack their potential prey. While fighting them one cannot afford to forget about their special boney spines, razor-sharp protuberances sticking out from their skeletons. When a scurver is near death, the gasses and enzymes gathered within its body cause it to explode, flinging these spines out at great speed, turning them into one last deadly weapon in their arsenal.",
+  "story": "Thought it was just a pile of rotten meat - till it started to move! — Thibaut from Beauclair",
+  "lore": "To protect oneself against damage from these spines, one should make prodigious use of the Quen Sign.",
+  "weaknesses": [
+    "Necrophage Oil"
+  ],
+  "oils": [
+    "Necrophage Oil"
+  ],
+  "bombs": [
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Battlefields, graveyards, marshes, and corpse-strewn ruins"
+  ],
+  "loot": [
+    "Necrophage hide",
+    "Monster blood",
+    "Necrophage tissue"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/scurver.webp",
+  "gallery": [
+    "/monsters/scurver.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 84,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9925,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Scurver"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "slug": "bruxa",
+  "name": "Bruxa",
+  "category": "vampires",
+  "description": "Fortunately for us all, Bruxa are rare creatures. Most live far from population centers, for they care greatly for their own safety and make their lairs in places where they cannot be taken by surprise. Those who decide to live near men avoid crowds and emerge from their shelters only at night. When they do, one could almost mistake them for delayed travelers hurrying towards their night's lodging, yet subtle details give them away: their close ties to birds, their piercing voices and the breathtaking speed of their movements. Bruxa are far swifter and stronger than men, but their greatest asset is their ability to turn invisible. Bruxa dart about with uncanny speed, and with their power of invisibility they can easily confuse opponents and attack unexpectedly or from behind. Thus when fighting these vampires the Moon Dust bomb is a great aid - while it cannot eliminate the vampire's invisibility altogether, it can make it easier to track its motions.",
+  "story": "If you must travel through the woods, steer clear of any places where you can hear several different kinds of birds at once. That sound means you're entering a bruxa's territory and can kiss your life farewell.— anonymous piece of advice",
+  "lore": "Bruxa use their sharp claws to attack and can easily reak through an opponent's guard by buffeting him with a hail of blows from all directions. They will try to bite their prey and drink its blood once it is weakened, Bruxa are also known for their sonic attacks, which knock down and stun their prey.",
+  "weaknesses": [
+    "Moon Dust",
+    "Vampire Oil",
+    "Yrden",
+    "Black Blood"
+  ],
+  "oils": [
+    "Vampire Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, crypts, abandoned estates, and dense urban hunting grounds"
+  ],
+  "loot": [
+    "Bruxae teeth",
+    "Essence of death",
+    "Diamond dust",
+    "Amethyst dust",
+    "=== Journal entry ===",
+    "The bruxa is a higher vampire, that is a post-Conjunction creature, an intruder in our world. She appears as a beautiful woman, but when she is hungry or attacking, she is terrifying. As a vampire, the bruxa drinks blood. She often finds a victim to become her lover and a constant supply of sustenance at the same time.",
+    "The bruxa finds the smell of garlic to be socially inconvenient at most. And she considers holy symbols to be interesting examples of handicraft. She endures the light of the sun well, but she prefers the darkness of the night. As you see, you can stuff most stereotypical preconceptions about vampires up your arse when it comes to a bruxa. So what works? The blade of the silver sword, as usual. Apart from silver, she can be wounded with fire and a stake, provided that the latter is as long as a wagon's drawbar. A Bruxa is a womanoid, just like an Alp.",
+    "Less powerful bruxae often hunt in packs, making it easier to corner prey. If threatened, they attack with their talons and rip the victim apart, pausing only to savor the blood of their dying foe. The greatest threat to a witcher is the bruxa's voice. The creature can screech with such force that the shockwave will knock even a huge man down, making him easy prey for the vampiress. Blindness is as great a threat as this ghastly scream. Bruxae deprive their enemies of sight in order to play cat and mouse with them. Until sight returns, one should defend against their attacks in any way possible, for example by using the Quen Sign.",
+    "The bruxae have masterful control over their blood circulation, rendering poisons and oils that increase bleeding ineffective against them. They are good at defending themselves against witchers' tricks, but they are vulnerable to fire and can be knocked down and finished off as they try to get up.",
+    "=== Location ===",
+    "Chapter I - Near the Bandit hideout, beneath the tree with hanging elven corpses. It only spawns at night, and will have a randomized female name. It will only spawn once per playthrough. Similarly, a wraith will also spawn once per playthrough, also with a unique name. Both have unique drops, namely a junk silver ring. This Bruxa does not drop Bruxae teeth.",
+    "The Bruxa and the Wraith might be the spirits of the elven couple hanging from the tree from a sidequest that got axed from production.",
+    "Chapter II - Roche path only. The Little Sisters quest. However, while the creatures you fight are clearly bruxae, they are tagged as wraiths in-game, and their drops are strictly wraith drops.",
+    "Chapter III - Iorveth path only. The Secrets of Loc Muinne quest will take you to the Crypt of Mages dungeon, where there are Bruxae.",
+    "== Monsterbook ==",
+    "Developer CD PROJEKT RED's characterization of the bruxa taken from the Monsterbook, which was enclosed with the Collectors Edition of ​ for Poland, Hungary and the Czech Republic",
+    "In Sapkowski's stories this silent and seductively beautiful creature closely resembles a rusalka. In fact, she is a vampire, and one of the deadliest beings Geralt ever faces. The concept art, and later the model, had to capture all traits of this alluring yet frightful fiend.",
+    "The bruxa is built on contradictions. Her white pupils and blank face contrast sharply with her feminine silhouette. The long scarlet claws could be an elegant body adornment or simply marked with the fluids of a recent victim. Dried blood covers her breasts and mouth, leaving no doubt that the bruxa is a vampire, a monster in a beautiful woman's body.",
+    "The enlarged image of her torso reveals the texture details. The bruxa's skin is ghastly pale, wrinkled, and somewhat transparent, rendering visible the blood vessels underneath.",
+    "In the game, these female vampires inhabit dark crypts and ancient ruins. They approach gracefully and are easy to overlook. The abrupt attacks of bruxae stun Geralt; while he is helpless, they suck his blood to regain strength. The wound they inflict hemorrhage intensely. An eerie cry echoing through corridors indicates an approaching bruxa – at once both beauty and the beast.",
+    "{{Block Quote|text = She was clinging to the back of the dolphin in the dried-up fountain, embracing the moss-overgrown stone with her tiny hands, so pale they seemed transparent. Beneath her storm of tangled black hair shone huge, wide-open eyes the color of anthracite.",
+    "( ... ) The creature glued to the dolphin's back followed him with her eyes, turning her petite face with an expression of longing, and full of charm. He could still hear her song.|citation = pg. 62 and 82, (UK and U.S. edition)",
+    "== ==",
+    "thumb|250x250px|Bruxa from A Night to Remember in natural form",
+    "Bruxae were supposed to appear in the base game during its development in 2013 - 2014 but they were removed according to leaked materials.",
+    "In the final game there is a gwent card with a picture of a Bruxa as a part of the Monsters deck.",
+    "Vampire: Bruxa (gwent card)",
+    "Also the female vampire from A Night to Remember is, according to the developers, none other than a bruxa.",
+    "{{Infobox Bestiary"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/bruxa.webp",
+  "gallery": [
+    "/monsters/bruxa.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 145,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9921,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Bruxa"
+  }
+}

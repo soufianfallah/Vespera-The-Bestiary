@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "slug": "sylvan",
+  "name": "Sylvan",
+  "category": "relicts",
+  "description": "Sylvans and Yakshas, a kindred species, are extremely rare woodland creatures whose appearance combines traits of goats and rotund men. Sylvans resemble men not just in appearance but also in behavior, though it must be said they have adopted more of our vices and weaknesses than strengths. Lazy by nature, they would gladly spend every day in idleness, puffing on pipes, gorging on rich foods and downing strong drinks. They also emit a powerful and extremely unpleasant scent which can cause even a witcher, whose line of work accustoms him to foul stenches, to gag and feel faint.",
+  "story": "Sylvans are cruel, greedy and treacherous. Still, 1 prefer them to dhoine. — Yaevinn, legendary Scoia'tael commander",
+  "lore": "These beings usually pose little danger, for they limit their contact with humans to playing harmless (though often bothersome) tricks and eating crops from their fields.",
+  "weaknesses": [
+    "Igni",
+    "Relict Oil",
+    "Samum",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Samum",
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Relict tissue",
+    "Ancient essence",
+    "Relict mutagen"
+  ],
+  "locations": [
+    "Velen"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/sylvan.webp",
+  "gallery": [
+    "/monsters/sylvan.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 119,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9954,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen",
+    "note": "Game reference cross-check; the trail is associated with Velen.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Sylvan"
+  }
+}

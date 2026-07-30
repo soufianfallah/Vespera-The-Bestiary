@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "slug": "warg",
+  "name": "Warg",
+  "category": "beasts",
+  "description": "Wargs are a larger, tougher and far more ferocious strain of wild wolf. Their heavy frames, dark coats and oversized jaws make them the killing edge of any pack they join.",
+  "story": "When an ordinary wolf pack grows bold enough to hunt armed travelers, look for the warg leading the charge.",
+  "lore": "Wargs range across the Continent's wilderness and often run beside common wolves. They rely on speed, numbers and relentless flanking attacks, giving prey little chance to recover once the pack closes in.",
+  "weaknesses": [
+    "Beast Oil"
+  ],
+  "oils": [
+    "Beast Oil"
+  ],
+  "bombs": [
+    "Samum"
+  ],
+  "signs": [
+    "Igni",
+    "Axii"
+  ],
+  "swordType": "Steel",
+  "habitat": [
+    "Forests",
+    "Open wilderness"
+  ],
+  "loot": [
+    "Dog tallow",
+    "Raw meat",
+    "Wolf's liver",
+    "Wolf hide"
+  ],
+  "locations": [
+    "White Orchard",
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "Moderate",
+  "portrait": "/monsters/warg.webp",
+  "gallery": [
+    "/monsters/warg.webp"
+  ],
+  "source": {
+    "file": "The Witcher 3: Wild Hunt bestiary",
+    "page": 0,
+    "embeddedImageCount": 0,
+    "ocrConfidence": 1,
+    "extractedAt": "2026-07-29T00:00:00+00:00"
+  },
+  "factSources": {
+    "swordType": "journal",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "witcher-inference",
+    "habitat": "journal",
+    "loot": "journal",
+    "locations": "journal",
+    "dangerLevel": "journal"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "White Orchard, Velen, Skellige",
+    "note": "Game reference cross-check; the trail is associated with White Orchard, Velen, Skellige.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Warg"
+  }
+}

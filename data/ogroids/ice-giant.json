@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "ice-giant",
+  "name": "Ice Giant",
+  "category": "ogroids",
+  "description": "This powerful, primeval monster is quite possibly the last of its race. The lce Giant resembles a man in many respects, but is blue as frost and taller than a tree. Though it seems capable of reason, all attempts to communicate with it to date have ended the same way — in a quick and painful death.",
+  "story": "Fled one time in my life. From the lce Giant. And know what? l'm not a bit ashamed. - Rasmund Kvaalkje, Clan Tordarroch oarsman",
+  "lore": "The lce Giant is known only from tales and second-hand reports that mix fact with legend. Skelliger claim its skin is blue because it was born of snow and ice, which is, of course, clearly impossible, though it does indeed seem capable of withstanding the fiercest frosts and in fact seems to draw strength from them.",
+  "weaknesses": [
+    "Quen",
+    "Ogroid Oil"
+  ],
+  "oils": [
+    "Ogroid Oil"
+  ],
+  "bombs": [
+    "Northern Wind"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Caves, mountain valleys, bridges, and remote roads"
+  ],
+  "loot": [
+    "Ogroid hide",
+    "Monster liver",
+    "Monster bone"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/ice-giant.webp",
+  "gallery": [
+    "/monsters/ice-giant.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 96,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9844,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Ice_Giant"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-wraith-from-the-painting",
+  "name": "The Wraith from the Painting",
+  "category": "specters",
+  "description": "This restless spirit had mastery over the house's furnishings and in particular over the paintings hanging from its walls. It moved freely between their canvases, entering one and exiting through another. Often scaring any spectators at first, then, when it was clear this strategy would not work, it attacked them directly. What's more, the wraith had created a bond with the paintings around it and it would continually regain any lost strength.",
+  "story": "Quite often a wraith is tied to an object, something it clung to during life, or a location, such as its place of death. In either case, we are dealing with the same causal agent: a strong emotional tie from which the wraith draws strength.— Inigo Swann, \"Beyond the Natural World.\"",
+  "lore": "The key to victory over the Wraith from the Painting was to focus on parrying its blows and only attack sporadically, at exactly the right moments. Any attempt to attack in a flurry was always punished with a deadly counterattack.",
+  "weaknesses": [
+    "Yrden",
+    "Specter Oil"
+  ],
+  "oils": [
+    "Specter Oil"
+  ],
+  "bombs": [
+    "Moon Dust"
+  ],
+  "signs": [
+    "Yrden"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Haunted fields, graveyards, ruins, and sites of violent death"
+  ],
+  "loot": [
+    "Essence of wraith",
+    "Specter dust",
+    "Infused dust"
+  ],
+  "locations": [
+    "Von Everec Estate"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/the-wraith-from-the-painting.webp",
+  "gallery": [
+    "/monsters/the-wraith-from-the-painting.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 141,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9928,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Von Everec Estate",
+    "note": "Game reference cross-check; the trail is associated with Von Everec Estate.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Wraith_from_the_Painting"
+  }
+}

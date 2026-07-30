@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "djinn",
+  "name": "Djinn",
+  "category": "elementa",
+  "description": "A Djinn is a powerful air spirit, a condensation of the power of that element endowed with consciousness and character - the latter usually nasty. According to legend, Djinn can grant even the most far-fetched wishes, though they do so very begrudgingly.",
+  "story": "The pitcher emitted a puff of glowing red smoke. The smoke pulsated, then gathered up into an irregular sphere floating in front of the poet's head...—The First Longing, a Tale Fantastic in All Ways.",
+  "lore": "Unusually powerful Mages can capture and tame these beings. The Mage can then draw on its energy, using it to cast spells without having to call on Power from traditional sources. Only a sparse handful have managed this feat, however, for Djinn fight to avoid such a fate with stubborn determination. To imprison a Djinn and bend it to one's will, one must first weaken it - and that is no easy feat. They can fling off spells in an instant that the most accomplished human mages could never cast with years of preparation. What's more, by manipulating the element of air they can summon powerful storms, hurricanes, and gales. Luckily, as magic beings, they are vulnerable to silver- yet steel will do them no harm.",
+  "weaknesses": [
+    "Dimeritium Bomb",
+    "Elementa Oil"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Elemental essence",
+    "Infused dust",
+    "Monster core"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Kaer Morhen"
+  ],
+  "dangerLevel": "Extreme",
+  "portrait": "/monsters/djinn.webp",
+  "gallery": [
+    "/monsters/djinn.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 38,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9921,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Kaer Morhen",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Kaer Morhen.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Djinn"
+  }
+}

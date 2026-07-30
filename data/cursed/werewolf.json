@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "slug": "werewolf",
+  "name": "Werewolf",
+  "category": "cursed",
+  "description": "Werewolves are creatures with both men and wolves inside them. When in beastly form, they take the worst traits of each: the wolf's drive to kill and hunger for raw flesh and the man's cruel and calculating intelligence. A werewolf's condition comes about through a curse, and the transformations happen outside his conscious control.",
+  "story": "Wolves aren't as bad as they're made out to be. Werewolves, though — they're every bit as bad and worse.— Elsa Vilge, archer",
+  "lore": "When he reverts to human form, he has no memory of his deeds - otherwise he would surely go mad and take his own life. Though they hunt alone, when threatened they will summon wolves to aid them. Werewolves rarely feel the need to flee, for few adversaries put up much of a fight against them. They strike as swiftly as lightning with claws sharp as razors and regenerate any damage received in mere moments. A werewolf s curse can at times be lifted, yet there is no universal, surefire method for doing this. A Witcher seeking to undertake such a task must equip himself with a great deal of patience...ad sturdy armor.",
+  "weaknesses": [
+    "Dimeritium Bomb",
+    "Cursed Oil",
+    "Igni",
+    "Devil's Puffball"
+  ],
+  "oils": [
+    "Cursed Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb",
+    "Devil's Puffball"
+  ],
+  "signs": [
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cursed ruins, abandoned settlements, and secluded wilds"
+  ],
+  "loot": [
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster ear",
+    "Monster essence",
+    "Monster eye",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster tongue",
+    "Monster tooth",
+    "Powdered monster tissue",
+    "Werewolf hide",
+    "Werewolf mutagen",
+    "Werewolf saliva",
+    "A bestiary entry can be obtained by reading In Beast's Clothing.",
+    "Monster introduction by CDPR",
+    "Neither animal, nor man, the Werewolf takes the worst from both species: the bloodlust and primal nature of a wolf, and the ruthlessness and cruelty of a human. One becomes a Werewolf as a result of a curse thrown by a witch -- the change itself is uncontrollable and unwilling. A man who transforms back to his human form can't usually remember the atrocious acts committed as a werewolf.",
+    "Werewolves are creatures of the night and they are especially active during the full moon. They usually go hunting alone, as there rarely is an opponent that can match their strength, agility and fast health regeneration. If a Werewolf actually encounters an enemy that has equivalent strength and can fight a fair fight, the creature can call for wolven reinforcements that will come to its aid. A good way of dealing with werewolves is a sword covered with oil to combat cursed creatures, or a Silver Bomb that will temporarily block the creature's regenerative power.",
+    "=== Bestiary entry ===",
+    "Wolves aren't as bad as they're made out to be. Werewolves, though – they're every bit as bad and worse.",
+    "– Elsa Vilge, archer",
+    "Werewolves are creatures with both men and wolves inside them. When in beastly form, they take the worst traits of each: the wolf's drive to kill and hunger for raw flesh and the man's cruel and calculating intelligence. A werewolf's condition comes about through a curse, and the transformations happen outside his conscious control. When he reverts to human form, he has no memory of his deeds – otherwise he would surely go mad and take his own life.",
+    "Werewolves are active at night, particularly when the moon is full. Though they hunt alone, when threatened they will summon wolves to aid them. Werewolves rarely feel the need to flee, for few adversaries put up much of a fight against them. They strike as swiftly as lightning with claws sharp as razors and regenerate any damage received in mere moments. When fighting werewolves a witcher should wield a blade covered in oil harmful to the cursed and have a large supply of Devil's Puffballs handy.",
+    "A werewolf's curse can at times be lifted, yet there is no universal, surefire method for doing this. A witcher seeking to undertake such a task must there equip himself with a great deal of patience – and sturdy armor.",
+    "=== Combat tactics ===",
+    "These breeds of cursed creatures are quite fast and very lethal. They can jump great distances and at such high speeds that defending yourself against one can be challenging at best. Utilising the sign Yrden can be a useful way to slow them down, making close quarter combat safer. Igni and Axii can also be used to stop the werewolf on its tracks momentarily, leaving enough windows for one or two heavy attacks.",
+    "Werewolves have an intriguingly powerful health regeneration ability, even more potent than ghouls'. Players who are unable to give enough damage output within short time will have to be prepared for an exhausting fight, if not at all impossible; as long as the werewolf can regenerate health faster than he takes damage, it can outlast Geralt no matter how good he is in defense and evasive tactic.",
+    "Fire, bleeding and poison effects can be used to slow their regeneration down, although inflicting these statuses upon the werewolf are quite a challenge in itself, considering their speed.",
+    "=== Associated quests ===",
+    "{{Cols|num=3",
+    "Ciri's Story: The King of the Wolves",
+    "Contract: Skellige's Most Wanted",
+    "Knight for Hire",
+    "In Wolf's Clothing",
+    "Little Red",
+    "Wild at Heart",
+    "The Whispering Hillock"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/werewolf.webp",
+  "gallery": [
+    "/monsters/werewolf.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 25,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.989,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Werewolf"
+  }
+}

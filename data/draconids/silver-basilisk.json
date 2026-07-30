@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "silver-basilisk",
+  "name": "Silver Basilisk",
+  "category": "draconids",
+  "description": "The Silver Basilisk (or Regulus Platinum) is a rare subspecies of Basilisk that has been hunted to near-extinction. Silver Basilisks were once a dominating species, especially in the region of Toussaint where they were very common around the year noo. Their extirpation in the duchy, and possibly near-extinction in the world as a whole, is chiefly due to hunting by humans for the monsters' silver-colored hides.",
+  "story": "You want a fine pair of boots, you say? Bring me the hide of a silver basilisk, and I'll make you boots the whole world will envy. - Anatole Vizholy, shoemaker from Beauclair",
+  "lore": "In the year 1275, the last Regulus Platinum specimen in Toussaint (known as the Great White Terror) attacked passing merchant caravans, primarily in the northern parts of the duchy. However, due to being the last specimen, he is vehemently protected by Count Borhis di Salvaress.",
+  "weaknesses": [
+    "Golden Oriole",
+    "Draconid Oil",
+    "Aard",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Cliffs, mountain passes, ruins, and open nesting grounds"
+  ],
+  "loot": [
+    "Draconid hide",
+    "Monster claw",
+    "Venom extract"
+  ],
+  "locations": [
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/silver-basilisk.webp",
+  "gallery": [
+    "/monsters/silver-basilisk.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 31,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9945,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Silver_Basilisk"
+  }
+}

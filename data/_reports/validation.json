@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-07-30T00:21:43.243647+00:00",
+  "valid": true,
+  "recordCount": 136,
+  "errors": [],
+  "missingInformation": [
+    {
+      "monster": "Lubberkin",
+      "page": 0,
+      "fields": [
+        "weaknesses"
+      ]
+    },
+    {
+      "monster": "Forktail",
+      "page": 28,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Shrieker",
+      "page": 30,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Slyzard",
+      "page": 32,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "The Dragon of Fyresdal",
+      "page": 35,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Kikimore Worker",
+      "page": 70,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Drowner",
+      "page": 75,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Spotted Wight",
+      "page": 85,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Godling",
+      "page": 108,
+      "fields": [
+        "weaknesses"
+      ]
+    },
+    {
+      "monster": "Ladies of the Wood",
+      "page": 103,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Shaelmaar",
+      "page": 116,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Daphne's Wraith",
+      "page": 127,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Noonwraith",
+      "page": 135,
+      "fields": [
+        "lore"
+      ]
+    },
+    {
+      "monster": "Higher Vampire",
+      "page": 152,
+      "fields": [
+        "lore"
+      ]
+    }
+  ],
+  "notes": [
+    "Empty fields mean the PDF prose/OCR did not state the value explicitly.",
+    "Full pages are not exported; central portrait and glossary-icon crops are source-derived.",
+    "Weakness glyph classification is not treated as fact until confidently matched."
+  ]
+}

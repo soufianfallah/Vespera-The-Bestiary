@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "moreau-s-golem",
+  "name": "Moreau's Golem",
+  "category": "elementa",
+  "description": "No wonder Mages have long considered the best companions to be artificial constructs they themselves bring to life and design to follow their orders and meet their needs. Professor Moreau was no exception in this regard. His golem was his dutiful servant and companion, in good times and bad.",
+  "story": "Long years of solitary study tend to make mages somewhat eccentric. As the years pass, laypeople bagan to irritate them more and more: they are dense, unreliable, disobedient and determined not to understand the gravity of mages' work. They display emotion when they should show discipline and self-mastery.",
+  "lore": "Moreau's golem was also an excellent guardian: massive, unyielding and devilishly strong.",
+  "weaknesses": [
+    "Dimeritium Bomb",
+    "Elementa Oil"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Elemental essence",
+    "Infused dust",
+    "Monster core"
+  ],
+  "locations": [
+    "Mont Crane Castle"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/moreau-s-golem.webp",
+  "gallery": [
+    "/monsters/moreau-s-golem.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 46,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9938,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Mont Crane Castle",
+    "note": "Game reference cross-check; the trail is associated with Mont Crane Castle.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Moreau%27s_Golem"
+  }
+}

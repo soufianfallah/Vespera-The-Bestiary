@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-apiarian-phantom",
+  "name": "The Apiarian Phantom",
+  "category": "elementa",
+  "description": "The \"Apiarian Phantom\" destroying the Meiersdorf family's hives turned out to be a lost Hound of the Wild Hunt, straying from it's pack during one of their numerous raids. One day, while aimlessly wandering, it came across the Honeyfll Meadworks, a bee farm owned by a rich Halfling family, where it destroyed numerous beehives and killed a few farmhands before running away into a nearby construction site.",
+  "story": "Something's destroyed our fields and hives. We think it's... the apiarian phantom. - Holofernes Meiersdorf",
+  "lore": "When fighting such a beast, one must bear in mind three things. First of all, that the thick armor of ice covering it can only be pierced by strong blows. Second, that, like any other frost-born creature, it is vulnerable to fire, the lgni Sign included. Third and last: that it shall show no mercy.",
+  "weaknesses": [
+    "Fire",
+    "Dimeritium Bomb",
+    "Elementa Oil",
+    "Axii",
+    "Igni"
+  ],
+  "oils": [
+    "Elementa Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Axii",
+    "Igni"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Ancient ruins, caves, and sites disturbed by magic"
+  ],
+  "loot": [
+    "Elemental essence",
+    "Infused dust",
+    "Monster core"
+  ],
+  "locations": [
+    "In hut near Honeyfill Meadworks"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/the-apiarian-phantom.webp",
+  "gallery": [
+    "/monsters/the-apiarian-phantom.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 48,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9915,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "witcher-inference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "In hut near Honeyfill Meadworks",
+    "note": "Game reference cross-check; the trail is associated with In hut near Honeyfill Meadworks.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/The_Apiarian_Phantom"
+  }
+}

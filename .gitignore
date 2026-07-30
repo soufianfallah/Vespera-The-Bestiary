@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js output
+.next/
+out/
+.vercel/
+
+# Local data-pipeline environments and caches
+.cache/
+.parser-vendor/
+.venv*/
+__pycache__/
+*.py[cod]
+.inspection/
+tmp/
+
+# Local source material
+the-witcher-3-bestiary.pdf
+
+# Runtime and tooling artifacts
+*.log
+*.pid
+*.tsbuildinfo
+
+# Local configuration
+.env*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

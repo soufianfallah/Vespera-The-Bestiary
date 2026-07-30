@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "slug": "wyvern",
+  "name": "Wyvern",
+  "category": "draconids",
+  "description": "Wyverns are often mistaken for Dragons, and, though they are much smaller than their more famous kin and do not breathe fire, they are likewise extremely dangerous monsters. Especially feared are the so-called Royal Wyverns who, like their namesake monarchs, are exceptionally ornery and extremely deadly.",
+  "story": "Most dangerous of all are the royal wyverns. Or, as they're called in some circles, the royal pains in the arse.— Albina Tottelkampf, lecturer in natural sciences at Aretuza",
+  "lore": "Typically a Wyvern will attack from the air, attempting to knock its prey down using its wings. After it lands it will attack with its tooth-filled beak in an attempt to draw attention away from its most deadly weapon, the stinger that can be found at the end of its long tail. A single strike from this carries risk of poisoning from powerful toxins. Even a Witcher will experience wrenching pain when injected with the venom...",
+  "weaknesses": [
+    "Fire",
+    "Poison",
+    "Golden Oriole",
+    "Draconid Oil",
+    "Grapeshot"
+  ],
+  "oils": [
+    "Draconid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard",
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Wyverns have been spotted nesting in northeastern Velen, though it must be stressed that these beasts are highly-adaptable, and have been sighted across the entire Continent and the Skellige isles."
+  ],
+  "loot": [
+    "Draconid hide",
+    "Monster claw",
+    "Venom extract"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Toussaint"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/wyvern.webp",
+  "gallery": [
+    "/monsters/wyvern.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 36,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9911,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "witcher-inference",
+    "habitat": "game-reference",
+    "loot": "witcher-inference",
+    "locations": "witcher-inference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Wyvern"
+  }
+}

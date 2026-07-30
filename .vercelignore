@@ -1,0 +1,13 @@
+.git/
+.next/
+out/
+node_modules/
+.cache/
+.parser-vendor/
+.venv*/
+.inspection/
+tmp/
+the-witcher-3-bestiary.pdf
+*.log
+*.pid
+*.tsbuildinfo

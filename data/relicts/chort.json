@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "slug": "chort",
+  "name": "Chort",
+  "category": "relicts",
+  "description": "Chorts are the somewhat smaller kin of Fiends. Yet any witcher who thinks their diminutive stature means they present no danger commits a grave error — the kind that can end his career permanently. These denizens of dark and ancient woods are some of the most dangerous monsters known to man. Legends often mistake Chorts for Sylvans, ascribing to them the ability to speak, stand on two legs, gobble up cabbage, play pranks and work mischief around the household.",
+  "story": "Chorts are smaller than fiends, true. But still big enough to kill.— Agnes Thistle, herbalist from the Black Forest",
+  "lore": "The arrival of a true Chort in a region soon puts an end to such tales. The creatures do not speak, at best communicating with each other through grunts, snorts and moans. They get about on four legs and as for their \"mischief \".. they destroy farmsteads, devouring anything that can be devoured, including the family dog and then the family itself. Chorts fight with little finesse, running straight towards their opponent and trying to knock him to the ground with the force of their charge. After downing their foe they bite, kick and strike with their claw-tipped paws. Chorts inhabit regenerative powers of their bod allowing any wounds they receive to heal at a rapid pace.",
+  "weaknesses": [
+    "Relict Oil",
+    "Quen"
+  ],
+  "oils": [
+    "Relict Oil"
+  ],
+  "bombs": [
+    "Dimeritium Bomb"
+  ],
+  "signs": [
+    "Quen"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Primeval forests, forgotten ruins, and places of old power"
+  ],
+  "loot": [
+    "Chort hide",
+    "Chort mutagen",
+    "Monster blood",
+    "Monster bone",
+    "Monster brain",
+    "Monster claw",
+    "Monster ear",
+    "Monster eye",
+    "Monster hair",
+    "Monster heart",
+    "Monster liver",
+    "Monster saliva",
+    "Monster tongue",
+    "Monster tooth",
+    "Raw meat"
+  ],
+  "locations": [
+    "Velen",
+    "Skellige",
+    "Kaer Morhen"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/chort.webp",
+  "gallery": [
+    "/monsters/chort.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 102,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.992,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "witcher-inference",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Velen, Skellige, Kaer Morhen",
+    "note": "Game reference cross-check; the trail is associated with Velen, Skellige, Kaer Morhen.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Chort"
+  }
+}

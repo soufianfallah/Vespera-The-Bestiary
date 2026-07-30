@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "slug": "griffin",
+  "name": "Griffin",
+  "category": "hybrids",
+  "description": "Griffins were once only found high in the mountains, where they would hunt marmots and wild goats. When humans encroached on their lands, however, Griffins soon discovered a new source of much more plentiful and easier-caught prey: cows, sheep and shepherds. Though still wary of main roads and towns, these half-eagle, half-wildcat creatures have gone from rarities to often encountered pests known throughout the Northern Realms. Especially hated are the subspecies known as Royal Griffins and Archgriffins. Griffins mate for life and when their partner is attacked they will defend it to the death. For this reason they are often considered the embodiment of courage, loyalty and fighting spirit.",
+  "story": "Aye, half-eagle, half tomcat, just like on the lord's crest.'Cept this 'un was carryin' me dead cow 'stead of a scepter. - Griffin attack witness, name unknown",
+  "lore": "When provoked, they will not cease their attack until they have torn their opponent to shreds. Griffins find their victims using their extraordinary perceptive sense of smell. After drawing near to their chosen target they attack by swooping down from great height. Their muscular mass combined with their swift speed mean this blow alone is often enough to end the fight. If, however, the victim survives this aerial assault, the Griffin will immediately engage it in direct combat, making use of its sharp, curved beak and powerful talons. The wounds it deals are deep and cause powerful bleeding.",
+  "weaknesses": [
+    "Bleeding",
+    "Aard",
+    "Grapeshot",
+    "Hybrid Oil"
+  ],
+  "oils": [
+    "Hybrid Oil"
+  ],
+  "bombs": [
+    "Grapeshot"
+  ],
+  "signs": [
+    "Aard"
+  ],
+  "swordType": "Silver",
+  "habitat": [
+    "Coasts, cliffs, mountains, and isolated ruins"
+  ],
+  "loot": [
+    "Griffin's egg",
+    "Griffin feathers",
+    "Griffin mutagen",
+    "Griffin trophy",
+    "Infused dust",
+    "Monster brain",
+    "Monster claw",
+    "Monster eye",
+    "Monster heart",
+    "Monster tongue",
+    "Raw meat"
+  ],
+  "locations": [
+    "Oxenfurt",
+    "Skellige",
+    "Toussaint",
+    "Velen",
+    "White Orchard"
+  ],
+  "dangerLevel": "High",
+  "portrait": "/monsters/griffin.webp",
+  "gallery": [
+    "/monsters/griffin.webp"
+  ],
+  "source": {
+    "file": "the-witcher-3-bestiary.pdf",
+    "page": 51,
+    "embeddedImageCount": 1,
+    "ocrConfidence": 0.9921,
+    "extractedAt": "2026-07-28T13:06:13.127036+00:00"
+  },
+  "factSources": {
+    "swordType": "witcher-inference",
+    "oils": "journal",
+    "bombs": "journal",
+    "signs": "journal",
+    "habitat": "witcher-inference",
+    "loot": "game-reference",
+    "locations": "game-reference",
+    "dangerLevel": "witcher-inference"
+  },
+  "encounter": {
+    "medium": "game",
+    "title": "The Witcher 3: Wild Hunt and expansions",
+    "location": "Oxenfurt, Skellige, Toussaint",
+    "note": "Game reference cross-check; the trail is associated with Oxenfurt, Skellige, Toussaint.",
+    "referenceUrl": "https://witcher.fandom.com/wiki/Griffin_%28creature%29"
+  }
+}

@@ -133,7 +133,7 @@ recognizes from preparing for a contract that looked easier on the notice board.
 | Motion                   | **Framer Motion**                           | Opening sequence, journal transition, portrait movement, and UI presence     |
 | Scroll animation         | **GSAP + ScrollTrigger**                    | Section reveals and ink-line animation                                       |
 | Smooth scrolling         | **Lenis**                                   | Cinematic wheel behavior with hidden-tab and reduced-motion safeguards       |
-| Soundscape               | **HTML Audio + Web Audio API**              | Local-track crossfades, procedural fallbacks, autoplay recovery, and page SFX |
+| Soundscape               | **HTML Audio + Web Audio API**              | Shuffled local playlist, silence skipping, autoplay recovery, and page SFX    |
 | Data validation          | **Zod**                                     | One consistent contract across every monster JSON file                       |
 | Icons                    | **React Icons**                             | Structural fallback glyphs and interface symbols                             |
 | Data pipeline            | **Python, PyMuPDF, RapidOCR, ONNX Runtime** | Local document rendering, OCR, extraction, and normalization                 |
@@ -188,21 +188,24 @@ npm run dev
 
 Development runs at `http://localhost:3000`.
 
-### Optional local soundtrack
+### Soundtrack files
 
-Vespera can prefer two personally supplied tracks during local development:
+Vespera uses a four-track soundtrack:
 
 ```text
 public/audio-local/Kaer Morhen (From The Witcher 3 - Wild Hunt).mp3
 public/audio-local/The Fields of Ard Skellig (Midnight).mp3
+public/audio-local/1-11. Bad News Ahead Full.mp3
+public/audio-local/1-13. CS001 Geralt and Yen.mp3
 ```
 
-`public/audio-local/` is excluded from Git, so the recordings are not
-redistributed through the open-source repository or covered by its code
-licensing terms. Authorized Vercel deployments made from a local workspace can
-include those files. Git-based builds without them automatically use Vespera's
-original procedural themes. Playback is requested on load and retried on the
-first interaction when a browser's audible-autoplay policy blocks it.
+`public/audio-local/` is excluded from Git to keep large binary media outside
+the source repository. Direct Vercel deployments include the local files;
+builds without them automatically use Vespera's procedural themes. Every page
+load starts on a shuffled track, measured leading silence is skipped, and the
+draggable player provides Play/Pause and Next controls. Playback is requested
+on load and retried on the first interaction when a browser's audible-autoplay
+policy blocks it.
 
 ## Build and preview the real static release
 

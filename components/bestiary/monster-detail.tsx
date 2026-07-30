@@ -150,7 +150,9 @@ function iconPath(value: string) {
     "ogroid-oil",
     "reinald-s-philter",
   ]);
-  return known.has(slug) ? `/icons/fieldcraft/${slug}.webp` : null;
+  if (!known.has(slug)) return null;
+  const asset = slug === "specter-oil" ? "specter-oil-v2" : slug;
+  return `/icons/fieldcraft/${asset}.webp`;
 }
 
 export function MonsterDetail({
@@ -284,18 +286,20 @@ export function MonsterDetail({
             <div className="weakness-grid">
               {weaknessItems.map(({ value, icon: Icon }) => (
                 <div key={value} className="weakness-item">
-                  {iconPath(value) ? (
-                    <Image
-                      src={iconPath(value)!}
-                      alt=""
-                      width={72}
-                      height={72}
-                      className="source-weakness-icon"
-                    />
-                  ) : (
-                    <Icon aria-hidden="true" />
-                  )}
-                  <span>{value}</span>
+                  <span className="weakness-icon-shell" aria-hidden="true">
+                    {iconPath(value) ? (
+                      <Image
+                        src={iconPath(value)!}
+                        alt=""
+                        width={72}
+                        height={72}
+                        className="source-weakness-icon"
+                      />
+                    ) : (
+                      <Icon />
+                    )}
+                  </span>
+                  <span className="weakness-label">{value}</span>
                 </div>
               ))}
             </div>

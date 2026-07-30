@@ -1,0 +1,307 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
+import {
+  FiMusic,
+  FiPause,
+  FiPlay,
+  FiVolume2,
+  FiVolumeX,
+} from "react-icons/fi";
+
+type SoundscapeMode = "threshold" | "journal";
+
+type SoundscapeContextValue = {
+  playing: boolean;
+  muted: boolean;
+  start: () => Promise<void>;
+  togglePlayback: () => Promise<void>;
+  toggleMuted: () => void;
+};
+
+type Scene = {
+  gain: GainNode;
+  sources: AudioScheduledSourceNode[];
+  timer: number;
+};
+
+const SoundscapeContext = createContext<SoundscapeContextValue | null>(null);
+
+const sceneNames: Record<SoundscapeMode, string> = {
+  threshold: "At the Threshold",
+  journal: "Along the Path",
+};
+
+function makeWind(context: AudioContext) {
+  const buffer = context.createBuffer(
+    1,
+    context.sampleRate * 3,
+    context.sampleRate,
+  );
+  const channel = buffer.getChannelData(0);
+  let drift = 0;
+
+  for (let index = 0; index < channel.length; index += 1) {
+    drift = drift * 0.985 + (Math.random() * 2 - 1) * 0.015;
+    channel[index] = drift;
+  }
+
+  return buffer;
+}
+
+function playAccent(
+  context: AudioContext,
+  destination: AudioNode,
+  frequency: number,
+  mode: SoundscapeMode,
+) {
+  const now = context.currentTime;
+  const oscillator = context.createOscillator();
+  const gain = context.createGain();
+  const filter = context.createBiquadFilter();
+
+  oscillator.type = mode === "threshold" ? "sine" : "triangle";
+  oscillator.frequency.setValueAtTime(frequency, now);
+  oscillator.detune.setValueAtTime(mode === "threshold" ? -7 : 5, now);
+  filter.type = "lowpass";
+  filter.frequency.value = mode === "threshold" ? 880 : 1350;
+  gain.gain.setValueAtTime(0.0001, now);
+  gain.gain.exponentialRampToValueAtTime(
+    mode === "threshold" ? 0.014 : 0.018,
+    now + 0.035,
+  );
+  gain.gain.exponentialRampToValueAtTime(
+    0.0001,
+    now + (mode === "threshold" ? 4.6 : 2.4),
+  );
+
+  oscillator.connect(filter);
+  filter.connect(gain);
+  gain.connect(destination);
+  oscillator.start(now);
+  oscillator.stop(now + (mode === "threshold" ? 4.8 : 2.6));
+}
+
+function createScene(
+  context: AudioContext,
+  destination: AudioNode,
+  mode: SoundscapeMode,
+): Scene {
+  const sceneGain = context.createGain();
+  const wind = context.createBufferSource();
+  const windFilter = context.createBiquadFilter();
+  const windGain = context.createGain();
+  const sources: AudioScheduledSourceNode[] = [wind];
+  const droneFrequencies =
+    mode === "threshold" ? [55, 82.41, 110] : [73.42, 110, 146.83];
+  const accentNotes =
+    mode === "threshold"
+      ? [110, 130.81, 164.81, 146.83]
+      : [146.83, 174.61, 220, 196, 164.81, 220];
+  let accentIndex = 0;
+
+  sceneGain.gain.value = 0.0001;
+  sceneGain.connect(destination);
+  sceneGain.gain.exponentialRampToValueAtTime(1, context.currentTime + 1.4);
+
+  wind.buffer = makeWind(context);
+  wind.loop = true;
+  windFilter.type = "lowpass";
+  windFilter.frequency.value = mode === "threshold" ? 430 : 760;
+  windGain.gain.value = mode === "threshold" ? 0.045 : 0.026;
+  wind.connect(windFilter);
+  windFilter.connect(windGain);
+  windGain.connect(sceneGain);
+  wind.start();
+
+  droneFrequencies.forEach((frequency, index) => {
+    const oscillator = context.createOscillator();
+    const gain = context.createGain();
+    oscillator.type = index === 0 ? "sine" : "triangle";
+    oscillator.frequency.value = frequency;
+    oscillator.detune.value = index * 4 - 3;
+    gain.gain.value = mode === "threshold" ? 0.006 - index * 0.001 : 0.004;
+    oscillator.connect(gain);
+    gain.connect(sceneGain);
+    oscillator.start();
+    sources.push(oscillator);
+  });
+
+  const accent = () => {
+    playAccent(
+      context,
+      sceneGain,
+      accentNotes[accentIndex % accentNotes.length],
+      mode,
+    );
+    accentIndex += 1;
+  };
+
+  accent();
+  const timer = window.setInterval(
+    accent,
+    mode === "threshold" ? 7200 : 4100,
+  );
+
+  return { gain: sceneGain, sources, timer };
+}
+
+function disposeScene(context: AudioContext, scene: Scene) {
+  window.clearInterval(scene.timer);
+  const now = context.currentTime;
+  scene.gain.gain.cancelScheduledValues(now);
+  scene.gain.gain.setValueAtTime(Math.max(scene.gain.gain.value, 0.0001), now);
+  scene.gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.7);
+  window.setTimeout(() => {
+    scene.sources.forEach((source) => {
+      try {
+        source.stop();
+      } catch {
+        // The source may already have completed.
+      }
+      source.disconnect();
+    });
+    scene.gain.disconnect();
+  }, 850);
+}
+
+export function useSoundscape() {
+  const value = useContext(SoundscapeContext);
+  if (!value) {
+    throw new Error("useSoundscape must be used inside SoundscapeProvider");
+  }
+  return value;
+}
+
+export function SoundscapeProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const pathname = usePathname();
+  const mode: SoundscapeMode = pathname === "/" ? "threshold" : "journal";
+  const [playing, setPlaying] = useState(false);
+  const [muted, setMuted] = useState(false);
+  const contextRef = useRef<AudioContext | null>(null);
+  const masterRef = useRef<GainNode | null>(null);
+  const sceneRef = useRef<Scene | null>(null);
+  const modeRef = useRef(mode);
+
+  const start = useCallback(async () => {
+    let context = contextRef.current;
+
+    if (!context) {
+      context = new AudioContext();
+      const master = context.createGain();
+      master.gain.value = muted ? 0 : 0.72;
+      master.connect(context.destination);
+      contextRef.current = context;
+      masterRef.current = master;
+      modeRef.current = mode;
+      sceneRef.current = createScene(context, master, mode);
+    }
+
+    await context.resume();
+    setPlaying(true);
+    window.sessionStorage.setItem("vespera-soundscape", "awakened");
+  }, [mode, muted]);
+
+  const togglePlayback = useCallback(async () => {
+    const context = contextRef.current;
+    if (!context || context.state === "closed") {
+      await start();
+      return;
+    }
+
+    if (context.state === "running") {
+      await context.suspend();
+      setPlaying(false);
+    } else {
+      await context.resume();
+      setPlaying(true);
+    }
+  }, [start]);
+
+  const toggleMuted = useCallback(() => {
+    setMuted((current) => !current);
+  }, []);
+
+  useEffect(() => {
+    const context = contextRef.current;
+    const master = masterRef.current;
+    if (!context || !master) return;
+    const now = context.currentTime;
+    master.gain.cancelScheduledValues(now);
+    master.gain.setTargetAtTime(muted ? 0 : 0.72, now, 0.08);
+  }, [muted]);
+
+  useEffect(() => {
+    const context = contextRef.current;
+    const master = masterRef.current;
+    const currentScene = sceneRef.current;
+    if (!context || !master || !currentScene || modeRef.current === mode) return;
+
+    modeRef.current = mode;
+    sceneRef.current = createScene(context, master, mode);
+    disposeScene(context, currentScene);
+  }, [mode]);
+
+  useEffect(
+    () => () => {
+      if (sceneRef.current && contextRef.current) {
+        disposeScene(contextRef.current, sceneRef.current);
+      }
+      if (contextRef.current) void contextRef.current.close();
+    },
+    [],
+  );
+
+  const value = useMemo(
+    () => ({ playing, muted, start, togglePlayback, toggleMuted }),
+    [muted, playing, start, toggleMuted, togglePlayback],
+  );
+
+  return (
+    <SoundscapeContext.Provider value={value}>
+      {children}
+      <aside className="soundscape-controls" aria-label="Music controls">
+        <div className="soundscape-title" aria-live="polite">
+          <FiMusic aria-hidden="true" />
+          <span>
+            <small>Vespera soundscape</small>
+            <strong>{sceneNames[mode]}</strong>
+          </span>
+        </div>
+        <button
+          type="button"
+          onClick={() => void togglePlayback()}
+          aria-label={playing ? "Pause music" : "Play music"}
+          title={playing ? "Pause music" : "Play music"}
+        >
+          {playing ? <FiPause aria-hidden="true" /> : <FiPlay aria-hidden="true" />}
+        </button>
+        <button
+          type="button"
+          onClick={toggleMuted}
+          aria-label={muted ? "Unmute music" : "Mute music"}
+          title={muted ? "Unmute music" : "Mute music"}
+        >
+          {muted ? (
+            <FiVolumeX aria-hidden="true" />
+          ) : (
+            <FiVolume2 aria-hidden="true" />
+          )}
+        </button>
+      </aside>
+    </SoundscapeContext.Provider>
+  );
+}

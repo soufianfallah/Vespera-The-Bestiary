@@ -6,6 +6,7 @@ import "@fontsource/cormorant-garamond/600.css";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SmoothScroll } from "@/components/experience/smooth-scroll";
+import { SoundscapeProvider } from "@/components/experience/soundscape";
 
 export const metadata: Metadata = {
   title: {
@@ -29,8 +30,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SmoothScroll />
-        {children}
+        <SoundscapeProvider>
+          <SmoothScroll />
+          {children}
+        </SoundscapeProvider>
       </body>
     </html>
   );

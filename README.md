@@ -55,6 +55,8 @@ and transition exists to support that feeling.
   hybrids, insectoids, necrophages, ogroids, relicts, specters, and vampires.
 - A cinematic opening sequence with fog, ambience, medallion reveal, and a
   scroll-to-open journal transition.
+- An original two-scene Web Audio soundscape that changes between the threshold
+  and the journal, with persistent play, pause, and mute controls.
 - A searchable parchment catalogue with sticky category navigation.
 - Individual monster studies with lore, danger, habitat, locations, harvest,
   sword choice, oils, bombs, Signs, and known encounters.
@@ -127,6 +129,7 @@ recognizes from preparing for a contract that looked easier on the notice board.
 | Motion                   | **Framer Motion**                           | Opening sequence, journal transition, portrait movement, and UI presence     |
 | Scroll animation         | **GSAP + ScrollTrigger**                    | Section reveals and ink-line animation                                       |
 | Smooth scrolling         | **Lenis**                                   | Cinematic wheel behavior with hidden-tab and reduced-motion safeguards       |
+| Soundscape               | **Web Audio API**                           | Original procedural threshold and journal themes with route-aware crossfades |
 | Data validation          | **Zod**                                     | One consistent contract across every monster JSON file                       |
 | Icons                    | **React Icons**                             | Structural fallback glyphs and interface symbols                             |
 | Data pipeline            | **Python, PyMuPDF, RapidOCR, ONNX Runtime** | Local document rendering, OCR, extraction, and normalization                 |

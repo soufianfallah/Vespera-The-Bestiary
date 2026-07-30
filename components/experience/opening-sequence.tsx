@@ -12,6 +12,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AmbientLayer } from "./ambient-layer";
+import { useSoundscape } from "./soundscape";
 
 function BestiaryMedallion({ reduced }: { reduced: boolean | null }) {
   const pointerX = useMotionValue(0);
@@ -82,37 +83,15 @@ function BestiaryMedallion({ reduced }: { reduced: boolean | null }) {
 export function OpeningSequence() {
   const router = useRouter();
   const reduced = useReducedMotion();
+  const { playing: soundOn, start: startSound } = useSoundscape();
   const [leaving, setLeaving] = useState(false);
-  const [soundOn, setSoundOn] = useState(false);
-  const audioRef = useRef<AudioContext | null>(null);
   const wheelDistance = useRef(0);
   const touchStartY = useRef<number | null>(null);
-
-  const startSound = useCallback(() => {
-    if (audioRef.current) return;
-    const AudioCtor = window.AudioContext;
-    const context = new AudioCtor();
-    const gain = context.createGain();
-    const low = context.createOscillator();
-    const high = context.createOscillator();
-    low.type = "sine";
-    high.type = "triangle";
-    low.frequency.value = 48;
-    high.frequency.value = 73;
-    gain.gain.value = 0.012;
-    low.connect(gain);
-    high.connect(gain);
-    gain.connect(context.destination);
-    low.start();
-    high.start();
-    audioRef.current = context;
-    setSoundOn(true);
-  }, []);
 
   const enter = useCallback(() => {
     if (leaving) return;
     setLeaving(true);
-    if (!soundOn) startSound();
+    if (!soundOn) void startSound();
     window.sessionStorage.setItem("vespera-entered", "true");
     window.setTimeout(() => router.push("/bestiary"), reduced ? 150 : 1150);
   }, [leaving, reduced, router, soundOn, startSound]);
@@ -150,7 +129,6 @@ export function OpeningSequence() {
       window.removeEventListener("wheel", onWheel);
       window.removeEventListener("touchstart", onTouchStart);
       window.removeEventListener("touchend", onTouchEnd);
-      if (audioRef.current) void audioRef.current.close();
     };
   }, [enter]);
 

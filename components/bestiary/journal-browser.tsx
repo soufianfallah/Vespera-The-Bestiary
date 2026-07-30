@@ -3,12 +3,13 @@
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { FiArrowUp, FiSearch, FiX } from "react-icons/fi";
 import type { Category, Monster } from "@/lib/schema";
 import { CATEGORY_LABELS } from "@/lib/schema";
 import { AmbientLayer } from "@/components/experience/ambient-layer";
 import { Sigil } from "@/components/experience/sigil";
+import { useSoundscape } from "@/components/experience/soundscape";
 
 const categoryOrder = Object.keys(CATEGORY_LABELS) as Category[];
 
@@ -24,9 +25,27 @@ function MonsterCard({
   monster: MonsterSummary;
   index: number;
 }) {
+  const { playMonsterHover, playMonsterSelect } = useSoundscape();
+  const pointerFocusRef = useRef(0);
+
   return (
     <article className="monster-card-entry">
-      <Link href={`/bestiary/${monster.slug}`} className="monster-card">
+      <Link
+        href={`/bestiary/${monster.slug}`}
+        className="monster-card"
+        onPointerEnter={(event) => {
+          if (event.pointerType !== "touch") void playMonsterHover();
+        }}
+        onPointerDown={() => {
+          pointerFocusRef.current = performance.now();
+        }}
+        onFocus={() => {
+          if (performance.now() - pointerFocusRef.current > 500) {
+            void playMonsterHover();
+          }
+        }}
+        onClick={() => void playMonsterSelect()}
+      >
         <span className="card-number">
           {String(index + 1).padStart(2, "0")}
         </span>

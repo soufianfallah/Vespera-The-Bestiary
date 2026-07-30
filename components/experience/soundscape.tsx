@@ -10,12 +10,7 @@ import {
   useRef,
   useState,
 } from "react";
-import {
-  FiMusic,
-  FiPause,
-  FiPlay,
-  FiSkipForward,
-} from "react-icons/fi";
+import { FiMusic, FiPause, FiPlay, FiSkipForward } from "react-icons/fi";
 
 type SoundscapeMode = "threshold" | "journal";
 
@@ -23,6 +18,8 @@ type SoundscapeContextValue = {
   playing: boolean;
   start: () => Promise<void>;
   playPageFlip: () => Promise<void>;
+  playMonsterHover: () => Promise<void>;
+  playMonsterSelect: () => Promise<void>;
   togglePlayback: () => Promise<void>;
 };
 
@@ -185,6 +182,88 @@ function createPageFlip(context: AudioContext, destination: AudioNode) {
   thump.stop(now + 0.7);
 }
 
+function createInkScratch(
+  context: AudioContext,
+  destination: AudioNode,
+  emphasis: "hover" | "select",
+) {
+  const now = context.currentTime;
+  const duration = emphasis === "hover" ? 0.12 : 0.19;
+  const buffer = context.createBuffer(
+    1,
+    Math.ceil(context.sampleRate * duration),
+    context.sampleRate,
+  );
+  const channel = buffer.getChannelData(0);
+
+  for (let index = 0; index < channel.length; index += 1) {
+    const progress = index / channel.length;
+    const grain = Math.random() * 2 - 1;
+    const nib = Math.sin(progress * Math.PI * (emphasis === "hover" ? 9 : 15));
+    const envelope = Math.sin(progress * Math.PI) ** 1.6;
+    channel[index] = (grain * 0.78 + nib * 0.22) * envelope;
+  }
+
+  const scratch = context.createBufferSource();
+  const filter = context.createBiquadFilter();
+  const gain = context.createGain();
+
+  scratch.buffer = buffer;
+  scratch.playbackRate.value = emphasis === "hover" ? 1.18 : 0.94;
+  filter.type = "bandpass";
+  filter.Q.value = emphasis === "hover" ? 1.5 : 1.1;
+  filter.frequency.setValueAtTime(emphasis === "hover" ? 1650 : 1180, now);
+  filter.frequency.exponentialRampToValueAtTime(
+    emphasis === "hover" ? 2850 : 3400,
+    now + duration,
+  );
+  gain.gain.setValueAtTime(0.0001, now);
+  gain.gain.exponentialRampToValueAtTime(
+    emphasis === "hover" ? 0.026 : 0.052,
+    now + 0.018,
+  );
+  gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+
+  scratch.connect(filter);
+  filter.connect(gain);
+  gain.connect(destination);
+  scratch.start(now);
+  scratch.stop(now + duration);
+}
+
+function createMedallionChime(context: AudioContext, destination: AudioNode) {
+  const start = context.currentTime + 0.075;
+  const partials = [
+    { frequency: 987.77, level: 0.024, decay: 0.58 },
+    { frequency: 1481.66, level: 0.014, decay: 0.43 },
+    { frequency: 2312.4, level: 0.006, decay: 0.31 },
+  ];
+
+  partials.forEach(({ frequency, level, decay }, index) => {
+    const tone = context.createOscillator();
+    const gain = context.createGain();
+    const filter = context.createBiquadFilter();
+
+    tone.type = index === 0 ? "sine" : "triangle";
+    tone.frequency.setValueAtTime(frequency, start);
+    tone.frequency.exponentialRampToValueAtTime(
+      frequency * (index === 0 ? 0.997 : 1.003),
+      start + decay,
+    );
+    filter.type = "highpass";
+    filter.frequency.value = 620;
+    gain.gain.setValueAtTime(0.0001, start);
+    gain.gain.exponentialRampToValueAtTime(level, start + 0.012);
+    gain.gain.exponentialRampToValueAtTime(0.0001, start + decay);
+
+    tone.connect(filter);
+    filter.connect(gain);
+    gain.connect(destination);
+    tone.start(start);
+    tone.stop(start + decay + 0.03);
+  });
+}
+
 function createScene(
   context: AudioContext,
   destination: AudioNode,
@@ -241,10 +320,7 @@ function createScene(
   };
 
   accent();
-  const timer = window.setInterval(
-    accent,
-    mode === "threshold" ? 7200 : 4100,
-  );
+  const timer = window.setInterval(accent, mode === "threshold" ? 7200 : 4100);
 
   return { gain: sceneGain, sources, timer };
 }
@@ -286,8 +362,9 @@ export function SoundscapeProvider({
   const [playing, setPlaying] = useState(false);
   const [localTrackActive, setLocalTrackActive] = useState(false);
   const [trackIndex, setTrackIndex] = useState<number | null>(null);
-  const [playerPosition, setPlayerPosition] =
-    useState<PlayerPosition | null>(null);
+  const [playerPosition, setPlayerPosition] = useState<PlayerPosition | null>(
+    null,
+  );
   const [dragging, setDragging] = useState(false);
   const contextRef = useRef<AudioContext | null>(null);
   const masterRef = useRef<GainNode | null>(null);
@@ -299,6 +376,7 @@ export function SoundscapeProvider({
   const autoplayAttemptedRef = useRef(false);
   const userPausedRef = useRef(false);
   const shouldResumeRef = useRef(true);
+  const lastMonsterHoverRef = useRef(0);
   const playerRef = useRef<HTMLElement | null>(null);
   const positionRef = useRef<PlayerPosition | null>(null);
   const dragRef = useRef<DragState | null>(null);
@@ -309,7 +387,10 @@ export function SoundscapeProvider({
     const player = playerRef.current;
     if (!player) return position;
     const margin = 8;
-    const maxX = Math.max(margin, window.innerWidth - player.offsetWidth - margin);
+    const maxX = Math.max(
+      margin,
+      window.innerWidth - player.offsetWidth - margin,
+    );
     const maxY = Math.max(
       margin,
       window.innerHeight - player.offsetHeight - margin,
@@ -419,6 +500,22 @@ export function SoundscapeProvider({
     const { context, master } = ensureAudioGraph();
     await context.resume();
     createPageFlip(context, master);
+  }, [ensureAudioGraph]);
+
+  const playMonsterHover = useCallback(async () => {
+    const now = performance.now();
+    if (now - lastMonsterHoverRef.current < 110) return;
+    lastMonsterHoverRef.current = now;
+    const { context, master } = ensureAudioGraph();
+    await context.resume();
+    createInkScratch(context, master, "hover");
+  }, [ensureAudioGraph]);
+
+  const playMonsterSelect = useCallback(async () => {
+    const { context, master } = ensureAudioGraph();
+    await context.resume();
+    createInkScratch(context, master, "select");
+    createMedallionChime(context, master);
   }, [ensureAudioGraph]);
 
   const togglePlayback = useCallback(async () => {
@@ -622,9 +719,18 @@ export function SoundscapeProvider({
       playing,
       start,
       playPageFlip,
+      playMonsterHover,
+      playMonsterSelect,
       togglePlayback,
     }),
-    [playPageFlip, playing, start, togglePlayback],
+    [
+      playMonsterHover,
+      playMonsterSelect,
+      playPageFlip,
+      playing,
+      start,
+      togglePlayback,
+    ],
   );
 
   return (
@@ -664,9 +770,7 @@ export function SoundscapeProvider({
             current === null ? 0 : (current + 1) % localTracks.length,
           );
         }}
-        onError={() =>
-          void startProcedural()
-        }
+        onError={() => void startProcedural()}
       />
       <aside
         ref={playerRef}
@@ -708,7 +812,11 @@ export function SoundscapeProvider({
           aria-label={playing ? "Pause music" : "Play music"}
           title={playing ? "Pause music" : "Play music"}
         >
-          {playing ? <FiPause aria-hidden="true" /> : <FiPlay aria-hidden="true" />}
+          {playing ? (
+            <FiPause aria-hidden="true" />
+          ) : (
+            <FiPlay aria-hidden="true" />
+          )}
         </button>
         <button
           type="button"

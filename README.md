@@ -125,21 +125,21 @@ recognizes from preparing for a contract that looked easier on the notice board.
 
 ## Technology and tools
 
-| Layer                    | Technology                                  | Role                                                                           |
-| ------------------------ | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| Application              | **Next.js 15 App Router**                   | Static routes, metadata, and production export                                 |
-| Language                 | **TypeScript + React 19**                   | Strict application and component architecture                                  |
-| Styling                  | **Tailwind CSS + handcrafted CSS**          | Layout, parchment, fog, candlelight, ink, and responsive behavior              |
-| Motion                   | **Framer Motion**                           | Opening sequence, journal transition, portrait movement, and UI presence       |
-| Scroll animation         | **GSAP + ScrollTrigger**                    | Section reveals and ink-line animation                                         |
-| Smooth scrolling         | **Lenis**                                   | Cinematic wheel behavior with hidden-tab and reduced-motion safeguards         |
-| Soundscape               | **HTML Audio + Web Audio API**              | Shuffled playlist, silence skipping, page SFX, ink scratches, and metal chimes |
-| Data validation          | **Zod**                                     | One consistent contract across every monster JSON file                         |
-| Icons                    | **React Icons**                             | Structural fallback glyphs and interface symbols                               |
-| Data pipeline            | **Python, PyMuPDF, RapidOCR, ONNX Runtime** | Local document rendering, OCR, extraction, and normalization                   |
-| Image pipeline           | **OpenAI image generation + Pillow**        | Original visual production, alpha cleanup, resizing, and WebP delivery         |
-| Development collaborator | **OpenAI Codex**                            | Architecture, implementation, research, asset workflow, QA, and optimization   |
-| Deployment               | **Vercel**                                  | Global CDN delivery of the fully static production export                      |
+| Layer                    | Technology                                  | Role                                                                         |
+| ------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------- |
+| Application              | **Next.js 15 App Router**                   | Static routes, metadata, and production export                               |
+| Language                 | **TypeScript + React 19**                   | Strict application and component architecture                                |
+| Styling                  | **Tailwind CSS + handcrafted CSS**          | Layout, parchment, fog, candlelight, ink, and responsive behavior            |
+| Motion                   | **Framer Motion**                           | Opening sequence, journal transition, portrait movement, and UI presence     |
+| Scroll animation         | **GSAP + ScrollTrigger**                    | Section reveals and ink-line animation                                       |
+| Smooth scrolling         | **Lenis**                                   | Cinematic wheel behavior with hidden-tab and reduced-motion safeguards       |
+| Soundscape               | **HTML Audio + Web Audio API**              | Shuffled playlist, silence skipping, page SFX, and silver-sword interactions |
+| Data validation          | **Zod**                                     | One consistent contract across every monster JSON file                       |
+| Icons                    | **React Icons**                             | Structural fallback glyphs and interface symbols                             |
+| Data pipeline            | **Python, PyMuPDF, RapidOCR, ONNX Runtime** | Local document rendering, OCR, extraction, and normalization                 |
+| Image pipeline           | **OpenAI image generation + Pillow**        | Original visual production, alpha cleanup, resizing, and WebP delivery       |
+| Development collaborator | **OpenAI Codex**                            | Architecture, implementation, research, asset workflow, QA, and optimization |
+| Deployment               | **Vercel**                                  | Global CDN delivery of the fully static production export                    |
 
 There is no database, CMS, authentication layer, analytics dependency, or
 runtime bestiary API. The website consumes static JSON and exports as portable

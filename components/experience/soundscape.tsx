@@ -182,13 +182,13 @@ function createPageFlip(context: AudioContext, destination: AudioNode) {
   thump.stop(now + 0.7);
 }
 
-function createInkScratch(
+function createSilverSwordSound(
   context: AudioContext,
   destination: AudioNode,
-  emphasis: "hover" | "select",
+  gesture: "whisper" | "slice",
 ) {
   const now = context.currentTime;
-  const duration = emphasis === "hover" ? 0.12 : 0.19;
+  const duration = gesture === "whisper" ? 0.1 : 0.28;
   const buffer = context.createBuffer(
     1,
     Math.ceil(context.sampleRate * duration),
@@ -198,69 +198,76 @@ function createInkScratch(
 
   for (let index = 0; index < channel.length; index += 1) {
     const progress = index / channel.length;
-    const grain = Math.random() * 2 - 1;
-    const nib = Math.sin(progress * Math.PI * (emphasis === "hover" ? 9 : 15));
-    const envelope = Math.sin(progress * Math.PI) ** 1.6;
-    channel[index] = (grain * 0.78 + nib * 0.22) * envelope;
+    const air = Math.random() * 2 - 1;
+    const edge = Math.sin(
+      progress * Math.PI * (gesture === "whisper" ? 32 : 54),
+    );
+    const envelope =
+      gesture === "whisper"
+        ? Math.sin(progress * Math.PI) ** 2.2
+        : Math.sin(progress * Math.PI) ** 1.35;
+    channel[index] = (air * 0.9 + edge * 0.1) * envelope;
   }
 
-  const scratch = context.createBufferSource();
+  const swordBus = context.createGain();
+  const blade = context.createBufferSource();
   const filter = context.createBiquadFilter();
   const gain = context.createGain();
 
-  scratch.buffer = buffer;
-  scratch.playbackRate.value = emphasis === "hover" ? 1.18 : 0.94;
+  // The interaction bus stays deliberately low and never alters the music
+  // element's volume, so repeated card browsing cannot duck the soundtrack.
+  swordBus.gain.value = 0.72;
+  swordBus.connect(destination);
+  blade.buffer = buffer;
+  blade.playbackRate.value = gesture === "whisper" ? 1.35 : 1;
   filter.type = "bandpass";
-  filter.Q.value = emphasis === "hover" ? 1.5 : 1.1;
-  filter.frequency.setValueAtTime(emphasis === "hover" ? 1650 : 1180, now);
+  filter.Q.value = gesture === "whisper" ? 0.9 : 0.72;
+  filter.frequency.setValueAtTime(gesture === "whisper" ? 3100 : 4700, now);
   filter.frequency.exponentialRampToValueAtTime(
-    emphasis === "hover" ? 2850 : 3400,
+    gesture === "whisper" ? 1850 : 980,
     now + duration,
   );
   gain.gain.setValueAtTime(0.0001, now);
   gain.gain.exponentialRampToValueAtTime(
-    emphasis === "hover" ? 0.026 : 0.052,
-    now + 0.018,
+    gesture === "whisper" ? 0.014 : 0.034,
+    now + (gesture === "whisper" ? 0.014 : 0.035),
   );
   gain.gain.exponentialRampToValueAtTime(0.0001, now + duration);
 
-  scratch.connect(filter);
+  blade.connect(filter);
   filter.connect(gain);
-  gain.connect(destination);
-  scratch.start(now);
-  scratch.stop(now + duration);
-}
+  gain.connect(swordBus);
+  blade.start(now);
+  blade.stop(now + duration);
 
-function createMedallionChime(context: AudioContext, destination: AudioNode) {
-  const start = context.currentTime + 0.075;
-  const partials = [
-    { frequency: 987.77, level: 0.024, decay: 0.58 },
-    { frequency: 1481.66, level: 0.014, decay: 0.43 },
-    { frequency: 2312.4, level: 0.006, decay: 0.31 },
-  ];
+  if (gesture === "whisper") return;
 
-  partials.forEach(({ frequency, level, decay }, index) => {
+  const shimmerStart = now + 0.055;
+  [
+    { frequency: 1760, level: 0.0065, decay: 0.24 },
+    { frequency: 2637.02, level: 0.0028, decay: 0.17 },
+  ].forEach(({ frequency, level, decay }, index) => {
     const tone = context.createOscillator();
-    const gain = context.createGain();
-    const filter = context.createBiquadFilter();
+    const shimmerGain = context.createGain();
+    const shimmerFilter = context.createBiquadFilter();
 
     tone.type = index === 0 ? "sine" : "triangle";
-    tone.frequency.setValueAtTime(frequency, start);
+    tone.frequency.setValueAtTime(frequency, shimmerStart);
     tone.frequency.exponentialRampToValueAtTime(
-      frequency * (index === 0 ? 0.997 : 1.003),
-      start + decay,
+      frequency * (index === 0 ? 0.992 : 1.006),
+      shimmerStart + decay,
     );
-    filter.type = "highpass";
-    filter.frequency.value = 620;
-    gain.gain.setValueAtTime(0.0001, start);
-    gain.gain.exponentialRampToValueAtTime(level, start + 0.012);
-    gain.gain.exponentialRampToValueAtTime(0.0001, start + decay);
+    shimmerFilter.type = "highpass";
+    shimmerFilter.frequency.value = 1350;
+    shimmerGain.gain.setValueAtTime(0.0001, shimmerStart);
+    shimmerGain.gain.exponentialRampToValueAtTime(level, shimmerStart + 0.008);
+    shimmerGain.gain.exponentialRampToValueAtTime(0.0001, shimmerStart + decay);
 
-    tone.connect(filter);
-    filter.connect(gain);
-    gain.connect(destination);
-    tone.start(start);
-    tone.stop(start + decay + 0.03);
+    tone.connect(shimmerFilter);
+    shimmerFilter.connect(shimmerGain);
+    shimmerGain.connect(swordBus);
+    tone.start(shimmerStart);
+    tone.stop(shimmerStart + decay + 0.025);
   });
 }
 
@@ -508,14 +515,13 @@ export function SoundscapeProvider({
     lastMonsterHoverRef.current = now;
     const { context, master } = ensureAudioGraph();
     await context.resume();
-    createInkScratch(context, master, "hover");
+    createSilverSwordSound(context, master, "whisper");
   }, [ensureAudioGraph]);
 
   const playMonsterSelect = useCallback(async () => {
     const { context, master } = ensureAudioGraph();
     await context.resume();
-    createInkScratch(context, master, "select");
-    createMedallionChime(context, master);
+    createSilverSwordSound(context, master, "slice");
   }, [ensureAudioGraph]);
 
   const togglePlayback = useCallback(async () => {

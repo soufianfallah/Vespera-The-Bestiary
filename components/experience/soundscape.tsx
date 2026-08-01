@@ -350,7 +350,9 @@ export function SoundscapeProvider({
   const mode: SoundscapeMode = pathname === "/" ? "threshold" : "journal";
   const [playing, setPlaying] = useState(false);
   const [localTrackActive, setLocalTrackActive] = useState(false);
-  const [trackIndex, setTrackIndex] = useState<number | null>(null);
+  const [trackIndex, setTrackIndex] = useState(() =>
+    Math.floor(Math.random() * localTracks.length),
+  );
   const [playerPosition, setPlayerPosition] = useState<PlayerPosition | null>(
     null,
   );
@@ -361,15 +363,33 @@ export function SoundscapeProvider({
   const modeRef = useRef(mode);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const sourceRef = useRef<"local" | "procedural" | null>(null);
-  const startInFlightRef = useRef<Promise<void> | null>(null);
   const autoplayAttemptedRef = useRef(false);
   const userPausedRef = useRef(false);
   const shouldResumeRef = useRef(true);
+  const preparedTrackPathRef = useRef<string | null>(null);
   const playerRef = useRef<HTMLElement | null>(null);
   const positionRef = useRef<PlayerPosition | null>(null);
   const dragRef = useRef<DragState | null>(null);
-  const currentTrack =
-    trackIndex === null ? null : localTracks[trackIndex % localTracks.length];
+  const currentTrack = localTracks[trackIndex % localTracks.length];
+
+  const prepareCurrentTrack = useCallback(
+    (audio: HTMLAudioElement) => {
+      if (
+        preparedTrackPathRef.current === currentTrack.path ||
+        audio.readyState < HTMLMediaElement.HAVE_CURRENT_DATA
+      ) {
+        return;
+      }
+
+      // Mark before seeking so canplay/seek events cannot restart the same
+      // operation and trap stricter browsers in an endless seeking loop.
+      preparedTrackPathRef.current = currentTrack.path;
+      if (currentTrack.audibleFrom > 0) {
+        audio.currentTime = currentTrack.audibleFrom;
+      }
+    },
+    [currentTrack],
+  );
 
   const clampPosition = useCallback((position: PlayerPosition) => {
     const player = playerRef.current;
@@ -440,17 +460,13 @@ export function SoundscapeProvider({
     const audio = audioRef.current;
     if (!audio || !currentTrack) return false;
 
-    if (audio.readyState < HTMLMediaElement.HAVE_CURRENT_DATA) {
-      audio.load();
-      return false;
-    }
-
+    prepareCurrentTrack(audio);
     audio.volume = localTrackVolume;
-    if (audio.ended || audio.currentTime < currentTrack.audibleFrom) {
-      audio.currentTime = currentTrack.audibleFrom;
-    }
 
     try {
+      // Call play while the browser's user activation is still live. The
+      // returned promise may wait for buffering; canplay will seek past the
+      // measured silence before audible playback begins.
       await audio.play();
     } catch {
       return false;
@@ -463,25 +479,20 @@ export function SoundscapeProvider({
     setLocalTrackActive(true);
     setPlaying(true);
     return true;
-  }, [currentTrack]);
+  }, [currentTrack, prepareCurrentTrack]);
 
-  const start = useCallback(() => {
-    if (userPausedRef.current) return Promise.resolve();
-    if (startInFlightRef.current) return startInFlightRef.current;
+  const start = useCallback(async () => {
+    if (userPausedRef.current) return;
 
-    const run = (async () => {
-      const localStarted = await startLocal();
-      if (!localStarted) {
-        const audio = audioRef.current;
-        if (!audio || audio.error) await startProcedural();
-      }
-      window.sessionStorage.setItem("vespera-soundscape", "awakened");
-    })();
-    startInFlightRef.current = run;
-    void run.finally(() => {
-      if (startInFlightRef.current === run) startInFlightRef.current = null;
-    });
-    return run;
+    // Do not deduplicate this call. An automatic play request can remain
+    // pending while media buffers; a later real gesture must issue its own
+    // play() request so the browser can attach user activation to it.
+    const localStarted = await startLocal();
+    if (!localStarted) {
+      const audio = audioRef.current;
+      if (!audio || audio.error) await startProcedural();
+    }
+    window.sessionStorage.setItem("vespera-soundscape", "awakened");
   }, [startLocal, startProcedural]);
 
   const playPageFlip = useCallback(async () => {
@@ -502,16 +513,8 @@ export function SoundscapeProvider({
       if (audio.paused) {
         userPausedRef.current = false;
         shouldResumeRef.current = true;
-        if (
-          !currentTrack ||
-          audio.readyState < HTMLMediaElement.HAVE_METADATA
-        ) {
-          audio.load();
-          return;
-        }
-        if (audio.currentTime < currentTrack.audibleFrom) {
-          audio.currentTime = currentTrack.audibleFrom;
-        }
+        if (!currentTrack) return;
+        prepareCurrentTrack(audio);
         try {
           await audio.play();
           setPlaying(true);
@@ -546,24 +549,21 @@ export function SoundscapeProvider({
       await context.resume();
       setPlaying(true);
     }
-  }, [currentTrack, start]);
+  }, [currentTrack, prepareCurrentTrack, start]);
 
   const nextTrack = useCallback(() => {
     shouldResumeRef.current = !userPausedRef.current;
     audioRef.current?.pause();
     setPlaying(false);
     setTrackIndex((current) =>
-      current === null ? 0 : (current + 1) % localTracks.length,
+      (current + 1) % localTracks.length,
     );
-  }, []);
-
-  useEffect(() => {
-    setTrackIndex(Math.floor(Math.random() * localTracks.length));
   }, []);
 
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio || !currentTrack) return;
+    preparedTrackPathRef.current = null;
     audio.pause();
     audio.src = currentTrack.path;
     audio.volume = localTrackVolume;
@@ -710,18 +710,8 @@ export function SoundscapeProvider({
         ref={audioRef}
         hidden
         preload="auto"
-        onLoadedMetadata={(event) => {
-          if (currentTrack) {
-            event.currentTarget.currentTime = currentTrack.audibleFrom;
-          }
-        }}
         onCanPlay={(event) => {
-          if (
-            currentTrack &&
-            event.currentTarget.currentTime < currentTrack.audibleFrom
-          ) {
-            event.currentTarget.currentTime = currentTrack.audibleFrom;
-          }
+          prepareCurrentTrack(event.currentTarget);
           if (shouldResumeRef.current && !userPausedRef.current) {
             void start();
           }
@@ -737,7 +727,7 @@ export function SoundscapeProvider({
         onEnded={() => {
           shouldResumeRef.current = true;
           setTrackIndex((current) =>
-            current === null ? 0 : (current + 1) % localTracks.length,
+            (current + 1) % localTracks.length,
           );
         }}
         onError={() => void startProcedural()}

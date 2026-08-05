@@ -376,6 +376,7 @@ export function SoundscapeProvider({
   const shouldResumeRef = useRef(true);
   const preparedTrackPathRef = useRef<string | null>(null);
   const hasPlayedLocalTrackRef = useRef(false);
+  const failedLocalTracksRef = useRef(0);
   const continuationRetryRef = useRef<number | null>(null);
   const playerRef = useRef<HTMLElement | null>(null);
   const positionRef = useRef<PlayerPosition | null>(null);
@@ -500,7 +501,9 @@ export function SoundscapeProvider({
     const localStarted = await startLocal();
     if (!localStarted) {
       const audio = audioRef.current;
-      if (!audio || audio.error) await startProcedural();
+      // Keep the generated soundscape as a last-resort implementation guard,
+      // never as a response to a temporary MP3 or autoplay failure.
+      if (!audio) await startProcedural();
     }
     window.sessionStorage.setItem("vespera-soundscape", "awakened");
   }, [startLocal, startProcedural]);
@@ -568,6 +571,20 @@ export function SoundscapeProvider({
     setTrackIndex((current) =>
       (current + 1) % localTracks.length,
     );
+  }, []);
+
+  const skipFailedLocalTrack = useCallback(() => {
+    if (userPausedRef.current) return;
+
+    failedLocalTracksRef.current += 1;
+    if (failedLocalTracksRef.current >= localTracks.length) {
+      shouldResumeRef.current = false;
+      setPlaying(false);
+      return;
+    }
+
+    shouldResumeRef.current = true;
+    setTrackIndex((current) => (current + 1) % localTracks.length);
   }, []);
 
   useEffect(() => {
@@ -747,6 +764,7 @@ export function SoundscapeProvider({
         }}
         onPlay={() => {
           hasPlayedLocalTrackRef.current = true;
+          failedLocalTracksRef.current = 0;
           if (continuationRetryRef.current !== null) {
             window.clearTimeout(continuationRetryRef.current);
             continuationRetryRef.current = null;
@@ -764,7 +782,7 @@ export function SoundscapeProvider({
             (current + 1) % localTracks.length,
           );
         }}
-        onError={() => void startProcedural()}
+        onError={skipFailedLocalTrack}
       />
       <aside
         ref={playerRef}

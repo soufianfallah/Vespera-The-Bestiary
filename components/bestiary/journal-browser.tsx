@@ -21,9 +21,11 @@ type MonsterSummary = Pick<Monster, "category" | "name" | "slug" | "story"> & {
 function MonsterCard({
   monster,
   index,
+  eager,
 }: {
   monster: MonsterSummary;
   index: number;
+  eager: boolean;
 }) {
   const { playMonsterSelect } = useSoundscape();
 
@@ -42,6 +44,9 @@ function MonsterCard({
             src={monster.portrait}
             alt={`${monster.name}, ${CATEGORY_LABELS[monster.category].toLowerCase()} bestiary portrait`}
             fill
+            priority={eager}
+            loading={eager ? "eager" : "lazy"}
+            fetchPriority={eager ? "high" : "auto"}
             sizes="(max-width: 700px) 74px, 96px"
           />
           <Sigil category={monster.category} className="card-sigil" />
@@ -83,6 +88,18 @@ export function JournalBrowser({
         (!needle || monster.searchText.includes(needle)),
     );
   }, [category, monsters, query]);
+
+  const grouped = useMemo(() => {
+    let visibleIndex = 0;
+    return categoryOrder.flatMap((item) => {
+      const entries = filtered
+        .filter((monster) => monster.category === item)
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .map((monster) => ({ monster, index: visibleIndex++ }));
+
+      return entries.length ? [{ category: item, entries }] : [];
+    });
+  }, [filtered]);
 
   return (
     <main className="archive-shell">
@@ -158,11 +175,47 @@ export function JournalBrowser({
           <span>{filtered.length} creatures catalogued</span>
           <i />
         </div>
-        <div className="monster-grid">
-          {filtered.map((monster, index) => (
-            <MonsterCard key={monster.slug} monster={monster} index={index} />
-          ))}
-        </div>
+        {category === "all" ? (
+          <div className="catalogue-groups">
+            {grouped.map((group) => (
+              <section
+                key={group.category}
+                className="catalogue-category"
+                aria-labelledby={`category-${group.category}`}
+              >
+                <header className="catalogue-category-heading">
+                  <Sigil category={group.category} />
+                  <h2 id={`category-${group.category}`}>
+                    {CATEGORY_LABELS[group.category]}
+                  </h2>
+                  <span>{group.entries.length}</span>
+                  <i />
+                </header>
+                <div className="monster-grid">
+                  {group.entries.map(({ monster, index }) => (
+                    <MonsterCard
+                      key={monster.slug}
+                      monster={monster}
+                      index={index}
+                      eager={index < 4}
+                    />
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        ) : (
+          <div className="monster-grid">
+            {grouped[0]?.entries.map(({ monster, index }) => (
+              <MonsterCard
+                key={monster.slug}
+                monster={monster}
+                index={index}
+                eager={index < 4}
+              />
+            ))}
+          </div>
+        )}
         {filtered.length === 0 && (
           <div className="empty-state">
             <p>No ink answers that name.</p>

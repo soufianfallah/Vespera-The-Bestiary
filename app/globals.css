@@ -770,6 +770,59 @@ input:focus-visible {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.catalogue-groups {
+  position: relative;
+  z-index: 1;
+}
+
+.catalogue-category {
+  content-visibility: auto;
+  contain: layout style paint;
+  contain-intrinsic-size: auto 640px;
+  margin-top: 38px;
+}
+
+.catalogue-category:first-child {
+  margin-top: 12px;
+}
+
+.catalogue-category-heading {
+  display: flex;
+  min-height: 52px;
+  align-items: center;
+  padding: 8px 18px;
+  border-bottom: 1px solid #4e3a2569;
+  color: #684b31;
+  gap: 12px;
+}
+
+.catalogue-category-heading svg {
+  width: 28px;
+  height: 28px;
+}
+
+.catalogue-category-heading h2 {
+  margin: 0;
+  color: #3e291b;
+  font-family: var(--display);
+  font-size: clamp(1.05rem, 1.8vw, 1.4rem);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.catalogue-category-heading span {
+  color: #806a4e;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+}
+
+.catalogue-category-heading i {
+  height: 1px;
+  background: linear-gradient(90deg, #674b2e80, transparent);
+  flex: 1;
+}
+
 .monster-card-entry {
   content-visibility: auto;
   contain: layout style paint;

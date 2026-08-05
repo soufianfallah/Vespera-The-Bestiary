@@ -46,6 +46,19 @@ const categoryMotion: Record<
   vampires: { amplitude: 7, duration: 9 },
 };
 
+const portraitScaleBySlug: Record<string, number> = {
+  arachnomorph: 1.18,
+  alp: 1.12,
+  "the-unseen-elder": 1.1,
+  moruudd: 1.12,
+  alghoul: 1.12,
+  "venomous-arachasae": 1.1,
+  godling: 1.08,
+  ethereal: 1.08,
+  "daphne-s-wraith": 1.08,
+  "three-little-pigs": 1.08,
+};
+
 function hashSlug(slug: string) {
   return (
     Array.from(slug).reduce(
@@ -176,6 +189,9 @@ export function MonsterDetail({
   const { scrollYProgress } = useScroll();
   const portraitY = useTransform(scrollYProgress, [0, 0.45], [0, 70]);
   const motionSignature = getMotionSignature(monster);
+  const compactTitle = monster.name.replace(/\s+/g, "").length >= 12;
+  const extraCompactTitle = monster.name.replace(/\s+/g, "").length > 18;
+  const portraitScale = portraitScaleBySlug[monster.slug] ?? 1;
 
   const visitMonster = useCallback(
     (slug: string) => {
@@ -287,7 +303,9 @@ export function MonsterDetail({
       </nav>
 
       <section className="monster-hero">
-        <div className="monster-title">
+        <div
+          className={`monster-title${compactTitle ? " monster-title-compact" : ""}${extraCompactTitle ? " monster-title-extra-compact" : ""}`}
+        >
           <p className="eyebrow">{CATEGORY_LABELS[monster.category]}</p>
           <h1>{monster.name}</h1>
           <div className="ink-line" />
@@ -310,25 +328,40 @@ export function MonsterDetail({
           />
           <Sigil category={monster.category} className="portrait-sigil" />
           <motion.div
-            className="portrait-creature"
-            animate={reduced ? undefined : motionSignature.creature}
+            className="portrait-entry"
+            initial={
+              reduced
+                ? false
+                : { opacity: 0, scale: portraitScale * 0.88, filter: "blur(12px)" }
+            }
+            animate={{ opacity: 1, scale: portraitScale, filter: "blur(0px)" }}
             transition={{
-              duration: motionSignature.duration,
-              delay: motionSignature.delay,
-              ease: "easeInOut",
-              repeat: Number.POSITIVE_INFINITY,
-              times: [0, 0.34, 0.72, 1],
+              duration: reduced ? 0 : 1.05,
+              delay: reduced ? 0 : 0.12,
+              ease: [0.22, 1, 0.36, 1],
             }}
-            style={{ transformOrigin: motionSignature.origin }}
           >
-            <Image
-              src={portraitSrc}
-              alt={`${monster.name}, ${CATEGORY_LABELS[monster.category].toLowerCase()}`}
-              fill
-              priority
-              sizes="(max-width: 980px) 85vw, 40vw"
-              className="monster-portrait-image"
-            />
+            <motion.div
+              className="portrait-creature"
+              animate={reduced ? undefined : motionSignature.creature}
+              transition={{
+                duration: motionSignature.duration,
+                delay: motionSignature.delay,
+                ease: "easeInOut",
+                repeat: Number.POSITIVE_INFINITY,
+                times: [0, 0.34, 0.72, 1],
+              }}
+              style={{ transformOrigin: motionSignature.origin }}
+            >
+              <Image
+                src={portraitSrc}
+                alt={`${monster.name}, ${CATEGORY_LABELS[monster.category].toLowerCase()}`}
+                fill
+                priority
+                sizes="(max-width: 980px) 85vw, 40vw"
+                className="monster-portrait-image"
+              />
+            </motion.div>
           </motion.div>
           <div className="portrait-haze" />
           <p>Known on the Path</p>

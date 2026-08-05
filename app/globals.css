@@ -1139,7 +1139,17 @@ input:focus-visible {
 }
 
 .monster-title {
+  position: relative;
+  z-index: 3;
   min-width: 0;
+}
+
+.monster-title-compact h1 {
+  font-size: clamp(3rem, 6vw, 7rem);
+}
+
+.monster-title-extra-compact h1 {
+  font-size: clamp(2.7rem, 4.9vw, 5.8rem);
 }
 
 .ink-line {
@@ -1186,10 +1196,17 @@ input:focus-visible {
   will-change: transform, opacity;
 }
 
-.portrait-creature {
+.portrait-entry {
   position: absolute;
   z-index: 2;
   inset: -4% -9% 5%;
+  transform-origin: center bottom;
+  will-change: transform, opacity, filter;
+}
+
+.portrait-creature {
+  position: absolute;
+  inset: 0;
   will-change: transform;
 }
 
@@ -1992,6 +2009,10 @@ input:focus-visible {
   }
 
   .portrait-creature {
+    inset: 0;
+  }
+
+  .portrait-entry {
     inset: -2% 0 5%;
   }
 

@@ -34,9 +34,9 @@ export const getAllMonsters = cache((): Monster[] => {
           monsterSchema.parse(
             JSON.parse(fs.readFileSync(path.join(directory, file), "utf8")),
           ),
-        );
-    })
-    .sort((a, b) => a.name.localeCompare(b.name));
+        )
+        .sort((a, b) => a.name.localeCompare(b.name));
+    });
 });
 
 export const getMonster = cache((slug: string): Monster | undefined =>

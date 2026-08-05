@@ -980,6 +980,88 @@ input:focus-visible {
   transform: translateX(-2px);
 }
 
+.creature-switcher {
+  position: fixed;
+  z-index: 8;
+  top: 50%;
+  right: 14px;
+  left: 14px;
+  display: flex;
+  pointer-events: none;
+  transform: translateY(-50%);
+  justify-content: space-between;
+}
+
+.creature-switcher button {
+  display: flex;
+  width: 50px;
+  min-height: 58px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid #ad8a553d;
+  background: #090b0cd9;
+  box-shadow: 0 12px 32px #0007;
+  color: #b7a581;
+  cursor: pointer;
+  font-family: var(--display);
+  pointer-events: auto;
+  transition:
+    width 220ms ease,
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
+    transform 120ms ease;
+}
+
+.creature-switcher button:hover,
+.creature-switcher button:focus-visible {
+  width: 150px;
+  border-color: #c894535f;
+  background: #121614f2;
+  color: #e2cfa6;
+}
+
+.creature-switcher button:active {
+  transform: scale(0.96);
+}
+
+.creature-switcher button span {
+  flex: 0 0 auto;
+  font-size: 1.25rem;
+}
+
+.creature-switcher button small {
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition:
+    width 220ms ease,
+    margin 220ms ease,
+    opacity 160ms ease;
+}
+
+.creature-switcher button:hover small,
+.creature-switcher button:focus-visible small {
+  width: 88px;
+  opacity: 1;
+}
+
+.creature-switcher-previous:hover small,
+.creature-switcher-previous:focus-visible small {
+  margin-left: 8px;
+}
+
+.creature-switcher-next:hover small,
+.creature-switcher-next:focus-visible small {
+  margin-right: 8px;
+}
+
 .monster-hero {
   position: relative;
   z-index: 3;
@@ -1816,6 +1898,26 @@ input:focus-visible {
 
   .monster-hero {
     padding-top: 70px;
+  }
+
+  .creature-switcher {
+    top: auto;
+    right: 10px;
+    bottom: 76px;
+    left: auto;
+    gap: 8px;
+    transform: none;
+  }
+
+  .creature-switcher button,
+  .creature-switcher button:hover,
+  .creature-switcher button:focus-visible {
+    width: 46px;
+    min-height: 46px;
+  }
+
+  .creature-switcher button small {
+    display: none;
   }
 
   .monster-title h1 {

@@ -11,7 +11,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
+import { useRouter } from "next/navigation";
+import { useCallback, useEffect, useRef } from "react";
 import {
   GiBurningEmbers,
   GiCrossedSwords,
@@ -24,6 +25,7 @@ import type { Monster } from "@/lib/schema";
 import { CATEGORY_LABELS } from "@/lib/schema";
 import { AmbientLayer } from "@/components/experience/ambient-layer";
 import { Sigil } from "@/components/experience/sigil";
+import { useSoundscape } from "@/components/experience/soundscape";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -166,12 +168,56 @@ export function MonsterDetail({
   previousMonster: Pick<Monster, "name" | "slug">;
   nextMonster: Pick<Monster, "name" | "slug">;
 }) {
+  const router = useRouter();
+  const { playMonsterSelect } = useSoundscape();
   const root = useRef<HTMLElement>(null);
   const portrait = useRef<HTMLDivElement>(null);
   const reduced = useReducedMotion();
   const { scrollYProgress } = useScroll();
   const portraitY = useTransform(scrollYProgress, [0, 0.45], [0, 70]);
   const motionSignature = getMotionSignature(monster);
+
+  const visitMonster = useCallback(
+    (slug: string) => {
+      void playMonsterSelect();
+      router.push(`/bestiary/${slug}`);
+    },
+    [playMonsterSelect, router],
+  );
+
+  useEffect(() => {
+    const switchMonster = (event: KeyboardEvent) => {
+      if (
+        event.defaultPrevented ||
+        event.repeat ||
+        event.altKey ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey ||
+        (event.key !== "ArrowLeft" && event.key !== "ArrowRight")
+      ) {
+        return;
+      }
+
+      const target = event.target;
+      if (
+        target instanceof HTMLElement &&
+        target.closest(
+          "input, textarea, select, button, [contenteditable='true']",
+        )
+      ) {
+        return;
+      }
+
+      event.preventDefault();
+      visitMonster(
+        event.key === "ArrowLeft" ? previousMonster.slug : nextMonster.slug,
+      );
+    };
+
+    window.addEventListener("keydown", switchMonster);
+    return () => window.removeEventListener("keydown", switchMonster);
+  }, [nextMonster.slug, previousMonster.slug, visitMonster]);
 
   useGSAP(
     () => {
@@ -216,6 +262,29 @@ export function MonsterDetail({
         <Link href="/bestiary">← Return to the index</Link>
         <span>A witcher&apos;s bestiary</span>
       </header>
+
+      <nav className="creature-switcher" aria-label="Switch creature">
+        <button
+          type="button"
+          className="creature-switcher-previous"
+          onClick={() => visitMonster(previousMonster.slug)}
+          aria-label={`Previous creature: ${previousMonster.name}`}
+          title={`Previous: ${previousMonster.name} (Left arrow)`}
+        >
+          <span aria-hidden="true">←</span>
+          <small>{previousMonster.name}</small>
+        </button>
+        <button
+          type="button"
+          className="creature-switcher-next"
+          onClick={() => visitMonster(nextMonster.slug)}
+          aria-label={`Next creature: ${nextMonster.name}`}
+          title={`Next: ${nextMonster.name} (Right arrow)`}
+        >
+          <small>{nextMonster.name}</small>
+          <span aria-hidden="true">→</span>
+        </button>
+      </nav>
 
       <section className="monster-hero">
         <div className="monster-title">
@@ -368,6 +437,7 @@ export function MonsterDetail({
             <Link
               href={`/bestiary/${previousMonster.slug}`}
               className="entry-pagination-previous"
+              onClick={() => void playMonsterSelect()}
             >
               <small>Previous creature</small>
               <span>← {previousMonster.name}</span>
@@ -378,6 +448,7 @@ export function MonsterDetail({
             <Link
               href={`/bestiary/${nextMonster.slug}`}
               className="entry-pagination-next"
+              onClick={() => void playMonsterSelect()}
             >
               <small>Next creature</small>
               <span>{nextMonster.name} →</span>

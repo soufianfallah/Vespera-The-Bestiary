@@ -61,9 +61,10 @@ and transition exists to support that feeling.
   hybrids, insectoids, necrophages, ogroids, relicts, specters, and vampires.
 - A cinematic opening sequence with fog, ambience, medallion reveal, and a
   scroll-to-open journal transition.
-- A shuffled four-track audio system that skips measured leading silence,
-  continues across routes, and falls back to original Web Audio themes. Its
-  draggable player remembers its position and provides Play/Pause and Next.
+- A six-track audio system that opens with **The Trail**, skips measured
+  leading silence, continues across routes, and falls back to original Web
+  Audio themes. Its draggable player remembers its position and provides
+  Play/Pause and Next.
 - A synthesized parchment page-turn accent shared by click, scroll, keyboard,
   and touch entry, guarded so one journal opening produces exactly one sound.
 - A click-only silver-sword card accent on monster selection, mixed on an
@@ -71,8 +72,8 @@ and transition exists to support that feeling.
 - A searchable parchment catalogue with sticky category navigation.
 - Individual monster studies with lore, danger, habitat, locations, harvest,
   sword choice, oils, bombs, Signs, and known encounters.
-- Continuous previous/index/next navigation for reading the bestiary like a
-  real volume instead of repeatedly returning to a menu.
+- Continuous previous/index/next navigation plus visible and keyboard arrow
+  switching for reading the bestiary like a real volume.
 - Per-creature portrait motion derived from the monster slug and category, so
   the studies do not all breathe, drift, or bend in the same way.
 - Responsive layouts, keyboard focus states, reduced-motion support, lazy asset
@@ -205,22 +206,24 @@ Development runs at `http://localhost:3000`.
 
 ### Soundtrack files
 
-Vespera uses a four-track soundtrack:
+Vespera uses a six-track soundtrack:
 
 ```text
 public/audio-local/Kaer Morhen (From The Witcher 3 - Wild Hunt).mp3
 public/audio-local/The Fields of Ard Skellig (Midnight).mp3
 public/audio-local/1-11. Bad News Ahead Full.mp3
 public/audio-local/1-13. CS001 Geralt and Yen.mp3
+public/audio-local/01. The Trail.mp3
+public/audio-local/12. The Nightingale.mp3
 ```
 
 `public/audio-local/` is excluded from Git to keep large binary media outside
 the source repository. Direct Vercel deployments include the local files;
 builds without them automatically use Vespera's procedural themes. Every page
-load starts on a shuffled track, measured leading silence is skipped, and the
-draggable player provides Play/Pause and Next controls. Playback is requested
-on load and retried on the first interaction when a browser's audible-autoplay
-policy blocks it.
+load requests **The Trail** first, measured leading silence is skipped, and the
+draggable player provides Play/Pause and Next controls. The six-track playlist
+wraps continuously. Playback is requested on load and retried on the first
+interaction when a browser's audible-autoplay policy blocks it.
 
 ## Build and preview the real static release
 

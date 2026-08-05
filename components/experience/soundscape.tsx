@@ -56,6 +56,16 @@ type LocalTrack = {
 
 const localTracks: LocalTrack[] = [
   {
+    name: "The Trail",
+    path: "/audio-local/01.%20The%20Trail.mp3",
+    audibleFrom: 0.02,
+  },
+  {
+    name: "The Nightingale",
+    path: "/audio-local/12.%20The%20Nightingale.mp3",
+    audibleFrom: 0.32,
+  },
+  {
     name: "Kaer Morhen",
     path: "/audio-local/Kaer%20Morhen%20(From%20The%20Witcher%203%20-%20Wild%20Hunt).mp3",
     audibleFrom: 2.44,
@@ -350,9 +360,7 @@ export function SoundscapeProvider({
   const mode: SoundscapeMode = pathname === "/" ? "threshold" : "journal";
   const [playing, setPlaying] = useState(false);
   const [localTrackActive, setLocalTrackActive] = useState(false);
-  const [trackIndex, setTrackIndex] = useState(() =>
-    Math.floor(Math.random() * localTracks.length),
-  );
+  const [trackIndex, setTrackIndex] = useState(0);
   const [playerPosition, setPlayerPosition] = useState<PlayerPosition | null>(
     null,
   );
@@ -367,6 +375,8 @@ export function SoundscapeProvider({
   const userPausedRef = useRef(false);
   const shouldResumeRef = useRef(true);
   const preparedTrackPathRef = useRef<string | null>(null);
+  const hasPlayedLocalTrackRef = useRef(false);
+  const continuationRetryRef = useRef<number | null>(null);
   const playerRef = useRef<HTMLElement | null>(null);
   const positionRef = useRef<PlayerPosition | null>(null);
   const dragRef = useRef<DragState | null>(null);
@@ -683,6 +693,9 @@ export function SoundscapeProvider({
 
   useEffect(
     () => () => {
+      if (continuationRetryRef.current !== null) {
+        window.clearTimeout(continuationRetryRef.current);
+      }
       audioRef.current?.pause();
       if (sceneRef.current && contextRef.current) {
         disposeScene(contextRef.current, sceneRef.current);
@@ -711,12 +724,33 @@ export function SoundscapeProvider({
         hidden
         preload="auto"
         onCanPlay={(event) => {
-          prepareCurrentTrack(event.currentTarget);
+          const audio = event.currentTarget;
+          prepareCurrentTrack(audio);
           if (shouldResumeRef.current && !userPausedRef.current) {
-            void start();
+            void start().then(() => {
+              if (
+                audio.paused &&
+                hasPlayedLocalTrackRef.current &&
+                shouldResumeRef.current &&
+                !userPausedRef.current
+              ) {
+                if (continuationRetryRef.current !== null) {
+                  window.clearTimeout(continuationRetryRef.current);
+                }
+                continuationRetryRef.current = window.setTimeout(() => {
+                  continuationRetryRef.current = null;
+                  void start();
+                }, 700);
+              }
+            });
           }
         }}
         onPlay={() => {
+          hasPlayedLocalTrackRef.current = true;
+          if (continuationRetryRef.current !== null) {
+            window.clearTimeout(continuationRetryRef.current);
+            continuationRetryRef.current = null;
+          }
           sourceRef.current = "local";
           setLocalTrackActive(true);
           setPlaying(true);
